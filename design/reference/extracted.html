@@ -1,0 +1,811 @@
+<!--
+  DERIVED FILE — do not treat as source of truth beyond design reference.
+  Extracted and JSON-decoded from the FROZEN artifact design/repo-seance-v2.html
+  (the real page lived as a JSON-escaped string in <script type="__bundler/template">).
+  UUID resource refs (the <script src="4ea5038f-..."> runtime bundle and the
+  url("<uuid>") @font-face sources) are LEFT AS-IS / stubbed: base64 fonts and the
+  compiled JS runtime were intentionally NOT inlined. This file is a read-only
+  implementation reference for the Repo Seance UI team.
+  Regenerate with scratchpad/extract.js. See DESIGN-NOTES.md for the writeup.
+-->
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="4ea5038f-f802-4940-aa0e-13e89d6e6434"></script>
+
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("824e3709-302a-45da-91d6-a6f2d851a65f") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("0e4babdf-4916-4868-a4d7-9e1e19c61daa") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("67af62ec-2c99-4f6c-9933-f82a4163cbf9") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("d770ddd8-4aef-4f47-ac14-0ac059074a11") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("7e3f9111-9d76-4722-85e3-6afac226d6b0") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("824e3709-302a-45da-91d6-a6f2d851a65f") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("0e4babdf-4916-4868-a4d7-9e1e19c61daa") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("67af62ec-2c99-4f6c-9933-f82a4163cbf9") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("d770ddd8-4aef-4f47-ac14-0ac059074a11") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("7e3f9111-9d76-4722-85e3-6afac226d6b0") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("824e3709-302a-45da-91d6-a6f2d851a65f") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("0e4babdf-4916-4868-a4d7-9e1e19c61daa") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("67af62ec-2c99-4f6c-9933-f82a4163cbf9") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("d770ddd8-4aef-4f47-ac14-0ac059074a11") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url("7e3f9111-9d76-4722-85e3-6afac226d6b0") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("ccf9b406-f64f-4506-b689-ebb6e63b30bb") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("1894d7f3-9cad-4816-bb4f-b2eefaad2da7") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("2121be74-95f2-4509-937e-3505b8d19caf") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("12b4cc45-764a-417d-8cac-6e77beb8ba88") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("575feb1f-e912-4623-8324-f0539a779216") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("ccf9b406-f64f-4506-b689-ebb6e63b30bb") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("1894d7f3-9cad-4816-bb4f-b2eefaad2da7") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("2121be74-95f2-4509-937e-3505b8d19caf") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("12b4cc45-764a-417d-8cac-6e77beb8ba88") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("575feb1f-e912-4623-8324-f0539a779216") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("ccf9b406-f64f-4506-b689-ebb6e63b30bb") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("1894d7f3-9cad-4816-bb4f-b2eefaad2da7") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("2121be74-95f2-4509-937e-3505b8d19caf") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("12b4cc45-764a-417d-8cac-6e77beb8ba88") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("575feb1f-e912-4623-8324-f0539a779216") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("ccf9b406-f64f-4506-b689-ebb6e63b30bb") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("1894d7f3-9cad-4816-bb4f-b2eefaad2da7") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("2121be74-95f2-4509-937e-3505b8d19caf") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("12b4cc45-764a-417d-8cac-6e77beb8ba88") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("575feb1f-e912-4623-8324-f0539a779216") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("14572136-bba5-4b2d-ab42-a7b6d259d90e") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("f9b0f454-237c-495e-82c8-0cca9d3c9d98") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("aadf2f24-3be4-43e7-bc52-229758297198") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("f21d339f-52e7-4ab6-b641-3bbe6f39d5ca") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("f6268894-e098-4489-bfa3-752ad88f03dd") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("6352aa8c-8c66-459d-bdad-8edec0ee79a9") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("849623c2-8cc4-482c-a021-d302b02d72f0") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("e99b1a94-910a-423a-b25f-f60715c85c4e") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("a6e26285-0a8f-4dd5-9a92-08c1bb00650d") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("d0f6112d-73ad-4e54-91de-12781196995f") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("87842fcc-0159-46b8-bccb-b9db1f4aad40") format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("9d74c3d6-1c93-439b-8654-dbde1397d49e") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("148a7bbe-7d88-425f-bdac-94f1a83252fe") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("c6a854fb-5625-4db3-88d2-9b5e3acb23ea") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("767509b0-e2b1-4cae-bd25-83fd5a3cd137") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+<style>
+  html, body { margin: 0; padding: 0; background: #0a0908; }
+  * { box-sizing: border-box; }
+  a { color: #c9973f; text-decoration: none; }
+  a:hover { color: #e0b366; }
+  ::selection { background: #3a2f1a; color: #e7ddc4; }
+  @keyframes flicker { 0%,100% { opacity: 1; } 45% { opacity: .82; } 52% { opacity: .95; } 60% { opacity: .78; } 70% { opacity: 1; } }
+  @keyframes drift { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+</style>
+</helmet>
+<div data-screen-label="Repo Autopsy" style="--accent: {{ accent }}; min-height: 100vh; min-width: 1560px; background: radial-gradient(1200px 600px at 50% -10%, #17130b 0%, #0a0908 60%); color: #e7ddc4; font-family: 'IBM Plex Mono', monospace; display: flex; flex-direction: column;">
+
+  <!-- ══════════ TOP BAR ══════════ -->
+  <header style="display: flex; align-items: center; gap: 28px; padding: 0 28px; height: 64px; border-bottom: 1px solid #241d11; background: rgba(10,9,8,.9);">
+    <div style="display: flex; align-items: baseline; gap: 12px; flex-shrink: 0;">
+      <span style="font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 600; letter-spacing: .04em; color: #e7ddc4;">Repo Séance</span>
+      <span style="font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: #6b6250;">Forensics for dead code</span>
+    </div>
+    <div style="flex: 1; max-width: 640px; display: flex; align-items: stretch; height: 38px; border: 1px solid #2c2416; background: #0e0c08;">
+      <span style="display: flex; align-items: center; padding: 0 12px; color: #6b6250; font-size: 13px; border-right: 1px solid #241d11;">git://</span>
+      <input value="github.com/stellarbeacon/chronicle" style="flex: 1; background: transparent; border: none; outline: none; color: #cfc5a9; font-family: 'IBM Plex Mono', monospace; font-size: 13px; padding: 0 12px;">
+      <button style="border: none; border-left: 1px solid #2c2416; background: #1c160c; color: var(--accent, #c9973f); font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; padding: 0 18px; cursor: pointer;" style-hover="background: #241b0e; color: #e0b366;">Exhume</button>
+    </div>
+    <nav style="display: flex; align-items: center; gap: 24px; margin-left: auto; font-size: 12px; letter-spacing: .12em; text-transform: uppercase;">
+      <a href="#" style="color: #e7ddc4;">Autopsy</a>
+      <a href="#" style="color: #6b6250;" style-hover="color: #cfc5a9;">Graveyard</a>
+      <a href="#" style="color: #6b6250;" style-hover="color: #cfc5a9;">How it works</a>
+      <span style="width: 1px; height: 18px; background: #2c2416;"></span>
+      <a href="#" style="display: inline-flex; align-items: center; gap: 8px; color: #cfc5a9; border: 1px solid #2c2416; padding: 7px 14px;" style-hover="border-color: #4a3c20; color: #e7ddc4;">Share report ↗</a>
+    </nav>
+  </header>
+
+  <!-- ══════════ MAIN ══════════ -->
+  <main style="flex: 1; display: grid; grid-template-columns: minmax(0, 1fr) 396px; gap: 18px; padding: 22px 28px 12px; align-items: start;">
+
+    <!-- ── LEFT: case file ── -->
+    <div style="display: flex; flex-direction: column; gap: 18px; min-width: 0;">
+
+      <!-- Death certificate -->
+      <section style="position: relative; border: 1px solid #2c2416; background: linear-gradient(180deg, #14110a 0%, #100d08 100%); padding: 34px 40px 30px; overflow: hidden;">
+        <div style="position: absolute; inset: 6px; border: 1px solid #241d11; pointer-events: none;"></div>
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 32px;">
+          <div style="min-width: 0;">
+            <div style="font-size: 10px; letter-spacing: .32em; text-transform: uppercase; color: #6b6250; margin-bottom: 12px;">Certificate of repository death · Case No. 0198</div>
+            <h1 style="margin: 0; font-family: 'Cormorant Garamond', serif; font-size: 52px; font-weight: 500; line-height: 1.05; color: #f0e8d2;">stellarbeacon<span style="color: #6b6250;">/</span>chronicle</h1>
+            <p style="margin: 14px 0 0; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 21px; color: #a89c7e; max-width: 560px; line-height: 1.45;">A beautiful attempt to bring time-travel to state management. It shimmered — then slipped through the cracks.</p>
+            <div style="display: flex; gap: 28px; margin-top: 24px; font-size: 12px; color: #8d8268;">
+              <div><span style="color: #5d5545;">Born</span>&nbsp; Jan 12, 2019</div>
+              <div><span style="color: #5d5545;">Died</span>&nbsp; Nov 3, 2023</div>
+              <div><span style="color: #5d5545;">Age</span>&nbsp; 4y 9m</div>
+              <div><span style="color: #5d5545;">Survived by</span>&nbsp; 1,204 stars · 87 forks</div>
+            </div>
+          </div>
+          <div style="flex-shrink: 0; display: flex; flex-direction: column; align-items: center; gap: 14px;">
+            <div style="transform: rotate(-9deg); border: 3px double #7a2620; color: #a13029; font-size: 20px; letter-spacing: .3em; text-transform: uppercase; padding: 10px 22px 10px 26px; opacity: .9; animation: flicker 7s infinite;">Deceased</div>
+            <div style="font-size: 10px; letter-spacing: .18em; text-transform: uppercase; color: #5d5545;">Confirmed · 378 days silent</div>
+          </div>
+        </div>
+        <!-- vitals strip -->
+        <div style="display: flex; align-items: center; gap: 16px; margin-top: 26px; padding-top: 18px; border-top: 1px solid #241d11;">
+          <span style="font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: #6b6250; flex-shrink: 0;">Vitals</span>
+          <svg viewBox="0 0 600 36" style="flex: 1; height: 36px; display: block;" preserveAspectRatio="none">
+            <polyline points="0,18 60,18 70,8 80,30 90,18 150,18 160,10 170,27 180,18 250,18 262,13 274,24 286,18 360,18 372,16 384,21 396,18 600,18" fill="none" stroke="var(--accent, #c9973f)" stroke-width="1.5" opacity=".85"></polyline>
+            <line x1="420" y1="4" x2="420" y2="32" stroke="#7a2620" stroke-width="1" stroke-dasharray="3 3"></line>
+          </svg>
+          <span style="font-size: 11px; color: #7a2620; flex-shrink: 0;">flatline · Oct 28 2022</span>
+        </div>
+      </section>
+
+      <!-- Row: cause of death + vitals chart + last words -->
+      <div style="display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 18px; align-items: stretch;">
+
+        <!-- Cause of death -->
+        <section style="border: 1px solid #2c2416; background: #12100a; padding: 22px 24px; display: flex; flex-direction: column; gap: 16px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8d8268;">Cause of death</h2>
+            <span style="font-size: 10px; color: #5d5545;">confidence-ranked</span>
+          </div>
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 27px; font-weight: 600; color: #f0e8d2; line-height: 1.1;">Dependency upgrade failure</div>
+          <sc-for list="{{ causes }}" as="c" hint-placeholder-count="3">
+            <div style="display: flex; flex-direction: column; gap: 6px;">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px;">
+                <span style="font-size: 12.5px; color: #cfc5a9; line-height: 1.45;">{{ c.label }}</span>
+                <span style="font-size: 11px; color: #6b6250; flex-shrink: 0;">{{ c.pct }}%</span>
+              </div>
+              <div style="height: 3px; background: #241d11;">
+                <div style="height: 100%; background: var(--accent, #c9973f); opacity: .75; width: {{ c.width }};"></div>
+              </div>
+              <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                <sc-for list="{{ c.evidence }}" as="e" hint-placeholder-count="2">
+                  <a href="#" style="font-size: 10px; color: #8d8268; border: 1px solid #2c2416; padding: 2px 7px; background: #0e0c08;" style-hover="color: var(--accent, #c9973f); border-color: #4a3c20;">{{ e }}</a>
+                </sc-for>
+              </div>
+            </div>
+          </sc-for>
+          <p style="margin: 2px 0 0; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; color: #7a6f58;">The lights went out, and no one came back to relight them.</p>
+        </section>
+
+        <!-- Activity decay -->
+        <section style="border: 1px solid #2c2416; background: #12100a; padding: 22px 24px; display: flex; flex-direction: column;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px;">
+            <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8d8268;">Decline</h2>
+            <span style="font-size: 10px; color: #5d5545;">commits / month</span>
+          </div>
+          <div style="flex: 1; display: flex; align-items: flex-end; gap: 2px; min-height: 150px; padding-top: 18px; position: relative;">
+            <sc-for list="{{ bars }}" as="b" hint-placeholder-count="40">
+              <div style="flex: 1; background: {{ b.color }}; height: {{ b.height }}; min-height: 1px;"></div>
+            </sc-for>
+            <div style="position: absolute; right: 14%; top: 0; bottom: 0; border-left: 1px dashed #7a2620;"></div>
+            <div style="position: absolute; right: 14%; top: -2px; transform: translateX(50%); font-size: 12px; animation: drift 4s ease-in-out infinite;">🕯</div>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 10px; color: #5d5545; margin-top: 8px;">
+            <span>2019</span><span>2020</span><span>2021</span><span>2022</span><span style="color: #7a2620;">2023 †</span>
+          </div>
+          <div style="margin-top: 14px; padding-top: 14px; border-top: 1px solid #241d11; font-size: 11.5px; color: #8d8268; line-height: 1.6;">Cadence fell 91% in the final year. Last maintainer reply: <a href="#">#198</a>, 14 months before death.</div>
+        </section>
+
+        <!-- Last words -->
+        <section style="border: 1px solid #2c2416; background: #12100a; padding: 22px 24px; display: flex; flex-direction: column; gap: 14px;">
+          <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8d8268;">Last words</h2>
+          <div style="flex: 1; border: 1px solid #241d11; background: #0c0a07; padding: 16px 16px; font-size: 12px; line-height: 1.75; color: #b6ab8d;">
+            <div style="color: #6b6250; margin-bottom: 8px;">— final commit · <a href="#">1f3c9aa</a> · Oct 28, 2022</div>
+            <div>refactor(store): simplify time travel logic and remove legacy fallbacks</div>
+            <div style="margin-top: 10px; color: #7a6f58;">// TODO: fix replay on edge cases</div>
+            <div style="margin-top: 2px; color: #4a4336; font-style: italic;">// the todo was never fixed</div>
+          </div>
+          <a href="#" style="display: block; text-align: center; border: 1px solid #2c2416; padding: 10px; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #cfc5a9;" style-hover="border-color: #4a3c20; color: #e7ddc4;">View final commit ↗</a>
+        </section>
+      </div>
+
+      <!-- Row: unfinished business + revival plan -->
+      <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; align-items: stretch;">
+
+        <!-- Unfinished business -->
+        <section style="border: 1px solid #2c2416; background: #12100a; padding: 22px 24px;">
+          <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px;">
+            <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8d8268;">Unfinished business</h2>
+            <div style="display: flex; gap: 2px;">
+              <sc-for list="{{ tabs }}" as="t" hint-placeholder-count="3">
+                <button onclick="{{ t.onClick }}" style="border: 1px solid {{ t.border }}; background: {{ t.bg }}; color: {{ t.color }}; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; padding: 6px 12px; cursor: pointer;">{{ t.label }} · {{ t.count }}</button>
+              </sc-for>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <sc-for list="{{ items }}" as="it" hint-placeholder-count="4">
+              <div style="display: flex; align-items: baseline; gap: 14px; padding: 11px 0; border-top: 1px solid #1c170e;">
+                <a href="#" style="font-size: 11px; color: #8d8268; flex-shrink: 0; width: 68px;" style-hover="color: var(--accent, #c9973f);">{{ it.ref }}</a>
+                <span style="flex: 1; font-size: 12.5px; color: #cfc5a9;">{{ it.title }}</span>
+                <span style="font-size: 10.5px; color: #6b6250; flex-shrink: 0;">{{ it.meta }}</span>
+              </div>
+            </sc-for>
+          </div>
+        </section>
+
+        <!-- Revival plan -->
+        <section style="border: 1px solid #2f3d2a; background: linear-gradient(180deg, #10130d 0%, #0e100b 100%); padding: 22px 24px; display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline;">
+            <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8fae8a;">Revival plan</h2>
+            <span style="font-size: 10px; color: #5d6b55;">est. 3 weekends</span>
+          </div>
+          <sc-for list="{{ revival }}" as="r" hint-placeholder-count="4">
+            <div style="display: flex; gap: 12px; align-items: baseline;">
+              <span style="font-size: 11px; color: #5d6b55; flex-shrink: 0;">{{ r.n }}</span>
+              <span style="flex: 1; font-size: 12.5px; color: #b9c4ae; line-height: 1.5;">{{ r.step }}</span>
+              <span style="font-size: 10px; color: #5d6b55; flex-shrink: 0;">{{ r.effort }}</span>
+            </div>
+          </sc-for>
+          <button style="margin-top: auto; border: 1px solid #3a4a34; background: #161c12; color: #a9c49e; font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; padding: 11px; cursor: pointer;" style-hover="background: #1b2416; color: #c4dbb8;">⚡ Attempt resurrection</button>
+        </section>
+      </div>
+    </div>
+
+    <!-- ── RIGHT: interrogation ── -->
+    <aside style="border: 1px solid #2c2416; background: #12100a; display: flex; flex-direction: column; align-self: stretch; min-height: 0;">
+      <div style="padding: 20px 22px 16px; border-bottom: 1px solid #241d11;">
+        <h2 style="margin: 0; font-size: 11px; letter-spacing: .26em; text-transform: uppercase; color: #8d8268;">Interrogation</h2>
+        <div style="font-size: 11px; color: #5d5545; margin-top: 6px;">Every answer cites its evidence. No séance theatrics without receipts.</div>
+      </div>
+      <div style="flex: 1; overflow-y: auto; padding: 20px 22px; display: flex; flex-direction: column; gap: 18px;">
+        <sc-for list="{{ messages }}" as="m" hint-placeholder-count="4">
+          <div style="display: flex; flex-direction: column; gap: 6px; align-items: {{ m.align }};">
+            <div style="max-width: 88%; padding: {{ m.pad }}; border: 1px solid {{ m.border }}; background: {{ m.bg }}; color: {{ m.color }}; font-family: {{ m.font }}; font-size: {{ m.size }}; font-style: {{ m.fstyle }}; line-height: 1.55;">{{ m.text }}</div>
+            <sc-if value="{{ m.hasEvidence }}" hint-placeholder-val="{{ false }}">
+              <div style="display: flex; gap: 6px; flex-wrap: wrap; max-width: 88%;">
+                <sc-for list="{{ m.evidence }}" as="e" hint-placeholder-count="1">
+                  <a href="#" style="font-size: 10px; color: #7a6f58; border: 1px solid #2c2416; padding: 2px 7px; background: #0e0c08;" style-hover="color: var(--accent, #c9973f); border-color: #4a3c20;">{{ e }}</a>
+                </sc-for>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+      <div style="padding: 16px 22px 18px; border-top: 1px solid #241d11;">
+        <div style="display: flex; align-items: stretch; border: 1px solid #2c2416; background: #0e0c08; height: 42px;">
+          <input value="{{ draft }}" onchange="{{ onDraft }}" onkeydown="{{ onKey }}" placeholder="Ask the departed…" style="flex: 1; background: transparent; border: none; outline: none; color: #cfc5a9; font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; padding: 0 14px;">
+          <button onclick="{{ send }}" style="border: none; border-left: 1px solid #2c2416; background: #1c160c; color: var(--accent, #c9973f); font-family: 'IBM Plex Mono', monospace; font-size: 15px; padding: 0 16px; cursor: pointer;" style-hover="background: #241b0e;">☽</button>
+        </div>
+        <div style="font-size: 10px; color: #4a4336; margin-top: 8px; text-align: center;">Answers are grounded in repo data · 32/32 evals passing</div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer style="display: flex; align-items: center; gap: 24px; padding: 14px 28px; border-top: 1px solid #241d11; font-size: 10.5px; color: #5d5545;">
+    <span>Séance Engine v2.4.1</span>
+    <span>·</span>
+    <span>94% of claims cite direct evidence</span>
+    <span>·</span>
+    <span>0 hallucinations across 32 eval cases</span>
+    <span style="margin-left: auto; color: #6b6250;">Analysis completed in 13.7s ✓</span>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{
+  &quot;accent&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#C9973F&quot;, &quot;tsType&quot;: &quot;string&quot;, &quot;options&quot;: [&quot;#C9973F&quot;, &quot;#7FA97A&quot;, &quot;#8B7FB8&quot;, &quot;#A13029&quot;], &quot;section&quot;: &quot;Theme&quot; }
+}">
+class Component extends DCLogic {
+  state = {
+    tab: 'branches',
+    draft: '',
+    messages: [
+      { who: 'user', text: 'Why did you stop?' },
+      { who: 'ghost', text: 'I was left alone with breaking changes, and no one came to guide me through.', evidence: ['8d2a7f1', '#198', 'deps: react 18.0.0'] },
+      { who: 'user', text: 'What do you regret most?' },
+      { who: 'ghost', text: 'I shipped potential, not tests. Nine of my modules died uncovered.', evidence: ['coverage: 31%', 'ci: none'] },
+      { who: 'user', text: 'What would you need to live again?' },
+      { who: 'ghost', text: 'A patient maintainer, updated dependencies, and a test suite. Please.', evidence: ['#213', 'feature/v2-time-engine'] },
+    ],
+  };
+
+  cannedReplies = [
+    { text: 'My branches remember what my main forgot. Start with refactor/store-layer.', evidence: ['refactor/store-layer', '23 commits behind'] },
+    { text: 'Ask issue #177 — it saw the memory leak that no one believed in.', evidence: ['#177', 'devtools/profiler.ts'] },
+    { text: 'I cannot say. The evidence is silent on that, and I do not invent.', evidence: [] },
+  ];
+
+  tabData = {
+    branches: [
+      { ref: 'branch', title: 'feature/v2-time-engine', meta: '8 behind · 1y' },
+      { ref: 'branch', title: 'refactor/store-layer', meta: '23 behind · 1y' },
+      { ref: 'branch', title: 'experiment/rxjs-migration', meta: '12 behind · 2y' },
+      { ref: 'branch', title: 'chore/remove-legacy', meta: '4 behind · 2y' },
+    ],
+    issues: [
+      { ref: '#213', title: 'Time travel breaks on large lists', meta: 'bug · open 1y' },
+      { ref: '#198', title: 'React 18 compatibility', meta: 'breaking · open 1y' },
+      { ref: '#177', title: 'Memory leak in DevTools', meta: 'bug · open 2y' },
+      { ref: '#164', title: 'Replay desync after hot reload', meta: 'bug · open 2y' },
+    ],
+    todos: [
+      { ref: 'store.ts', title: '// TODO: fix replay on edge cases', meta: 'oldest · 2y' },
+      { ref: 'devtools.ts', title: '// TODO: dispose subscriptions on unmount', meta: '2y' },
+      { ref: 'selector.ts', title: '// FIXME: memo invalidation is O(n²)', meta: '3y' },
+      { ref: 'README.md', title: '// TODO: document time-travel API', meta: '3y' },
+    ],
+  };
+
+  renderVals() {
+    const accent = this.props.accent ?? '#C9973F';
+
+    // Activity bars: rise, plateau, decay, silence
+    const heights = [8,14,10,22,30,26,38,44,40,52,60,56,70,78,66,84,92,80,96,100,88,94,82,90,76,84,68,74,60,66,52,58,44,48,36,40,30,26,20,22,16,12,14,9,7,8,5,4,3,2,2,1,0,0,0,0,0,0,0,0];
+    const deadStart = 52;
+    const bars = heights.map((h, i) => ({
+      height: Math.max(h, 1) + '%',
+      color: i >= deadStart ? '#241d11' : (i >= 44 ? '#4a3c20' : 'rgba(201,151,63,.55)'),
+    }));
+
+    const causes = [
+      { label: 'Breaking changes in React 18 left the app in ruins', pct: 74, width: '74%', evidence: ['8d2a7f1', '#198'] },
+      { label: 'Three critical dependency alerts ignored', pct: 58, width: '58%', evidence: ['dependabot ×3'] },
+      { label: 'Maintainer silence for 14 months', pct: 41, width: '41%', evidence: ['#213', '9 unanswered PRs'] },
+    ];
+
+    const revival = [
+      { n: 'i.', step: 'Bump React 17 → 18, restore CI green', effort: '~2d' },
+      { n: 'ii.', step: 'Merge or bury the 4 abandoned branches', effort: '~1d' },
+      { n: 'iii.', step: 'Add test suite for time-travel core (0 → 70%)', effort: '~3d' },
+      { n: 'iv.', step: 'Triage 117 issues; close the ghosts', effort: '~1d' },
+    ];
+
+    const tabDefs = [
+      { key: 'branches', label: 'Branches', count: 4 },
+      { key: 'issues', label: 'Issues', count: 117 },
+      { key: 'todos', label: 'TODOs', count: 23 },
+    ];
+    const tabs = tabDefs.map(t => {
+      const active = this.state.tab === t.key;
+      return {
+        label: t.label, count: t.count,
+        border: active ? '#4a3c20' : '#241d11',
+        bg: active ? '#1c160c' : 'transparent',
+        color: active ? '#e0b366' : '#6b6250',
+        onClick: () => this.setState({ tab: t.key }),
+      };
+    });
+
+    const messages = this.state.messages.map(m => {
+      const ghost = m.who === 'ghost';
+      return {
+        text: m.text,
+        align: ghost ? 'flex-start' : 'flex-end',
+        pad: ghost ? '12px 16px' : '9px 14px',
+        border: ghost ? '#2f3d2a' : '#2c2416',
+        bg: ghost ? '#10130d' : '#17130b',
+        color: ghost ? '#b9c4ae' : '#a89c7e',
+        font: ghost ? "'Cormorant Garamond', serif" : "'IBM Plex Mono', monospace",
+        size: ghost ? '17px' : '12px',
+        fstyle: ghost ? 'italic' : 'normal',
+        hasEvidence: ghost && m.evidence && m.evidence.length > 0,
+        evidence: m.evidence || [],
+      };
+    });
+
+    const send = () => {
+      const q = this.state.draft.trim();
+      if (!q) return;
+      const reply = this.cannedReplies[this.state.messages.filter(m => m.who === 'user').length % this.cannedReplies.length];
+      this.setState(s => ({
+        draft: '',
+        messages: [...s.messages, { who: 'user', text: q }, { who: 'ghost', text: reply.text, evidence: reply.evidence }],
+      }));
+    };
+
+    return {
+      accent,
+      bars, causes, revival, tabs, messages,
+      items: this.tabData[this.state.tab],
+      draft: this.state.draft,
+      onDraft: (e) => this.setState({ draft: e.target.value }),
+      onKey: (e) => { if (e.key === 'Enter') send(); },
+      send,
+    };
+  }
+}
+</script>
+
+
+</body></html>
