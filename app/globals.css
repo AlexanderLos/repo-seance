@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/*
+ * Fonts. next/font (app/layout.tsx) is the SOLE author of `--font-serif` and
+ * `--font-mono` on <html>. Tailwind v4 ships its own `--font-serif`/`--font-mono`
+ * theme tokens, and it re-emits them into `:root` — which is the same element
+ * next/font targets. Left in place that produces a self-referential
+ * `--font-serif: var(--font-serif)` cycle (invalid at computed-value time) or an
+ * order-dependent font. Drop Tailwind's built-ins so next/font wins cleanly...
+ */
+@theme {
+  --font-serif: initial;
+  --font-mono: initial;
+}
+
+/* ...then re-expose the utilities, resolving to the runtime next/font variables. */
+@utility font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
+@utility font-mono {
+  font-family: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+:root {
+  /* Séance dark base — the room the ritual happens in. */
+  --background: #0a0908;
+  /* Warm off-white, kept legible against the gloom (contrast > 4.5:1). */
+  --foreground: #e6ddcf;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
+}
