@@ -1,0 +1,2 @@
+# Live graveyard snapshots ({owner}__{repo}.json) are written here by `pnpm precache`.
+# This keep-file preserves the directory before that run populates it.
