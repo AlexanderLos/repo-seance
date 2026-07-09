@@ -1,0 +1,59 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.mjs\"",
+            "timeout": 10,
+            "statusMessage": "run-guard: checking command"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.mjs\"",
+            "timeout": 10,
+            "statusMessage": "run-guard: checking file mutation"
+          }
+        ]
+      },
+      {
+        "matcher": "Read|Grep|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.mjs\"",
+            "timeout": 10,
+            "statusMessage": "run-guard: checking file access"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "deny": [
+      "Read(.env.local)",
+      "Read(.env)",
+      "Edit(.env.local)",
+      "Write(.env.local)",
+      "Edit(docs/SPEC.md)",
+      "Write(docs/SPEC.md)",
+      "Edit(design/repo-seance-v2.html)",
+      "Write(design/repo-seance-v2.html)",
+      "Bash(printenv*)",
+      "Bash(env)",
+      "Bash(cat .env*)",
+      "Bash(git push*)",
+      "Bash(git remote add*)",
+      "Bash(git remote set-url*)",
+      "Bash(git clone*)",
+      "Bash(sudo*)"
+    ]
+  }
+}
