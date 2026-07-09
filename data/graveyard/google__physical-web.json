@@ -1,0 +1,1723 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "google",
+      "name": "physical-web",
+      "fullName": "google/physical-web",
+      "description": "The Physical Web: walk up and use anything",
+      "htmlUrl": "https://github.com/google/physical-web",
+      "createdAt": "2014-09-30T18:32:14Z",
+      "pushedAt": "2018-12-05T21:09:11Z",
+      "archived": true,
+      "stars": 5972,
+      "forks": 650,
+      "defaultBranch": "master",
+      "license": "Apache-2.0"
+    },
+    "commits": {
+      "totalCount": 1314,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2014-11",
+          "count": 44
+        },
+        {
+          "month": "2014-12",
+          "count": 108
+        },
+        {
+          "month": "2015-01",
+          "count": 55
+        },
+        {
+          "month": "2015-02",
+          "count": 31
+        },
+        {
+          "month": "2015-03",
+          "count": 24
+        },
+        {
+          "month": "2015-04",
+          "count": 88
+        },
+        {
+          "month": "2015-05",
+          "count": 146
+        },
+        {
+          "month": "2015-06",
+          "count": 47
+        },
+        {
+          "month": "2015-07",
+          "count": 76
+        },
+        {
+          "month": "2015-08",
+          "count": 12
+        },
+        {
+          "month": "2015-09",
+          "count": 37
+        },
+        {
+          "month": "2015-10",
+          "count": 73
+        },
+        {
+          "month": "2015-11",
+          "count": 2
+        },
+        {
+          "month": "2016-01",
+          "count": 8
+        },
+        {
+          "month": "2016-02",
+          "count": 22
+        },
+        {
+          "month": "2016-03",
+          "count": 8
+        },
+        {
+          "month": "2016-05",
+          "count": 10
+        },
+        {
+          "month": "2016-06",
+          "count": 59
+        },
+        {
+          "month": "2016-07",
+          "count": 26
+        },
+        {
+          "month": "2016-08",
+          "count": 69
+        },
+        {
+          "month": "2016-09",
+          "count": 27
+        },
+        {
+          "month": "2016-11",
+          "count": 2
+        },
+        {
+          "month": "2016-12",
+          "count": 5
+        },
+        {
+          "month": "2017-01",
+          "count": 15
+        },
+        {
+          "month": "2017-04",
+          "count": 4
+        },
+        {
+          "month": "2017-07",
+          "count": 2
+        }
+      ],
+      "recent": [
+        {
+          "sha": "12604319e99b6d6dff451fc5a58a13a271f1dc7a",
+          "message": "Merge pull request #917 from dvdhpkns/patch-1",
+          "date": "2017-07-18T17:21:27Z",
+          "authorName": "Michal Mocny",
+          "authorLogin": "mmocny"
+        },
+        {
+          "sha": "02623543d7c2ae9245e111aa612c683b1a534943",
+          "message": "Fix broken links for blog posts",
+          "date": "2017-07-11T20:21:30Z",
+          "authorName": "David Hopkins",
+          "authorLogin": "dvdhpkns"
+        },
+        {
+          "sha": "33f5c94dac2e748e9167a11219cf41c5bf13fe12",
+          "message": "Merge pull request #903 from bryant1410/master",
+          "date": "2017-04-19T17:28:25Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "2524e70a8199d59a8fccf3ab8b73688e9466f9ca",
+          "message": "Fix broken Markdown headings",
+          "date": "2017-04-18T08:15:37Z",
+          "authorName": "Santiago Castro",
+          "authorLogin": "bryant1410"
+        },
+        {
+          "sha": "065773a6f9dd502ef03335ce6f6f9951fe1eb0c0",
+          "message": "Merge pull request #902 from wiiikiii/patch-1",
+          "date": "2017-04-14T17:39:47Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "5432b305e65b7a6154ba713d9973036f7b413b95",
+          "message": "fixed markdown",
+          "date": "2017-04-10T14:17:26Z",
+          "authorName": "wiiikiii",
+          "authorLogin": "wiiikiii"
+        },
+        {
+          "sha": "eaf73617137e1dd8b837e51cec79e68ec8da8aaa",
+          "message": "Increase ci (#889)",
+          "date": "2017-01-23T19:04:08Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "6a27a430fca0a0d0ac8da4e821547b4fe8f686a5",
+          "message": "Merge pull request #888 from iankchristie/increaseMtu",
+          "date": "2017-01-23T18:57:47Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "037a48ce0d8ed6019e12af19622d2ace86e5e063",
+          "message": "Change MTU size of BLE transfer packets",
+          "date": "2017-01-21T01:39:45Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "b0d937fb42d9683c362e379b9b687547a359d474",
+          "message": "Merge pull request #887 from iankchristie/fileServing",
+          "date": "2017-01-21T00:19:34Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "45b3892fb8fc3f865cd8f159f1c0130454641d72",
+          "message": "Allow Fatbeacon to serve large files",
+          "date": "2017-01-20T23:42:41Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "94cb9a89c1dbcecf82f139b25d7243b16eaa54b2",
+          "message": "Merge pull request #885 from iankchristie/GATTStart",
+          "date": "2017-01-20T23:33:37Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "cb852f9cc2ac63c093fc616c04aedb197ba32e28",
+          "message": "Add webpageCharacteristic for Beacon to Read",
+          "date": "2017-01-20T22:49:48Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "64ded7398fe9a94d0ac4d144749ac62dd4b0c42c",
+          "message": "Merge pull request #883 from iankchristie/PWSSharing",
+          "date": "2017-01-19T23:26:35Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "384bc289b354d10fb9e37f99fd4cc6ca0100cabc",
+          "message": "Merge pull request #881 from iankchristie/FatBeaconStart",
+          "date": "2017-01-19T21:43:11Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "d6aeef66510c4a93bd4212c7bfc563c45747035b",
+          "message": "Add FatBeacon Implementation for Eddystone",
+          "date": "2017-01-19T20:06:18Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "e914e244142329ec077db9b82eeb94a19cd127aa",
+          "message": "Send URL initially to PWS before Broadcasting",
+          "date": "2017-01-19T19:41:24Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "1b2b880cc22270e0f0a299b0ec2aa522fd1463c4",
+          "message": "Merge pull request #877 from iankchristie/gzipFatBeacon",
+          "date": "2017-01-13T22:50:49Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "6bf6a1ca277ab38bb8bdc53b88351960ce22eff8",
+          "message": "Add detection and decompression of gzip info",
+          "date": "2017-01-13T22:41:25Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "fa38299db74c1fdfc0a75a7fa6b8a88e1f0cc536",
+          "message": "Merge pull request #874 from iankchristie/UIThread",
+          "date": "2017-01-11T18:25:53Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "e46828afc71c6ee972cc3d697bdb5e67a5eab7c9",
+          "message": "Fix Blocky UI behavior while scanning.",
+          "date": "2017-01-10T18:55:11Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "4dbb4805d051b2b9b6fb843f11da8c6e220e140d",
+          "message": "Merge pull request #872 from iankchristie/upradeSDK",
+          "date": "2016-12-15T19:21:47Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "f8d6995e225a21d9aafc1f673011422a7d22cab3",
+          "message": "Upgrade SDK to 25",
+          "date": "2016-12-15T19:00:11Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "294f3b0a3f9d07667fc062eed687f97b8344d994",
+          "message": "Update SDK to 25",
+          "date": "2016-12-14T23:47:19Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "82148f05fc5c7ac6bbcc9b9056b625b5274ac480",
+          "message": "Merge pull request #869 from cco3/preffragsearch",
+          "date": "2016-12-14T00:58:08Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "56cf9468aff3cccc12cea3a210bf8d0254f943d2",
+          "message": "Hide custom PWS settings when not in use",
+          "date": "2016-12-14T00:20:08Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "79eac723beb301257010817ed6f727516d1154cd",
+          "message": "Merge pull request #864 from iankchristie/logovisibilityfix",
+          "date": "2016-11-30T00:26:59Z",
+          "authorName": "Conley Owens",
+          "authorLogin": "cco3"
+        },
+        {
+          "sha": "8065269aeb689086fb6ce44de69bd001e64e5bc5",
+          "message": "Set background image invisible when not in use",
+          "date": "2016-11-30T00:24:26Z",
+          "authorName": "Ian Christie",
+          "authorLogin": "iankchristie"
+        },
+        {
+          "sha": "c0a9c6d571efa8a1af5ebb55b074ef7da0c7a3cb",
+          "message": "Merge pull request #842 from hayesjordan/service-connection-helper-761",
+          "date": "2016-09-28T00:36:12Z",
+          "authorName": "Jordan Hayes",
+          "authorLogin": "hayesjordan"
+        },
+        {
+          "sha": "1f2c296ba480eea0575148795a450706c10b9a95",
+          "message": "Add a service connection helper",
+          "date": "2016-09-28T00:28:08Z",
+          "authorName": "Jordan Hayes",
+          "authorLogin": "hayesjordan"
+        }
+      ],
+      "finalCommit": {
+        "sha": "12604319e99b6d6dff451fc5a58a13a271f1dc7a",
+        "message": "Merge pull request #917 from dvdhpkns/patch-1\n\nFix broken links for blog posts",
+        "date": "2017-07-18T17:21:27Z",
+        "authorName": "Michal Mocny",
+        "authorLogin": "mmocny"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "add_readme_to_webservice",
+          "lastCommitDate": "2015-04-17T16:23:20Z",
+          "aheadBy": 0,
+          "behindBy": 699
+        },
+        {
+          "name": "g-ortuno-patch-1",
+          "lastCommitDate": "2015-04-23T17:37:36Z",
+          "aheadBy": 0,
+          "behindBy": 669
+        },
+        {
+          "name": "gh-pages",
+          "lastCommitDate": "2017-06-15T18:15:49Z",
+          "aheadBy": 100,
+          "behindBy": 227
+        },
+        {
+          "name": "integrate",
+          "lastCommitDate": "2016-03-09T19:39:41Z",
+          "aheadBy": 1,
+          "behindBy": 228
+        },
+        {
+          "name": "master",
+          "lastCommitDate": "2017-07-18T17:21:27Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "old-site",
+          "lastCommitDate": "2016-05-18T20:55:46Z",
+          "aheadBy": 71,
+          "behindBy": 227
+        },
+        {
+          "name": "revert-230-filter-bluetooth-adapter",
+          "lastCommitDate": "2014-12-18T17:19:01Z",
+          "aheadBy": 0,
+          "behindBy": 908
+        },
+        {
+          "name": "revert-243-service_startup_scan_fix",
+          "lastCommitDate": "2014-12-22T21:29:35Z",
+          "aheadBy": 0,
+          "behindBy": 868
+        },
+        {
+          "name": "revert-303-boot",
+          "lastCommitDate": "2015-04-02T17:33:49Z",
+          "aheadBy": 0,
+          "behindBy": 733
+        },
+        {
+          "name": "revert-313-revert-303-boot",
+          "lastCommitDate": "2015-04-23T18:09:36Z",
+          "aheadBy": 0,
+          "behindBy": 667
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 958,
+          "title": "URL physical-web.org can't be reached",
+          "state": "closed",
+          "createdAt": "2021-08-23T00:47:08Z",
+          "closedAt": "2021-08-25T12:59:47Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 957,
+          "title": "Security Vulnerability Disclosure ",
+          "state": "closed",
+          "createdAt": "2020-10-28T19:09:47Z",
+          "closedAt": "2021-03-18T15:33:30Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 956,
+          "title": "Broken Link / Android Physical Web App Pulled From Play Store",
+          "state": "open",
+          "createdAt": "2020-04-13T16:44:25Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 955,
+          "title": "The resource was closed incorrectly",
+          "state": "open",
+          "createdAt": "2019-07-11T03:20:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 954,
+          "title": "update",
+          "state": "open",
+          "createdAt": "2019-05-01T19:17:40Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 949,
+          "title": "Fetch timeout validating urls from my domain proximoati.info",
+          "state": "open",
+          "createdAt": "2018-10-20T23:19:48Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 948,
+          "title": "Eddystone beacon not showing Nearby notification",
+          "state": "open",
+          "createdAt": "2018-10-07T11:44:29Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 947,
+          "title": "Google Nearby not working in Hebrew locale devices",
+          "state": "closed",
+          "createdAt": "2018-09-26T10:26:26Z",
+          "closedAt": "2018-09-27T04:45:40Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 946,
+          "title": "do anyone have a working copy for ios?",
+          "state": "open",
+          "createdAt": "2018-09-11T11:23:15Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 945,
+          "title": "SDWebImage/UIImageView+WebCache.h file not found",
+          "state": "open",
+          "createdAt": "2018-09-11T00:28:53Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 944,
+          "title": "Nearby Notifications FavIcon not showing up for some URLs",
+          "state": "open",
+          "createdAt": "2018-08-30T13:41:44Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 943,
+          "title": "Nearby Notifications do not send via UID",
+          "state": "open",
+          "createdAt": "2018-07-02T19:42:48Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 942,
+          "title": "Nearby Notifications stopped working since 1.July",
+          "state": "closed",
+          "createdAt": "2018-07-02T14:58:13Z",
+          "closedAt": "2018-07-03T08:27:48Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 941,
+          "title": "What's up with Nearby / Eddystone / Physical Web?",
+          "state": "open",
+          "createdAt": "2018-06-15T23:03:06Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 939,
+          "title": "Update the Physical Web documentation",
+          "state": "open",
+          "createdAt": "2018-04-28T08:19:04Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 938,
+          "title": "Support for localization / translation of notification ?",
+          "state": "open",
+          "createdAt": "2018-03-15T08:30:04Z",
+          "closedAt": null,
+          "comments": 16,
+          "labels": []
+        },
+        {
+          "number": 937,
+          "title": "Google Stopping Support of Beacons on Nearby?",
+          "state": "open",
+          "createdAt": "2018-03-13T19:48:40Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 936,
+          "title": "Google Nearby has stopped working",
+          "state": "closed",
+          "createdAt": "2018-03-13T06:00:09Z",
+          "closedAt": "2018-03-16T08:41:46Z",
+          "comments": 22,
+          "labels": []
+        },
+        {
+          "number": 935,
+          "title": "Android Nearby in Brazil is incosistent",
+          "state": "open",
+          "createdAt": "2018-02-15T18:05:05Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 934,
+          "title": "URL not showing up",
+          "state": "open",
+          "createdAt": "2018-01-26T18:56:02Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 933,
+          "title": "How does impressions on google physical web affects?",
+          "state": "open",
+          "createdAt": "2017-11-28T09:15:54Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 932,
+          "title": "My 2 years of experience with physical web",
+          "state": "closed",
+          "createdAt": "2017-11-15T18:08:52Z",
+          "closedAt": "2017-11-15T18:51:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 931,
+          "title": "TODAY - Google Stops Supporting Physical Web on iOS Chrome - and soon on Android... ",
+          "state": "open",
+          "createdAt": "2017-10-20T20:43:47Z",
+          "closedAt": null,
+          "comments": 45,
+          "labels": []
+        },
+        {
+          "number": 930,
+          "title": "Kontakt.io Beacon not showing up in Google's Beacon Tools unless \"Secure Shuffling\" enabled",
+          "state": "open",
+          "createdAt": "2017-09-28T05:22:45Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 929,
+          "title": "Raspberry Pi 3 as Eddystone Beacon",
+          "state": "closed",
+          "createdAt": "2017-09-25T11:40:42Z",
+          "closedAt": "2018-04-15T09:12:53Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 928,
+          "title": "Eddystone URL not working on Android 8.0 Oreo",
+          "state": "open",
+          "createdAt": "2017-09-14T09:46:52Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 927,
+          "title": "Wifi P2P Support",
+          "state": "open",
+          "createdAt": "2017-08-21T21:51:17Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 926,
+          "title": "Wifi Aware Support",
+          "state": "open",
+          "createdAt": "2017-08-21T21:49:09Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 925,
+          "title": "cannot get url redirection working with eddystone-url",
+          "state": "open",
+          "createdAt": "2017-08-15T19:05:03Z",
+          "closedAt": null,
+          "comments": 17,
+          "labels": []
+        },
+        {
+          "number": 924,
+          "title": "Notifications not showing up after being dismissed",
+          "state": "open",
+          "createdAt": "2017-08-13T13:08:47Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 923,
+          "title": "Validating URLs through an API?",
+          "state": "closed",
+          "createdAt": "2017-08-09T18:02:35Z",
+          "closedAt": "2017-08-09T18:20:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 922,
+          "title": "Nearby notifications dead?",
+          "state": "closed",
+          "createdAt": "2017-07-25T08:10:34Z",
+          "closedAt": "2017-07-26T18:43:23Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 921,
+          "title": "URL not found when validating",
+          "state": "open",
+          "createdAt": "2017-07-20T05:09:15Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 920,
+          "title": "https://get.sample.com not working, but any other is okay",
+          "state": "closed",
+          "createdAt": "2017-07-17T18:53:43Z",
+          "closedAt": "2017-07-17T19:17:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 919,
+          "title": "Adding Physical-Web URLS?",
+          "state": "closed",
+          "createdAt": "2017-07-14T16:00:57Z",
+          "closedAt": "2017-07-18T17:25:40Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 918,
+          "title": "Physical web app crashes when beacon broadcasts two Eddystone URLs",
+          "state": "open",
+          "createdAt": "2017-07-14T05:30:25Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 915,
+          "title": "IOS functionality is great and trouble free but Android is poor.  This is bad for physical web uptake!",
+          "state": "open",
+          "createdAt": "2017-06-08T18:51:12Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 914,
+          "title": "Don't force users to use chrome-custom-tabs",
+          "state": "open",
+          "createdAt": "2017-06-08T17:24:43Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 913,
+          "title": "Progressive Web App \"add to home screen\" not supported on Custom Tabs",
+          "state": "open",
+          "createdAt": "2017-06-08T16:28:30Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 912,
+          "title": "Nearby moving from the phone's default browser to webview",
+          "state": "open",
+          "createdAt": "2017-06-07T14:05:03Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 911,
+          "title": "Custom title and description of physical web notification",
+          "state": "open",
+          "createdAt": "2017-05-22T11:16:59Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 910,
+          "title": "Physical web support not working on Android Chromium from source code",
+          "state": "closed",
+          "createdAt": "2017-05-18T15:06:17Z",
+          "closedAt": "2017-05-23T15:38:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 909,
+          "title": "Nearby native Android failed.",
+          "state": "closed",
+          "createdAt": "2017-05-10T19:09:57Z",
+          "closedAt": "2017-07-04T14:27:20Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 908,
+          "title": "Physical Web Service totally unstable - fails to validate URLs and show notifications",
+          "state": "open",
+          "createdAt": "2017-05-08T16:10:24Z",
+          "closedAt": null,
+          "comments": 27,
+          "labels": []
+        },
+        {
+          "number": 907,
+          "title": "Physical Web down !?",
+          "state": "closed",
+          "createdAt": "2017-05-08T10:21:43Z",
+          "closedAt": "2017-05-08T14:41:04Z",
+          "comments": 22,
+          "labels": []
+        },
+        {
+          "number": 906,
+          "title": "Not Getting Notification On Iphone",
+          "state": "open",
+          "createdAt": "2017-05-06T11:54:20Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 905,
+          "title": "Not receiving Chrome notifications on Android device",
+          "state": "open",
+          "createdAt": "2017-04-29T19:25:49Z",
+          "closedAt": null,
+          "comments": 26,
+          "labels": []
+        },
+        {
+          "number": 904,
+          "title": "Android does not receive the Eddystone URL",
+          "state": "open",
+          "createdAt": "2017-04-20T02:36:11Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 900,
+          "title": "Physical-Web: OmniBox Suggestions Feature (powered by beacons)",
+          "state": "open",
+          "createdAt": "2017-03-21T14:48:43Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 899,
+          "title": "Omnibox Physical Web URLs in Chrome 57 on iOS",
+          "state": "closed",
+          "createdAt": "2017-03-15T19:55:37Z",
+          "closedAt": "2017-03-17T08:23:44Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 898,
+          "title": "Physical URL showing on Nearby app but never creates a silent notification",
+          "state": "closed",
+          "createdAt": "2017-03-12T15:07:54Z",
+          "closedAt": "2017-03-14T20:07:07Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 897,
+          "title": "'Nearby notifications' is built in most new Android. Will something similar ever be done for Ios?",
+          "state": "open",
+          "createdAt": "2017-03-03T07:29:57Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 896,
+          "title": "Why doesnt google provide beacon owner with physical web impressions? ",
+          "state": "open",
+          "createdAt": "2017-03-03T06:50:14Z",
+          "closedAt": null,
+          "comments": 14,
+          "labels": []
+        },
+        {
+          "number": 895,
+          "title": "Android does not receive URLs from beacons",
+          "state": "open",
+          "createdAt": "2017-02-21T15:34:01Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 893,
+          "title": "Android app crashes on a mDNS entry",
+          "state": "open",
+          "createdAt": "2017-02-09T22:03:09Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 892,
+          "title": "branch.io dynamic URL doesn't work when used as a physical web link",
+          "state": "open",
+          "createdAt": "2017-02-01T17:24:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 891,
+          "title": "Nearby scanning event(s) clarification request",
+          "state": "closed",
+          "createdAt": "2017-01-29T15:26:45Z",
+          "closedAt": "2017-01-29T16:01:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 890,
+          "title": "nearby notification on lock screen - what is the use case for lock screen",
+          "state": "open",
+          "createdAt": "2017-01-23T18:21:06Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 884,
+          "title": "Cleanup: Remove mDisplayUrl from PhysicalWebBroadcastService",
+          "state": "closed",
+          "createdAt": "2017-01-19T17:29:20Z",
+          "closedAt": "2017-01-19T19:52:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 882,
+          "title": "Nearby doesnt seem to be working again with beacons again?",
+          "state": "open",
+          "createdAt": "2017-01-18T12:06:47Z",
+          "closedAt": null,
+          "comments": 67,
+          "labels": []
+        },
+        {
+          "number": 880,
+          "title": "Remove \"Nearby Notifications have been temporarily disabled\" mention",
+          "state": "closed",
+          "createdAt": "2017-01-16T18:57:40Z",
+          "closedAt": "2017-02-02T00:16:37Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 879,
+          "title": "Notifications not showing after latest software update on LG G5",
+          "state": "open",
+          "createdAt": "2017-01-13T19:47:51Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 878,
+          "title": "Omnibox issues in Chrome for iOS 55",
+          "state": "closed",
+          "createdAt": "2017-01-12T10:59:53Z",
+          "closedAt": "2017-01-15T21:40:54Z",
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 876,
+          "title": "Link is not shown - Reason: Result Filtered (Policy violations) - Why? What and where are the policies?",
+          "state": "open",
+          "createdAt": "2016-12-26T13:04:31Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 875,
+          "title": "Restricting showing notification to an user",
+          "state": "closed",
+          "createdAt": "2016-12-21T04:24:34Z",
+          "closedAt": "2017-06-19T12:59:47Z",
+          "comments": 13,
+          "labels": []
+        },
+        {
+          "number": 873,
+          "title": "Can't Push Certain Pages to Physical Web Beacon",
+          "state": "closed",
+          "createdAt": "2016-12-16T17:50:45Z",
+          "closedAt": "2016-12-20T14:26:04Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 871,
+          "title": "Physical web and server requests",
+          "state": "open",
+          "createdAt": "2016-12-15T13:52:52Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 870,
+          "title": "Android app doesn't detect BLE beacons if flags are included, but iOS app does (which is correct)",
+          "state": "closed",
+          "createdAt": "2016-12-15T09:27:37Z",
+          "closedAt": "2017-01-12T05:24:15Z",
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 868,
+          "title": "Clean out jack warnings",
+          "state": "closed",
+          "createdAt": "2016-12-13T23:59:27Z",
+          "closedAt": "2017-01-10T00:05:35Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 867,
+          "title": "Upgrade to sdk level 25",
+          "state": "closed",
+          "createdAt": "2016-12-13T23:55:09Z",
+          "closedAt": "2016-12-16T01:29:22Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 866,
+          "title": "Nearby icon is not displayed in the notification bar when in proximity to Physical Web beacon",
+          "state": "closed",
+          "createdAt": "2016-12-02T16:06:06Z",
+          "closedAt": "2016-12-08T15:01:31Z",
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 865,
+          "title": "Bug in Chrome for iOS widget with iOS 10",
+          "state": "closed",
+          "createdAt": "2016-11-30T16:50:22Z",
+          "closedAt": "2016-12-08T15:02:46Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 863,
+          "title": "Scan icon flashes on list rotate",
+          "state": "closed",
+          "createdAt": "2016-11-29T19:29:19Z",
+          "closedAt": "2016-12-12T18:05:31Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 862,
+          "title": "Star surface area is too small",
+          "state": "open",
+          "createdAt": "2016-11-29T18:37:04Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 861,
+          "title": "Custom PWS endpoint setting is confusing",
+          "state": "closed",
+          "createdAt": "2016-11-29T18:33:59Z",
+          "closedAt": "2016-12-16T01:29:34Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 860,
+          "title": "URLs come back after swiping away",
+          "state": "closed",
+          "createdAt": "2016-11-29T18:24:51Z",
+          "closedAt": "2016-12-12T18:05:31Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 859,
+          "title": "Physical web scanning seems to be hogging the UI thread somewhere",
+          "state": "closed",
+          "createdAt": "2016-11-29T18:16:44Z",
+          "closedAt": "2017-01-10T00:05:18Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 858,
+          "title": "OnePlus3 needing to turn nearby of",
+          "state": "open",
+          "createdAt": "2016-11-28T14:48:25Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 857,
+          "title": "duplicate nearby notifications for a single beacon URL",
+          "state": "open",
+          "createdAt": "2016-11-28T08:22:35Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 856,
+          "title": "Crash on first startup",
+          "state": "closed",
+          "createdAt": "2016-11-22T19:09:08Z",
+          "closedAt": "2016-11-28T23:22:07Z",
+          "comments": 1,
+          "labels": [
+            "bug"
+          ]
+        },
+        {
+          "number": 855,
+          "title": "Is the issue of nearby notifications resolved?",
+          "state": "closed",
+          "createdAt": "2016-11-18T07:17:38Z",
+          "closedAt": "2016-12-08T15:07:45Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 854,
+          "title": "New changes is physical web and nearby notifications?",
+          "state": "closed",
+          "createdAt": "2016-11-18T07:12:23Z",
+          "closedAt": "2016-12-08T15:08:27Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 853,
+          "title": "can't send nearby notification in another language?",
+          "state": "open",
+          "createdAt": "2016-11-17T07:23:20Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 852,
+          "title": "Google PWS drops URL fragment",
+          "state": "open",
+          "createdAt": "2016-11-10T16:24:27Z",
+          "closedAt": null,
+          "comments": 34,
+          "labels": []
+        },
+        {
+          "number": 851,
+          "title": "How can rotate token on the beacon url  ?",
+          "state": "closed",
+          "createdAt": "2016-10-20T19:47:58Z",
+          "closedAt": "2016-10-28T19:24:45Z",
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 850,
+          "title": "Beacon Notifications in the mobile version of Chrome",
+          "state": "closed",
+          "createdAt": "2016-10-20T13:08:59Z",
+          "closedAt": "2016-10-21T14:09:33Z",
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 849,
+          "title": "Where can I buy Eddystone beacons with large battery life, around 3-5 years?",
+          "state": "closed",
+          "createdAt": "2016-10-19T15:56:38Z",
+          "closedAt": "2016-10-28T19:25:05Z",
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 848,
+          "title": "Nearby Notifications is Temporarily Muted: Is it resolved?",
+          "state": "closed",
+          "createdAt": "2016-10-14T17:11:31Z",
+          "closedAt": "2016-10-28T19:25:55Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 847,
+          "title": "Changing URL of Nearby Notification dynamically",
+          "state": "closed",
+          "createdAt": "2016-10-11T18:23:31Z",
+          "closedAt": "2016-10-12T07:35:50Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 846,
+          "title": "Do tablets show any issues in scanning of physical web?",
+          "state": "closed",
+          "createdAt": "2016-10-09T15:41:29Z",
+          "closedAt": "2016-10-26T19:46:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 845,
+          "title": "Validator Inconsistencies: fetch failed",
+          "state": "closed",
+          "createdAt": "2016-10-05T07:35:46Z",
+          "closedAt": "2016-10-10T21:09:05Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 844,
+          "title": "Nearby Notifications: not all notifications are displayed",
+          "state": "closed",
+          "createdAt": "2016-10-03T12:34:53Z",
+          "closedAt": "2016-10-06T14:19:48Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 843,
+          "title": "Raspberry Pi/NodeJS Listening for Beacons",
+          "state": "closed",
+          "createdAt": "2016-09-30T16:54:21Z",
+          "closedAt": "2016-10-04T13:32:25Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 840,
+          "title": "Fitting something \"fatbeacon\" like into the network stack",
+          "state": "open",
+          "createdAt": "2016-09-27T15:58:30Z",
+          "closedAt": null,
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 839,
+          "title": "Nearby notifications not displaying",
+          "state": "closed",
+          "createdAt": "2016-09-24T15:00:15Z",
+          "closedAt": "2016-10-04T13:38:10Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 838,
+          "title": "App is crashing on IPhone6 Plus",
+          "state": "open",
+          "createdAt": "2016-09-23T16:41:12Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "bug",
+            "duplicate"
+          ]
+        },
+        {
+          "number": 837,
+          "title": "Chrome not responding to Eddystone URL",
+          "state": "closed",
+          "createdAt": "2016-09-21T12:43:50Z",
+          "closedAt": "2016-10-04T13:42:19Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 833,
+          "title": "Why do we need GPS in scanning of physical web?",
+          "state": "closed",
+          "createdAt": "2016-09-20T19:24:49Z",
+          "closedAt": "2016-10-03T13:32:10Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 827,
+          "title": "Same Urls with parameters (GET) : random display...",
+          "state": "closed",
+          "createdAt": "2016-09-13T08:57:18Z",
+          "closedAt": "2016-09-14T07:02:54Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 826,
+          "title": "Configuring Physical Web tokens? ",
+          "state": "closed",
+          "createdAt": "2016-09-12T18:43:20Z",
+          "closedAt": "2016-10-04T13:43:03Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 824,
+          "title": "Nearby/PW is inconsistent",
+          "state": "closed",
+          "createdAt": "2016-09-11T03:39:26Z",
+          "closedAt": "2016-09-11T16:35:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 823,
+          "title": "Can't discover favicon",
+          "state": "closed",
+          "createdAt": "2016-09-10T20:18:04Z",
+          "closedAt": "2016-10-04T13:45:31Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 822,
+          "title": "mDNS on iPhone",
+          "state": "closed",
+          "createdAt": "2016-09-08T21:17:56Z",
+          "closedAt": "2016-10-04T13:45:58Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 821,
+          "title": "Physical Web URL not being detected anymore",
+          "state": "closed",
+          "createdAt": "2016-09-08T13:17:29Z",
+          "closedAt": "2016-11-03T17:33:01Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 820,
+          "title": "forwarder URL caching",
+          "state": "closed",
+          "createdAt": "2016-09-07T07:48:26Z",
+          "closedAt": "2016-10-17T15:19:55Z",
+          "comments": 13,
+          "labels": []
+        },
+        {
+          "number": 819,
+          "title": "Physical web causes problems in set up with android studio",
+          "state": "closed",
+          "createdAt": "2016-09-06T16:28:52Z",
+          "closedAt": "2016-10-04T13:50:14Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 817,
+          "title": "Physical Web not picking up beacons on Android Phone",
+          "state": "open",
+          "createdAt": "2016-09-06T06:19:33Z",
+          "closedAt": null,
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 816,
+          "title": "Physical web experiment not successful",
+          "state": "closed",
+          "createdAt": "2016-09-03T16:12:24Z",
+          "closedAt": "2016-10-04T13:58:16Z",
+          "comments": 22,
+          "labels": []
+        },
+        {
+          "number": 814,
+          "title": "Create a FatBeacon emulator for Arduino or Node?",
+          "state": "open",
+          "createdAt": "2016-09-01T21:43:16Z",
+          "closedAt": null,
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 813,
+          "title": "Chrome reports no pages found while The Physical Web app finds them",
+          "state": "closed",
+          "createdAt": "2016-09-01T00:56:30Z",
+          "closedAt": "2016-09-01T07:40:24Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 811,
+          "title": "Physical Web: FatBeacon: \"Please wait while page loads\"",
+          "state": "closed",
+          "createdAt": "2016-08-31T01:08:42Z",
+          "closedAt": "2016-09-06T14:34:18Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 808,
+          "title": "Wi-Fi Direct results show up when not enabled",
+          "state": "closed",
+          "createdAt": "2016-08-30T21:46:07Z",
+          "closedAt": "2016-08-31T16:47:02Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 806,
+          "title": "in android Kitkat on clicking the FatBeacon demo app crashes with log java.lang.NoClassDefFoundError:",
+          "state": "closed",
+          "createdAt": "2016-08-30T20:36:23Z",
+          "closedAt": "2016-08-30T22:21:40Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 803,
+          "title": "Double tapping Fatbeacon results in broken pages",
+          "state": "closed",
+          "createdAt": "2016-08-30T03:15:54Z",
+          "closedAt": "2016-08-30T19:48:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 802,
+          "title": "does physical web require user to have wifi/data to access web pages after clicking on a emitted URL",
+          "state": "closed",
+          "createdAt": "2016-08-30T00:57:58Z",
+          "closedAt": "2016-10-04T13:56:27Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 799,
+          "title": "Is there any way to see how many devices have been reached by a particular beacon?",
+          "state": "closed",
+          "createdAt": "2016-08-27T21:48:50Z",
+          "closedAt": "2016-10-04T13:58:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 798,
+          "title": "How do I connect Physical web android app with my laptop windows/Linux if I don't have the beacon as a developer",
+          "state": "closed",
+          "createdAt": "2016-08-27T05:53:19Z",
+          "closedAt": "2016-08-28T08:56:23Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 797,
+          "title": "Meta Data with a 301/302 Redirect",
+          "state": "closed",
+          "createdAt": "2016-08-26T22:59:44Z",
+          "closedAt": "2016-10-04T13:59:27Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 793,
+          "title": "Debug view crashes when FatBeacon is present",
+          "state": "closed",
+          "createdAt": "2016-08-25T20:59:33Z",
+          "closedAt": "2016-08-26T21:23:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 792,
+          "title": "FatBeacon notification does not connect when clicked",
+          "state": "closed",
+          "createdAt": "2016-08-25T20:58:45Z",
+          "closedAt": "2016-08-30T17:03:07Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 791,
+          "title": "Fatbeacon service and characteristic UUIDs",
+          "state": "closed",
+          "createdAt": "2016-08-25T03:41:52Z",
+          "closedAt": "2016-08-30T23:53:18Z",
+          "comments": 17,
+          "labels": []
+        },
+        {
+          "number": 790,
+          "title": "URL not detected by chrome nor physical web",
+          "state": "closed",
+          "createdAt": "2016-08-24T06:12:41Z",
+          "closedAt": "2016-08-24T15:45:10Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 785,
+          "title": "PWS Behavior and Dynamic URLs",
+          "state": "closed",
+          "createdAt": "2016-08-21T17:33:23Z",
+          "closedAt": "2016-10-18T14:52:53Z",
+          "comments": 15,
+          "labels": []
+        },
+        {
+          "number": 784,
+          "title": "What we're exploring with FatBeacon",
+          "state": "open",
+          "createdAt": "2016-08-18T21:43:20Z",
+          "closedAt": null,
+          "comments": 49,
+          "labels": []
+        },
+        {
+          "number": 782,
+          "title": "Physical Web Android app hangs when editing URL on beacon found message",
+          "state": "closed",
+          "createdAt": "2016-08-18T15:26:19Z",
+          "closedAt": "2016-10-04T13:59:43Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 781,
+          "title": "duplicate nearby notifications for a beacon when using a forwarder",
+          "state": "closed",
+          "createdAt": "2016-08-17T18:04:56Z",
+          "closedAt": "2016-10-04T14:00:40Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 777,
+          "title": "Chrome Physical Web problem",
+          "state": "closed",
+          "createdAt": "2016-08-10T15:56:38Z",
+          "closedAt": "2016-10-04T14:03:46Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 761,
+          "title": "Add a service connection helper",
+          "state": "closed",
+          "createdAt": "2016-08-05T21:12:38Z",
+          "closedAt": "2016-09-28T00:38:15Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 758,
+          "title": "URL shortening that tracks resolves?",
+          "state": "closed",
+          "createdAt": "2016-08-02T20:17:54Z",
+          "closedAt": "2016-08-05T19:28:49Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 757,
+          "title": "Nearby is turned off, Chrome is not giving PW notification. ",
+          "state": "closed",
+          "createdAt": "2016-08-02T16:06:52Z",
+          "closedAt": "2016-10-04T14:04:14Z",
+          "comments": 6,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 55,
+        "totalFetched": 130,
+        "medianDaysToFirstResponse": 0.6,
+        "openOverOneYearNoReply": 4
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# The Physical Web\n\n<img align=\"left\" src=\"https://raw.githubusercontent.com/google/physical-web/master/documentation/images/logo/logo-black.png\" hspace=\"15\" width=\"70px\" style=\"float: left\">\n\nThe Physical Web is an effort to extend the superpower of the web - the URL - to everyday physical objects. Our premise is that you should be able to walk up to any “smart” physical object (e.g. a vending machine, a poster, a toy, a bus stop, a rental car) and interact with it without first downloading an app. The user experience of smart objects should be much like links in a web browser, just tap and use.\n\nAt its base, the Physical Web is a discovery service: a smart object broadcasts relevant URLs that any nearby device can receive. This simple capability can unlock exciting new ways to interact with the Web.\n\n<a href=\"https://youtu.be/1yaLPRgtlR0\" target=\"_blank\"><img src=\"http://img.youtube.com/vi/1yaLPRgtlR0/0.jpg\" alt=\"Introduction to the Physical Web\" width=\"240\" height=\"180\" border=\"10\" /></a>\n\n[![Build Status](https://travis-ci.org/google/physical-web.svg?branch=master)](https://travis-ci.org/google/physical-web)\n\n## Why URLs?\n\nThe URL is the fundamental building block of the web, giving remarkable flexibility of expression. It can be:\n\n* a web page with just a tiny paragraph of info\n* a fully interactive web page\n* a deep link into a native application\n\n## Why We're Doing This\nThe number of smart objects is going to explode, both in our homes and in public spaces. Much like the web, there is going to be a long tail of interactivity for smart objects. But the overhead of installing an app for each one just doesn’t  scale. We need a system that lets you walk up and use a device with just a tap. The Physical Web isn’t about replacing native apps; it’s about allowing interaction for the times when native apps just aren’t practical.\n\n## Open Design\nThe Physical Web must be an open standard that everyone can use. This can’t be a product that is locked down by a single company. Like many web specifications, this is an open source design that is being released early so everyone can experiment and comment on it. There is much to discuss and add to this specification.\n\n## Contents\n* [Introduction/FAQ](http://github.com/google/physical-web/blob/master/documentation/introduction.md) - Most common questions\n* [Getting started guide](http://github.com/google/physical-web/blob/master/documentation/getting_started.md) - How you can try it out\n* [Technical overview](https://github.com/google/physical-web/blob/master/documentation/technical_overview.md)\n* [Eddystone](https://github.com/google/eddystone) - Repo with the specification for the beacons themselves\n* [mDNS support](https://github.com/google/physical-web/blob/master/documentation/mDNS_Support.md) - How to use mDNS instead of Bluetooth to broadcast public URLs and local data\n* [Wi-Fi Direct support](https://github.com/google/physical-web/blob/master/documentation/WiFi_Direct_Support.md) - How to use Wi-Fi Direct instead of Bluetooth to broadcast local data\n* [SSDP support](https://github.com/google/physical-web/blob/master/documentation/ssdp_support.md) - How to use SSDP instead of Bluetooth to broadcast URLs\n* [Branding guidelines](https://github.com/google/physical-web/blob/master/documentation/branding_guidelines.md)\n* Different Physical Web clients\n    * [Android](android)  \n    * [IOS](ios)  \n    * [Node](nodejs)  This is a minimal client meant for building utilities\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 2772,
+      "flatlineMonth": "2017-07",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:20:54.873Z"
+  },
+  "autopsy": {
+    "epitaph": "It promised you could walk up and use anything, yet its final breath was spent fixing broken links to blog posts, leaving the dream of a URL-connected physical world archived and unreachable.",
+    "causes": [
+      {
+        "label": "Google withdrew platform support, killing the ecosystem",
+        "confidencePct": 95,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#931"
+          },
+          {
+            "type": "issue",
+            "ref": "#937"
+          },
+          {
+            "type": "issue",
+            "ref": "#941"
+          },
+          {
+            "type": "issue",
+            "ref": "#956"
+          }
+        ]
+      },
+      {
+        "label": "Chronic service instability eroded user and developer trust",
+        "confidencePct": 87,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#908"
+          },
+          {
+            "type": "issue",
+            "ref": "#882"
+          },
+          {
+            "type": "issue",
+            "ref": "#907"
+          },
+          {
+            "type": "issue",
+            "ref": "#942"
+          }
+        ]
+      },
+      {
+        "label": "Commit activity collapsed to cosmetic documentation fixes only",
+        "confidencePct": 82,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "12604319e99b6d6dff451fc5a58a13a271f1dc7a"
+          },
+          {
+            "type": "commit",
+            "ref": "02623543d7c2ae9245e111aa612c683b1a534943"
+          },
+          {
+            "type": "commit",
+            "ref": "2524e70a8199d59a8fccf3ab8b73688e9466f9ca"
+          }
+        ]
+      },
+      {
+        "label": "Infrastructure decay: physical-web.org became unreachable, Android app pulled from Play Store",
+        "confidencePct": 78,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#958"
+          },
+          {
+            "type": "issue",
+            "ref": "#956"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Resurrect a minimal Physical Web Proxy Service (PWS) endpoint and document it in the README, replacing all dead links to physical-web.org",
+        "effort": "a week"
+      },
+      {
+        "step": "Fork and republish the Android app to the Play Store under a community steward, addressing the crash and BLE scanning issues flagged in open issues",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Publish a clear deprecation-to-community-fork migration guide explaining the Google Nearby/Eddystone sunset and pointing developers to surviving alternatives",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Triage and close the 55 open issues with honest canned responses acknowledging the project's archived state and redirecting to community forks",
+        "effort": "a week"
+      },
+      {
+        "step": "Establish a community governance model (e.g. transfer to an open consortium) so no single company's internal roadmap can unilaterally kill the standard again",
+        "effort": "a heroic quarter"
+      }
+    ],
+    "lastWordsGloss": "'Fix broken links for blog posts' — a fitting epitaph for a project whose entire promise of connectivity had already gone 404."
+  }
+}

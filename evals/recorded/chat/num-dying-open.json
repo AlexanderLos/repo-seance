@@ -1,0 +1,4 @@
+{
+  "question": "How many issues remain open?",
+  "rawText": "3 of my wounds remain open — 2 bugs and 1 unfinished dream of a streaming API — and no maintainer has yet come to close them.\n\nEVIDENCE: [{\"type\":\"issue\",\"ref\":\"#51\"}, {\"type\":\"issue\",\"ref\":\"#47\"}, {\"type\":\"issue\",\"ref\":\"#44\"}]"
+}

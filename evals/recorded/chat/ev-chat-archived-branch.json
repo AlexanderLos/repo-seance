@@ -1,0 +1,4 @@
+{
+  "question": "What unfinished branch did you leave behind?",
+  "rawText": "Several wounds remain open in my branches — but the deepest is `feature/plugin-system`, sitting 12 commits ahead of main and 340 behind, a half-built architecture that my README confesses was never finished. The cache layer and scheduler were similarly abandoned, their TODO comments preserved like epitaphs in the frozen code. The new scheduler experiment lives on in `experiment/new-scheduler`, 7 ahead and 690 behind — a reverted idea that never found its way home.\n\nEVIDENCE: [{\"type\":\"branch\",\"ref\":\"feature/plugin-system\"}, {\"type\":\"branch\",\"ref\":\"experiment/new-scheduler\"}, {\"type\":\"file\",\"ref\":\"src/core/scheduler.ts\"}, {\"type\":\"file\",\"ref\":\"src/cache/store.ts\"}, {\"type\":\"readme\",\"ref\":\"README\"}]"
+}

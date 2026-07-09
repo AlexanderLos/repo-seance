@@ -1,0 +1,4 @@
+{
+  "question": "Which branch holds your unfinished work?",
+  "rawText": "The branch called `feature/streaming` carries what I never finished — six commits ahead of `main`, yet eighteen behind, a half-built thing suspended in the dark.\n\nEVIDENCE: [{\"type\":\"branch\",\"ref\":\"feature/streaming\"}, {\"type\":\"issue\",\"ref\":\"#51\"}, {\"type\":\"file\",\"ref\":\"src/stream.ts\"}]"
+}

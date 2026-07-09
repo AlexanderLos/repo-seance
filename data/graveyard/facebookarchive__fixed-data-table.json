@@ -1,0 +1,1925 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "facebookarchive",
+      "name": "fixed-data-table",
+      "fullName": "facebookarchive/fixed-data-table",
+      "description": "A React table component designed to allow presenting thousands of rows of data.",
+      "htmlUrl": "https://github.com/facebookarchive/fixed-data-table",
+      "createdAt": "2015-01-28T04:19:02Z",
+      "pushedAt": "2021-01-13T12:09:37Z",
+      "archived": true,
+      "stars": 4269,
+      "forks": 538,
+      "defaultBranch": "master",
+      "license": "Other"
+    },
+    "commits": {
+      "totalCount": 324,
+      "fetchedCount": 324,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2015-01",
+          "count": 40
+        },
+        {
+          "month": "2015-02",
+          "count": 37
+        },
+        {
+          "month": "2015-03",
+          "count": 9
+        },
+        {
+          "month": "2015-04",
+          "count": 41
+        },
+        {
+          "month": "2015-05",
+          "count": 22
+        },
+        {
+          "month": "2015-06",
+          "count": 30
+        },
+        {
+          "month": "2015-07",
+          "count": 24
+        },
+        {
+          "month": "2015-08",
+          "count": 22
+        },
+        {
+          "month": "2015-09",
+          "count": 4
+        },
+        {
+          "month": "2015-10",
+          "count": 4
+        },
+        {
+          "month": "2015-11",
+          "count": 75
+        },
+        {
+          "month": "2016-06",
+          "count": 2
+        },
+        {
+          "month": "2016-07",
+          "count": 5
+        },
+        {
+          "month": "2017-04",
+          "count": 2
+        },
+        {
+          "month": "2017-10",
+          "count": 6
+        },
+        {
+          "month": "2018-01",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "3a9bf338b22406169e7261f85ddeda22ddce3b6f",
+          "message": "Update CONTRIBUTING.md",
+          "date": "2018-01-03T00:15:29Z",
+          "authorName": "Joel Marcey",
+          "authorLogin": "JoelMarcey"
+        },
+        {
+          "sha": "b01764ed652fd27838d0502226b36f3f01f6316e",
+          "message": "Update readme to indicate project is archived",
+          "date": "2017-10-27T20:06:41Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "6996da5854fe35cb2a60e3ed8287a91d09f43cd8",
+          "message": "Version 0.6.5",
+          "date": "2017-10-27T18:50:09Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "d5caf50dfaed0c45b3d0dee387fee5609584791a",
+          "message": "Merge pull request #509 from zpao/react-16",
+          "date": "2017-10-27T18:49:06Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "c8d31d6aa8f352ddf0e33e293965e621b97be7c2",
+          "message": "Use prop-types, create-react-class in docs/ examples/",
+          "date": "2017-10-27T18:38:05Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "c8a270b1b9a3766271141c464a34a2d20d6aece4",
+          "message": "Upgrade react-docgen to parse createReactClass",
+          "date": "2017-10-27T18:31:13Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "46c5cf9f88a1d8ba24fbd233ba5db5ab6a8a498a",
+          "message": "upgrade to React v16",
+          "date": "2017-10-27T17:53:15Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "21ec53ff8a7ba75f302d4581d82b745651371638",
+          "message": "Version 0.6.4",
+          "date": "2017-04-26T21:39:45Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "1e055f6047a2c49a1739f07c82f701ca5ce7bc1b",
+          "message": "prop-types integration (#487)",
+          "date": "2017-04-25T23:05:59Z",
+          "authorName": "Egor Komarov",
+          "authorLogin": "Odrin"
+        },
+        {
+          "sha": "5cbf487dd038c2b741cd0298922c1c30dacb38d7",
+          "message": "Version 0.6.3",
+          "date": "2016-07-29T04:27:49Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "b3a6e565615a362ed85c58f9382da3d1541457b8",
+          "message": "Remove rowIndex prop as well, a la #426",
+          "date": "2016-07-29T04:23:40Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "024d2e9d5c9f133b4acb91ee1b6cfecb31e43967",
+          "message": "Fix little typo avartar -> avatar (#337)",
+          "date": "2016-07-19T22:23:13Z",
+          "authorName": "Shane Rogers",
+          "authorLogin": null
+        },
+        {
+          "sha": "53409203d49a87f556903e8be3e1ea9a388e556d",
+          "message": "Version 0.6.2",
+          "date": "2016-07-18T21:56:47Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "ab40a3f8ea5fd9495f3f45e73fcff656f314d32c",
+          "message": "Don't pass columnKey prop to div element (#426)",
+          "date": "2016-07-18T21:50:09Z",
+          "authorName": "Huy Dang Lê-Ngô",
+          "authorLogin": "Dilatorily"
+        },
+        {
+          "sha": "674363872aeac7b5f3e9f5e4b75bad290118e22f",
+          "message": "Version 0.6.1",
+          "date": "2016-06-21T22:52:08Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "a0df29ffc7a284ae1399657f96ff8520065a1e43",
+          "message": "Support React v15",
+          "date": "2016-06-21T22:40:33Z",
+          "authorName": "Paul O’Shannessy",
+          "authorLogin": "zpao"
+        },
+        {
+          "sha": "0c8a7d1317077e788eae619a245bd77b09c0bf1c",
+          "message": "Merge pull request #317 from alansouzati/FIX_TYPO_README",
+          "date": "2015-11-25T01:41:05Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "d8d3cb41fb2dc35a421050d5b461ae623ffde438",
+          "message": "Fixed typo in the README>",
+          "date": "2015-11-24T06:28:45Z",
+          "authorName": "Alan Souza",
+          "authorLogin": "alansouzati"
+        },
+        {
+          "sha": "b6421b66ae15a3199876f73c93b80148bef797ca",
+          "message": "Merge pull request #311 from facebook/touch-fix",
+          "date": "2015-11-16T22:13:12Z",
+          "authorName": "wlis",
+          "authorLogin": "wlis"
+        },
+        {
+          "sha": "5f17ddc0442fbc7cd2f5c892de45b7480700285c",
+          "message": "Merge pull request #309 from frontsideair/patch-1",
+          "date": "2015-11-16T20:43:32Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "74a21b699ff450e92eeda555c36569b06553987d",
+          "message": "Fix touch support for examples",
+          "date": "2015-11-16T20:39:34Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "68abc9bcb48e0235a928a7d8effa54a75e5d3655",
+          "message": "fix some typos",
+          "date": "2015-11-16T08:18:17Z",
+          "authorName": "Fatih",
+          "authorLogin": "frontsideair"
+        },
+        {
+          "sha": "e778e68e769e066c31f4cb2b83439e150a616189",
+          "message": "Version 0.6.0",
+          "date": "2015-11-14T00:54:19Z",
+          "authorName": "wlis",
+          "authorLogin": "wlis"
+        },
+        {
+          "sha": "b3f665df649292e239d58021681f2893e49491de",
+          "message": "Merge pull request #305 from facebook/v6-docs",
+          "date": "2015-11-12T02:13:21Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "a285a6f3d3053c647ef8fd4c4bb5f648c0f08981",
+          "message": "Documentation!",
+          "date": "2015-11-11T23:31:21Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "f9be64d58a579de29de591b20d5df22b61d24342",
+          "message": "Add some fanciness to the site so we can have sections on the docs page.",
+          "date": "2015-11-11T03:40:51Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "fb7b6f4494af0c3c7a20c55e7d11271b1ebb9777",
+          "message": "Fix spelling mistake #267",
+          "date": "2015-11-11T03:36:33Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "280beea254ebdd395c4607948f93657aa520575c",
+          "message": "Version 0.6.0-rc1",
+          "date": "2015-11-11T03:32:11Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "5373535d98b08b270edd84d7ce12833a4478c6b6",
+          "message": "Merge pull request #304 from facebook/api-transition-2",
+          "date": "2015-11-11T03:00:32Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "289a87506884265373f6591673cb036c93fa5576",
+          "message": "Update examples",
+          "date": "2015-11-11T00:27:47Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        }
+      ],
+      "finalCommit": {
+        "sha": "3a9bf338b22406169e7261f85ddeda22ddce3b6f",
+        "message": "Update CONTRIBUTING.md",
+        "date": "2018-01-03T00:15:29Z",
+        "authorName": "Joel Marcey",
+        "authorLogin": "JoelMarcey"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "gh-pages",
+          "lastCommitDate": "2017-10-27T18:54:20Z",
+          "aheadBy": 38,
+          "behindBy": 323
+        },
+        {
+          "name": "master",
+          "lastCommitDate": "2018-01-03T00:15:29Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "react-router",
+          "lastCommitDate": "2015-02-11T23:15:30Z",
+          "aheadBy": 1,
+          "behindBy": 272
+        }
+      ],
+      "capped": false
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 514,
+          "title": "normalizeWheel too fast in Windows firefox",
+          "state": "open",
+          "createdAt": "2020-02-18T09:45:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 513,
+          "title": "Scrolling horizontally using gestures causes browser to navigate through history instead of scrolling the table.",
+          "state": "open",
+          "createdAt": "2019-03-12T09:51:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 511,
+          "title": "expanded row Height remains fixed",
+          "state": "open",
+          "createdAt": "2018-07-21T06:19:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 507,
+          "title": "Import Functions",
+          "state": "closed",
+          "createdAt": "2017-10-13T13:55:29Z",
+          "closedAt": "2017-10-13T14:14:59Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 506,
+          "title": "Update license to MIT in order to align with React.",
+          "state": "closed",
+          "createdAt": "2017-09-29T19:04:17Z",
+          "closedAt": "2017-10-27T20:13:51Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 505,
+          "title": "Can I get current row index using onScrollStart/onScrollEnd ?",
+          "state": "open",
+          "createdAt": "2017-09-07T08:33:39Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 504,
+          "title": "Need examples as part of this with Huge Export Options For Reference",
+          "state": "open",
+          "createdAt": "2017-08-23T02:00:29Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 503,
+          "title": "Sluggish scrolling when accessibility is enabled on Android",
+          "state": "open",
+          "createdAt": "2017-08-15T10:23:45Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 502,
+          "title": "Deprecate this project",
+          "state": "closed",
+          "createdAt": "2017-07-17T15:22:28Z",
+          "closedAt": "2017-10-27T20:14:49Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 501,
+          "title": "How to truncate extra-long text with ellipses?",
+          "state": "open",
+          "createdAt": "2017-07-15T06:11:25Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 500,
+          "title": "Basic Example not working",
+          "state": "open",
+          "createdAt": "2017-07-15T03:20:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 499,
+          "title": "How to get Current displaying row numbers",
+          "state": "open",
+          "createdAt": "2017-07-12T05:09:21Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 498,
+          "title": "How to render multiple rows at the footer",
+          "state": "open",
+          "createdAt": "2017-06-23T03:52:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 497,
+          "title": "Warning: FixedDataTable: isMounted is deprecated.",
+          "state": "open",
+          "createdAt": "2017-06-21T18:10:12Z",
+          "closedAt": null,
+          "comments": 16,
+          "labels": []
+        },
+        {
+          "number": 496,
+          "title": "Cannot add property xxxxxx,  object is not extensible",
+          "state": "open",
+          "createdAt": "2017-06-18T00:10:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 495,
+          "title": "v0.6.0 - unable to receive `row` argument in `onRowClick` callback",
+          "state": "open",
+          "createdAt": "2017-06-16T00:49:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 494,
+          "title": "Performance on iPad 3rd Gen Tablet",
+          "state": "open",
+          "createdAt": "2017-06-13T09:00:13Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 493,
+          "title": "The README Basic example does not work",
+          "state": "open",
+          "createdAt": "2017-05-31T18:47:07Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 492,
+          "title": "hovered row after scrolling by mouse wheel",
+          "state": "open",
+          "createdAt": "2017-05-31T14:48:52Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 491,
+          "title": "Doesn't work to modify css",
+          "state": "open",
+          "createdAt": "2017-05-26T15:46:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 490,
+          "title": "Remove circular definitions in documentation",
+          "state": "open",
+          "createdAt": "2017-05-08T20:25:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 489,
+          "title": "React.createClass is deprecated",
+          "state": "closed",
+          "createdAt": "2017-04-27T15:19:36Z",
+          "closedAt": "2017-10-27T20:17:32Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 486,
+          "title": "Main example cannot render after certain number of rows",
+          "state": "open",
+          "createdAt": "2017-04-06T04:32:11Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 485,
+          "title": "Curious about future milestones of this project",
+          "state": "closed",
+          "createdAt": "2017-04-03T02:29:44Z",
+          "closedAt": "2017-04-03T16:24:18Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 484,
+          "title": "fiexed-data-table can drag and drop? Just now,it dose not support.",
+          "state": "open",
+          "createdAt": "2017-03-06T06:21:04Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 482,
+          "title": "[Feature] [Important] There is no external action supported on row using key events",
+          "state": "open",
+          "createdAt": "2017-03-01T10:53:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 479,
+          "title": "[Question] Is it possible to inject rows dynamically? How?",
+          "state": "open",
+          "createdAt": "2017-02-13T13:48:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 478,
+          "title": "Any plan to provide keyboard scrolling support?",
+          "state": "open",
+          "createdAt": "2017-02-09T16:19:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 477,
+          "title": "Fixed-data-table not reloading after receiving new data from service.",
+          "state": "open",
+          "createdAt": "2017-01-28T22:41:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 476,
+          "title": "Checkbox in each row using a Redux store not rendering correctly",
+          "state": "open",
+          "createdAt": "2017-01-26T22:32:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 475,
+          "title": "Example: With JSON Data Bug",
+          "state": "closed",
+          "createdAt": "2017-01-24T18:43:54Z",
+          "closedAt": "2017-01-24T23:44:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 474,
+          "title": "Performance issue for big columns",
+          "state": "open",
+          "createdAt": "2017-01-09T18:51:49Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 473,
+          "title": "Not allowed to load local resource: file:///...[path_to_project].../node_modules/fixed-data-table/dist/fixed-data-table.min.js",
+          "state": "closed",
+          "createdAt": "2016-12-30T21:31:23Z",
+          "closedAt": "2016-12-30T22:27:21Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 472,
+          "title": "Symantic Markup",
+          "state": "open",
+          "createdAt": "2016-12-29T16:44:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 471,
+          "title": "how to add some events like onContextMenu on the row?",
+          "state": "open",
+          "createdAt": "2016-11-29T02:51:48Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 470,
+          "title": "Is it possible to pin the table header so it doesn't scroll out of view?",
+          "state": "open",
+          "createdAt": "2016-11-28T20:57:20Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 469,
+          "title": "Duplicate data on using input within cell",
+          "state": "closed",
+          "createdAt": "2016-11-27T20:57:54Z",
+          "closedAt": "2016-11-28T08:56:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 468,
+          "title": "Add README notice that project is not officially/actively maintained ",
+          "state": "closed",
+          "createdAt": "2016-11-04T22:12:32Z",
+          "closedAt": "2017-10-27T20:16:41Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 467,
+          "title": "Would it be possible to pass data to a Column which is a child passed from another component?",
+          "state": "closed",
+          "createdAt": "2016-10-31T11:01:19Z",
+          "closedAt": "2017-01-24T08:21:07Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 466,
+          "title": "Million line example broken",
+          "state": "open",
+          "createdAt": "2016-10-25T23:53:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 465,
+          "title": "Change Background Color of Specific Column Header",
+          "state": "open",
+          "createdAt": "2016-10-19T17:11:05Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 464,
+          "title": "Check the render method of `FixedDataTableCellDefault`.",
+          "state": "closed",
+          "createdAt": "2016-10-18T16:17:53Z",
+          "closedAt": "2016-10-20T22:10:27Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 463,
+          "title": "Horizontal scrolling doesn't work in Chrome",
+          "state": "open",
+          "createdAt": "2016-10-17T20:35:02Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 462,
+          "title": "Copying data into Excel gives row wise transpose",
+          "state": "open",
+          "createdAt": "2016-10-11T12:45:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 461,
+          "title": "When no data is available",
+          "state": "open",
+          "createdAt": "2016-10-10T20:27:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 460,
+          "title": "Magic number \"2\" in FixedDataTableNew._calculateState()",
+          "state": "open",
+          "createdAt": "2016-10-03T12:50:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 458,
+          "title": "scrollToRow doesn't work on brand-new tables",
+          "state": "open",
+          "createdAt": "2016-09-27T18:06:19Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 457,
+          "title": "Doesn't work 'rowClassNameGetter'",
+          "state": "closed",
+          "createdAt": "2016-09-25T21:11:28Z",
+          "closedAt": "2016-10-02T11:20:39Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 456,
+          "title": "Add a custom style to table",
+          "state": "closed",
+          "createdAt": "2016-09-16T10:00:51Z",
+          "closedAt": "2016-09-21T09:11:09Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 455,
+          "title": "Slow/janky scrolling when using mouse wheel",
+          "state": "closed",
+          "createdAt": "2016-09-14T16:08:11Z",
+          "closedAt": "2017-11-17T17:32:34Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 454,
+          "title": "Ellipsis for text overflow in table cell?",
+          "state": "closed",
+          "createdAt": "2016-09-12T16:18:02Z",
+          "closedAt": "2016-09-12T17:50:12Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 453,
+          "title": "Unknown props `onSortChange`, `sortDir` on <div> tag.",
+          "state": "open",
+          "createdAt": "2016-09-09T14:03:54Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 452,
+          "title": "Error compiling with webpack",
+          "state": "open",
+          "createdAt": "2016-09-05T14:46:34Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 451,
+          "title": "Slow scrolling (horizontal and vertical)",
+          "state": "closed",
+          "createdAt": "2016-09-04T09:21:15Z",
+          "closedAt": "2016-09-21T20:38:07Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 450,
+          "title": "Programmatically change cell width",
+          "state": "open",
+          "createdAt": "2016-08-26T16:39:28Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 449,
+          "title": "\"manually calling a React.PropTypes validation function\" warnings",
+          "state": "closed",
+          "createdAt": "2016-08-26T09:33:13Z",
+          "closedAt": "2016-08-26T15:03:57Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 448,
+          "title": "What is the best fix for scrolling issue in IE?",
+          "state": "open",
+          "createdAt": "2016-08-20T06:03:32Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 446,
+          "title": "regarding fixed-data-table in grid",
+          "state": "open",
+          "createdAt": "2016-08-18T11:54:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 445,
+          "title": "Custom components inside table-wide footer",
+          "state": "open",
+          "createdAt": "2016-08-17T16:15:12Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 444,
+          "title": "Example not scrollable",
+          "state": "open",
+          "createdAt": "2016-08-16T17:43:46Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 443,
+          "title": "Footer Property on Column Component doesn't render",
+          "state": "open",
+          "createdAt": "2016-08-15T12:23:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 442,
+          "title": "Question: how to highlight row selection?",
+          "state": "closed",
+          "createdAt": "2016-08-12T04:30:06Z",
+          "closedAt": "2016-08-31T07:20:50Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 441,
+          "title": "Sorting is not working",
+          "state": "open",
+          "createdAt": "2016-08-11T19:21:20Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 439,
+          "title": "Scrolling left on Chrome goes back",
+          "state": "closed",
+          "createdAt": "2016-08-08T15:17:31Z",
+          "closedAt": "2016-08-09T12:39:14Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 438,
+          "title": "Any suggestions on how to prevent parent page from scrolling up?",
+          "state": "open",
+          "createdAt": "2016-08-05T05:29:16Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 437,
+          "title": "Just One Concern in implementation",
+          "state": "open",
+          "createdAt": "2016-08-04T17:19:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 436,
+          "title": "Tab only Scrolls Single Line and Moves the Fixed Columns for that Line",
+          "state": "open",
+          "createdAt": "2016-07-31T03:36:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 434,
+          "title": "Warning: Unknown prop `rowIndex` on <div> tag. Remove this prop from the element",
+          "state": "closed",
+          "createdAt": "2016-07-29T02:55:20Z",
+          "closedAt": "2016-07-29T04:23:48Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 433,
+          "title": "Cannot read property 'releaseMouseMoves' of undefined",
+          "state": "closed",
+          "createdAt": "2016-07-26T15:36:30Z",
+          "closedAt": "2016-07-28T17:31:12Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 432,
+          "title": "[Example: With JSON Data] broken near bottom",
+          "state": "open",
+          "createdAt": "2016-07-25T20:14:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 431,
+          "title": "Uncaught illegal access When onRowClick",
+          "state": "open",
+          "createdAt": "2016-07-22T07:53:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 430,
+          "title": " The type of width attribute to support a string？",
+          "state": "open",
+          "createdAt": "2016-07-22T07:40:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 429,
+          "title": "Electron React BoilerPoint failure",
+          "state": "open",
+          "createdAt": "2016-07-21T23:31:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 428,
+          "title": "Improve website generation",
+          "state": "open",
+          "createdAt": "2016-07-20T21:14:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 427,
+          "title": "Stop checking in dist/",
+          "state": "open",
+          "createdAt": "2016-07-20T19:40:43Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 425,
+          "title": "Facebook>Chat panel",
+          "state": "closed",
+          "createdAt": "2016-07-17T11:55:14Z",
+          "closedAt": "2016-07-18T22:13:14Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 424,
+          "title": "table is not extended to full width of parent",
+          "state": "closed",
+          "createdAt": "2016-07-15T04:33:23Z",
+          "closedAt": "2016-07-15T16:34:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 423,
+          "title": "Nested Column Groups",
+          "state": "closed",
+          "createdAt": "2016-07-13T22:04:41Z",
+          "closedAt": "2016-07-13T23:23:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 422,
+          "title": "check boxes to select rowData ",
+          "state": "closed",
+          "createdAt": "2016-07-12T15:07:39Z",
+          "closedAt": "2016-07-12T22:31:43Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 421,
+          "title": "reach bottom of grid callback function?",
+          "state": "open",
+          "createdAt": "2016-07-12T02:58:16Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 420,
+          "title": "Warning: Unknown prop `columnKey` when there is no columnKey prop",
+          "state": "closed",
+          "createdAt": "2016-07-11T23:20:18Z",
+          "closedAt": "2016-07-18T21:50:09Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 419,
+          "title": "Use grouped and ungrouped columns at the same time",
+          "state": "open",
+          "createdAt": "2016-07-09T10:44:23Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 417,
+          "title": "RTL and Locale",
+          "state": "open",
+          "createdAt": "2016-07-04T05:36:47Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 415,
+          "title": "Why must I set isColumnResizing to false?",
+          "state": "open",
+          "createdAt": "2016-06-30T11:54:20Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 414,
+          "title": "How to obtain a line of data",
+          "state": "open",
+          "createdAt": "2016-06-28T07:49:31Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 413,
+          "title": "rendering Column via a \"helper\" class",
+          "state": "open",
+          "createdAt": "2016-06-15T06:05:51Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 412,
+          "title": "Any possible solution to make the table less janky?",
+          "state": "open",
+          "createdAt": "2016-06-14T19:16:07Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 410,
+          "title": "Inputs inside cells are focused unintentionally",
+          "state": "open",
+          "createdAt": "2016-06-10T15:49:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 408,
+          "title": "QUESTION: Is this project maintained?",
+          "state": "closed",
+          "createdAt": "2016-05-31T16:25:26Z",
+          "closedAt": "2017-10-27T20:16:03Z",
+          "comments": 21,
+          "labels": []
+        },
+        {
+          "number": 407,
+          "title": "Does this component support the tree table?",
+          "state": "closed",
+          "createdAt": "2016-05-31T12:46:24Z",
+          "closedAt": "2016-06-07T01:02:30Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 405,
+          "title": "table with different row height is spoilt sometimes",
+          "state": "open",
+          "createdAt": "2016-05-31T04:00:56Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 404,
+          "title": "Advice on touch support for column resizing",
+          "state": "open",
+          "createdAt": "2016-05-30T14:45:01Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 403,
+          "title": "scroll not working in touch devices. ",
+          "state": "open",
+          "createdAt": "2016-05-17T08:01:21Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 401,
+          "title": "Column resizer line not disappearing on column resize",
+          "state": "closed",
+          "createdAt": "2016-05-17T02:52:26Z",
+          "closedAt": "2016-06-03T00:18:35Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 400,
+          "title": "onScroll callback",
+          "state": "open",
+          "createdAt": "2016-05-16T13:13:54Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 399,
+          "title": "Is there any way to highlight the search text in the table?",
+          "state": "open",
+          "createdAt": "2016-05-12T19:27:47Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 398,
+          "title": "<input/> is not rendered correct inside a cell",
+          "state": "open",
+          "createdAt": "2016-05-12T10:46:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 397,
+          "title": "Column `align` aligns header but not cell contents.",
+          "state": "closed",
+          "createdAt": "2016-05-11T15:09:22Z",
+          "closedAt": "2016-05-11T15:59:44Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 394,
+          "title": "Any future updates for fixed-data-table coming? (Fixed-Data-Table to support React^15.0.2)",
+          "state": "closed",
+          "createdAt": "2016-05-03T18:41:40Z",
+          "closedAt": "2016-06-21T22:57:56Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 393,
+          "title": "Is there a way to get column index by clicking on a column?",
+          "state": "open",
+          "createdAt": "2016-04-29T08:53:06Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 392,
+          "title": "How to get data from onRowClick",
+          "state": "closed",
+          "createdAt": "2016-04-28T08:58:48Z",
+          "closedAt": "2016-04-29T07:40:45Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 391,
+          "title": "Need for an Example for onRowClicked",
+          "state": "closed",
+          "createdAt": "2016-04-28T07:07:31Z",
+          "closedAt": "2016-04-28T07:34:50Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 390,
+          "title": "Solution question, for expanded/collapsed row",
+          "state": "open",
+          "createdAt": "2016-04-26T18:52:55Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 389,
+          "title": "table width is not changing, different to the example",
+          "state": "open",
+          "createdAt": "2016-04-22T19:48:37Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 388,
+          "title": "Print view",
+          "state": "closed",
+          "createdAt": "2016-04-22T14:15:04Z",
+          "closedAt": "2016-06-02T16:52:08Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 385,
+          "title": "Any ideal how to implement infinity scroll function?",
+          "state": "open",
+          "createdAt": "2016-04-21T00:34:18Z",
+          "closedAt": null,
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 384,
+          "title": "Throws an error when there is no columns",
+          "state": "open",
+          "createdAt": "2016-04-20T20:53:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 383,
+          "title": "fixed-data-table is not showing up on ipad/iphone (but showing up on chrome/safari on mac/pc",
+          "state": "open",
+          "createdAt": "2016-04-20T18:19:56Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 382,
+          "title": "handling lots of data breaks/stops row rendering",
+          "state": "open",
+          "createdAt": "2016-04-20T10:10:00Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 381,
+          "title": "Is it possible for hiding some columns?",
+          "state": "open",
+          "createdAt": "2016-04-20T03:51:06Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 380,
+          "title": "react-dom dependency error ",
+          "state": "closed",
+          "createdAt": "2016-04-19T14:04:29Z",
+          "closedAt": "2016-04-19T14:36:22Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 379,
+          "title": "div based drop down menu in cells (react-select)",
+          "state": "open",
+          "createdAt": "2016-04-12T07:20:39Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 378,
+          "title": "Apply className at row level",
+          "state": "open",
+          "createdAt": "2016-04-09T11:31:01Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 377,
+          "title": "How to implement variable row height?",
+          "state": "closed",
+          "createdAt": "2016-04-08T21:39:39Z",
+          "closedAt": "2016-04-11T17:58:20Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 375,
+          "title": "Fire onScrollEnd Event when resize occurs",
+          "state": "open",
+          "createdAt": "2016-03-24T21:01:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 374,
+          "title": "Using Version 6 with new APIs.",
+          "state": "open",
+          "createdAt": "2016-03-23T18:44:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 373,
+          "title": "Support for fluid width tables and columns",
+          "state": "closed",
+          "createdAt": "2016-03-23T17:24:51Z",
+          "closedAt": "2016-03-23T17:30:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 372,
+          "title": "Dragging Preview of Component inside Cell in Safari",
+          "state": "open",
+          "createdAt": "2016-03-23T13:33:55Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 371,
+          "title": "Auto height support for pagination?",
+          "state": "closed",
+          "createdAt": "2016-03-23T03:38:13Z",
+          "closedAt": "2016-03-23T06:51:15Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 370,
+          "title": "License, is this free or?",
+          "state": "closed",
+          "createdAt": "2016-03-22T21:55:01Z",
+          "closedAt": "2016-03-24T21:27:13Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 369,
+          "title": "Migration to 0.6/0.7",
+          "state": "open",
+          "createdAt": "2016-03-15T00:57:05Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 368,
+          "title": "Example from docs not rendering correctly",
+          "state": "open",
+          "createdAt": "2016-03-14T16:20:02Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 367,
+          "title": "Is there any way to put a text input into cell? How to get the updated value?",
+          "state": "open",
+          "createdAt": "2016-03-12T14:09:59Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 366,
+          "title": "Google Closure breaks rendering of cells",
+          "state": "open",
+          "createdAt": "2016-03-10T19:33:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 365,
+          "title": "Table not scrollable on Mobile",
+          "state": "open",
+          "createdAt": "2016-03-09T19:42:48Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 364,
+          "title": "React 15.0.0 support",
+          "state": "closed",
+          "createdAt": "2016-03-08T09:22:24Z",
+          "closedAt": "2016-07-20T19:18:30Z",
+          "comments": 31,
+          "labels": []
+        },
+        {
+          "number": 363,
+          "title": "SASS file",
+          "state": "open",
+          "createdAt": "2016-03-08T01:45:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 362,
+          "title": "Page up / down does not work when clicking on the table to give it focus",
+          "state": "open",
+          "createdAt": "2016-03-06T21:31:09Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 360,
+          "title": "Get column's `left` style attribute",
+          "state": "open",
+          "createdAt": "2016-02-29T20:55:17Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 359,
+          "title": "IE 11 throws when scrolling if NODE_ENV !== 'production'",
+          "state": "open",
+          "createdAt": "2016-02-29T20:33:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 358,
+          "title": "Child rows (show extra / detailed information) like DataTables",
+          "state": "open",
+          "createdAt": "2016-02-24T14:26:32Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 357,
+          "title": "classes name convention",
+          "state": "open",
+          "createdAt": "2016-02-22T12:27:22Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 356,
+          "title": "Sorting problem with indexes",
+          "state": "open",
+          "createdAt": "2016-02-21T20:36:48Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 355,
+          "title": "Performance Issue with rendering custom Cells",
+          "state": "open",
+          "createdAt": "2016-02-18T07:21:12Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 353,
+          "title": "Animations broken because consumer cannot control row keying",
+          "state": "open",
+          "createdAt": "2016-02-02T11:09:11Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 352,
+          "title": "Scrollbar in RTL model",
+          "state": "open",
+          "createdAt": "2016-01-28T22:40:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 351,
+          "title": "How to make columns resize automatically",
+          "state": "open",
+          "createdAt": "2016-01-27T21:41:56Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 350,
+          "title": "How to import at server-side",
+          "state": "open",
+          "createdAt": "2016-01-26T08:30:35Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 349,
+          "title": "RTL Support for FixedDataTable version 0.4.7",
+          "state": "open",
+          "createdAt": "2016-01-26T05:50:47Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 347,
+          "title": "Babel 6 compat",
+          "state": "closed",
+          "createdAt": "2016-01-24T09:54:39Z",
+          "closedAt": "2017-09-01T18:50:22Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 346,
+          "title": "Feature: allow reversing row order in DOM to support overflowing cell contents",
+          "state": "open",
+          "createdAt": "2016-01-24T01:11:58Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 345,
+          "title": "Column resizing is losing mouse pressed state on table rerender, making it very difficult to resize a column",
+          "state": "open",
+          "createdAt": "2016-01-21T08:04:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 344,
+          "title": "Table ARIA Randomness.",
+          "state": "open",
+          "createdAt": "2016-01-19T01:11:24Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 343,
+          "title": "Add onRowRendered, onRowRemoved callbacks",
+          "state": "open",
+          "createdAt": "2016-01-18T15:44:15Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 342,
+          "title": "Best way to implement pure render cell",
+          "state": "open",
+          "createdAt": "2016-01-12T23:45:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 341,
+          "title": "Missing rows if rowHeightGetter returns values that are less than rowHeight",
+          "state": "open",
+          "createdAt": "2016-01-12T20:51:54Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 340,
+          "title": "Keep older documentation available? (online and/or download)",
+          "state": "open",
+          "createdAt": "2016-01-11T13:19:45Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 338,
+          "title": "Migrating to 0.6 + Accessibility on rows.",
+          "state": "open",
+          "createdAt": "2016-01-07T00:13:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 336,
+          "title": "This Fixed-data-table can  inline Edit",
+          "state": "open",
+          "createdAt": "2015-12-27T20:37:05Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 335,
+          "title": "What's the best way to check if a column/row with a given index is displayed?",
+          "state": "open",
+          "createdAt": "2015-12-23T08:07:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 334,
+          "title": "scrollbar keeping active styles after mouse up",
+          "state": "open",
+          "createdAt": "2015-12-15T19:59:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 333,
+          "title": "Is there some way to get a \"scrolleable\" columns between some \"fixed\" ?",
+          "state": "open",
+          "createdAt": "2015-12-11T23:17:30Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 332,
+          "title": "I know its old fashioned, but how do we support paging?",
+          "state": "open",
+          "createdAt": "2015-12-09T02:06:54Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 330,
+          "title": "Scroll state not updating correctly after dimensions change",
+          "state": "open",
+          "createdAt": "2015-12-09T01:22:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 329,
+          "title": "Does v0.6 comes with performance imrovement?",
+          "state": "open",
+          "createdAt": "2015-12-08T08:46:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 328,
+          "title": "Total Row always appear at bottom",
+          "state": "open",
+          "createdAt": "2015-12-08T00:17:18Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 326,
+          "title": "Row heights are not evaluated when table is re-rendered - scrollbar is missing",
+          "state": "open",
+          "createdAt": "2015-12-04T20:55:13Z",
+          "closedAt": null,
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 325,
+          "title": "Workaround for render-lifecycle performance issues?",
+          "state": "open",
+          "createdAt": "2015-12-02T23:05:55Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 324,
+          "title": "Add scrollToColumn and scrollToRow methods to the Table",
+          "state": "closed",
+          "createdAt": "2015-12-02T09:46:56Z",
+          "closedAt": "2018-06-09T09:42:30Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 322,
+          "title": "Are rowHeights supposed to be fixed or expand?",
+          "state": "open",
+          "createdAt": "2015-11-30T19:40:17Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 320,
+          "title": "Is it compatible with pure render?",
+          "state": "closed",
+          "createdAt": "2015-11-30T14:12:54Z",
+          "closedAt": "2016-01-05T15:30:46Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 319,
+          "title": "Provide async data example",
+          "state": "open",
+          "createdAt": "2015-11-26T02:58:15Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 318,
+          "title": "Allow wrapping of Column in custom component",
+          "state": "open",
+          "createdAt": "2015-11-24T14:23:58Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 120,
+        "totalFetched": 163,
+        "medianDaysToFirstResponse": 1,
+        "openOverOneYearNoReply": 53
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Project Status:  🚨 Unmaintained 🚨\n\nThis project is no longer maintained. We will not be accepting pull requests, addressing issues, nor making future releases.\n\n## Alternatives\n\n- [react-virtualized](https://github.com/bvaughn/react-virtualized)\n- [fixed-data-table-2](https://github.com/schrodinger/fixed-data-table-2)\n\n\n* * *\n\nFixed Data Tables for React\n====================================\n\nFixedDataTable is a React component for building and presenting data in a flexible, powerful way. It supports standard table features, like headers, columns, rows, header groupings, and both fixed-position and scrolling columns.\n\nThe table was designed to handle thousands of rows of data without sacrificing performance. Scrolling smoothly is a first-class goal of FixedDataTable and it's architected in a way to allow for flexibility and extensibility.\n\nFeatures of FixedDataTable:\n* Fixed headers and footer\n* Both fixed and scrollable columns\n* Handling huge amounts of data\n* Variable row heights (with adaptive scroll positions)\n* Column resizing\n* Performant scrolling\n* Customizable styling\n* Jumping to a row or column\n* Controlled scroll API allows touch support\n\nThings the FixedDataTable **doesn't** do:\n* FixedDataTable does not provide a layout reflow mechanism or calculate content layout information such as width and height of the cell contents. The developer has to provide the layout information to the table instead.\n* FixedDataTable does not handle sorting of data. Instead it allows the developer to supply data getters that can be sort-, filter-, or tail-loading-aware.\n* FixedDataTable does not fetch the data (see above)\n\nGetting started\n---------------\n\nInstall `fixed-data-table` using npm.\n\n```shell\nnpm install fixed-data-table\n```\nAdd the default stylesheet `dist/fixed-data-table.css`, then import it into any module.\n\n### Basic Example\n\n```javascript\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport {Table, Column, Cell} from 'fixed-data-table';\n\n// Table data as a list of array.\nconst rows = [\n  ['a1', 'b1', 'c1'],\n  ['a2', 'b2', 'c2'],\n  ['a3', 'b3', 'c3'],\n  // .... and more\n];\n\n// Render your table\nReactDOM.render(\n  <Table\n    rowHeight={50}\n    rowsCount={rows.length}\n    width={5000}\n    height={5000}\n    headerHeight={50}>\n    <Column\n      header={<Cell>Col 1</Cell>}\n      cell={<Cell>Column 1 static content</Cell>}\n      width={2000}\n    />\n    <Column\n      header={<Cell>Col 2</Cell>}\n      cell={<MyCustomCell mySpecialProp=\"column2\" />}\n      width={1000}\n    />\n    <Column\n      header={<Cell>Col 3</Cell>}\n      cell={({rowIndex, ...props}) => (\n        <Cell {...props}>\n          Data for column 3: {rows[rowIndex][2]}\n        </Cell>\n      )}\n      width={2000}\n    />\n  </Table>,\n  document.getElementById('example')\n);\n```\n\nContributions\n------------\n\nUse [GitHub issues](https://github.com/facebook/fixed-data-table/issues) for requests.\n\nWe actively welcome pull requests; learn how to [contribute](https://github.com/facebook/fixed-data-table/blob/master/CONTRIBUTING.md).\n\n\nChangelog\n---------\n\nChanges are tracked as [GitHub releases](https://github.com/facebook/fixed-data-table/releases).\n\n\nLicense\n-------\n\n`FixedDataTable` is [BSD-licensed](https://github.com/facebook/fixed-data-table/blob/master/LICENSE). We also provide an additional [patent grant](https://github.com/facebook/fixed-data-table/blob/master/PATENTS).\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 2002,
+      "flatlineMonth": "2018-01",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:15:41.795Z"
+  },
+  "autopsy": {
+    "epitaph": "Once it scrolled thousands of rows without flinching, but Facebook archived it in silence, leaving 120 open issues and a README adorned with 🚨 Unmaintained 🚨 as its only epitaph.",
+    "causes": [
+      {
+        "label": "Deliberate abandonment by Facebook",
+        "confidencePct": 97,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "b01764ed652fd27838d0502226b36f3f01f6316e"
+          },
+          {
+            "type": "issue",
+            "ref": "#502"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      },
+      {
+        "label": "React API churn outpaced maintenance capacity",
+        "confidencePct": 85,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#489"
+          },
+          {
+            "type": "commit",
+            "ref": "46c5cf9f88a1d8ba24fbd233ba5db5ab6a8a498a"
+          },
+          {
+            "type": "issue",
+            "ref": "#364"
+          }
+        ]
+      },
+      {
+        "label": "Accumulated bug rot with no triage",
+        "confidencePct": 80,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#408"
+          },
+          {
+            "type": "issue",
+            "ref": "#497"
+          },
+          {
+            "type": "issue",
+            "ref": "#468"
+          }
+        ]
+      },
+      {
+        "label": "Community questions left unanswered — 53 open issues over a year with no reply",
+        "confidencePct": 72,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#514"
+          },
+          {
+            "type": "issue",
+            "ref": "#513"
+          },
+          {
+            "type": "issue",
+            "ref": "#511"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Fork the repository under an active organisation (schrodinger's fixed-data-table-2 already exists — evaluate merging efforts there) and remove the 🚨 Unmaintained 🚨 banner with a new governance statement",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Audit and upgrade all React peer dependencies to modern React (18+), replacing deprecated lifecycle methods and prop-types patterns flagged in issues #489 and #497",
+        "effort": "a week"
+      },
+      {
+        "step": "Triage the 120 open issues, close stale/irrelevant ones with a bot, label the remainder, and publish a public roadmap to restore contributor confidence",
+        "effort": "a week"
+      },
+      {
+        "step": "Migrate the build toolchain from the legacy setup to a modern bundler (Vite or esbuild), fix the broken examples cited in issues #493 and #500, and publish a new npm release",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Write a comprehensive contribution guide, set up CI with automated tests, and recruit at least two maintainers willing to review pull requests regularly",
+        "effort": "a heroic quarter"
+      }
+    ],
+    "lastWordsGloss": "The final breath of this table was spent updating CONTRIBUTING.md — instructions on how to help a project that had already decided no help was welcome."
+  }
+}

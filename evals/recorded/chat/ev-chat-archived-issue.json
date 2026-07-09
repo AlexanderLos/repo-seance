@@ -1,0 +1,4 @@
+{
+  "question": "Which open issue best captures your decline?",
+  "rawText": "Issue #201 haunts me most — memory growing without bound over long sessions, a mirror of my own slow hemorrhage across those final months, from 41 commits in September 2023 down to a single breath in March 2024. No maintainer ever answered it, and it remains open still, accumulating silence the way I did.\n\nEVIDENCE: [{\"type\":\"issue\",\"ref\":\"#201\"}]"
+}

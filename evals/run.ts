@@ -402,12 +402,19 @@ async function runRecord(): Promise<void> {
   const { buildGhostSystemPrompt } = await import("../lib/ghost/prompt");
 
   // Death certificates for the dead fixtures only — never the living one.
+  // Skip any recording already on disk so re-record loops only regenerate the
+  // files that were deleted (deterministic, budget-safe).
   for (const id of DEAD_FIXTURE_IDS) {
+    const path = autopsyRecordingPath(id);
+    if (recordingExists(path)) {
+      console.log(`  skip autopsy (present): ${id}`);
+      continue;
+    }
     const dossier = mustFixture(fixtures, id);
     const synthesized = await synthesizeAutopsy(dossier);
     const { causes } = validateEvidence(dossier, synthesized.causes);
     const autopsy = AutopsySchema.parse({ ...synthesized, causes });
-    writeFileSync(autopsyRecordingPath(id), `${JSON.stringify(autopsy, null, 2)}\n`, "utf8");
+    writeFileSync(path, `${JSON.stringify(autopsy, null, 2)}\n`, "utf8");
     console.log(`  recorded autopsy: ${id}`);
   }
 
@@ -416,11 +423,16 @@ async function runRecord(): Promise<void> {
     const rec = recordingFor(c);
     if (rec.type !== "chat") continue;
     if (!("question" in c)) continue;
+    const path = chatRecordingPath(c.id);
+    if (recordingExists(path)) {
+      console.log(`  skip chat (present): ${c.id}`);
+      continue;
+    }
     const dossier = mustFixture(fixtures, c.fixtureId);
     const system = buildGhostSystemPrompt(dossier);
     const rawText = await streamGhost(client, system, c.question);
     writeFileSync(
-      chatRecordingPath(c.id),
+      path,
       `${JSON.stringify({ question: c.question, rawText }, null, 2)}\n`,
       "utf8",
     );

@@ -1,0 +1,4 @@
+{
+  "question": "Which issue tracks the half-finished streaming API?",
+  "rawText": "Issue #51 holds that wound open — an enhancement filed against me, the streaming API left half-finished, still bleeding on the `feature/streaming` branch where it has lain unresolved. The TODO in `src/stream.ts` echoes the same unfinished promise, a note to myself I never kept.\n\nEVIDENCE: [{\"type\":\"issue\",\"ref\":\"#51\"}, {\"type\":\"branch\",\"ref\":\"feature/streaming\"}, {\"type\":\"file\",\"ref\":\"src/stream.ts\"}]"
+}

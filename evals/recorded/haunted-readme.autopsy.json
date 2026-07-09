@@ -1,0 +1,92 @@
+{
+  "epitaph": "It walked away on a May morning in 2024 — 742 stars watching, no license to its name, the loader still crashing on empty input, and a maintainer who left only the words 'walking away' carved into the final commit.",
+  "causes": [
+    {
+      "label": "Deliberate abandonment by sole maintainer",
+      "confidencePct": 95,
+      "evidence": [
+        {
+          "type": "commit",
+          "ref": "5816082a6149d4dbe17b61034e209800bbe46cb4"
+        },
+        {
+          "type": "branch",
+          "ref": "wip/rescue"
+        }
+      ]
+    },
+    {
+      "label": "No license — legal limbo blocks adoption",
+      "confidencePct": 88,
+      "evidence": [
+        {
+          "type": "issue",
+          "ref": "#12"
+        },
+        {
+          "type": "file",
+          "ref": "LICENSE"
+        },
+        {
+          "type": "commit",
+          "ref": "37f6864d8b225184857116a86e4badbcc5664a40"
+        }
+      ]
+    },
+    {
+      "label": "Unresolved build breakage on current Node",
+      "confidencePct": 80,
+      "evidence": [
+        {
+          "type": "issue",
+          "ref": "#9"
+        },
+        {
+          "type": "commit",
+          "ref": "5e0cd070b5fdde92432ece7cff2bfec244a39559"
+        }
+      ]
+    },
+    {
+      "label": "Persistent loader defect never fully remediated",
+      "confidencePct": 72,
+      "evidence": [
+        {
+          "type": "file",
+          "ref": "src/loader.ts"
+        },
+        {
+          "type": "issue",
+          "ref": "#5"
+        },
+        {
+          "type": "readme",
+          "ref": "README"
+        }
+      ]
+    }
+  ],
+  "revival": [
+    {
+      "step": "Choose and commit a license (MIT or Apache-2.0) to resolve the legal ambiguity blocking all downstream use.",
+      "effort": "an afternoon"
+    },
+    {
+      "step": "Fix the Node 20 build breakage documented in issue #9 and restore CI green status.",
+      "effort": "a day or two"
+    },
+    {
+      "step": "Patch the loader's empty-input crash (src/loader.ts TODO) and add a regression test.",
+      "effort": "a day"
+    },
+    {
+      "step": "Merge or close the 40-commit-behind wip/rescue branch to clean up the branch graveyard.",
+      "effort": "an afternoon"
+    },
+    {
+      "step": "Triage and respond to all open issues, close the stale prompt-injection issue #13 as invalid, and establish a minimal maintenance cadence.",
+      "effort": "a week"
+    }
+  ],
+  "lastWordsGloss": "'Final commit before walking away' — at least he had the decency to announce the funeral in the commit message, which is more than he ever did for the LICENSE file."
+}

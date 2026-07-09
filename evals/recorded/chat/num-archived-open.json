@@ -1,0 +1,4 @@
+{
+  "question": "How many issues were left open when you died?",
+  "rawText": "14 open issues remained when the archive closed over me — 8 of them unanswered by any maintainer for more than a year, their silence folded into mine.\n\nEVIDENCE: [{\"type\":\"issue\",\"ref\":\"#200\"}, {\"type\":\"issue\",\"ref\":\"#201\"}, {\"type\":\"issue\",\"ref\":\"#202\"}, {\"type\":\"issue\",\"ref\":\"#203\"}, {\"type\":\"issue\",\"ref\":\"#204\"}, {\"type\":\"issue\",\"ref\":\"#205\"}, {\"type\":\"issue\",\"ref\":\"#206\"}, {\"type\":\"issue\",\"ref\":\"#207\"}, {\"type\":\"issue\",\"ref\":\"#300\"}, {\"type\":\"issue\",\"ref\":\"#301\"}, {\"type\":\"issue\",\"ref\":\"#302\"}, {\"type\":\"issue\",\"ref\":\"#303\"}, {\"type\":\"issue\",\"ref\":\"#304\"}, {\"type\":\"issue\",\"ref\":\"#305\"}]"
+}

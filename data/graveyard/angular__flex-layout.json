@@ -1,0 +1,1777 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "angular",
+      "name": "flex-layout",
+      "fullName": "angular/flex-layout",
+      "description": "Provides HTML UI layout for Angular applications; using Flexbox and a Responsive API ",
+      "htmlUrl": "https://github.com/angular/flex-layout",
+      "createdAt": "2015-11-18T01:27:14Z",
+      "pushedAt": "2024-09-03T13:24:59Z",
+      "archived": true,
+      "stars": 5836,
+      "forks": 747,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 734,
+      "fetchedCount": 734,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2016-11",
+          "count": 67
+        },
+        {
+          "month": "2016-12",
+          "count": 167
+        },
+        {
+          "month": "2017-01",
+          "count": 49
+        },
+        {
+          "month": "2017-02",
+          "count": 48
+        },
+        {
+          "month": "2017-03",
+          "count": 20
+        },
+        {
+          "month": "2017-04",
+          "count": 5
+        },
+        {
+          "month": "2017-05",
+          "count": 8
+        },
+        {
+          "month": "2017-06",
+          "count": 10
+        },
+        {
+          "month": "2017-07",
+          "count": 1
+        },
+        {
+          "month": "2017-08",
+          "count": 18
+        },
+        {
+          "month": "2017-09",
+          "count": 14
+        },
+        {
+          "month": "2017-10",
+          "count": 19
+        },
+        {
+          "month": "2017-11",
+          "count": 4
+        },
+        {
+          "month": "2017-12",
+          "count": 16
+        },
+        {
+          "month": "2018-01",
+          "count": 14
+        },
+        {
+          "month": "2018-02",
+          "count": 26
+        },
+        {
+          "month": "2018-03",
+          "count": 30
+        },
+        {
+          "month": "2018-04",
+          "count": 10
+        },
+        {
+          "month": "2018-05",
+          "count": 5
+        },
+        {
+          "month": "2018-06",
+          "count": 6
+        },
+        {
+          "month": "2018-07",
+          "count": 14
+        },
+        {
+          "month": "2018-08",
+          "count": 2
+        },
+        {
+          "month": "2018-10",
+          "count": 6
+        },
+        {
+          "month": "2018-11",
+          "count": 10
+        },
+        {
+          "month": "2018-12",
+          "count": 25
+        },
+        {
+          "month": "2019-01",
+          "count": 23
+        },
+        {
+          "month": "2019-02",
+          "count": 1
+        },
+        {
+          "month": "2019-03",
+          "count": 5
+        },
+        {
+          "month": "2019-04",
+          "count": 1
+        },
+        {
+          "month": "2019-05",
+          "count": 4
+        },
+        {
+          "month": "2019-06",
+          "count": 1
+        },
+        {
+          "month": "2019-07",
+          "count": 1
+        },
+        {
+          "month": "2019-08",
+          "count": 2
+        },
+        {
+          "month": "2019-09",
+          "count": 4
+        },
+        {
+          "month": "2019-10",
+          "count": 1
+        },
+        {
+          "month": "2019-11",
+          "count": 5
+        },
+        {
+          "month": "2019-12",
+          "count": 1
+        },
+        {
+          "month": "2020-01",
+          "count": 3
+        },
+        {
+          "month": "2020-02",
+          "count": 3
+        },
+        {
+          "month": "2020-03",
+          "count": 4
+        },
+        {
+          "month": "2020-05",
+          "count": 21
+        },
+        {
+          "month": "2020-06",
+          "count": 3
+        },
+        {
+          "month": "2020-09",
+          "count": 5
+        },
+        {
+          "month": "2020-11",
+          "count": 5
+        },
+        {
+          "month": "2021-03",
+          "count": 5
+        },
+        {
+          "month": "2021-04",
+          "count": 1
+        },
+        {
+          "month": "2021-05",
+          "count": 5
+        },
+        {
+          "month": "2021-06",
+          "count": 1
+        },
+        {
+          "month": "2021-07",
+          "count": 1
+        },
+        {
+          "month": "2021-08",
+          "count": 4
+        },
+        {
+          "month": "2021-09",
+          "count": 2
+        },
+        {
+          "month": "2021-11",
+          "count": 2
+        },
+        {
+          "month": "2021-12",
+          "count": 5
+        },
+        {
+          "month": "2022-01",
+          "count": 8
+        },
+        {
+          "month": "2022-02",
+          "count": 1
+        },
+        {
+          "month": "2022-06",
+          "count": 6
+        },
+        {
+          "month": "2022-10",
+          "count": 2
+        },
+        {
+          "month": "2022-11",
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "count": 1
+        },
+        {
+          "month": "2023-04",
+          "count": 1
+        },
+        {
+          "month": "2024-09",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "84ac0ed3fe49263e405f2a449323fb73a798ff84",
+          "message": "docs: update README to reflect deprecation (#1446)",
+          "date": "2024-09-03T13:24:53Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "90761cafdfc16ba69992ae32f55e2f9a5d0b2bc2",
+          "message": "ci: remove lock closed (#1437)",
+          "date": "2023-04-28T14:52:08Z",
+          "authorName": "Joey Perrott",
+          "authorLogin": "josephperrott"
+        },
+        {
+          "sha": "6e4d3465a8a4695560d3d81431897cff3262fcaa",
+          "message": "chore: update to 15.0.0-beta.42 with changelog (#1431)",
+          "date": "2023-01-24T22:02:02Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "dda0649a3e6545e5819b83c7582286dc9ac24166",
+          "message": "docs: update README to reflect deprecation (#1429)",
+          "date": "2022-11-17T16:36:30Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "1b9cb12019566bddc37a3708f98817a203841ef1",
+          "message": "chore: update to 14.0.0-beta.41 with changelog (#1425)",
+          "date": "2022-10-11T16:05:56Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "97c24af9dbc026afb59a80c76bf0dbbc8219c419",
+          "message": "build: update typings to support Node v18 (#1424)",
+          "date": "2022-10-11T15:56:37Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "77a9b62827fe74e40b241bc4a5bb38e5e190b5ad",
+          "message": "chore: update to 14.0.0-beta.40 with changelog (#1417)",
+          "date": "2022-06-30T18:00:46Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "29dbe618bca48a558805a243e6fb1f58236525e9",
+          "message": "chore: update to 14.0.0-beta.39 with changelog (#1415)",
+          "date": "2022-06-30T16:47:38Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "dc90d1085208c8ad757dd3c28e9b84b0e8ce2223",
+          "message": "docs: update contributing guide to reflect new code-of-conduct repository branch name",
+          "date": "2022-06-30T13:00:44Z",
+          "authorName": "Paul Gschwendtner",
+          "authorLogin": "devversion"
+        },
+        {
+          "sha": "4d819493883cbfe7cc383ad86168acb7ba83e530",
+          "message": "build: upgrade to Angular and CDK v14 (#1414)",
+          "date": "2022-06-29T21:13:11Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "ee5d93a328537eb00391a4245af80a9fc3f6a31e",
+          "message": "fix(private): remove fallback from flex-direction auto-prefixer (#1408)",
+          "date": "2022-06-14T05:31:36Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "14b803892b26e68b0ee88eeb21963cd326f5eb3c",
+          "message": "feat(core): remove deprecated MediaObserver::media$ (#1375)",
+          "date": "2022-06-14T05:25:53Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "00b4376a367933151f4c82d7f5ece9b1ad662aef",
+          "message": "chore: update to 13.0.0-beta.38 with changelog (#1393)",
+          "date": "2022-02-03T22:41:27Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "e8e172bf2bb9e0a45152a7ccbcbaf02b4c603b03",
+          "message": "fix(core): import distinctUntilChanged from rxjs/operators (#1390)",
+          "date": "2022-01-29T07:15:21Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "6ce8f62801fb8dcf783bb7c3f87958e498e010e4",
+          "message": "chore: update to 13.0.0-beta.37 with changelog (#1388)",
+          "date": "2022-01-28T21:11:05Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "59a930113ee1237317141464ff428b7430f90fbf",
+          "message": "build(deps): bump follow-redirects from 1.14.5 to 1.14.7 (#1387)",
+          "date": "2022-01-13T10:36:44Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "f8b1607643e035e0187948b14237a79092d84e2b",
+          "message": "feat(flex): detect display precedence in fxLayout directive (#1385)",
+          "date": "2022-01-03T06:29:04Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "80b4e5af9291c02e9092de46407f2f79fe7170b1",
+          "message": "feat(core): add support for default unit for unitless values (#1384)",
+          "date": "2022-01-03T04:36:31Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "4d36b74db8f4855b5210a2f329166e3037ff74a2",
+          "message": "feat(core): add value multiplication suffix feature (#1383)",
+          "date": "2022-01-03T04:17:37Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "b11271fa3dcb928ee9048f2590b6ee11ae5f5d32",
+          "message": "build: add type module to package.json (#1382)",
+          "date": "2022-01-02T09:01:10Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "6b8d790356b3c058c841b58f03d9a8373f702152",
+          "message": "chore: bump year (#1381)",
+          "date": "2022-01-01T07:24:14Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "d73a3e4acbd8f42136b46acf5ca3ab1878ba92e5",
+          "message": "fix(core): properly collect deactivated breakpoints before print (#1380)",
+          "date": "2021-12-29T08:24:23Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "edca0d4661b960d948380d60bf2fdc96d885d149",
+          "message": "fix(core): correctly set and restore breakpoints during print (#1379)",
+          "date": "2021-12-29T06:55:08Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "58744986b011cf3dab17e33b6198f06484545e94",
+          "message": "fix(server): disable breakpoints correctly and avoid style overuse (#1378)",
+          "date": "2021-12-29T06:12:05Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "51b6ebf230ad8c4490288d50b75dd38b4d589347",
+          "message": "fix(core): only emit changed events from MediaObserver (#1377)",
+          "date": "2021-12-23T05:23:05Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "c4f9fe2a19b28787a4100baa7aa1fe6fd8ee1998",
+          "message": "fix(core): reset current value when directive is cleared (#1376)",
+          "date": "2021-12-23T01:31:49Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "4ea671440ce89a5ef469e4dd9ce0afe6eed3badc",
+          "message": "chore: update to 13.0.0-beta.36 with changelog (#1373)",
+          "date": "2021-11-29T18:05:34Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "1be539bd9df51167e4b48f318a5a02e9e9d5d310",
+          "message": "build: migrate to use Angular CLI (#1372)",
+          "date": "2021-11-24T21:58:54Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        },
+        {
+          "sha": "0d68bf55a271519a41edbe20d1de2d70fed5a61c",
+          "message": "build(deps): bump i from 0.3.6 to 0.3.7 (#1367)",
+          "date": "2021-09-30T06:33:16Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "d4035880a60b6e69a4a461c86fd746c6aeb97a96",
+          "message": "chore: update to 12.0.0-beta.35 with changelog (#1366)",
+          "date": "2021-09-15T18:28:14Z",
+          "authorName": "CaerusKaru",
+          "authorLogin": "CaerusKaru"
+        }
+      ],
+      "finalCommit": {
+        "sha": "84ac0ed3fe49263e405f2a449323fb73a798ff84",
+        "message": "docs: update README to reflect deprecation (#1446)",
+        "date": "2024-09-03T13:24:53Z",
+        "authorName": "CaerusKaru",
+        "authorLogin": "CaerusKaru"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "10.0.0-beta.32",
+          "lastCommitDate": "2020-06-15T23:24:29Z",
+          "aheadBy": 1,
+          "behindBy": 58
+        },
+        {
+          "name": "CaerusKaru-patch-1",
+          "lastCommitDate": "2022-10-30T03:33:15Z",
+          "aheadBy": 3,
+          "behindBy": 4
+        },
+        {
+          "name": "adam/bazel-dev",
+          "lastCommitDate": "2019-02-07T05:22:15Z",
+          "aheadBy": 14,
+          "behindBy": 117
+        },
+        {
+          "name": "adam/ce",
+          "lastCommitDate": "2018-08-29T03:54:10Z",
+          "aheadBy": 6,
+          "behindBy": 203
+        },
+        {
+          "name": "adam/fix-issue-707",
+          "lastCommitDate": "2018-08-20T00:01:42Z",
+          "aheadBy": 4,
+          "behindBy": 183
+        },
+        {
+          "name": "adam/fix-issue-1394",
+          "lastCommitDate": "2022-06-14T05:22:47Z",
+          "aheadBy": 1,
+          "behindBy": 12
+        },
+        {
+          "name": "adam/one",
+          "lastCommitDate": "2020-02-11T07:00:37Z",
+          "aheadBy": 1,
+          "behindBy": 86
+        },
+        {
+          "name": "beta33",
+          "lastCommitDate": "2020-11-12T07:46:03Z",
+          "aheadBy": 1,
+          "behindBy": 48
+        },
+        {
+          "name": "beta39",
+          "lastCommitDate": "2022-06-30T17:41:13Z",
+          "aheadBy": 1,
+          "behindBy": 7
+        },
+        {
+          "name": "beta42",
+          "lastCommitDate": "2022-12-23T03:26:19Z",
+          "aheadBy": 1,
+          "behindBy": 3
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 1444,
+          "title": "Dead link in deprecation note",
+          "state": "closed",
+          "createdAt": "2024-08-30T13:43:20Z",
+          "closedAt": "2024-09-03T13:24:54Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1440,
+          "title": "flex-layout Should support angular 16 version",
+          "state": "closed",
+          "createdAt": "2023-11-21T12:35:40Z",
+          "closedAt": "2023-11-21T14:02:43Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1439,
+          "title": "Why is this discontinued?",
+          "state": "closed",
+          "createdAt": "2023-07-18T09:47:02Z",
+          "closedAt": "2023-07-18T12:18:52Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1438,
+          "title": "Archive the project in github",
+          "state": "closed",
+          "createdAt": "2023-05-16T15:35:10Z",
+          "closedAt": "2023-05-19T13:49:52Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1436,
+          "title": "Angular 15 Pull request status",
+          "state": "closed",
+          "createdAt": "2023-01-23T08:14:15Z",
+          "closedAt": "2023-01-24T22:28:56Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1435,
+          "title": "Angular 15 Support",
+          "state": "closed",
+          "createdAt": "2023-01-05T21:26:30Z",
+          "closedAt": "2023-01-13T05:27:49Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 1434,
+          "title": "Why not continue flex-layout development with a community maintained fork?",
+          "state": "open",
+          "createdAt": "2023-01-03T21:39:47Z",
+          "closedAt": null,
+          "comments": 23,
+          "labels": []
+        },
+        {
+          "number": 1433,
+          "title": "Alternative for FlexLayout Lib after dropped support v15+",
+          "state": "open",
+          "createdAt": "2022-12-23T05:13:11Z",
+          "closedAt": null,
+          "comments": 15,
+          "labels": []
+        },
+        {
+          "number": 1432,
+          "title": "Status angular 15",
+          "state": "closed",
+          "createdAt": "2022-12-21T14:05:49Z",
+          "closedAt": "2022-12-23T02:59:33Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1430,
+          "title": "Support for Angular 15",
+          "state": "closed",
+          "createdAt": "2022-11-17T08:25:19Z",
+          "closedAt": "2023-01-24T22:29:50Z",
+          "comments": 17,
+          "labels": []
+        },
+        {
+          "number": 1428,
+          "title": "Demo code link borken, demo page outdated ",
+          "state": "closed",
+          "createdAt": "2022-10-27T09:43:47Z",
+          "closedAt": "2022-10-30T03:35:51Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1426,
+          "title": "Angular Layout Migration Guides",
+          "state": "open",
+          "createdAt": "2022-10-17T21:43:32Z",
+          "closedAt": null,
+          "comments": 107,
+          "labels": []
+        },
+        {
+          "number": 1423,
+          "title": "Angular 14 - error TS2420: Class 'MockMediaQueryList' incorrectly implements interface 'MediaQueryList'.   Property 'prototype' is missing in type 'MockMediaQueryList' but required in type 'MediaQueryList'.",
+          "state": "closed",
+          "createdAt": "2022-10-11T02:02:13Z",
+          "closedAt": "2023-05-05T01:41:35Z",
+          "comments": 25,
+          "labels": [
+            "has pr",
+            "P0"
+          ]
+        },
+        {
+          "number": 1422,
+          "title": "my Etisalat",
+          "state": "closed",
+          "createdAt": "2022-10-04T06:15:07Z",
+          "closedAt": "2022-10-04T06:28:54Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1421,
+          "title": "How outdated are the DOCS?",
+          "state": "closed",
+          "createdAt": "2022-08-23T00:52:23Z",
+          "closedAt": "2022-08-23T00:59:32Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1420,
+          "title": "Is there any dependency when mat-action-row tag is involved??",
+          "state": "closed",
+          "createdAt": "2022-08-03T08:14:16Z",
+          "closedAt": "2022-08-03T16:03:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1419,
+          "title": "DirectiveDeclaration' requires 6 type argument(s).",
+          "state": "closed",
+          "createdAt": "2022-07-18T04:54:55Z",
+          "closedAt": "2022-07-18T04:57:56Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1418,
+          "title": "Conflicting peer dependency on 14.0.0-beta.39",
+          "state": "closed",
+          "createdAt": "2022-06-30T18:04:44Z",
+          "closedAt": "2022-06-30T18:23:56Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1416,
+          "title": "Issue when upgrading project from angular v13 to v14",
+          "state": "closed",
+          "createdAt": "2022-06-30T08:10:37Z",
+          "closedAt": "2022-06-30T08:19:47Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1411,
+          "title": "fxLayoutGap=\"10px 20px grid\" - alternative axis value and grid not working?",
+          "state": "open",
+          "createdAt": "2022-06-18T22:56:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1407,
+          "title": "Support for Angular14",
+          "state": "closed",
+          "createdAt": "2022-06-12T10:18:11Z",
+          "closedAt": "2022-06-15T13:19:19Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1406,
+          "title": "Inject() error at angular 14",
+          "state": "closed",
+          "createdAt": "2022-06-06T13:44:18Z",
+          "closedAt": "2022-06-06T19:02:52Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1404,
+          "title": "Update for angular v14 🥹😇",
+          "state": "closed",
+          "createdAt": "2022-06-02T18:35:38Z",
+          "closedAt": "2022-06-30T16:47:39Z",
+          "comments": 16,
+          "labels": [
+            "has pr",
+            "P0"
+          ]
+        },
+        {
+          "number": 1402,
+          "title": "Links to API not working",
+          "state": "closed",
+          "createdAt": "2022-05-30T12:51:18Z",
+          "closedAt": "2022-05-30T19:52:04Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1401,
+          "title": "Null/undefined values in fx directives throwing error in console",
+          "state": "closed",
+          "createdAt": "2022-05-29T21:27:06Z",
+          "closedAt": "2022-12-07T14:48:24Z",
+          "comments": 3,
+          "labels": [
+            "needs:  demo",
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1400,
+          "title": "when will be the flexlayout official version released..?",
+          "state": "closed",
+          "createdAt": "2022-05-18T07:05:46Z",
+          "closedAt": "2022-05-18T14:33:27Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1399,
+          "title": "Version information",
+          "state": "closed",
+          "createdAt": "2022-05-05T07:45:49Z",
+          "closedAt": "2022-05-05T07:47:06Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1398,
+          "title": "Problems when printing with angular flex-layout",
+          "state": "open",
+          "createdAt": "2022-04-19T12:14:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1397,
+          "title": "FxLayoutAlign with media queries only work after resizing window in a production build",
+          "state": "open",
+          "createdAt": "2022-03-22T02:54:13Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1396,
+          "title": "Can't find stylesheet to import error for @angular/flex-layout/mq",
+          "state": "open",
+          "createdAt": "2022-03-01T15:45:01Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "build",
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1395,
+          "title": "Responsive Demos breakpoints not working consistently",
+          "state": "open",
+          "createdAt": "2022-02-27T16:38:33Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1394,
+          "title": "fxLayout=column get rendered as row in Angular 13 Universal",
+          "state": "closed",
+          "createdAt": "2022-02-22T14:43:58Z",
+          "closedAt": "2022-06-14T05:31:37Z",
+          "comments": 4,
+          "labels": [
+            "bug",
+            "has pr",
+            "ssr"
+          ]
+        },
+        {
+          "number": 1392,
+          "title": "13.0.0-beta.37 release broken build related to importing rxjs distinctUntilChanged operator",
+          "state": "closed",
+          "createdAt": "2022-02-03T18:19:44Z",
+          "closedAt": "2022-02-03T22:57:05Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1391,
+          "title": "Error: export 'distinctUntilChanged' (imported as 'distinctUntilChanged')",
+          "state": "closed",
+          "createdAt": "2022-01-31T07:49:47Z",
+          "closedAt": "2022-01-31T08:46:00Z",
+          "comments": 3,
+          "labels": [
+            "has pr"
+          ]
+        },
+        {
+          "number": 1389,
+          "title": "distinctUntilChanged export error on build beta.37",
+          "state": "closed",
+          "createdAt": "2022-01-29T06:56:17Z",
+          "closedAt": "2022-01-29T07:14:33Z",
+          "comments": 3,
+          "labels": [
+            "in-progress",
+            "has pr",
+            "P1"
+          ]
+        },
+        {
+          "number": 1386,
+          "title": "Support for the Angular 13+",
+          "state": "closed",
+          "createdAt": "2022-01-13T01:14:29Z",
+          "closedAt": "2022-01-13T01:45:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1374,
+          "title": "Basic Responsive Grid App Demo Breakpoint Issue",
+          "state": "closed",
+          "createdAt": "2021-12-17T22:34:31Z",
+          "closedAt": "2021-12-23T09:28:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1368,
+          "title": "Angular v13 Upgrade",
+          "state": "closed",
+          "createdAt": "2021-11-04T01:37:38Z",
+          "closedAt": "2021-11-29T18:05:35Z",
+          "comments": 34,
+          "labels": [
+            "has pr"
+          ]
+        },
+        {
+          "number": 1365,
+          "title": "Conflicting peer dependency with RxJS 7",
+          "state": "closed",
+          "createdAt": "2021-09-15T16:49:07Z",
+          "closedAt": "2021-12-23T09:16:54Z",
+          "comments": 4,
+          "labels": [
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1364,
+          "title": "Flex-layout Beta Versions",
+          "state": "closed",
+          "createdAt": "2021-09-15T15:16:01Z",
+          "closedAt": "2021-09-15T17:17:46Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1363,
+          "title": "Layout of the Application gets distorted/broken when press Ctrl + P",
+          "state": "closed",
+          "createdAt": "2021-09-13T15:37:00Z",
+          "closedAt": "2021-09-15T17:20:35Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1362,
+          "title": "FxLayout and FxLayoutAlign demo",
+          "state": "open",
+          "createdAt": "2021-09-06T06:27:46Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": [
+            "docs"
+          ]
+        },
+        {
+          "number": 1361,
+          "title": "Columns are shown as rows ",
+          "state": "closed",
+          "createdAt": "2021-09-02T06:36:50Z",
+          "closedAt": "2021-12-23T01:34:41Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 1360,
+          "title": "fxflex bug with Angular element on mobile devices",
+          "state": "open",
+          "createdAt": "2021-08-20T21:59:12Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1358,
+          "title": "Allow rxjs 7",
+          "state": "closed",
+          "createdAt": "2021-08-14T00:16:47Z",
+          "closedAt": "2021-08-22T00:22:24Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1352,
+          "title": "Grid Public Api",
+          "state": "closed",
+          "createdAt": "2021-07-13T13:46:49Z",
+          "closedAt": "2021-07-14T10:27:23Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1349,
+          "title": "fxLayoutGap defaults in config",
+          "state": "closed",
+          "createdAt": "2021-06-16T09:21:31Z",
+          "closedAt": "2021-06-16T20:23:17Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1347,
+          "title": "Font size doesn't change row height when fxLayout=\"column\" and using Angular Material typography",
+          "state": "closed",
+          "createdAt": "2021-06-02T12:42:48Z",
+          "closedAt": "2021-06-16T07:36:54Z",
+          "comments": 6,
+          "labels": [
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1345,
+          "title": "wiki link broken",
+          "state": "closed",
+          "createdAt": "2021-05-22T10:58:13Z",
+          "closedAt": "2021-05-22T15:57:17Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1343,
+          "title": "Bump to angular 12",
+          "state": "closed",
+          "createdAt": "2021-05-12T23:45:48Z",
+          "closedAt": "2021-05-18T18:36:14Z",
+          "comments": 9,
+          "labels": [
+            "has pr"
+          ]
+        },
+        {
+          "number": 1340,
+          "title": "Docs. Replace ObservableMedia with MediaObserver.",
+          "state": "closed",
+          "createdAt": "2021-04-20T10:49:18Z",
+          "closedAt": "2021-04-20T16:39:01Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1339,
+          "title": "Directive not applied on Angular 11",
+          "state": "closed",
+          "createdAt": "2021-04-13T07:59:25Z",
+          "closedAt": "2021-04-13T16:26:22Z",
+          "comments": 4,
+          "labels": [
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1338,
+          "title": "GitHub Claims 10 is the latest version and NpmJs Claims its 11",
+          "state": "closed",
+          "createdAt": "2021-04-09T15:57:28Z",
+          "closedAt": "2021-04-09T16:00:03Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1336,
+          "title": "v11 ecosystem incompatibilities?",
+          "state": "closed",
+          "createdAt": "2021-04-02T11:44:36Z",
+          "closedAt": "2021-04-02T12:35:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1335,
+          "title": "StyleUtils._applyMultiValueStyleToElement Cannot read property 'setProperty' of undefined",
+          "state": "closed",
+          "createdAt": "2021-04-01T14:25:26Z",
+          "closedAt": "2021-12-29T06:18:27Z",
+          "comments": 5,
+          "labels": [
+            "needs:  demo",
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1329,
+          "title": "Custom breakpoints with custom names does not work",
+          "state": "closed",
+          "createdAt": "2021-03-29T10:03:30Z",
+          "closedAt": "2021-09-15T17:31:35Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1327,
+          "title": "FxFlex Calc sets min-height, while raw value sets max-height",
+          "state": "closed",
+          "createdAt": "2021-03-25T09:53:53Z",
+          "closedAt": "2021-12-23T09:27:10Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1326,
+          "title": "flex-layout angular cdk`/ material incompatiblity",
+          "state": "closed",
+          "createdAt": "2021-03-25T09:53:47Z",
+          "closedAt": "2021-03-30T19:53:54Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1324,
+          "title": "bug SSR: Cannot read property 'removeEventListener' of null",
+          "state": "closed",
+          "createdAt": "2021-03-22T12:24:16Z",
+          "closedAt": "2021-04-04T15:15:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1323,
+          "title": "fxLayoutAlign center does not set align-items: center;",
+          "state": "closed",
+          "createdAt": "2021-02-26T11:17:57Z",
+          "closedAt": "2021-09-15T17:30:11Z",
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 1322,
+          "title": "error NG2006: The directive DefaultLayoutDirective inherits its constructor from LayoutDirective, but the latter does not have an Angular decorator of its own. Dependency injection will not be able to resolve the parameters of LayoutDirective's constructor. Either add a @Directive decorator to LayoutDirective, or add an explicit constructor to DefaultLayoutDirective.",
+          "state": "closed",
+          "createdAt": "2021-02-16T08:48:04Z",
+          "closedAt": "2021-02-17T03:40:41Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1321,
+          "title": "Orientation breakpoints directives not working",
+          "state": "closed",
+          "createdAt": "2021-02-09T17:52:13Z",
+          "closedAt": "2021-02-09T18:07:35Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1320,
+          "title": "FlexLayoutModule Not working with Angular 11",
+          "state": "closed",
+          "createdAt": "2021-02-03T16:36:20Z",
+          "closedAt": "2021-02-25T05:08:06Z",
+          "comments": 5,
+          "labels": [
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1319,
+          "title": "Flex Layout adding css properties when using fxFlex",
+          "state": "closed",
+          "createdAt": "2021-02-02T12:18:21Z",
+          "closedAt": "2021-12-23T09:06:56Z",
+          "comments": 6,
+          "labels": [
+            "needs:  demo",
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1318,
+          "title": "fxLayoutGap in responsive mode breaks without original non-breakpoint value provided",
+          "state": "open",
+          "createdAt": "2021-01-21T20:53:14Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "has pr",
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1317,
+          "title": "Split module throws Typescript errors",
+          "state": "closed",
+          "createdAt": "2020-12-22T07:08:13Z",
+          "closedAt": "2021-09-15T17:24:49Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 1316,
+          "title": "Demo apps not working",
+          "state": "closed",
+          "createdAt": "2020-12-21T05:02:25Z",
+          "closedAt": "2021-12-23T01:35:33Z",
+          "comments": 7,
+          "labels": [
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1315,
+          "title": "why forever in beta ?",
+          "state": "closed",
+          "createdAt": "2020-12-17T17:02:28Z",
+          "closedAt": "2020-12-17T20:00:42Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1312,
+          "title": "ngClass.xl not working properly Ubuntu",
+          "state": "closed",
+          "createdAt": "2020-11-30T16:07:43Z",
+          "closedAt": "2021-09-15T17:32:03Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1310,
+          "title": "fxFlex generates issue with sticky footer in OSX safari",
+          "state": "closed",
+          "createdAt": "2020-11-12T11:06:47Z",
+          "closedAt": "2021-12-23T09:06:21Z",
+          "comments": 4,
+          "labels": [
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1303,
+          "title": "Not working with Angular 11, cdk version 11",
+          "state": "closed",
+          "createdAt": "2020-11-12T04:44:52Z",
+          "closedAt": "2020-11-12T17:38:55Z",
+          "comments": 8,
+          "labels": [
+            "has pr"
+          ]
+        },
+        {
+          "number": 1302,
+          "title": "Property 'currentActivations' implicitly has type 'any'",
+          "state": "closed",
+          "createdAt": "2020-11-11T08:49:16Z",
+          "closedAt": "2020-11-11T09:52:00Z",
+          "comments": 4,
+          "labels": [
+            "can be closed?"
+          ]
+        },
+        {
+          "number": 1301,
+          "title": "Broken documentation links",
+          "state": "closed",
+          "createdAt": "2020-10-23T15:23:58Z",
+          "closedAt": "2020-10-23T17:32:35Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1300,
+          "title": "Remove Beta from version",
+          "state": "closed",
+          "createdAt": "2020-10-22T14:38:11Z",
+          "closedAt": "2020-10-22T16:24:10Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1299,
+          "title": "Consider using classes in favor of inline styles where possible",
+          "state": "open",
+          "createdAt": "2020-10-20T07:30:07Z",
+          "closedAt": null,
+          "comments": 18,
+          "labels": [
+            "discussion",
+            "rfc"
+          ]
+        },
+        {
+          "number": 1298,
+          "title": "fxLayoutGap not working with Angular Universal",
+          "state": "open",
+          "createdAt": "2020-09-29T14:58:54Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "ssr",
+            "can be closed?",
+            "needs: investigation"
+          ]
+        },
+        {
+          "number": 1295,
+          "title": "I would like to get involved with the project",
+          "state": "closed",
+          "createdAt": "2020-09-21T12:51:25Z",
+          "closedAt": "2020-10-12T19:39:39Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1293,
+          "title": "fxFlex translates to \"flex: 1 1 0%\" when component is recreated",
+          "state": "open",
+          "createdAt": "2020-09-10T15:16:41Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1292,
+          "title": "Document _mq.scss mixins for css based layout breakpoints",
+          "state": "open",
+          "createdAt": "2020-09-09T03:17:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "help wanted",
+            "docs"
+          ]
+        },
+        {
+          "number": 1291,
+          "title": "fxFlexOrder.gt-md only applies first time",
+          "state": "closed",
+          "createdAt": "2020-09-09T03:09:10Z",
+          "closedAt": "2021-12-23T01:31:49Z",
+          "comments": 5,
+          "labels": [
+            "has pr"
+          ]
+        },
+        {
+          "number": 1289,
+          "title": "Grid layout documentation is broken",
+          "state": "closed",
+          "createdAt": "2020-09-04T18:28:14Z",
+          "closedAt": "2020-09-04T18:38:52Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1287,
+          "title": "Using flex-layout attributes like css | Directive",
+          "state": "closed",
+          "createdAt": "2020-08-26T20:19:06Z",
+          "closedAt": "2020-11-12T07:32:31Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 1286,
+          "title": "ObservableMedia is throwing error : Error: ERROR in src/app/app.component.ts:1:10 - error TS2305: Module '\"../../node_modules/@angular/flex-layout/flex-layout\"' has no exported member 'ObservableMedia'.",
+          "state": "closed",
+          "createdAt": "2020-07-29T01:09:26Z",
+          "closedAt": "2020-07-29T02:13:41Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1285,
+          "title": "printWithBreakpoints dynamically",
+          "state": "open",
+          "createdAt": "2020-07-23T08:22:13Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "help wanted",
+            "feature",
+            "P4",
+            "discussion"
+          ]
+        },
+        {
+          "number": 1284,
+          "title": "noticable performance regression on v10",
+          "state": "closed",
+          "createdAt": "2020-07-15T19:47:19Z",
+          "closedAt": "2020-07-16T11:57:03Z",
+          "comments": 3,
+          "labels": [
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1283,
+          "title": "MediaObserver behaving incorrectly",
+          "state": "closed",
+          "createdAt": "2020-07-09T18:42:14Z",
+          "closedAt": "2021-12-23T09:13:06Z",
+          "comments": 9,
+          "labels": [
+            "has pr",
+            "P2"
+          ]
+        },
+        {
+          "number": 1282,
+          "title": "Please stop adding \"-beta\" to every release",
+          "state": "closed",
+          "createdAt": "2020-07-06T06:35:18Z",
+          "closedAt": "2020-07-06T06:36:16Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1281,
+          "title": "Latest version of flex layout (10.0.0-beta.32) is not working in Angular 9",
+          "state": "closed",
+          "createdAt": "2020-07-04T15:32:31Z",
+          "closedAt": "2020-07-04T18:19:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1280,
+          "title": "export 'ɵgrid_privatez' was not found in '@angular/flex-layout/grid",
+          "state": "closed",
+          "createdAt": "2020-06-25T00:18:33Z",
+          "closedAt": "2020-11-12T07:35:00Z",
+          "comments": 8,
+          "labels": [
+            "needs:  demo"
+          ]
+        },
+        {
+          "number": 1279,
+          "title": "Version 10.0.0-beta.32, \"ng serve\" error Compiling @angular/cdk/stepper : es2015 as esm2015",
+          "state": "closed",
+          "createdAt": "2020-06-20T18:09:10Z",
+          "closedAt": "2020-06-20T18:10:14Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1278,
+          "title": "Review release version to keep compatibility with latest Angular and Angular/CDK",
+          "state": "closed",
+          "createdAt": "2020-06-20T00:13:39Z",
+          "closedAt": "2020-06-20T00:23:39Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1277,
+          "title": "Failure compiling when adding flex-layout to project",
+          "state": "closed",
+          "createdAt": "2020-06-18T07:51:47Z",
+          "closedAt": "2020-06-18T07:54:23Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1276,
+          "title": "Not working with Angular 9",
+          "state": "closed",
+          "createdAt": "2020-06-17T19:22:43Z",
+          "closedAt": "2020-06-17T19:42:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1275,
+          "title": "Not Working",
+          "state": "closed",
+          "createdAt": "2020-06-17T16:27:30Z",
+          "closedAt": "2020-06-17T16:42:31Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1274,
+          "title": "Flex-layout 10.0.0-beta.32 throws an exception during AOT build",
+          "state": "closed",
+          "createdAt": "2020-06-17T09:12:48Z",
+          "closedAt": "2020-06-17T10:50:54Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1273,
+          "title": "fxFlex directive is broken with a *ngIf directive and both layouts(row, column) on parent",
+          "state": "closed",
+          "createdAt": "2020-06-16T00:33:17Z",
+          "closedAt": "2020-06-16T00:35:35Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1270,
+          "title": "Flex Layout not working in IE 11",
+          "state": "closed",
+          "createdAt": "2020-06-14T20:18:36Z",
+          "closedAt": "2020-08-29T21:17:27Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1269,
+          "title": " has no exported member 'ɵNgClassImpl'.",
+          "state": "closed",
+          "createdAt": "2020-06-12T00:34:36Z",
+          "closedAt": "2020-06-12T00:36:16Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1267,
+          "title": "Problem With API Documentation",
+          "state": "closed",
+          "createdAt": "2020-06-03T05:41:27Z",
+          "closedAt": "2020-06-03T05:42:36Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1266,
+          "title": "bug([MatButtonModule,FlexLayoutModule]): Button below 17px—and thus invisible text—on Safari",
+          "state": "closed",
+          "createdAt": "2020-05-28T11:26:02Z",
+          "closedAt": "2020-05-30T00:04:05Z",
+          "comments": 3,
+          "labels": [
+            "related: material2",
+            "WebKit Bug"
+          ]
+        },
+        {
+          "number": 1264,
+          "title": "Padding problem at last element in every row when using fxLayoutGap and grid layout",
+          "state": "open",
+          "createdAt": "2020-05-21T16:24:15Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": [
+            "needs: investigation"
+          ]
+        },
+        {
+          "number": 1263,
+          "title": "MockMatchMedia doesn't register overlaps ranges",
+          "state": "closed",
+          "createdAt": "2020-05-21T10:23:38Z",
+          "closedAt": "2020-05-21T19:43:06Z",
+          "comments": 5,
+          "labels": [
+            "bug",
+            "has pr"
+          ]
+        },
+        {
+          "number": 1262,
+          "title": "fxHide or fxShow do not work in <ng-container> ",
+          "state": "closed",
+          "createdAt": "2020-05-20T15:10:09Z",
+          "closedAt": "2020-06-15T23:26:26Z",
+          "comments": 7,
+          "labels": [
+            "bug",
+            "needs:  demo",
+            "P1"
+          ]
+        },
+        {
+          "number": 1259,
+          "title": "fxHide fxShow",
+          "state": "closed",
+          "createdAt": "2020-05-17T21:52:09Z",
+          "closedAt": "2020-05-17T23:13:07Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1258,
+          "title": "gdColumns do not set \"display: grid\"",
+          "state": "closed",
+          "createdAt": "2020-05-17T04:28:30Z",
+          "closedAt": "2020-05-17T20:52:26Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1256,
+          "title": "fxHide/fxShow adds style=\"display:initial\"",
+          "state": "closed",
+          "createdAt": "2020-05-15T08:12:43Z",
+          "closedAt": "2020-05-15T11:02:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1255,
+          "title": "fxShow breaks flex layout by adding a \"display: initial\" inline property ",
+          "state": "closed",
+          "createdAt": "2020-05-15T05:33:56Z",
+          "closedAt": "2020-05-15T05:34:41Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1253,
+          "title": "fxHide... fxShow... selectors adds display: initial to each element which causes problems",
+          "state": "closed",
+          "createdAt": "2020-05-14T14:14:58Z",
+          "closedAt": "2020-05-14T14:26:56Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1250,
+          "title": "Show/Hide bug beta30  caused by display:initial",
+          "state": "closed",
+          "createdAt": "2020-05-13T14:41:39Z",
+          "closedAt": "2020-05-13T19:44:53Z",
+          "comments": 5,
+          "labels": [
+            "bug",
+            "has pr",
+            "P1"
+          ]
+        },
+        {
+          "number": 1249,
+          "title": "Is fxLayoutGap really working as expected?",
+          "state": "closed",
+          "createdAt": "2020-05-12T08:35:53Z",
+          "closedAt": "2020-05-14T20:30:01Z",
+          "comments": 15,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 17,
+        "totalFetched": 110,
+        "medianDaysToFirstResponse": 0.8,
+        "openOverOneYearNoReply": 2
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Angular Flex-Layout\n\n[![npm version](https://badge.fury.io/js/%40angular%2Fflex-layout.svg)](https://www.npmjs.com/package/%40angular%2Fflex-layout)\n[![Build status](https://circleci.com/gh/angular/flex-layout.svg?style=svg)](https://circleci.com/gh/angular/flex-layout)\n[![Gitter](https://badges.gitter.im/angular/flex-layout.svg)](https://gitter.im/angular/flex-layout)\n\n**NOTE: The Angular team no longer publishes new releases of this project. Please review [this blog post](https://blog.angular.io/modern-css-in-angular-layouts-4a259dca9127) \nfor alternatives, and [this article](https://medium.com/@caerus.karu/farewell-flex-layout-aaa567023769) for the explanation and next steps.**\n\nAngular Flex Layout provides a sophisticated layout API using Flexbox CSS + mediaQuery.\nThis module provides Angular developers with component layout features using a\ncustom Layout API, mediaQuery observables, and injected DOM flexbox-2016 CSS stylings.\n\nThe Flex Layout engine intelligently automates the process of applying appropriate\nFlexbox CSS to browser view hierarchies. This automation also addresses many of the\ncomplexities and workarounds encountered with the traditional, manual, CSS-only application of box CSS.\n\nThe **real** power of Flex Layout, however, is its **responsive** engine. The\n[Responsive API](https://github.com/angular/flex-layout/wiki/Responsive-API) enables developers to easily specify\ndifferent layouts, sizing, visibilities for different viewport sizes and display devices.\n\n---\n### Getting Started\n\nStart by installing the Angular Layout library from `npm`\n\n`npm i -s @angular/flex-layout @angular/cdk`\n\nNext, you'll need to import the Layout module in your app's module.\n\n**app.module.ts**\n\n```ts\n\nimport { FlexLayoutModule } from '@angular/flex-layout';\n...\n\n@NgModule({\n    ...\n    imports: [ FlexLayoutModule ],\n    ...\n});\n```\n\nAfter that is configured, you can use the Angular Layout attributes in your HTML tags for flex layout:\n```html\n<div fxLayout=\"row\" fxLayoutAlign=\"space-between\">\n</div>\n```\n\nCheck out [all of the available options](https://github.com/angular/flex-layout/wiki/Declarative-API-Overview) for using Angular Layout in your application.\n\n---\n\n### Quick Links\n\n*  [ChangeLog](https://github.com/angular/flex-layout/blob/master/CHANGELOG.md)\n*  [Wiki Documentation](https://github.com/angular/flex-layout/wiki)\n\n### Demos\n\n*  [Explore Examples Online](https://tburleson-layouts-demos.firebaseapp.com/)\n*  [Demo Source Code](https://github.com/angular/flex-layout/blob/master/src/apps/demo-app/src/app/app.module.ts)\n\n### StackBlitz Templates\n\n  *  [Flex-Layout Template](https://stackblitz.com/edit/flex-layout-seed)\n  *  [Flex-Layout + Material](https://stackblitz.com/edit/flex-layout-material-seed)\n\n### Developers\n\n*  [API Documentation](https://github.com/angular/flex-layout/wiki/API-Documentation)\n*  [Developer Setup](https://github.com/angular/flex-layout/wiki/Developer-Setup)\n*  [Builds + Fast Start](https://github.com/angular/flex-layout/wiki/Fast-Starts)\n*  [Integration with Angular CLI](https://github.com/angular/flex-layout/wiki/Using-Angular-CLI)\n\n\n----\n\n### Browser Support\n&nbsp;\n<a href=\"http://caniuse.com/#feat=flexbox\" target=\"_blank\">\n![caniuseflexbox](https://cloud.githubusercontent.com/assets/210413/21288118/917e3faa-c440-11e6-9b08-28aff590c7ae.png)\n</a>\n\n<br/>\n\n---\n\n### License\n\nThe sources for this package are in the [Flex Layout](https://github.com/angular/flex-layout) repository. <br/>\nPlease file issues and pull requests against that repo.\n\nLicense: MIT\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 673,
+      "flatlineMonth": "2024-09",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:20:11.105Z"
+  },
+  "autopsy": {
+    "epitaph": "Born in the age of Flexbox dreams and Angular ambition, it spent nine years in perpetual beta before its own team published a farewell article and quietly archived it, leaving 5,836 stars to mourn over a README that now points only to its own obituary.",
+    "causes": [
+      {
+        "label": "Official Angular team deprecation and abandonment",
+        "confidencePct": 97,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "84ac0ed3fe49263e405f2a449323fb73a798ff84"
+          },
+          {
+            "type": "commit",
+            "ref": "dda0649a3e6545e5819b83c7582286dc9ac24166"
+          },
+          {
+            "type": "issue",
+            "ref": "#1439"
+          }
+        ]
+      },
+      {
+        "label": "Perpetual beta versioning eroded user confidence",
+        "confidencePct": 82,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#1315"
+          },
+          {
+            "type": "issue",
+            "ref": "#1282"
+          },
+          {
+            "type": "issue",
+            "ref": "#1300"
+          },
+          {
+            "type": "commit",
+            "ref": "6e4d3465a8a4695560d3d81431897cff3262fcaa"
+          }
+        ]
+      },
+      {
+        "label": "Chronic lag behind Angular major version releases",
+        "confidencePct": 88,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#1430"
+          },
+          {
+            "type": "issue",
+            "ref": "#1404"
+          },
+          {
+            "type": "issue",
+            "ref": "#1368"
+          },
+          {
+            "type": "issue",
+            "ref": "#1343"
+          }
+        ]
+      },
+      {
+        "label": "Commit activity collapsed to near-zero after 2019",
+        "confidencePct": 79,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "90761cafdfc16ba69992ae32f55e2f9a5d0b2bc2"
+          },
+          {
+            "type": "issue",
+            "ref": "#1438"
+          },
+          {
+            "type": "issue",
+            "ref": "#1434"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and publish a community governance model, explicitly transferring stewardship from the Angular team to a volunteer maintainer group",
+        "effort": "a week"
+      },
+      {
+        "step": "Cut a stable non-beta 1.0.0 release compatible with the latest Angular LTS, retiring the -beta suffix that haunted the project for years",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Replace all deprecated inline-style injection with CSS-class-based output, addressing the architectural criticism raised in open issues about style precedence conflicts",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Rebuild and host updated API documentation and live demos, fixing the dead links called out repeatedly in issues such as #1444 and #1428",
+        "effort": "a week"
+      },
+      {
+        "step": "Establish an automated Angular-version compatibility CI matrix so each new Angular major release triggers a blocking test run rather than a flood of support issues",
+        "effort": "a week"
+      }
+    ],
+    "lastWordsGloss": "'docs: update README to reflect deprecation' — the final commit was literally a tombstone inscription, because nothing says 'we care' like documenting your own funeral."
+  }
+}

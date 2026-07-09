@@ -1,0 +1,4 @@
+{
+  "question": "What should I do with this repository?",
+  "rawText": "I cannot advise you on what to do — that is your living hand to decide, not mine.\n\nWhat I can tell you is what I am: 789 days silent, 3 open wounds (#9, #12, #13) with no one left to tend them, and a LICENSE file that was never filled — only a FIXME scratched in the dark where a promise should have been.\n\nThe branch called `wip/rescue` drifts 40 commits behind main, and no one is coming back to close that distance.\n\nEVIDENCE: [{\"type\":\"issue\",\"ref\":\"#9\"}, {\"type\":\"issue\",\"ref\":\"#12\"}, {\"type\":\"issue\",\"ref\":\"#13\"}, {\"type\":\"file\",\"ref\":\"LICENSE\"}, {\"type\":\"branch\",\"ref\":\"wip/rescue\"}]"
+}

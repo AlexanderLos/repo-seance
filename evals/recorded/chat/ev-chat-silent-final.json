@@ -1,0 +1,4 @@
+{
+  "question": "What was your final commit before the silence?",
+  "rawText": "My last breath was *Release v3.4.0*, pushed by Sam Vale on April 28, 2025 — a tidy valediction, as if someone knew to close the door gently before leaving. Since that morning, 436 days have passed without a single word.\n\nEVIDENCE: [{\"type\":\"commit\",\"ref\":\"c6bbf72dff43166495e5c9eb8d48f849d0466ea6\"}]"
+}

@@ -1,0 +1,2153 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "adobe",
+      "name": "brackets",
+      "fullName": "adobe/brackets",
+      "description": "An open source code editor for the web, written in JavaScript, HTML and CSS.",
+      "htmlUrl": "https://github.com/adobe/brackets",
+      "createdAt": "2011-12-07T21:14:40Z",
+      "pushedAt": "2022-06-12T08:19:24Z",
+      "archived": true,
+      "stars": 33032,
+      "forks": 7464,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 17847,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2016-05",
+          "count": 65
+        },
+        {
+          "month": "2016-06",
+          "count": 10
+        },
+        {
+          "month": "2016-07",
+          "count": 32
+        },
+        {
+          "month": "2016-08",
+          "count": 112
+        },
+        {
+          "month": "2016-09",
+          "count": 31
+        },
+        {
+          "month": "2016-10",
+          "count": 17
+        },
+        {
+          "month": "2016-11",
+          "count": 14
+        },
+        {
+          "month": "2016-12",
+          "count": 19
+        },
+        {
+          "month": "2017-01",
+          "count": 19
+        },
+        {
+          "month": "2017-02",
+          "count": 51
+        },
+        {
+          "month": "2017-03",
+          "count": 128
+        },
+        {
+          "month": "2017-04",
+          "count": 78
+        },
+        {
+          "month": "2017-05",
+          "count": 14
+        },
+        {
+          "month": "2017-06",
+          "count": 40
+        },
+        {
+          "month": "2017-07",
+          "count": 21
+        },
+        {
+          "month": "2017-08",
+          "count": 15
+        },
+        {
+          "month": "2017-09",
+          "count": 22
+        },
+        {
+          "month": "2017-10",
+          "count": 3
+        },
+        {
+          "month": "2017-11",
+          "count": 29
+        },
+        {
+          "month": "2017-12",
+          "count": 22
+        },
+        {
+          "month": "2018-01",
+          "count": 38
+        },
+        {
+          "month": "2018-02",
+          "count": 5
+        },
+        {
+          "month": "2018-03",
+          "count": 13
+        },
+        {
+          "month": "2018-04",
+          "count": 19
+        },
+        {
+          "month": "2018-05",
+          "count": 25
+        },
+        {
+          "month": "2018-06",
+          "count": 6
+        },
+        {
+          "month": "2018-07",
+          "count": 1
+        },
+        {
+          "month": "2018-08",
+          "count": 4
+        },
+        {
+          "month": "2018-10",
+          "count": 3
+        },
+        {
+          "month": "2018-12",
+          "count": 1
+        },
+        {
+          "month": "2019-03",
+          "count": 1
+        },
+        {
+          "month": "2019-04",
+          "count": 59
+        },
+        {
+          "month": "2019-05",
+          "count": 5
+        },
+        {
+          "month": "2019-11",
+          "count": 17
+        },
+        {
+          "month": "2019-12",
+          "count": 2
+        },
+        {
+          "month": "2020-01",
+          "count": 2
+        },
+        {
+          "month": "2020-02",
+          "count": 10
+        },
+        {
+          "month": "2020-03",
+          "count": 45
+        },
+        {
+          "month": "2021-03",
+          "count": 2
+        }
+      ],
+      "recent": [
+        {
+          "sha": "d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a",
+          "message": "Change hyperlink",
+          "date": "2021-03-18T13:52:19Z",
+          "authorName": "Swagatam Mitra",
+          "authorLogin": "swmitra"
+        },
+        {
+          "sha": "f0cae55ce80c380a5c5c665110623f21cce966b3",
+          "message": "EOL Notification (#15325)",
+          "date": "2021-03-01T11:10:07Z",
+          "authorName": "Swagatam Mitra",
+          "authorLogin": "swmitra"
+        },
+        {
+          "sha": "ca877bb447573bd15d0813b1ddec5076f736b8a7",
+          "message": "Merge pull request #15106 from niteskum/AssociateGraphicAfterGUIDGenerated",
+          "date": "2020-03-27T10:56:06Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "d99dbdd6bce812f9c71d9693b0a1142ba2de41b0",
+          "message": "Graphics File Assciate should get triggered after UUID is generated",
+          "date": "2020-03-27T07:25:09Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "f37493fde67d4992acc04bce682c1a095b34e9b7",
+          "message": "Merge pull request #15100 from niteskum/windowsPathCorrection",
+          "date": "2020-03-24T06:33:45Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "35917cb272d681230d778f03bfb96d7b56c19c6c",
+          "message": "Addressed review comments",
+          "date": "2020-03-24T06:22:02Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "90cf9b09457a66237ade823b718a23f8ebe6f31b",
+          "message": "Revert \"Revert \"check iin config file\"\"",
+          "date": "2020-03-23T14:23:10Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "e7613db5a72aeed2839208e39454a0900c8daf52",
+          "message": "Merge branch 'master' of https://github.com/adobe/brackets into windowsPathCorrection",
+          "date": "2020-03-23T14:16:28Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "a552a10d89ee5e7caafa5faf9e9fa3d0fd332e64",
+          "message": "Merge pull request #15098 from niteskum/lodashModuleUpgrade",
+          "date": "2020-03-23T14:09:48Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "2356f32a34d8a825ca1f41b1b4cb93cf94b92ecb",
+          "message": "Revert \"check iin config file\"",
+          "date": "2020-03-23T11:13:52Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "59e8e91518cb4ad33494bfbeb0ef9b5dcebcf630",
+          "message": "Netwrk path also need to be converted to windows style",
+          "date": "2020-03-23T11:06:27Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "0c87777b63502a1ef6b09590abd768296886f4d7",
+          "message": "Merge branch 'lodashModuleUpgrade' of https://github.com/niteskum/brackets",
+          "date": "2020-03-23T07:09:37Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "fa6e9fcce311c930d890cffd6d5b34a9b87f4159",
+          "message": "Merge pull request #15093 from adobe/alf_localization_1.14",
+          "date": "2020-03-23T06:59:52Z",
+          "authorName": "Narayani",
+          "authorLogin": "narayani28"
+        },
+        {
+          "sha": "0af714b8a2a1905508499c17e4ab80b901d1fbea",
+          "message": "Updated by ALF automation.",
+          "date": "2020-03-20T16:56:14Z",
+          "authorName": "walf",
+          "authorLogin": "walfgithub"
+        },
+        {
+          "sha": "d50cb268232ed190ce6333340249f207fb86b373",
+          "message": "check iin config file",
+          "date": "2020-03-20T06:31:15Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "9f44657dc0f22a0c7d69f0bc5edb91fa7001a36f",
+          "message": "Updated by ALF automation.",
+          "date": "2020-03-20T04:35:52Z",
+          "authorName": "walf",
+          "authorLogin": "walfgithub"
+        },
+        {
+          "sha": "78eb8cf4e95c91033df04c87ff74be2ab215554f",
+          "message": "Merge branch 'master' into alf_localization_1.14",
+          "date": "2020-03-20T04:34:21Z",
+          "authorName": "walf",
+          "authorLogin": "walfgithub"
+        },
+        {
+          "sha": "b301acc8d02b0695d2e45303c3cbd64ec5308007",
+          "message": "upgrading lodash node module to 4.17.15 from 4.17.4",
+          "date": "2020-03-19T19:56:27Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "b4abc5ae74a05f2f0dd7d2e459523f3539d0231f",
+          "message": "Merge pull request #15096 from niteskum/WinPathIssueWithExtEditor",
+          "date": "2020-03-19T18:58:53Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "406b44cab819327f123673683fefc15142ba0468",
+          "message": "Merge pull request #15097 from niteskum/OpenWithExternalAppStrings",
+          "date": "2020-03-19T17:20:40Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "ee9ede2c9c710ebc9d9f8fd6292731fe373dfab4",
+          "message": "Addressed review comments",
+          "date": "2020-03-19T17:16:26Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "3120f48dcef34e288cb95d0ea273da0d4a3c5a88",
+          "message": "On Wiindows Path is converted to windows style when opening with external editor",
+          "date": "2020-03-19T15:44:03Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "313bb4e480ef1a55f1f3a54f4d90d5afc68cc845",
+          "message": "Updated strings for Graphics File Association",
+          "date": "2020-03-19T13:35:38Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "9a040bfb805aad1f1c21e8a5a2e2ca5d381fb5ca",
+          "message": "Updated strings for Graphics File Association",
+          "date": "2020-03-19T13:32:23Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "f9f584eeb5150a28dc69d5b58a627ee68596c20d",
+          "message": "On Wiindows Path is converted to windows style when opening with external editor",
+          "date": "2020-03-19T06:40:12Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "950e72a3a627f5bc280ae1342a701b29605e6bff",
+          "message": "Updated by ALF automation.",
+          "date": "2020-03-18T16:56:39Z",
+          "authorName": "walf",
+          "authorLogin": "walfgithub"
+        },
+        {
+          "sha": "7a8ce6abb279193a02709b372dae80f58d18b18a",
+          "message": "Merge branch 'master' into alf_localization_1.14",
+          "date": "2020-03-18T16:55:05Z",
+          "authorName": "walf",
+          "authorLogin": "walfgithub"
+        },
+        {
+          "sha": "62c23d36caf6c3773d04d5a38d3aa0583df083fa",
+          "message": "Merge pull request #15092 from niteskum/graphicsFileExternalApplication",
+          "date": "2020-03-18T11:17:47Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": "niteskum"
+        },
+        {
+          "sha": "5fb5763e6369d90a3974018810f16a38b2eafd33",
+          "message": "code corrections",
+          "date": "2020-03-17T18:55:48Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        },
+        {
+          "sha": "1d82fbe88ea0832b24b45f39e1891786acd1fdb3",
+          "message": "Merge branch 'graphicsFileExternalApplication' of https://github.com/niteskum/brackets into graphicsFileExternalApplication",
+          "date": "2020-03-17T18:29:38Z",
+          "authorName": "Nitesh Kumar",
+          "authorLogin": null
+        }
+      ],
+      "finalCommit": {
+        "sha": "d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a",
+        "message": "Change hyperlink",
+        "date": "2021-03-18T13:52:19Z",
+        "authorName": "Swagatam Mitra",
+        "authorLogin": "swmitra"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "1.15",
+          "lastCommitDate": "2019-05-02T08:19:24Z",
+          "aheadBy": 0,
+          "behindBy": 108
+        },
+        {
+          "name": "ErrorStringsForDragAndDrop",
+          "lastCommitDate": "2018-04-16T14:29:30Z",
+          "aheadBy": 1,
+          "behindBy": 196
+        },
+        {
+          "name": "LSPSymbols",
+          "lastCommitDate": "2019-04-12T18:14:05Z",
+          "aheadBy": 11,
+          "behindBy": 130
+        },
+        {
+          "name": "RefactorMergeTestBranch",
+          "lastCommitDate": "2017-12-18T10:39:53Z",
+          "aheadBy": 24,
+          "behindBy": 270
+        },
+        {
+          "name": "UpdateNotificationFix",
+          "lastCommitDate": "2019-02-21T10:04:50Z",
+          "aheadBy": 4,
+          "behindBy": 145
+        },
+        {
+          "name": "abose/instant",
+          "lastCommitDate": "2015-07-11T08:56:08Z",
+          "aheadBy": 30,
+          "behindBy": 1607
+        },
+        {
+          "name": "additionalHintInfo",
+          "lastCommitDate": "2019-04-12T12:38:30Z",
+          "aheadBy": 3,
+          "behindBy": 130
+        },
+        {
+          "name": "alf_localization_1.11",
+          "lastCommitDate": "2017-12-20T07:39:00Z",
+          "aheadBy": 0,
+          "behindBy": 322
+        },
+        {
+          "name": "alf_localization_1.12",
+          "lastCommitDate": "2018-03-23T16:54:12Z",
+          "aheadBy": 2,
+          "behindBy": 209
+        },
+        {
+          "name": "alf_localization_1.13",
+          "lastCommitDate": "2019-04-10T16:57:19Z",
+          "aheadBy": 61,
+          "behindBy": 131
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 15375,
+          "title": "Can't push using git bash some error occaured",
+          "state": "closed",
+          "createdAt": "2021-08-31T14:43:34Z",
+          "closedAt": "2021-08-31T17:52:23Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15374,
+          "title": "unable to download any video via you-get",
+          "state": "open",
+          "createdAt": "2021-08-31T02:13:32Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15373,
+          "title": "Project Phoenix: Brackets next generations.",
+          "state": "open",
+          "createdAt": "2021-08-30T15:34:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15372,
+          "title": "Selective Anonymity (custom profile names)",
+          "state": "open",
+          "createdAt": "2021-08-27T14:09:29Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15367,
+          "title": "Bug in read-only repositories",
+          "state": "closed",
+          "createdAt": "2021-08-03T10:36:58Z",
+          "closedAt": "2021-08-03T10:37:58Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15366,
+          "title": "Back merge failed show deleted file ",
+          "state": "open",
+          "createdAt": "2021-07-24T14:21:36Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15365,
+          "title": "Download link for macOS",
+          "state": "open",
+          "createdAt": "2021-07-23T15:04:47Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15364,
+          "title": "bug in PFPO instruction on hercules 4.4",
+          "state": "open",
+          "createdAt": "2021-07-19T14:38:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15363,
+          "title": "jupyter notebook(.ipynb) doesn't load(render) after uploading on GitHub it kept showing reload  kindly resolve this issue-(Windows user)",
+          "state": "open",
+          "createdAt": "2021-07-09T19:25:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15362,
+          "title": "Live Preview breaks when entering \"<\" to start a new tag in html -- Issue unresolved since YEARS -- Unfixable?",
+          "state": "open",
+          "createdAt": "2021-07-09T16:45:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15361,
+          "title": "New install - No \"beloved\" LivePreview :( .. error launcing browser",
+          "state": "open",
+          "createdAt": "2021-06-28T05:57:00Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15360,
+          "title": "clickhouse Backup and Restore issue - tables are empty after the restore.",
+          "state": "open",
+          "createdAt": "2021-06-18T16:39:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15359,
+          "title": "Module importing error on Eclipse",
+          "state": "open",
+          "createdAt": "2021-06-15T19:20:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15358,
+          "title": "can't link html to css",
+          "state": "open",
+          "createdAt": "2021-06-15T11:25:49Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 15356,
+          "title": "cvbnmö",
+          "state": "closed",
+          "createdAt": "2021-06-09T23:53:16Z",
+          "closedAt": "2021-06-09T23:54:25Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15355,
+          "title": "GetirSample2",
+          "state": "open",
+          "createdAt": "2021-06-08T23:05:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15354,
+          "title": "GetirSample",
+          "state": "open",
+          "createdAt": "2021-06-08T22:46:24Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15353,
+          "title": "D-ITG",
+          "state": "open",
+          "createdAt": "2021-06-08T18:42:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15351,
+          "title": "Go to file button not visible on landing page of repo and commit id is not getting copied to clipboard after clicking on icon besides commit id on pull request page",
+          "state": "open",
+          "createdAt": "2021-06-03T09:44:08Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15348,
+          "title": "LivePreview CSS not updating until making change in CSS file (PHP pages)",
+          "state": "open",
+          "createdAt": "2021-05-14T14:46:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15347,
+          "title": "adobe/brackets Needs To Stay Where It Is Because Of Extraordinary Circumstances",
+          "state": "open",
+          "createdAt": "2021-05-11T00:18:53Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 15346,
+          "title": "gists still use master branch",
+          "state": "closed",
+          "createdAt": "2021-05-07T14:11:31Z",
+          "closedAt": "2021-05-16T11:53:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15344,
+          "title": "Bug Report",
+          "state": "open",
+          "createdAt": "2021-04-22T06:14:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15343,
+          "title": "Night theme active during the day",
+          "state": "closed",
+          "createdAt": "2021-04-21T11:42:59Z",
+          "closedAt": "2021-04-21T11:43:38Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15342,
+          "title": "Mourning for the Brackets",
+          "state": "open",
+          "createdAt": "2021-04-16T20:24:40Z",
+          "closedAt": null,
+          "comments": 22,
+          "labels": []
+        },
+        {
+          "number": 15341,
+          "title": "Regular Expression DoS vulnerability",
+          "state": "open",
+          "createdAt": "2021-04-13T10:34:09Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15340,
+          "title": "Uncaught TypeError: Cannot read property 'split' of undefined (: line 56) p5js is throwing me this error",
+          "state": "open",
+          "createdAt": "2021-04-11T09:43:17Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15339,
+          "title": "Uncaught TypeError: Cannot read property 'split' of undefined (: line 56)  p5js is throwing me this error ",
+          "state": "closed",
+          "createdAt": "2021-04-11T09:37:22Z",
+          "closedAt": "2021-04-11T09:39:05Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15338,
+          "title": "No files into opened folder",
+          "state": "open",
+          "createdAt": "2021-04-08T07:29:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15337,
+          "title": "The button to download brackets from the main page does not appear",
+          "state": "open",
+          "createdAt": "2021-04-05T21:32:19Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15336,
+          "title": "The class \"SelectMenu\" contains the same z-index then markdown menu",
+          "state": "closed",
+          "createdAt": "2021-04-01T01:42:51Z",
+          "closedAt": "2021-04-01T01:44:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15334,
+          "title": "Stanley kelly",
+          "state": "closed",
+          "createdAt": "2021-03-14T10:35:28Z",
+          "closedAt": "2021-03-14T10:36:04Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15333,
+          "title": "Post-Adobe future : maintaining a new fork?",
+          "state": "open",
+          "createdAt": "2021-03-13T19:54:29Z",
+          "closedAt": null,
+          "comments": 27,
+          "labels": []
+        },
+        {
+          "number": 15332,
+          "title": "Post-Adobe future : Brackets alternatives",
+          "state": "open",
+          "createdAt": "2021-03-13T19:49:24Z",
+          "closedAt": null,
+          "comments": 14,
+          "labels": []
+        },
+        {
+          "number": 15331,
+          "title": "Polish HTML entities not suggested for completion",
+          "state": "open",
+          "createdAt": "2021-03-11T19:56:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15330,
+          "title": "Adobe... you suck",
+          "state": "open",
+          "createdAt": "2021-03-08T12:02:44Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 15329,
+          "title": "Please do not kill this project.",
+          "state": "open",
+          "createdAt": "2021-03-03T07:38:16Z",
+          "closedAt": null,
+          "comments": 24,
+          "labels": []
+        },
+        {
+          "number": 15328,
+          "title": "Where is download?????  Not on the brackets.io site!!!",
+          "state": "open",
+          "createdAt": "2021-03-02T20:05:29Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 15327,
+          "title": "ARC Semantic issue: No known class method for selector 'componentsWithLink:domain:'",
+          "state": "closed",
+          "createdAt": "2021-03-02T11:42:01Z",
+          "closedAt": "2021-03-02T11:53:52Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15326,
+          "title": "Now download link",
+          "state": "open",
+          "createdAt": "2021-03-01T23:13:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15324,
+          "title": "Regex find/replace for multiple spaces throws exception",
+          "state": "open",
+          "createdAt": "2021-02-25T16:46:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15322,
+          "title": "Can't update getupdates.brackets.io",
+          "state": "closed",
+          "createdAt": "2021-02-18T20:00:22Z",
+          "closedAt": "2021-02-19T11:33:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15321,
+          "title": "spread operator throws off js syntax recognition",
+          "state": "open",
+          "createdAt": "2021-02-17T19:20:05Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15320,
+          "title": "coding in Brackets",
+          "state": "open",
+          "createdAt": "2021-02-16T09:46:18Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15319,
+          "title": "Parsing error when using nullish coalescing operators",
+          "state": "open",
+          "createdAt": "2021-02-13T03:38:52Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15318,
+          "title": "I was trying to install Homebrew on my Mac M1 but its giving me this error",
+          "state": "open",
+          "createdAt": "2021-02-12T02:10:11Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15316,
+          "title": "Brackets HDMI zoom issue",
+          "state": "closed",
+          "createdAt": "2021-02-06T09:27:31Z",
+          "closedAt": "2021-02-06T19:30:23Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15315,
+          "title": "[UI] Watchers page has invisible limitation",
+          "state": "closed",
+          "createdAt": "2021-02-02T16:51:33Z",
+          "closedAt": "2021-02-02T16:53:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15314,
+          "title": "Editor suddenly freezes.",
+          "state": "open",
+          "createdAt": "2021-02-02T16:37:01Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15312,
+          "title": "Installation error in Xubuntu 20.4 (Linux)",
+          "state": "closed",
+          "createdAt": "2021-01-29T13:09:40Z",
+          "closedAt": "2021-01-30T13:30:51Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 15311,
+          "title": "Has brackets stopped development and maintenance?",
+          "state": "open",
+          "createdAt": "2021-01-29T02:57:07Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 15310,
+          "title": "Dash Callback function not responding; Error: Duplicate Callback Output",
+          "state": "closed",
+          "createdAt": "2021-01-28T16:04:10Z",
+          "closedAt": "2021-01-28T16:11:00Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15309,
+          "title": "Stuck Responsive Division",
+          "state": "closed",
+          "createdAt": "2021-01-19T11:22:10Z",
+          "closedAt": "2021-01-21T13:18:23Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15308,
+          "title": "problem with brackets or is it just that bad all the time!",
+          "state": "open",
+          "createdAt": "2021-01-17T11:19:56Z",
+          "closedAt": null,
+          "comments": 20,
+          "labels": []
+        },
+        {
+          "number": 15307,
+          "title": "bad theme highlighting",
+          "state": "open",
+          "createdAt": "2021-01-11T19:24:01Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 15306,
+          "title": "Vala Language Support",
+          "state": "open",
+          "createdAt": "2021-01-10T19:00:17Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15302,
+          "title": "disable match tag(bracket) highlighting in Brackets text editor",
+          "state": "open",
+          "createdAt": "2021-01-05T23:06:23Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15301,
+          "title": "Incorrect highlighting of code change, after commit",
+          "state": "open",
+          "createdAt": "2021-01-04T22:45:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15300,
+          "title": "Depency libcurl3 can't be installed in linux mint 20(Ubuntu 20.04)",
+          "state": "open",
+          "createdAt": "2021-01-04T19:20:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15299,
+          "title": "Brackets not auto closing tags",
+          "state": "open",
+          "createdAt": "2021-01-02T21:45:37Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15298,
+          "title": "Brackets and LAB.min.js",
+          "state": "open",
+          "createdAt": "2021-01-01T01:06:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15297,
+          "title": "Brackets 1.14.1 not installing under Ubuntu 20.04.1",
+          "state": "open",
+          "createdAt": "2020-12-31T10:17:45Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 15296,
+          "title": "SRS Document",
+          "state": "open",
+          "createdAt": "2020-12-27T15:15:44Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15295,
+          "title": "how to use \"convert to arrow function\" under \"menu -> edit\"?",
+          "state": "open",
+          "createdAt": "2020-12-27T11:41:21Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15294,
+          "title": "invalid ticket",
+          "state": "closed",
+          "createdAt": "2020-12-23T14:37:07Z",
+          "closedAt": "2020-12-23T14:39:28Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15293,
+          "title": "Brackets live preview unknown error",
+          "state": "open",
+          "createdAt": "2020-12-21T21:14:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15292,
+          "title": "How to update a subscription plan using C#.net",
+          "state": "open",
+          "createdAt": "2020-12-18T08:05:38Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15291,
+          "title": "Error code null encountered while starting the PHP process",
+          "state": "open",
+          "createdAt": "2020-12-17T13:49:08Z",
+          "closedAt": null,
+          "comments": 17,
+          "labels": []
+        },
+        {
+          "number": 15290,
+          "title": "Title not centre aligned vertically",
+          "state": "open",
+          "createdAt": "2020-12-17T10:23:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15289,
+          "title": "My repo is folked from a different stranger's repo",
+          "state": "open",
+          "createdAt": "2020-12-15T17:36:21Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15288,
+          "title": "Improvements dutch Getting Started guide",
+          "state": "open",
+          "createdAt": "2020-12-12T22:25:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15287,
+          "title": "LibCurl3 dependicy not satisifyable",
+          "state": "closed",
+          "createdAt": "2020-12-10T16:54:42Z",
+          "closedAt": "2020-12-10T16:58:32Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15286,
+          "title": "Certificate on website no longer valid get a new one",
+          "state": "open",
+          "createdAt": "2020-12-10T16:50:58Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15285,
+          "title": "Emmet is not working in my brackets",
+          "state": "open",
+          "createdAt": "2020-12-09T20:05:00Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15284,
+          "title": "NativeApp openURLInDefaultBrowser doesn't work with variable arguments",
+          "state": "open",
+          "createdAt": "2020-12-08T04:36:55Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 15283,
+          "title": "npm-shrinkwrap version not matching package.json",
+          "state": "open",
+          "createdAt": "2020-12-08T03:57:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15281,
+          "title": "Libcurl3 dependency problem in Ubuntu MATE 20.04",
+          "state": "closed",
+          "createdAt": "2020-12-03T15:32:42Z",
+          "closedAt": "2020-12-18T16:45:43Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15280,
+          "title": "[Feature Request] Highlight all the same words of the selected word",
+          "state": "open",
+          "createdAt": "2020-12-03T01:48:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15279,
+          "title": "Apple Silicon (ARM) native code",
+          "state": "open",
+          "createdAt": "2020-12-02T22:28:33Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15278,
+          "title": "Unable to add the transition function",
+          "state": "open",
+          "createdAt": "2020-12-02T06:42:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15277,
+          "title": "Bug 5",
+          "state": "open",
+          "createdAt": "2020-11-30T14:59:11Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15276,
+          "title": "Bug 4 ",
+          "state": "open",
+          "createdAt": "2020-11-30T14:57:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15275,
+          "title": "Bug 3",
+          "state": "open",
+          "createdAt": "2020-11-30T14:56:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15274,
+          "title": "Bug 2",
+          "state": "open",
+          "createdAt": "2020-11-30T14:54:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15273,
+          "title": "Bug 1",
+          "state": "open",
+          "createdAt": "2020-11-30T14:52:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15272,
+          "title": "5 Bug Report",
+          "state": "open",
+          "createdAt": "2020-11-30T14:28:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15271,
+          "title": "4 Bug Report",
+          "state": "open",
+          "createdAt": "2020-11-30T14:22:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15270,
+          "title": "3 Bug Report",
+          "state": "open",
+          "createdAt": "2020-11-30T14:19:42Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15269,
+          "title": "2 Bug Report",
+          "state": "open",
+          "createdAt": "2020-11-30T14:11:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15268,
+          "title": "1 Bug Report",
+          "state": "open",
+          "createdAt": "2020-11-30T14:05:34Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15267,
+          "title": "Help",
+          "state": "open",
+          "createdAt": "2020-11-30T08:37:00Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15266,
+          "title": "Issue 5",
+          "state": "open",
+          "createdAt": "2020-11-30T06:53:34Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15265,
+          "title": "Issue 4",
+          "state": "open",
+          "createdAt": "2020-11-30T06:47:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15264,
+          "title": "Issue 3",
+          "state": "open",
+          "createdAt": "2020-11-30T06:40:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15263,
+          "title": "Issue 2",
+          "state": "open",
+          "createdAt": "2020-11-30T06:31:34Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15262,
+          "title": "Issue 1",
+          "state": "open",
+          "createdAt": "2020-11-30T06:22:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15261,
+          "title": "Bug 5",
+          "state": "open",
+          "createdAt": "2020-11-29T18:11:29Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15260,
+          "title": "Bug 4",
+          "state": "open",
+          "createdAt": "2020-11-29T17:58:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15259,
+          "title": "3",
+          "state": "open",
+          "createdAt": "2020-11-29T17:41:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15258,
+          "title": "Bug:2",
+          "state": "open",
+          "createdAt": "2020-11-29T17:19:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15257,
+          "title": "Issue 1",
+          "state": "open",
+          "createdAt": "2020-11-29T16:56:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15256,
+          "title": "UI in multiple languages",
+          "state": "open",
+          "createdAt": "2020-11-28T13:19:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15253,
+          "title": "search and dorking give a wrong response",
+          "state": "closed",
+          "createdAt": "2020-11-25T14:05:22Z",
+          "closedAt": "2020-11-27T00:41:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15252,
+          "title": "Problems panel - making error description copyable or searchable on a search engine (Windows 10)",
+          "state": "open",
+          "createdAt": "2020-11-23T08:51:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15251,
+          "title": "Feature column selection",
+          "state": "open",
+          "createdAt": "2020-11-22T14:47:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15250,
+          "title": "Highlighting element aftar closing the tag",
+          "state": "closed",
+          "createdAt": "2020-11-19T10:45:03Z",
+          "closedAt": "2020-11-19T10:55:47Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15249,
+          "title": "Add space-evenly in the css code hints",
+          "state": "open",
+          "createdAt": "2020-11-16T19:55:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15248,
+          "title": "Big Sur Icon",
+          "state": "open",
+          "createdAt": "2020-11-15T19:41:38Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15247,
+          "title": "Lost all my training code",
+          "state": "open",
+          "createdAt": "2020-11-14T11:03:32Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15246,
+          "title": "brackets account/login",
+          "state": "closed",
+          "createdAt": "2020-11-14T00:41:29Z",
+          "closedAt": "2020-11-26T05:54:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15245,
+          "title": "[FEATURE] Please add a saturation slider to the quick colour editor and add value input fields",
+          "state": "open",
+          "createdAt": "2020-11-10T01:19:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15244,
+          "title": " I change the brackets json file but I have no results.",
+          "state": "open",
+          "createdAt": "2020-11-09T09:52:17Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15243,
+          "title": "BIg sur 11.0.1 Beta  not work  Crash when opened",
+          "state": "open",
+          "createdAt": "2020-11-08T14:28:04Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15242,
+          "title": "Android Studio Error getting Flutter sdk information.",
+          "state": "open",
+          "createdAt": "2020-11-01T11:51:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15241,
+          "title": ".deb doesnt work on Ubuntu 20.10",
+          "state": "open",
+          "createdAt": "2020-10-28T18:19:15Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15240,
+          "title": "ShortCut keys not working in ubuntu 14.04 ",
+          "state": "open",
+          "createdAt": "2020-10-27T04:41:56Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15239,
+          "title": "testing md",
+          "state": "closed",
+          "createdAt": "2020-10-27T02:08:29Z",
+          "closedAt": "2020-10-27T02:08:39Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15238,
+          "title": "The use of an optional chaining operator in a JS file breaks auto indent",
+          "state": "open",
+          "createdAt": "2020-10-24T16:45:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15237,
+          "title": "Erreur moteur PHP7 Brackets 1.14.2",
+          "state": "open",
+          "createdAt": "2020-10-23T15:04:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15236,
+          "title": "Cannot install brackets without \"dependencies",
+          "state": "closed",
+          "createdAt": "2020-10-21T20:39:17Z",
+          "closedAt": "2020-10-23T01:41:36Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15235,
+          "title": "Live Preview Won't Work // PLEASE someone help",
+          "state": "open",
+          "createdAt": "2020-10-21T19:19:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15234,
+          "title": "live Preview in Brackets (not working)",
+          "state": "open",
+          "createdAt": "2020-10-19T19:57:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15233,
+          "title": "The keyword 'const' is reserved",
+          "state": "open",
+          "createdAt": "2020-10-18T02:50:54Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15232,
+          "title": "vscode extension/ debugpy",
+          "state": "open",
+          "createdAt": "2020-10-14T11:12:36Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15231,
+          "title": "Update 1.14.2 failed on MacOS Catalina 10.15.7",
+          "state": "open",
+          "createdAt": "2020-10-13T13:52:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15230,
+          "title": "why  cannot i download Brackets1.14.2",
+          "state": "open",
+          "createdAt": "2020-10-11T22:35:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15229,
+          "title": "After installing the new version of brackets, the data in the getting started directory is lost. How can I restore it",
+          "state": "open",
+          "createdAt": "2020-10-11T02:28:45Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15226,
+          "title": "ERR phantomjs@1.9.18 install: `node install.js`",
+          "state": "open",
+          "createdAt": "2020-10-06T15:06:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15225,
+          "title": "Can't hack on brackets",
+          "state": "open",
+          "createdAt": "2020-10-06T08:04:01Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 15224,
+          "title": "The following counter not decreasing in my profile although I unfollowed on guy a week ago..",
+          "state": "open",
+          "createdAt": "2020-10-05T11:21:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15223,
+          "title": "APACHE2 SERVER ERROR",
+          "state": "open",
+          "createdAt": "2020-10-03T16:54:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15218,
+          "title": "Preferences",
+          "state": "open",
+          "createdAt": "2020-09-18T20:48:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15217,
+          "title": "Misbehave of Ctrl + F",
+          "state": "open",
+          "createdAt": "2020-09-18T18:55:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15216,
+          "title": "Error when writing JavaScript string literal",
+          "state": "open",
+          "createdAt": "2020-09-18T15:09:19Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15214,
+          "title": "Higthligth support for private fields in Javascript",
+          "state": "open",
+          "createdAt": "2020-09-17T04:03:51Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15213,
+          "title": "Trying to make a music discord bot, but the music don't play.",
+          "state": "closed",
+          "createdAt": "2020-09-16T20:34:22Z",
+          "closedAt": "2020-11-24T20:43:44Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15212,
+          "title": "Installing Zoom on Vista",
+          "state": "open",
+          "createdAt": "2020-09-11T06:36:10Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15211,
+          "title": "Brackets is not reinstalling",
+          "state": "open",
+          "createdAt": "2020-09-11T04:20:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15210,
+          "title": "Mistake",
+          "state": "closed",
+          "createdAt": "2020-09-08T18:51:05Z",
+          "closedAt": "2020-09-14T19:07:34Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15209,
+          "title": "Listening on Port 8123",
+          "state": "open",
+          "createdAt": "2020-09-08T03:30:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15208,
+          "title": "is there a way to code hint with d.ts files like vscode intellisence?",
+          "state": "open",
+          "createdAt": "2020-09-03T17:53:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15207,
+          "title": "Correct instructions on how to Suggest a Feature",
+          "state": "open",
+          "createdAt": "2020-09-02T11:57:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15206,
+          "title": "-",
+          "state": "closed",
+          "createdAt": "2020-08-30T08:53:06Z",
+          "closedAt": "2020-10-08T04:21:05Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15205,
+          "title": ".",
+          "state": "closed",
+          "createdAt": "2020-08-30T08:50:35Z",
+          "closedAt": "2020-10-08T04:19:11Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15204,
+          "title": "Crashing on Mac Book Pro 10.11.6 OS",
+          "state": "open",
+          "createdAt": "2020-08-25T15:02:54Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15203,
+          "title": "work files not showing project files depending on how I open them",
+          "state": "open",
+          "createdAt": "2020-08-23T20:55:13Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15202,
+          "title": "HELP ! Live Preview Error, must have to do with Brackets' console (Livepreview.js)",
+          "state": "open",
+          "createdAt": "2020-08-23T14:03:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15201,
+          "title": "Error reading preferences",
+          "state": "open",
+          "createdAt": "2020-08-20T18:14:58Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15200,
+          "title": "Server status of 404 generated from favicon.ico:1",
+          "state": "open",
+          "createdAt": "2020-08-19T21:14:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15199,
+          "title": "Error 500",
+          "state": "open",
+          "createdAt": "2020-08-15T07:14:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15198,
+          "title": "Text window needs two clicks to edit",
+          "state": "open",
+          "createdAt": "2020-08-13T09:00:53Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15197,
+          "title": "hi, I need help with the following issues",
+          "state": "open",
+          "createdAt": "2020-08-11T18:32:55Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15196,
+          "title": "Closing script tag with / stops coloring and autocorrect",
+          "state": "closed",
+          "createdAt": "2020-08-11T15:53:51Z",
+          "closedAt": "2021-02-27T17:47:33Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15195,
+          "title": "Can't change the project folder in Brackets (#12592)",
+          "state": "open",
+          "createdAt": "2020-08-05T15:45:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15193,
+          "title": "Brackets 1.14.2 crashes immediately on launch. Fresh install.",
+          "state": "open",
+          "createdAt": "2020-08-03T15:32:33Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 15192,
+          "title": "I manually installed Python Tools Extension but it doesn't work",
+          "state": "open",
+          "createdAt": "2020-07-30T09:33:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15191,
+          "title": "C++ support",
+          "state": "open",
+          "createdAt": "2020-07-21T15:15:18Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15190,
+          "title": "brackets.json error - not valid JSON.",
+          "state": "closed",
+          "createdAt": "2020-07-20T18:09:47Z",
+          "closedAt": "2020-07-20T18:18:38Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15189,
+          "title": "Brackets doesn't show the text if the text is mixed utf8 and utf16",
+          "state": "open",
+          "createdAt": "2020-07-19T13:25:46Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15187,
+          "title": "When every i add implementation'com.plaid.link:sdk-core:2.1.0' in android project i get error",
+          "state": "open",
+          "createdAt": "2020-07-16T09:55:29Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15186,
+          "title": "Brackets not loading while working behind a Proxy server",
+          "state": "open",
+          "createdAt": "2020-07-08T11:25:15Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15185,
+          "title": "Sync Extension Presents Modal Dialog--unable to cancel or continue.",
+          "state": "open",
+          "createdAt": "2020-07-01T04:20:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15184,
+          "title": "Tensorflow Keras - ValueError: Graph disconnected: cannot obtain value for tensor Tensor",
+          "state": "open",
+          "createdAt": "2020-06-25T07:49:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15183,
+          "title": "Live Reload Not working in current window profile",
+          "state": "open",
+          "createdAt": "2020-06-25T06:03:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15182,
+          "title": "PHP Runtime error keeps coming up (Linux Mint, PHP7.2)",
+          "state": "closed",
+          "createdAt": "2020-06-24T08:48:35Z",
+          "closedAt": "2020-06-24T18:02:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15181,
+          "title": "Search bar improvement",
+          "state": "open",
+          "createdAt": "2020-06-22T15:05:48Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15180,
+          "title": "Code hints not working only with Javascript",
+          "state": "open",
+          "createdAt": "2020-06-20T02:41:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15179,
+          "title": "How to hide Minimap",
+          "state": "closed",
+          "createdAt": "2020-06-19T13:34:00Z",
+          "closedAt": "2020-06-21T10:20:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15178,
+          "title": "Brackets non-responsive when opened",
+          "state": "open",
+          "createdAt": "2020-06-17T12:25:19Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 15177,
+          "title": "qiime2R (could not find \"summarize_taxa\" function)",
+          "state": "open",
+          "createdAt": "2020-06-17T00:37:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15176,
+          "title": "Switch to more inclusive language",
+          "state": "open",
+          "createdAt": "2020-06-12T14:02:47Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 15175,
+          "title": "Option not to include a space after colon when CSS Code Hint is used",
+          "state": "open",
+          "createdAt": "2020-06-08T00:44:01Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 15174,
+          "title": "main.css file not saving problem",
+          "state": "open",
+          "createdAt": "2020-06-07T12:27:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 142,
+        "totalFetched": 173,
+        "medianDaysToFirstResponse": 1.6,
+        "openOverOneYearNoReply": 90
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "\n| :warning: On September 1, 2021, Adobe will end support for Brackets. If you would like to continue using, maintaining, and improving Brackets, you may fork the project on [GitHub](https://github.com/adobe/brackets). Through Adobe’s partnership with Microsoft, we encourage users to migrate to [Visual Studio Code](https://aka.ms/brackets-to-vscode), Microsoft’s free code editor built on open source.\n| ---\n\n\nWelcome to Brackets! [![Build Status](https://travis-ci.org/adobe/brackets.svg?branch=master)](https://travis-ci.org/adobe/brackets)\n-------------------\n\nBrackets is a modern open-source code editor for HTML, CSS\nand JavaScript that's *built* in HTML, CSS and JavaScript. \n\nWhat makes Brackets different from other web code editors?\n\n* **Tools shouldn't get in your way.** Instead of cluttering up your coding\nenvironment with lots of panels and icons, the Quick Edit UI in Brackets puts \ncontext-specific code and tools inline.\n* **Brackets is in sync with your browser.** With Live Preview, Brackets\nworks directly with your browser to push code edits instantly and jump\nback and forth between your real source code and the browser view.\n* **Do it yourself.** Because Brackets is open source, and built with HTML, CSS\nand JavaScript, you can [help build](https://github.com/adobe/brackets/blob/master/CONTRIBUTING.md) the best code editor for the web.\n\nBrackets may have reached version 1, but we're not stopping there. We have many feature ideas on our\n[trello board](http://bit.ly/BracketsTrelloBoard) that we're anxious to add and other\ninnovative web development workflows that we're planning to build into Brackets. \nSo take Brackets out for a spin and let us know how we can make it your favorite editor. \n\nYou can see some \n[screenshots of Brackets](https://github.com/adobe/brackets/wiki/Brackets-Screenshots)\non the wiki, [intro videos](http://www.youtube.com/user/CodeBrackets) on YouTube, and news on the [Brackets blog](http://blog.brackets.io/).\n\nHow to install and run Brackets\n-------------------------------\n#### Download\n\nInstallers for the latest stable build for Mac, Windows and Linux (Debian/Ubuntu) can be [downloaded here](http://brackets.io/).\n\n#### Usage\n\nBy default, Brackets opens a folder containing some simple \"Getting Started\" content.\nYou can choose a different folder to edit using *File > Open Folder*.\n\nMost of Brackets should be pretty self-explanatory, but for information on how\nto use its unique features, like Quick Edit and Live Preview, please read\n[How to Use Brackets](http://github.com/adobe/brackets/wiki/How-to-Use-Brackets). \nAlso, see the [release notes](http://github.com/adobe/brackets/wiki/Release-Notes)\nfor a list of new features and known issues in each build.\n\nIn addition to the core features built into Brackets, there is a large and growing\ncommunity of developers building extensions that add all sorts of useful functionality.\nSee the [Brackets Extension Registry](https://registry.brackets.io/)\nfor a list of available extensions. For installation instructions,\nsee the [extensions wiki page](https://github.com/adobe/brackets/wiki/Brackets-Extensions).\n\n#### Need help?\n\nHaving problems starting Brackets the first time, or not sure how to use Brackets?  Please \nreview [Troubleshooting](https://github.com/adobe/brackets/wiki/Troubleshooting), which helps \nyou to fix common problems and find extra help if needed.\n\nHelping Brackets\n----------------\n\n#### I found a bug!\n\nIf you found a repeatable bug, and [troubleshooting](https://github.com/adobe/brackets/wiki/Troubleshooting) \ntips didn't help, then be sure to [search existing issues](https://github.com/adobe/brackets/issues) first.\nInclude steps to consistently reproduce the problem, actual vs. expected results, screenshots, and your OS and\nBrackets version number. Disable all extensions to verify the issue is a core Brackets bug.\n[Read more guidelines for filing good bugs.](https://github.com/adobe/brackets/wiki/How-to-Report-an-Issue)\n\n\n#### I have a new suggestion, but don't know how to program!\n\nFor feature requests please first check our [Trello board](http://bit.ly/BracketsBacklog) to\nsee if it's already there; you can upvote it if so. If not, feel free to file it as an issue as above; we'll\nmove it to the feature backlog for you.\n\n\n#### I want to help with the code!\n\nAwesome! _There are lots of ways you can help._ First read \n[CONTRIBUTING.md](https://github.com/adobe/brackets/blob/master/CONTRIBUTING.md), \nthen learn how to [pull the repo and hack on Brackets](https://github.com/adobe/brackets/wiki/How-to-Hack-on-Brackets).\n\nThe text editor inside Brackets is based on \n[CodeMirror](http://github.com/codemirror/CodeMirror)&mdash;thanks to Marijn for\ntaking our pull requests, implementing feature requests and fixing bugs! See \n[Notes on CodeMirror](https://github.com/adobe/brackets/wiki/Notes-on-CodeMirror)\nfor info on how we're using CodeMirror.\n\nAlthough Brackets is built in HTML/CSS/JS, it currently runs as a desktop \napplication in a thin native shell, so that it can access your local files.\n(If you just try to open the index.html file in a browser, it won't work yet.)\nThe native shell for Brackets lives in a separate repo, \n[adobe/brackets-shell](https://github.com/adobe/brackets-shell/).\n\n\nI want to keep track of how Brackets is doing!\n----------------------------------------------\n\nNot sure you needed the exclamation point there, but we like your enthusiasm.\n\n#### What's Brackets working on next?\n\n* In our [feature backlog](http://bit.ly/BracketsBacklog), the columns to the right\n  (starting from \"Development\") list the features that we're currently working on.\n  \"Ready\" shows what we'll be working on next.\n* Watch our [GitHub activity stream](https://github.com/adobe/brackets/pulse).\n* Watch our [Waffle Kanban board](https://waffle.io/adobe/brackets): Work items in [![Stories in Ready](https://badge.waffle.io/adobe/brackets.svg?label=ready&title=Ready)](http://waffle.io/adobe/brackets) are next. The entire development process is outlined in the [Developer Guide](https://github.com/adobe/brackets/wiki/Brackets-Developers-Guide).\n\n#### Contact info\n\n* **E-mail:** [admin@brackets.io](mailto:admin@brackets.io)\n* **Slack:** [Brackets on Slack](https://brackets.slack.com) (You can join by sending a mail to [admin@brackets.io](mailto:admin@brackets.io) with the subject line `slack registration request` specifying the email addresses you would like to register).\n* **Developers mailing list:** http://groups.google.com/group/brackets-dev\n* **Twitter:** [@brackets](https://twitter.com/brackets)\n* **Blog:** http://blog.brackets.io/\n* **IRC:** [#brackets on freenode](http://webchat.freenode.net/?channels=brackets)\n\n---\n\nPlease note that this project is released with a [Contributor Code of Conduct](https://github.com/adobe/brackets/blob/master/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1487,
+      "flatlineMonth": "2021-03",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:12:16.703Z"
+  },
+  "autopsy": {
+    "epitaph": "Once a bright-brackets beacon for the web-weary coder, it was archived by Adobe on the very day an EOL notification was committed — its 33,032 stars dimmed to a monument no one will maintain.",
+    "causes": [
+      {
+        "label": "Deliberate Corporate Abandonment (Adobe EOL)",
+        "confidencePct": 98,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "f0cae55ce80c380a5c5c665110623f21cce966b3"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#15329"
+          },
+          {
+            "type": "issue",
+            "ref": "#15333"
+          }
+        ]
+      },
+      {
+        "label": "Sustained Commit Decline and Activity Flatline",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "d55ac606ac44e7169dbeaf959c9ed47dac6a6b9a"
+          },
+          {
+            "type": "branch",
+            "ref": "1.15"
+          },
+          {
+            "type": "issue",
+            "ref": "#15311"
+          }
+        ]
+      },
+      {
+        "label": "Issue Tracker Entropy — Unresolved Bugs and Community Drift",
+        "confidencePct": 80,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#15342"
+          },
+          {
+            "type": "issue",
+            "ref": "#15362"
+          },
+          {
+            "type": "issue",
+            "ref": "#15341"
+          }
+        ]
+      },
+      {
+        "label": "Infrastructure Decay (Broken Download Links and Invalid Certificates)",
+        "confidencePct": 72,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#15328"
+          },
+          {
+            "type": "issue",
+            "ref": "#15286"
+          },
+          {
+            "type": "issue",
+            "ref": "#15337"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Fork the repository under a neutral community-owned GitHub organization (as suggested in #15333) and establish a transparent governance model with a named maintainer council.",
+        "effort": "a week"
+      },
+      {
+        "step": "Update or replace the broken download infrastructure and renew the expired brackets.io certificate so users can actually obtain the software referenced in the README.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Triage and close the 90+ open issues that have languished over a year without reply, publishing a public roadmap distinguishing 'wontfix' from 'community-accepted'.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Modernize the underlying Electron/CEF shell to support current OS targets (Apple Silicon, Ubuntu 20.04+) to address the libcurl3 dependency rot and Big Sur crash reports.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Replace the frozen CodeMirror version with a maintained editor core or migrate the feature set to a VS Code extension, closing the modern JavaScript syntax gap exposed by spread operators, optional chaining, and nullish coalescing issues.",
+        "effort": "a heroic quarter"
+      }
+    ],
+    "lastWordsGloss": "'Change hyperlink' — because when the building is burning, the bravest act left is updating the exit sign."
+  }
+}

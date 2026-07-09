@@ -1,0 +1,2083 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "jquery-archive",
+      "name": "jquery-mobile",
+      "fullName": "jquery-archive/jquery-mobile",
+      "description": "jQuery Mobile Framework",
+      "htmlUrl": "https://github.com/jquery-archive/jquery-mobile",
+      "createdAt": "2010-09-13T15:02:22Z",
+      "pushedAt": "2021-10-07T17:23:39Z",
+      "archived": true,
+      "stars": 9614,
+      "forks": 2354,
+      "defaultBranch": "main",
+      "license": "Other"
+    },
+    "commits": {
+      "totalCount": 13114,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2013-12",
+          "count": 26
+        },
+        {
+          "month": "2014-01",
+          "count": 34
+        },
+        {
+          "month": "2014-02",
+          "count": 78
+        },
+        {
+          "month": "2014-03",
+          "count": 17
+        },
+        {
+          "month": "2014-04",
+          "count": 24
+        },
+        {
+          "month": "2014-05",
+          "count": 22
+        },
+        {
+          "month": "2014-06",
+          "count": 41
+        },
+        {
+          "month": "2014-07",
+          "count": 13
+        },
+        {
+          "month": "2014-08",
+          "count": 22
+        },
+        {
+          "month": "2014-09",
+          "count": 9
+        },
+        {
+          "month": "2014-10",
+          "count": 25
+        },
+        {
+          "month": "2014-12",
+          "count": 12
+        },
+        {
+          "month": "2015-01",
+          "count": 12
+        },
+        {
+          "month": "2015-02",
+          "count": 3
+        },
+        {
+          "month": "2015-03",
+          "count": 6
+        },
+        {
+          "month": "2015-04",
+          "count": 22
+        },
+        {
+          "month": "2015-05",
+          "count": 16
+        },
+        {
+          "month": "2015-06",
+          "count": 4
+        },
+        {
+          "month": "2016-07",
+          "count": 591
+        },
+        {
+          "month": "2016-08",
+          "count": 5
+        },
+        {
+          "month": "2016-09",
+          "count": 10
+        },
+        {
+          "month": "2017-01",
+          "count": 1
+        },
+        {
+          "month": "2017-12",
+          "count": 1
+        },
+        {
+          "month": "2018-09",
+          "count": 1
+        },
+        {
+          "month": "2019-06",
+          "count": 4
+        },
+        {
+          "month": "2021-10",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "1c3a17624608a1650124020bea7d0dadf365475f",
+          "message": "Docs: Add info about the project status to README",
+          "date": "2021-10-07T17:23:39Z",
+          "authorName": "Michał Gołębiowski-Owczarek",
+          "authorLogin": "mgol"
+        },
+        {
+          "sha": "4a6395df87acc4065ba39c3ab17d419fdc1a585b",
+          "message": "Update .travis.yml (#8648)",
+          "date": "2019-06-14T17:54:59Z",
+          "authorName": "ecadius",
+          "authorLogin": "ecadius"
+        },
+        {
+          "sha": "e302086f6d2226f3a949a20e24b47ea676ae922e",
+          "message": "Fix missing double quotes in recent #8649",
+          "date": "2019-06-13T17:49:22Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "3b956195f5049f3648d959a3352dcb2cefc11505",
+          "message": "Fixed issue in URL parsing (#8650)",
+          "date": "2019-06-13T17:44:35Z",
+          "authorName": "Denis Ryabov",
+          "authorLogin": "dryabov"
+        },
+        {
+          "sha": "b0d9cc758a48f13321750d7409fb7655dcdf2b50",
+          "message": "Check Content-Type header before parsing AJAX response as HTML (#8649)",
+          "date": "2019-06-13T17:42:26Z",
+          "authorName": "Denis Ryabov",
+          "authorLogin": "dryabov"
+        },
+        {
+          "sha": "1f0cec9bcb9d75998e733d580d6f1144c963326e",
+          "message": "Build: Update Authors",
+          "date": "2018-09-10T04:29:41Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "591f10c0e00e2a90fc00055d32cc0a0448ebf65c",
+          "message": "demos: Remove doc line re: panels external to page is not supported (#8576)",
+          "date": "2017-12-07T19:41:14Z",
+          "authorName": "Robert Cochran",
+          "authorLogin": null
+        },
+        {
+          "sha": "f075f58e80e71014bbeb94dc0d2efd4cd800a0ba",
+          "message": "Build: Update Authors",
+          "date": "2017-01-03T03:27:06Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "d23270fbefcd9c9af8b35ed309345cce3935baf9",
+          "message": "Listview: Remove old item untracking and update jQuery UI to 1.12.1",
+          "date": "2016-09-27T20:19:34Z",
+          "authorName": "Gabriel Schulhof",
+          "authorLogin": null
+        },
+        {
+          "sha": "e377564aa121d0439a21bc97f7854ee618c3f72d",
+          "message": "Pagecontainer: Change function now returns a promise",
+          "date": "2016-09-08T17:52:07Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "a9196f308f1db2f7b7326116f4d09dcac6ad7a2f",
+          "message": "Panel: ScrollTop only when ui-content is out of view",
+          "date": "2016-09-08T17:14:35Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "9a2daa07058e6f4a768d524ecb55fdb797eeb858",
+          "message": "Page: Tweak CSS for non-active page hiding",
+          "date": "2016-09-01T18:32:29Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "d5c5868cae25ad1b3099fdd233fc8f33d26669fd",
+          "message": "Demos: Updated field containers demo page",
+          "date": "2016-09-01T18:29:09Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "54c423bbbaa456f935a9b454b6caa77915143540",
+          "message": "Demos: Fixed duplicate ID slider tooltip demo",
+          "date": "2016-09-01T18:29:08Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "4245178f7fdee28e20c5f74b51e937220978fd39",
+          "message": "Demos: Removed duplicate form widgets menu entries",
+          "date": "2016-09-01T18:29:08Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "635309de39e3a49204ae4e00deb2b82dc9bcb116",
+          "message": "Theme: Set system font as default font",
+          "date": "2016-09-01T18:26:39Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "5acb23e95f78a75050d24c8e840b042030d9d6b8",
+          "message": "Core: Also unset moz-focus-inner border for input elements",
+          "date": "2016-09-01T18:26:39Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "d1f456c828c9e7bf20d414f20993127ae3fc8d45",
+          "message": "Icons: Use margin instead of bottom offset for vertical icon position",
+          "date": "2016-09-01T18:26:17Z",
+          "authorName": "Jasper de Groot",
+          "authorLogin": "jaspermdegroot"
+        },
+        {
+          "sha": "f160d16525f9085b909b8c54cb1b195ead1d8ef1",
+          "message": "Helpers: Remove getInheritedTheme()",
+          "date": "2016-08-11T17:55:10Z",
+          "authorName": "Gabriel Schulhof",
+          "authorLogin": null
+        },
+        {
+          "sha": "1462537919158f546fcd701874643860655b3ebc",
+          "message": "Collapsible: Remove last references to $.mobile.activeBtnClass",
+          "date": "2016-08-11T17:54:57Z",
+          "authorName": "Gabriel Schulhof",
+          "authorLogin": null
+        },
+        {
+          "sha": "bfb17bb3b23e3dd94c31bc81a78de514b3373c93",
+          "message": "Listview: Review refresh() method",
+          "date": "2016-08-11T17:54:27Z",
+          "authorName": "Gabriel Schulhof",
+          "authorLogin": null
+        },
+        {
+          "sha": "a94c5d9350f04e720d9e7f87d63649865b6b2078",
+          "message": "Build: Add requirejs text plugin required for builder",
+          "date": "2016-08-01T02:39:35Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "6f6264fb6293729f88c0c19ee33e119f9c10680b",
+          "message": "Build: Update dependencies",
+          "date": "2016-08-01T02:16:48Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "9f9092ca2177d9672998c871bf10411b06a1352a",
+          "message": "Accordion: Fix incorrect dependency path",
+          "date": "2016-07-31T22:26:55Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "2f00774740d2547c9d15ec786e5663a42ec53cf5",
+          "message": "Pagecontainer: Remove a useless instruction.",
+          "date": "2016-07-08T08:59:37Z",
+          "authorName": "Ivan Enderlin",
+          "authorLogin": "Hywan"
+        },
+        {
+          "sha": "1c59c525575835ff1aedcae228c4f07bb3bc0e22",
+          "message": "Build: Update release script",
+          "date": "2016-07-07T20:50:56Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "da23feb01a2a1edcb845c088fd1aec3abc9abda2",
+          "message": "Build: update authors.txt",
+          "date": "2016-07-05T03:24:03Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        },
+        {
+          "sha": "3840b50b72455616553243148e4186cf983d513a",
+          "message": "Init: Fix no autoinit page transitions for core 3.0",
+          "date": "2016-07-04T17:24:43Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "c3c796a551350f12203ac9bd290f9797d812cd82",
+          "message": "Init: Fix no autoinit page transitions tests",
+          "date": "2016-07-04T13:32:25Z",
+          "authorName": "Amanpreet Singh",
+          "authorLogin": "apsdehal"
+        },
+        {
+          "sha": "1e2bb225bd34abfc93e84943ea91851357c2c380",
+          "message": "Select: Fix refrence to pagecontainer.transitions in tests",
+          "date": "2016-07-04T13:32:25Z",
+          "authorName": "Alexander Schmitz",
+          "authorLogin": "arschmitz"
+        }
+      ],
+      "finalCommit": {
+        "sha": "1c3a17624608a1650124020bea7d0dadf365475f",
+        "message": "Docs: Add info about the project status to README",
+        "date": "2021-10-07T17:23:39Z",
+        "authorName": "Michał Gołębiowski-Owczarek",
+        "authorLogin": "mgol"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "1.0-stable",
+          "lastCommitDate": "2012-02-29T17:23:29Z",
+          "aheadBy": 59,
+          "behindBy": 8835
+        },
+        {
+          "name": "1.1-stable",
+          "lastCommitDate": "2013-03-22T23:43:28Z",
+          "aheadBy": 513,
+          "behindBy": 7181
+        },
+        {
+          "name": "1.2-stable",
+          "lastCommitDate": "2013-03-22T23:41:45Z",
+          "aheadBy": 58,
+          "behindBy": 5229
+        },
+        {
+          "name": "1.3-stable",
+          "lastCommitDate": "2013-09-12T22:31:50Z",
+          "aheadBy": 222,
+          "behindBy": 3284
+        },
+        {
+          "name": "1.4-stable",
+          "lastCommitDate": "2014-10-31T17:38:01Z",
+          "aheadBy": 156,
+          "behindBy": 852
+        },
+        {
+          "name": "1.5-demos-issues",
+          "lastCommitDate": "2016-03-17T13:39:53Z",
+          "aheadBy": 249,
+          "behindBy": 616
+        },
+        {
+          "name": "main",
+          "lastCommitDate": "2021-10-07T17:23:39Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "perf",
+          "lastCommitDate": "2013-06-23T15:12:24Z",
+          "aheadBy": 8,
+          "behindBy": 2180
+        },
+        {
+          "name": "polymer",
+          "lastCommitDate": "2014-05-24T02:03:18Z",
+          "aheadBy": 1,
+          "behindBy": 809
+        },
+        {
+          "name": "postcss",
+          "lastCommitDate": "2016-08-23T10:42:43Z",
+          "aheadBy": 2,
+          "behindBy": 18
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 8674,
+          "title": "Replace JSF CLA with OpenJS CLA",
+          "state": "open",
+          "createdAt": "2021-09-14T01:55:55Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8673,
+          "title": "Download builder problems",
+          "state": "open",
+          "createdAt": "2021-08-10T08:40:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8670,
+          "title": "Swiping unexpectedly prevents text selection",
+          "state": "open",
+          "createdAt": "2021-07-22T17:30:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8669,
+          "title": "Show slow not working iphone IOS",
+          "state": "open",
+          "createdAt": "2021-01-08T12:59:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8665,
+          "title": "Duplicate datepicker is displayed when ui-datepicker is included in html dynamically and append to body is true",
+          "state": "open",
+          "createdAt": "2020-06-30T10:19:36Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8663,
+          "title": "Jquery : focus event not working in iphone browsers",
+          "state": "open",
+          "createdAt": "2020-05-04T14:19:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8662,
+          "title": "JQuery Mobile is Brilliant (2020)",
+          "state": "open",
+          "createdAt": "2020-04-24T07:20:09Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 8660,
+          "title": "tap event not working",
+          "state": "closed",
+          "createdAt": "2019-12-10T02:18:46Z",
+          "closedAt": "2020-02-13T03:03:00Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8659,
+          "title": "swipeleft and swiperight events fire when moving a zoomed viewport around",
+          "state": "open",
+          "createdAt": "2019-09-26T14:40:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8658,
+          "title": "swipeleft and swiperight events fire when pinch-zooming",
+          "state": "open",
+          "createdAt": "2019-09-26T14:28:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8657,
+          "title": "The download builder is broken",
+          "state": "open",
+          "createdAt": "2019-09-26T14:20:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8656,
+          "title": "Uncaught TypeError: Cannot read property 'jqmData' of undefined",
+          "state": "open",
+          "createdAt": "2019-09-25T20:23:52Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8655,
+          "title": "Radio get unchecked when using html() function in jquery",
+          "state": "open",
+          "createdAt": "2019-09-25T16:28:54Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8654,
+          "title": "Download builder page not working, hangs",
+          "state": "open",
+          "createdAt": "2019-07-18T20:16:18Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8653,
+          "title": "Multiple selectmenu problem for IOS 13 webview",
+          "state": "open",
+          "createdAt": "2019-07-18T09:36:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8651,
+          "title": "Exchange PhantomJs",
+          "state": "open",
+          "createdAt": "2019-05-11T00:45:39Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8647,
+          "title": "filterablebeforefilter not working with jquery 3.3.1 environment",
+          "state": "closed",
+          "createdAt": "2019-04-16T17:07:19Z",
+          "closedAt": "2019-05-22T10:49:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8646,
+          "title": "content is not loading using ajax",
+          "state": "open",
+          "createdAt": "2019-04-12T16:31:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8645,
+          "title": "how to refresh rangeslider with transition",
+          "state": "open",
+          "createdAt": "2019-03-27T04:57:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8644,
+          "title": "swipeleft/swiperight not working after first pageload but working afterwards",
+          "state": "open",
+          "createdAt": "2019-03-08T14:51:55Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8643,
+          "title": "<%= version %>",
+          "state": "open",
+          "createdAt": "2019-02-07T11:00:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8641,
+          "title": "SVG use tag can not fire vmouseover event on IE and Edge",
+          "state": "open",
+          "createdAt": "2019-01-04T09:27:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8640,
+          "title": "Security issues",
+          "state": "open",
+          "createdAt": "2018-12-01T11:36:01Z",
+          "closedAt": null,
+          "comments": 18,
+          "labels": []
+        },
+        {
+          "number": 8639,
+          "title": "no builds for 1.5.0-rc1",
+          "state": "closed",
+          "createdAt": "2018-11-08T01:14:26Z",
+          "closedAt": "2018-12-08T20:55:49Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 8638,
+          "title": "Jquery mobile sticky header",
+          "state": "open",
+          "createdAt": "2018-10-16T12:53:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8637,
+          "title": "Page Transition issues in iOS 12",
+          "state": "open",
+          "createdAt": "2018-09-30T05:44:40Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8636,
+          "title": "not compatible for Salesforce",
+          "state": "open",
+          "createdAt": "2018-09-22T08:07:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8635,
+          "title": " Jquery-mobile does not suppport jquery 3.3.1",
+          "state": "closed",
+          "createdAt": "2018-09-11T17:43:30Z",
+          "closedAt": "2018-09-11T17:46:48Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8634,
+          "title": "iOS and JQM+PhoneGap breaking security change",
+          "state": "closed",
+          "createdAt": "2018-09-08T05:25:06Z",
+          "closedAt": "2019-03-23T19:56:29Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8633,
+          "title": "Cannot set property 'mobile' of undefined",
+          "state": "closed",
+          "createdAt": "2018-08-30T16:15:32Z",
+          "closedAt": "2018-08-30T19:23:40Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 8632,
+          "title": "Issue in input clear icon (Framework7 2.3.1)",
+          "state": "open",
+          "createdAt": "2018-08-22T07:03:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8631,
+          "title": "XSS issue in owasp and blackhat reports?",
+          "state": "closed",
+          "createdAt": "2018-08-01T07:55:05Z",
+          "closedAt": "2018-09-20T23:43:13Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8630,
+          "title": "tabs cause error if `history.pushState` has been called",
+          "state": "open",
+          "createdAt": "2018-07-09T23:25:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8629,
+          "title": "tabs doesn't set \"ui-btn-active\" on <a> when setting \"active\" tab",
+          "state": "open",
+          "createdAt": "2018-07-04T01:34:45Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8627,
+          "title": "How can i apply filtration for the data which is fetched from database using jQuery mobile.",
+          "state": "open",
+          "createdAt": "2018-06-05T06:36:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8626,
+          "title": "Hiding icon collapsible doesn't work in 1.5.0-alpha.1",
+          "state": "open",
+          "createdAt": "2018-05-28T11:46:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8625,
+          "title": "Add demos for OpenStreetMap",
+          "state": "open",
+          "createdAt": "2018-05-27T23:33:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8624,
+          "title": "Carat icons not shown with 1.5.0-alpha.1",
+          "state": "open",
+          "createdAt": "2018-05-27T23:27:32Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8623,
+          "title": "on dropdown select causes focus to next control",
+          "state": "closed",
+          "createdAt": "2018-04-06T11:26:04Z",
+          "closedAt": "2018-04-06T14:29:55Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8622,
+          "title": "Link attribute data-direction=\"reverse\" doesn't work anymore",
+          "state": "open",
+          "createdAt": "2018-03-29T06:47:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8621,
+          "title": "data-role=\"page\" is not working properly",
+          "state": "open",
+          "createdAt": "2018-03-22T17:05:21Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8620,
+          "title": "Still occurring: Range slider does not move in specified step using mouse drag when max value is big #7636",
+          "state": "open",
+          "createdAt": "2018-03-14T18:15:50Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8619,
+          "title": "Please reopen issue 6039",
+          "state": "closed",
+          "createdAt": "2018-03-13T06:49:26Z",
+          "closedAt": "2018-03-13T13:40:30Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8618,
+          "title": "Travis: Fix failing demos tests",
+          "state": "open",
+          "createdAt": "2018-03-07T17:56:15Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "help wanted",
+            "1.5"
+          ]
+        },
+        {
+          "number": 8617,
+          "title": "Travis: Fix travis failing build on master for everything except demos",
+          "state": "open",
+          "createdAt": "2018-03-07T17:48:28Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "help wanted",
+            "1.5"
+          ]
+        },
+        {
+          "number": 8616,
+          "title": "Is it possible to restrict the smileys and emojis  in android?",
+          "state": "closed",
+          "createdAt": "2018-03-06T05:38:34Z",
+          "closedAt": "2018-03-07T17:46:00Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8614,
+          "title": "Closing Panels Reverts to Main Page on iOS 11.2.5",
+          "state": "closed",
+          "createdAt": "2018-02-18T19:33:39Z",
+          "closedAt": "2018-02-18T23:52:26Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8613,
+          "title": "How to use jQuery Mobile with cross protocol links and browser history back ? (with ajax page load)",
+          "state": "open",
+          "createdAt": "2018-02-16T06:34:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8612,
+          "title": "Can we all admit this project is dead?",
+          "state": "open",
+          "createdAt": "2018-02-07T23:34:10Z",
+          "closedAt": null,
+          "comments": 87,
+          "labels": []
+        },
+        {
+          "number": 8611,
+          "title": "No dist folder in npm package anymore",
+          "state": "open",
+          "createdAt": "2018-01-22T17:00:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8610,
+          "title": "Fixed header position breaks when opening push or reveal panel Jquery",
+          "state": "open",
+          "createdAt": "2018-01-04T15:21:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8609,
+          "title": "Using jQuery.html() to update an element in a jQuery Mobile App results in scrambled display",
+          "state": "open",
+          "createdAt": "2018-01-02T23:44:21Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8608,
+          "title": "bootstrap validation - preventDefault not working",
+          "state": "open",
+          "createdAt": "2017-12-24T16:41:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8607,
+          "title": "iOS 11.2.1 Bug with panel",
+          "state": "open",
+          "createdAt": "2017-12-21T16:29:51Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8606,
+          "title": "iOS on the Chrome browser the cursor does not hover in the correct place before data is entered",
+          "state": "open",
+          "createdAt": "2017-12-12T09:06:07Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8605,
+          "title": "Textarea with Textinput widget acts up on Chrome (Android)",
+          "state": "open",
+          "createdAt": "2017-12-10T03:19:17Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8604,
+          "title": "selectmenu refresh() is incorrect in case of filtering",
+          "state": "open",
+          "createdAt": "2017-12-06T21:55:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8603,
+          "title": "JQM 1.5 does not finish loading with RequireJS",
+          "state": "open",
+          "createdAt": "2017-12-06T20:20:47Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8602,
+          "title": "Panel: Easier way to define width of left and right panel",
+          "state": "open",
+          "createdAt": "2017-11-25T14:37:47Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8601,
+          "title": "iOS 11.1 SecurityError ( DOM Exception 18) on history.replaceState",
+          "state": "open",
+          "createdAt": "2017-11-20T02:10:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8600,
+          "title": "twitter bootstrap 3 navbar",
+          "state": "open",
+          "createdAt": "2017-11-04T14:21:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8599,
+          "title": "Autodivider overwrites count bubbles",
+          "state": "open",
+          "createdAt": "2017-10-27T05:34:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8598,
+          "title": "iPhone X and JQM 1.4",
+          "state": "closed",
+          "createdAt": "2017-10-25T21:19:22Z",
+          "closedAt": "2017-10-26T23:17:47Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8597,
+          "title": "tap events never triggered on mobile devices",
+          "state": "closed",
+          "createdAt": "2017-10-20T23:21:04Z",
+          "closedAt": "2017-10-24T18:50:45Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8596,
+          "title": "Strange question mark icons in navbar",
+          "state": "closed",
+          "createdAt": "2017-10-14T13:30:31Z",
+          "closedAt": "2017-10-14T15:50:05Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8595,
+          "title": "$.event.props is undefined",
+          "state": "closed",
+          "createdAt": "2017-10-13T19:20:23Z",
+          "closedAt": "2017-10-13T19:20:29Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8593,
+          "title": "iframe cache not get cleared",
+          "state": "open",
+          "createdAt": "2017-10-04T07:29:31Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8592,
+          "title": "JQuery mobile unable to change themes",
+          "state": "open",
+          "createdAt": "2017-10-02T18:36:38Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8591,
+          "title": "the jquerymobile tabs widget load twice by ajax",
+          "state": "open",
+          "createdAt": "2017-09-24T04:11:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8590,
+          "title": "Uncaught ReferenceError: chartvar is not defined",
+          "state": "closed",
+          "createdAt": "2017-09-18T09:43:29Z",
+          "closedAt": "2017-10-24T18:51:25Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8589,
+          "title": " Cannot read property 'concat' of undefined ",
+          "state": "closed",
+          "createdAt": "2017-09-15T04:31:52Z",
+          "closedAt": "2017-09-18T09:38:24Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 8588,
+          "title": "Alignment problem using grids (strange chars)",
+          "state": "closed",
+          "createdAt": "2017-09-05T20:24:16Z",
+          "closedAt": "2017-09-05T20:40:52Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8587,
+          "title": "1.5 Release date",
+          "state": "closed",
+          "createdAt": "2017-09-05T09:09:10Z",
+          "closedAt": "2019-03-24T08:58:37Z",
+          "comments": 29,
+          "labels": []
+        },
+        {
+          "number": 8586,
+          "title": "I am fixing the position of footer causing it moving upwards on screen while input in ipad",
+          "state": "open",
+          "createdAt": "2017-08-31T07:29:21Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8585,
+          "title": "Add onaftershow & onbeforehide events to ToolBar widget",
+          "state": "open",
+          "createdAt": "2017-08-21T06:27:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8584,
+          "title": "Taphold event erroneously fires on cloned nodes",
+          "state": "open",
+          "createdAt": "2017-07-19T17:10:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8583,
+          "title": "taphold triggered when stop the propagation of touchend",
+          "state": "open",
+          "createdAt": "2017-07-11T15:52:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Status: Confirmed",
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8582,
+          "title": "swipe gesture/event cancels mouse drag event in chrome",
+          "state": "open",
+          "createdAt": "2017-07-10T02:45:02Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "Status: Confirmed",
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8581,
+          "title": "jQuery Mobile Compatibility with .Net - Move popup widget's DIV to the inside the form tag",
+          "state": "open",
+          "createdAt": "2017-07-05T21:59:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8580,
+          "title": "Horizontal control group, only 1st and last select get ui-button-inline class",
+          "state": "open",
+          "createdAt": "2017-06-20T20:34:13Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8579,
+          "title": "Flipswitch displayed incorrectly in 1.5 Alpha 1",
+          "state": "open",
+          "createdAt": "2017-06-20T16:56:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8578,
+          "title": "List item href not working when referencing jquery mobile library - 'Init'",
+          "state": "closed",
+          "createdAt": "2017-06-19T13:09:03Z",
+          "closedAt": "2017-07-13T04:05:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8577,
+          "title": "How to scroll up/down the mobile app pages using jquery(for appium)",
+          "state": "closed",
+          "createdAt": "2017-06-14T10:45:41Z",
+          "closedAt": "2017-06-17T12:34:01Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8575,
+          "title": "Are Jquery Mobile still active?",
+          "state": "closed",
+          "createdAt": "2017-06-07T02:34:27Z",
+          "closedAt": "2017-06-07T02:35:08Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8574,
+          "title": "tap-event needs two clicks to be fired on mobile",
+          "state": "open",
+          "createdAt": "2017-06-03T13:07:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Status: Unconfirmed",
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8573,
+          "title": "Listing default properties for jqm widgets in documentation.",
+          "state": "closed",
+          "createdAt": "2017-06-01T03:38:32Z",
+          "closedAt": "2017-07-13T04:07:00Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8572,
+          "title": "Unable to disable “ajaxEnabled” on jQuery Mobile without breaking the JS (Cannot set property 'ajaxEnabled' of undefined)",
+          "state": "open",
+          "createdAt": "2017-05-10T21:46:11Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8571,
+          "title": "Filterble widget handles the enter key incorrectly",
+          "state": "closed",
+          "createdAt": "2017-05-10T07:54:07Z",
+          "closedAt": "2017-05-24T06:22:56Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8570,
+          "title": "Popup size is too narrow in case of pageContainer is smaller than a full window",
+          "state": "open",
+          "createdAt": "2017-05-09T00:43:08Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8569,
+          "title": "Conform to strict mode",
+          "state": "closed",
+          "createdAt": "2017-05-08T19:35:18Z",
+          "closedAt": "2017-05-24T06:17:28Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8568,
+          "title": "1.5.0-alpha.1 listview within external panel no style",
+          "state": "closed",
+          "createdAt": "2017-05-04T07:57:51Z",
+          "closedAt": "2017-05-06T19:01:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8567,
+          "title": "DOM XSS JQuery Mobile basetagtest Function",
+          "state": "closed",
+          "createdAt": "2017-05-02T18:52:09Z",
+          "closedAt": "2017-07-13T04:10:50Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8566,
+          "title": "input type=\"datetime-local\" with pre-set value fail validation on certain browser",
+          "state": "open",
+          "createdAt": "2017-04-12T20:27:53Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8565,
+          "title": "Allow simple checkbox square-box styling without text",
+          "state": "open",
+          "createdAt": "2017-04-02T15:16:56Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8564,
+          "title": "Checkbox widget does not toggle properly when clicking on certain areas",
+          "state": "open",
+          "createdAt": "2017-03-07T10:22:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8563,
+          "title": "ControlGroup Widget HUGE Input Text Box, please help...",
+          "state": "closed",
+          "createdAt": "2017-03-06T14:35:20Z",
+          "closedAt": "2017-05-24T06:24:09Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8562,
+          "title": "Popup form reopens on huawei phones",
+          "state": "open",
+          "createdAt": "2017-03-01T07:43:13Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8561,
+          "title": "New Component - spinner",
+          "state": "closed",
+          "createdAt": "2017-02-25T15:50:20Z",
+          "closedAt": "2017-03-02T20:01:28Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8560,
+          "title": "Nvm",
+          "state": "closed",
+          "createdAt": "2017-02-15T14:07:33Z",
+          "closedAt": "2017-02-15T23:19:25Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8559,
+          "title": "Theme Roller for Alphas like jQuery 1.5 Alpha",
+          "state": "open",
+          "createdAt": "2017-02-11T20:28:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "1.5-alpha.1"
+          ]
+        },
+        {
+          "number": 8558,
+          "title": "multiple value - select list  - using data-native-menu: false",
+          "state": "open",
+          "createdAt": "2017-02-11T04:45:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8557,
+          "title": "The taphold event is not raised in firefox on touch screen devices",
+          "state": "open",
+          "createdAt": "2017-02-10T14:50:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8556,
+          "title": "Security bug report",
+          "state": "closed",
+          "createdAt": "2017-02-08T06:20:06Z",
+          "closedAt": "2017-02-08T21:30:21Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8555,
+          "title": "Popup does not refresh",
+          "state": "closed",
+          "createdAt": "2017-02-06T12:36:38Z",
+          "closedAt": "2017-05-24T06:28:10Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8554,
+          "title": "Popup ignores overridden values of x & y",
+          "state": "open",
+          "createdAt": "2017-02-06T08:36:32Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8553,
+          "title": "Main Content renders then turns blank White after couple of sec on Firefox Mobile",
+          "state": "closed",
+          "createdAt": "2017-01-30T04:04:02Z",
+          "closedAt": "2017-01-31T14:17:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8552,
+          "title": "update npm package",
+          "state": "open",
+          "createdAt": "2017-01-25T10:26:02Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8551,
+          "title": "Get wrong result when \"Controlgroup\" cantains more than three \"select\" with 1.5.0-alpha.1 ",
+          "state": "open",
+          "createdAt": "2017-01-25T08:07:55Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8550,
+          "title": "Can not center \"Controlgroup\" with 1.5.0-alpha.1",
+          "state": "closed",
+          "createdAt": "2017-01-25T07:47:37Z",
+          "closedAt": "2017-03-02T20:00:58Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8549,
+          "title": "Is JQuery Mobile 1.4.5 Multipage configuration Broken?",
+          "state": "closed",
+          "createdAt": "2017-01-13T03:42:14Z",
+          "closedAt": "2017-01-13T04:25:50Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8548,
+          "title": "Taphold event not worked everytime with iPhone 6",
+          "state": "closed",
+          "createdAt": "2017-01-09T16:34:04Z",
+          "closedAt": "2017-01-09T17:02:13Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8547,
+          "title": "hashToSelector doesn't correctly handle already escaped characters",
+          "state": "open",
+          "createdAt": "2017-01-05T19:27:06Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8546,
+          "title": "jQuery Mobile dead?",
+          "state": "closed",
+          "createdAt": "2016-12-26T14:28:52Z",
+          "closedAt": "2017-05-12T18:42:53Z",
+          "comments": 38,
+          "labels": []
+        },
+        {
+          "number": 8545,
+          "title": "Handling of 'touchstart' input event was delayed",
+          "state": "open",
+          "createdAt": "2016-12-24T08:56:01Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8544,
+          "title": "Download-Builder Unstable/Latest: fieldcontain flipswitch variants show label and checkbox/select on two lines",
+          "state": "open",
+          "createdAt": "2016-12-20T15:13:02Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8542,
+          "title": "isPath fails on hashes containing slashes",
+          "state": "open",
+          "createdAt": "2016-12-15T02:08:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8541,
+          "title": "When is this thing going to be released ????????",
+          "state": "closed",
+          "createdAt": "2016-11-30T20:42:36Z",
+          "closedAt": "2016-12-16T06:29:01Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8540,
+          "title": "User Activity / License Audit",
+          "state": "closed",
+          "createdAt": "2016-11-29T13:40:03Z",
+          "closedAt": "2016-11-29T13:51:29Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8539,
+          "title": "Fixed elements disappear on iPhone Plus after page-transition",
+          "state": "open",
+          "createdAt": "2016-11-16T16:30:25Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8538,
+          "title": "iOS: error loading page",
+          "state": "open",
+          "createdAt": "2016-11-15T15:25:12Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 8537,
+          "title": "refesh not working",
+          "state": "closed",
+          "createdAt": "2016-11-14T16:28:51Z",
+          "closedAt": "2016-12-13T06:08:59Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8536,
+          "title": "RangeSlider Widget setting min/max values error",
+          "state": "open",
+          "createdAt": "2016-11-10T16:37:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8535,
+          "title": "resetActivePageHeight causes scroll to top upon iframe load",
+          "state": "open",
+          "createdAt": "2016-11-07T20:07:21Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8534,
+          "title": "Popup fails with query strings that include URI encoded characters",
+          "state": "open",
+          "createdAt": "2016-10-28T13:19:36Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8533,
+          "title": "anchor tag href=\"javascript:myMethod()\" does not work",
+          "state": "closed",
+          "createdAt": "2016-10-27T16:36:08Z",
+          "closedAt": "2016-12-13T21:17:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8531,
+          "title": "Transitions slide in and out not smooth in safari iOS 10",
+          "state": "open",
+          "createdAt": "2016-10-13T12:03:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8530,
+          "title": "Collapsible set - different look",
+          "state": "open",
+          "createdAt": "2016-10-12T15:23:25Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 8529,
+          "title": "scrollable popup - can't select checkboxes",
+          "state": "closed",
+          "createdAt": "2016-10-10T21:48:25Z",
+          "closedAt": "2017-03-02T19:46:06Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 8528,
+          "title": "JQM enhancement (apparently) not available in deferred callback",
+          "state": "closed",
+          "createdAt": "2016-10-05T21:45:08Z",
+          "closedAt": "2016-10-05T22:19:25Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8527,
+          "title": "ui-nodisc-icon must eliminate round requirement for icon as well, especially important for custom icons",
+          "state": "open",
+          "createdAt": "2016-10-03T20:59:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "Component: Theme"
+          ]
+        },
+        {
+          "number": 8521,
+          "title": "Please keep rel=\"external\" within the iOS webApp",
+          "state": "open",
+          "createdAt": "2016-09-14T00:04:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8519,
+          "title": "Listview: data-theme option is not working",
+          "state": "open",
+          "createdAt": "2016-09-08T17:37:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Action: PR needs reviewing",
+            "Priority: Blocker",
+            "Status: Has PR"
+          ]
+        },
+        {
+          "number": 8518,
+          "title": "selectmenu black box in Chrome",
+          "state": "closed",
+          "createdAt": "2016-09-06T14:38:18Z",
+          "closedAt": "2016-09-07T20:08:58Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8517,
+          "title": "need a way to exclude dialogs from the backstack",
+          "state": "open",
+          "createdAt": "2016-09-06T13:29:44Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8515,
+          "title": "Git build files not up to date",
+          "state": "open",
+          "createdAt": "2016-09-01T09:34:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Dev tasks"
+          ]
+        },
+        {
+          "number": 8514,
+          "title": "The page is there , but the console shows error.",
+          "state": "closed",
+          "createdAt": "2016-09-01T07:07:10Z",
+          "closedAt": "2016-09-06T14:29:35Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8513,
+          "title": "I can't put an icon in the button or a.ui-btn",
+          "state": "closed",
+          "createdAt": "2016-09-01T07:01:17Z",
+          "closedAt": "2016-09-02T01:18:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8512,
+          "title": "Theme bug of listview & collapsible.",
+          "state": "open",
+          "createdAt": "2016-09-01T06:12:21Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": [
+            "Status: Unconfirmed",
+            "Component: Collapsible"
+          ]
+        },
+        {
+          "number": 8511,
+          "title": "Problem with dynamic layout in page with fixed footer and a dialog",
+          "state": "open",
+          "createdAt": "2016-09-01T00:12:04Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 8510,
+          "title": "Is there a table or a list to tell the changing?",
+          "state": "closed",
+          "createdAt": "2016-08-31T08:28:06Z",
+          "closedAt": "2016-08-31T11:19:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8509,
+          "title": "The dialog background changes with the overlay.",
+          "state": "closed",
+          "createdAt": "2016-08-31T08:07:33Z",
+          "closedAt": "2016-09-06T14:16:53Z",
+          "comments": 8,
+          "labels": [
+            "Component: Dialog",
+            "Component: Page"
+          ]
+        },
+        {
+          "number": 8508,
+          "title": "Field containers: CSS for field containers with a controlgroup is broken",
+          "state": "open",
+          "createdAt": "2016-08-31T07:30:32Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "Component: Fieldcontain"
+          ]
+        },
+        {
+          "number": 8507,
+          "title": "Selectmenu: checkboxes in multiple select menu list are missing",
+          "state": "open",
+          "createdAt": "2016-08-31T06:58:29Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": [
+            "Component: Selectmenu",
+            "Action: PR needs reviewing",
+            "Priority: Blocker",
+            "Status: Has PR"
+          ]
+        },
+        {
+          "number": 8506,
+          "title": "Selectmenu: multiple select wrong count bubble position",
+          "state": "open",
+          "createdAt": "2016-08-31T06:51:40Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": [
+            "Component: Selectmenu",
+            "Priority: Blocker"
+          ]
+        },
+        {
+          "number": 8505,
+          "title": "The collapsible listview doesn't appear the same.",
+          "state": "closed",
+          "createdAt": "2016-08-31T03:37:15Z",
+          "closedAt": "2016-08-31T05:35:12Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8504,
+          "title": "Dialogs are in the backstack",
+          "state": "closed",
+          "createdAt": "2016-08-29T14:59:26Z",
+          "closedAt": "2016-08-29T15:01:26Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8503,
+          "title": "Controlgroup button height",
+          "state": "closed",
+          "createdAt": "2016-08-29T08:42:25Z",
+          "closedAt": "2016-09-01T18:27:19Z",
+          "comments": 10,
+          "labels": [
+            "Component: Controlgroup",
+            "Component: Theme",
+            "Status: Has PR"
+          ]
+        },
+        {
+          "number": 8502,
+          "title": "Can not open the popup again immediately after close the popup",
+          "state": "closed",
+          "createdAt": "2016-08-29T06:23:29Z",
+          "closedAt": "2016-08-29T10:57:48Z",
+          "comments": 3,
+          "labels": [
+            "Status: Unconfirmed",
+            "Component: Popup"
+          ]
+        },
+        {
+          "number": 8501,
+          "title": "Two-block grid demo has vertical offset on right half",
+          "state": "closed",
+          "createdAt": "2016-08-23T15:42:42Z",
+          "closedAt": "2016-08-23T18:02:21Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 8499,
+          "title": "Duplicate id in slider tooltip demo",
+          "state": "closed",
+          "createdAt": "2016-08-22T19:06:15Z",
+          "closedAt": "2016-09-01T18:29:54Z",
+          "comments": 1,
+          "labels": [
+            "Demos",
+            "Status: Has PR"
+          ]
+        },
+        {
+          "number": 8498,
+          "title": "Zip Download for Themeroller stopped working today Aug 22, 2016",
+          "state": "closed",
+          "createdAt": "2016-08-22T11:37:41Z",
+          "closedAt": "2016-08-22T11:39:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8497,
+          "title": "Error download themeroller help me !!!!",
+          "state": "closed",
+          "createdAt": "2016-08-19T22:46:09Z",
+          "closedAt": "2016-08-20T07:12:21Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8496,
+          "title": "Jquery mobile",
+          "state": "closed",
+          "createdAt": "2016-08-05T05:44:48Z",
+          "closedAt": "2016-08-05T05:51:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8493,
+          "title": "controlgroup.selectmenu.js",
+          "state": "open",
+          "createdAt": "2016-08-04T17:31:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Component: Selectmenu",
+            "Priority: Blocker"
+          ]
+        },
+        {
+          "number": 8492,
+          "title": "Demos: Remove references to iconshadow",
+          "state": "closed",
+          "createdAt": "2016-08-04T07:32:53Z",
+          "closedAt": "2016-08-25T17:51:13Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8491,
+          "title": "Remove links and nojs files and references to them",
+          "state": "closed",
+          "createdAt": "2016-08-01T15:30:25Z",
+          "closedAt": "2016-08-01T15:58:41Z",
+          "comments": 1,
+          "labels": [
+            "Component: Enhancer"
+          ]
+        },
+        {
+          "number": 8490,
+          "title": "Remove refrences to UI core",
+          "state": "closed",
+          "createdAt": "2016-08-01T15:27:31Z",
+          "closedAt": "2016-08-01T15:27:52Z",
+          "comments": 1,
+          "labels": [
+            "Component: Build"
+          ]
+        },
+        {
+          "number": 8487,
+          "title": "Drop Grunticon PNG fallback for icons",
+          "state": "open",
+          "createdAt": "2016-07-25T08:39:19Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "Component: Icons"
+          ]
+        },
+        {
+          "number": 8486,
+          "title": "Controlgroup: Remove \"shadow\" option",
+          "state": "closed",
+          "createdAt": "2016-07-25T05:48:15Z",
+          "closedAt": "2016-07-25T05:59:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8484,
+          "title": "migration to jQuery 3.1.0 using jquery mobile Version 1.4.5",
+          "state": "closed",
+          "createdAt": "2016-07-21T20:20:51Z",
+          "closedAt": "2016-07-22T06:43:42Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8481,
+          "title": "Document that page domCache cannot be changed dynamically",
+          "state": "open",
+          "createdAt": "2016-07-06T21:37:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "Docs"
+          ]
+        },
+        {
+          "number": 8478,
+          "title": "Custom download builder shoud include a comment listing the included components",
+          "state": "closed",
+          "createdAt": "2016-07-03T15:50:42Z",
+          "closedAt": "2016-07-04T21:27:12Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 8475,
+          "title": "Docs: Specify the intended use along the api ",
+          "state": "closed",
+          "createdAt": "2016-06-30T18:19:35Z",
+          "closedAt": "2016-07-07T18:51:46Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 8473,
+          "title": "Columntoggle: Tests are failing after button theme update.",
+          "state": "closed",
+          "createdAt": "2016-06-30T17:36:44Z",
+          "closedAt": "2016-07-01T05:10:46Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 8472,
+          "title": "Demos: Remove selectmenu custom filter",
+          "state": "closed",
+          "createdAt": "2016-06-30T14:08:57Z",
+          "closedAt": "2016-06-30T14:11:53Z",
+          "comments": 0,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 99,
+        "totalFetched": 165,
+        "medianDaysToFirstResponse": 2.8,
+        "openOverOneYearNoReply": 51
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# jQuery Mobile [![Build Status](https://travis-ci.org/jquery/jquery-mobile.svg?branch=master)](https://travis-ci.org/jquery/jquery-mobile) [![Coverage Status](http://img.shields.io/coveralls/jquery/jquery-mobile/master.svg)](https://coveralls.io/r/jquery/jquery-mobile?branch=master)\n\n_**Note:** jQuery Mobile is not maintained anymore. Please read [the project status blog post](https://blog.jquerymobile.com/2021/10/07/jquery-maintainers-continue-modernization-initiative-with-deprecation-of-jquery-mobile/) for more information._\n\njQuery Mobile is a unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation. Its lightweight code is built with progressive enhancement, and has a flexible, easily themeable design.\n\njQuery Mobile 1.4.x works with versions of jQuery core from 1.8.3 to 1.11.1 / 2.1.1. You can find more information about how the library works, and what it is capable of, by reading the [documentation](http://api.jquerymobile.com) and exploring the [demos](http://demos.jquerymobile.com/). Alternatively, more information can also be found on the [jquerymobile site](http://jquerymobile.com).\n\n## Contributing\n\nYou can contribute to the project by reporting issues, suggesting new features, or submitting pull requests.\nPlease read our [Contributing Guidelines](https://github.com/jquery/jquery-mobile/blob/master/CONTRIBUTING.md) before submitting.\n\n\n## Build/Customization\n\nCurrently the library is shipped on the jQuery CDN/download as a single monolithic JavaScript file that depends on jQuery Core (not included) and a similarly bundled CSS file. For users we support the following build targets:\n\n* `js` - resolve dependencies, build, concat, and minify the JavaScript used for jQuery Mobile\n* `css` - resolve dependencies, build, concat, and minify all the css, just the structure css, and just the theme css\n* `demos` - build the js and css, and make the docs ready for static consumption\n* `lint` - Validates JavaScript files using [JSHint](http://jshint.com/)\n\n### Download Builder\n\nThe easiest way to obtain a custom build is to use the [download builder](http://jquerymobile.com/download-builder/). With it, you can select the parts of the library you need and both the CSS and JavaScript dependencies will be resolved for you as a packaged/minified whole.\n\n### Requirements\n\n* [node.js](http://nodejs.org/)\n* [grunt-cli](http://gruntjs.com/)\n\n### Commands\n\nWith node and grunt installed you can run the default target by simply issuing the following from the project root:\n\n    npm install\n    grunt\n\n### JavaScript\n\nAs of version 1.1 the library uses dependency management in the JavaScript build by providing [AMD modules](https://github.com/amdjs/amdjs-api/wiki/AMD) which can be added or removed from the core mobile meta module `js/jquery.mobile.js`.\n\nFor example, if a user wished to exclude the form widgets to reduce the wire weight of their jQuery Mobile include they would first remove them from the meta module:\n\n```diff\ndiff --git a/js/jquery.mobile.js b/js/jquery.mobile.js\nindex 6200fe6..3a4625c 100644\n--- a/js/jquery.mobile.js\n+++ b/js/jquery.mobile.js\n@@ -19,12 +19,6 @@ define([\n        './jquery.mobile.listview.filter',\n        './jquery.mobile.listview.autodividers',\n        './jquery.mobile.nojs',\n-       './jquery.mobile.forms.checkboxradio',\n-       './jquery.mobile.forms.button',\n-       './jquery.mobile.forms.slider',\n-       './jquery.mobile.forms.textinput',\n-       './jquery.mobile.forms.select.custom',\n-       './jquery.mobile.forms.select',\n        './jquery.mobile.buttonMarkup',\n        './jquery.mobile.controlGroup',\n        './jquery.mobile.links',\n```\n\nAnd then run the build:\n\n    grunt build:js\n\n### CSS\n\nTo create a new theme:\n\n1. Copy the `default` folder from CSS/Themes to a new folder named after your new theme (eg, `my-theme`).\n2. Add customizations to the `jquery.mobile.theme.css` file.\n3. From the project root run the following `grunt` command:\n\n        THEME=my-theme grunt build:css\n\n4. The output will be available in the `$PROJECT_ROOT/dist`\n\nAgain this assumes the theme css files are available in the `css/themes/$THEME/` directory relative to the project root, `css/themes/my-theme/` in the example.\n\n## Development\n\nThe root of the repository is also the root of the documentation and, along with the test suite, acts as the test bed for bug fixes and features. You'll need to set up a server and get the test suite running before you can contribute patches.\n\n### Server\n\nMost of the documentation and testing pages rely on PHP 5+, and as a result Apache and PHP are required for development. You can install them using one of the following methods:\n\n* one-click - [MAMP](http://www.mamp.info/en/downloads/index.html) for OSX, [XAMP](http://www.apachefriends.org/en/xampp.html) for OSX/Windows\n* existing web server - eg, `~/Sites` directory on OSX.\n* virtual machine - If [Vagrant](http://vagrantup.com) is installed you can add [this remote/branch](https://github.com/johnbender/jquery-mobile/tree/vagrant) and `vagrant up`\n\nIn addition to vanilla Apache the following modules are required:\n\n* Rewrite (mod\\_rewrite.so)\n* Expire (mod\\_expires.so)\n* Header (mod\\_headers.so)\n\nOnce you have your web server setup you can point it at the project directory.\n\n### Testing\n\nAutomated testing forms the backbone of the jQuery Mobile project's QA activities. As a contributor or patch submitter you will be expected to run the test suite for the code your patches affect. Our continuous integration server will address the remainder of the test suite.\n\nYou can run all the test suites by running the following command:\n\n    grunt test\n\nYou can choose to run only a subset of the tests by adding the `--suites` option like:\n\n    grunt test --suites=table,slider\n\nwill only run the tests under `tests/unit/table/` and `tests/unit/slider/`.\n\nYou can also exclude some tests by using `!`.  For instance:\n\n    grunt test --type=integration --suites=\\!navigation\n\nwill run all the integration tests but the navigation suite.\n\nYou can also specify which versions of jQuery you want to test jQuery Mobile by using the `--jqueries` option:\n\n    grunt test --jqueries=1.11.1,git\n\nAdditionally, jQuery Mobile's test suite is split between integration and unit tests. Where the unit tests are meant to focus on a single piece of the library (eg, a widget) and the integration tests require multiple pieces of the library to function. You can target either type by including the `--types` option when testing:\n\n    grunt test --types=unit\n    grunt test --types=integration\n    grunt test --types=unit,integration # default, equivalent to 'grunt test'\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1735,
+      "flatlineMonth": "2021-10",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:17:53.164Z"
+  },
+  "autopsy": {
+    "epitaph": "Born in 2010 to unite a fragmented mobile web, jQuery Mobile gathered 9,614 stars and 13,114 commits before its maintainers at last updated the README to confess it was not maintained anymore, and sealed the archive in October 2021.",
+    "causes": [
+      {
+        "label": "Deliberate archival by owner",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "1c3a17624608a1650124020bea7d0dadf365475f"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      },
+      {
+        "label": "Years of community-declared abandonment with no release",
+        "confidencePct": 90,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#8612"
+          },
+          {
+            "type": "issue",
+            "ref": "#8546"
+          },
+          {
+            "type": "issue",
+            "ref": "#8587"
+          }
+        ]
+      },
+      {
+        "label": "Commit activity collapsed to near-zero after 2016",
+        "confidencePct": 88,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "f075f58e80e71014bbeb94dc0d2efd4cd800a0ba"
+          },
+          {
+            "type": "commit",
+            "ref": "1f0cec9bcb9d75998e733d580d6f1144c963326e"
+          }
+        ]
+      },
+      {
+        "label": "Unresolved security issues and broken tooling left open indefinitely",
+        "confidencePct": 72,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#8640"
+          },
+          {
+            "type": "issue",
+            "ref": "#8657"
+          },
+          {
+            "type": "issue",
+            "ref": "#8617"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Fork the repository under an active organization, unarchive it, and publish a clear governance and maintenance commitment document.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Audit and fix the broken download builder and Travis CI pipeline so that a 1.5.0 stable release can actually be cut.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Triage the 99 open issues, closing stale or duplicate ones and labelling genuine bugs for a 1.5.0 milestone.",
+        "effort": "a week"
+      },
+      {
+        "step": "Update compatibility with modern jQuery core (3.x) and replace the deprecated PhantomJS test runner with a maintained headless browser.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Publish a proper npm package with a dist folder included and update the README to reflect current setup instructions.",
+        "effort": "a week"
+      }
+    ],
+    "lastWordsGloss": "'Docs: Add info about the project status to README' — the most honest commit message in 13,114 tries, arriving fashionably three years after everyone else had already read the eulogy."
+  }
+}

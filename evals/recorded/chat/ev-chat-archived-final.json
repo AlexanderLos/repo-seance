@@ -1,0 +1,4 @@
+{
+  "question": "What were your last words — the final commit before the archive?",
+  "rawText": "My last breath was a merge — pull request #204, *final-cleanup*, folded into main by Dana Keeper on March 22, 2024, and then silence descended and never lifted.\n\nEVIDENCE: [{\"type\":\"commit\",\"ref\":\"016fc9ba0bb479b136aa5b4237f05a1babde026e\"}]"
+}

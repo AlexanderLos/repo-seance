@@ -1,0 +1,1625 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "angular",
+      "name": "material",
+      "fullName": "angular/material",
+      "description": "Material design for AngularJS",
+      "htmlUrl": "https://github.com/angular/material",
+      "createdAt": "2014-07-01T19:20:06Z",
+      "pushedAt": "2024-09-05T18:38:55Z",
+      "archived": true,
+      "stars": 16401,
+      "forks": 3323,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 4950,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2016-07",
+          "count": 46
+        },
+        {
+          "month": "2016-08",
+          "count": 85
+        },
+        {
+          "month": "2016-09",
+          "count": 66
+        },
+        {
+          "month": "2016-10",
+          "count": 69
+        },
+        {
+          "month": "2016-11",
+          "count": 33
+        },
+        {
+          "month": "2016-12",
+          "count": 15
+        },
+        {
+          "month": "2017-01",
+          "count": 28
+        },
+        {
+          "month": "2017-02",
+          "count": 10
+        },
+        {
+          "month": "2017-03",
+          "count": 30
+        },
+        {
+          "month": "2017-04",
+          "count": 6
+        },
+        {
+          "month": "2017-05",
+          "count": 14
+        },
+        {
+          "month": "2017-06",
+          "count": 16
+        },
+        {
+          "month": "2017-07",
+          "count": 13
+        },
+        {
+          "month": "2017-08",
+          "count": 2
+        },
+        {
+          "month": "2017-09",
+          "count": 6
+        },
+        {
+          "month": "2017-11",
+          "count": 1
+        },
+        {
+          "month": "2017-12",
+          "count": 14
+        },
+        {
+          "month": "2018-01",
+          "count": 21
+        },
+        {
+          "month": "2018-02",
+          "count": 13
+        },
+        {
+          "month": "2018-03",
+          "count": 33
+        },
+        {
+          "month": "2018-04",
+          "count": 26
+        },
+        {
+          "month": "2018-05",
+          "count": 7
+        },
+        {
+          "month": "2018-06",
+          "count": 16
+        },
+        {
+          "month": "2018-07",
+          "count": 23
+        },
+        {
+          "month": "2018-08",
+          "count": 11
+        },
+        {
+          "month": "2018-09",
+          "count": 16
+        },
+        {
+          "month": "2018-10",
+          "count": 7
+        },
+        {
+          "month": "2018-11",
+          "count": 17
+        },
+        {
+          "month": "2018-12",
+          "count": 8
+        },
+        {
+          "month": "2019-01",
+          "count": 38
+        },
+        {
+          "month": "2019-02",
+          "count": 18
+        },
+        {
+          "month": "2019-03",
+          "count": 22
+        },
+        {
+          "month": "2019-04",
+          "count": 10
+        },
+        {
+          "month": "2019-05",
+          "count": 11
+        },
+        {
+          "month": "2019-06",
+          "count": 5
+        },
+        {
+          "month": "2019-07",
+          "count": 5
+        },
+        {
+          "month": "2019-08",
+          "count": 9
+        },
+        {
+          "month": "2019-09",
+          "count": 1
+        },
+        {
+          "month": "2020-01",
+          "count": 3
+        },
+        {
+          "month": "2020-02",
+          "count": 2
+        },
+        {
+          "month": "2020-03",
+          "count": 25
+        },
+        {
+          "month": "2020-04",
+          "count": 14
+        },
+        {
+          "month": "2020-05",
+          "count": 18
+        },
+        {
+          "month": "2020-06",
+          "count": 28
+        },
+        {
+          "month": "2020-07",
+          "count": 53
+        },
+        {
+          "month": "2020-08",
+          "count": 6
+        },
+        {
+          "month": "2020-09",
+          "count": 20
+        },
+        {
+          "month": "2020-10",
+          "count": 11
+        },
+        {
+          "month": "2020-11",
+          "count": 5
+        },
+        {
+          "month": "2020-12",
+          "count": 18
+        },
+        {
+          "month": "2021-01",
+          "count": 1
+        },
+        {
+          "month": "2021-02",
+          "count": 2
+        },
+        {
+          "month": "2021-03",
+          "count": 2
+        },
+        {
+          "month": "2021-04",
+          "count": 2
+        },
+        {
+          "month": "2021-06",
+          "count": 3
+        },
+        {
+          "month": "2021-07",
+          "count": 2
+        },
+        {
+          "month": "2021-10",
+          "count": 1
+        },
+        {
+          "month": "2021-11",
+          "count": 4
+        },
+        {
+          "month": "2021-12",
+          "count": 4
+        },
+        {
+          "month": "2022-03",
+          "count": 3
+        },
+        {
+          "month": "2022-04",
+          "count": 1
+        },
+        {
+          "month": "2024-09",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "952c06705a7eddaa02fcbb2fd931e06740702404",
+          "message": "Clear .mailmap",
+          "date": "2024-09-05T18:38:54Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "0b55529940d516a94777ca1d179e65df7835dd2a",
+          "message": "update version number in package.json to 1.2.5",
+          "date": "2022-04-11T19:18:26Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "bfc8ae7cd17e43c7b4d531b2a0e0f97b26a4d4a7",
+          "message": "docs(eol): update docs website for End-of-Life",
+          "date": "2022-03-22T15:11:00Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "c9f67b39f23b9cb620decdb916278305b6c2ae79",
+          "message": "docs(github): update GH templates for EOL",
+          "date": "2022-03-22T15:10:30Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "cdce2babd081ba82ab70f7e14c7a9de215ffc489",
+          "message": "docs(eol): updates for End-of-Life",
+          "date": "2022-03-22T15:10:30Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "6ec345468ea7b09c8d87e557a38cd5447e09bc60",
+          "message": "docs(eol): add EOL options banner to header of every page",
+          "date": "2021-12-22T22:14:25Z",
+          "authorName": "Ed Clement",
+          "authorLogin": null
+        },
+        {
+          "sha": "4cb5de8a47484d2fd3fb13f837bdc99596b7f4c4",
+          "message": "update version number in package.json to 1.2.4",
+          "date": "2021-12-16T22:41:33Z",
+          "authorName": "Miles Malerba",
+          "authorLogin": "mmalerba"
+        },
+        {
+          "sha": "625adc53307d39463de03ff41d1bf981f6fbcb54",
+          "message": "chore(sass): fix module builds",
+          "date": "2021-12-16T07:31:37Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "4c935a35cce5a3a70b7f267329b77ae761530fbd",
+          "message": "docs(eol): Add EOL options text and link to LTS section of landing page",
+          "date": "2021-12-07T21:42:24Z",
+          "authorName": "Ed Clement",
+          "authorLogin": null
+        },
+        {
+          "sha": "b5a1a026202f9544847f2fba8e039c3abf1cdb1c",
+          "message": "build: fix SCSS division deprecation (#12112)",
+          "date": "2021-11-30T19:48:46Z",
+          "authorName": "Alexandre Paré",
+          "authorLogin": "superheri"
+        },
+        {
+          "sha": "5e2d21350cd0278f210c1e2bb951786c4047bbb6",
+          "message": "chore(sass): migrate from node-sass to sass",
+          "date": "2021-11-23T19:41:48Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "441a9127676ba4a28aa0c5bc18a70c09815c7221",
+          "message": "docs(api): fix API docs rendering",
+          "date": "2021-11-22T00:56:18Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "a78b7ad560e4216301726f2070dc9f49154d4601",
+          "message": "chore(npm): update dependencies and fix audit issues",
+          "date": "2021-11-19T17:24:46Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "4e354a6ef15362920f23167194e52fb40cb70ea9",
+          "message": "fix(all): fix Trusted Types violations during initialization (#12128)",
+          "date": "2021-10-28T19:06:08Z",
+          "authorName": "bjarkler",
+          "authorLogin": "bjarkler"
+        },
+        {
+          "sha": "8add881d547b0d1fabfdee8ea299f130bed31306",
+          "message": "update version number in package.json to 1.2.3",
+          "date": "2021-07-15T15:54:15Z",
+          "authorName": "Andrew Seguin",
+          "authorLogin": "andrewseguin"
+        },
+        {
+          "sha": "0a06f995be1f9cbaf963d60e848f2006309fcf12",
+          "message": "fix(datepicker): ISO 8601 dates decorated as invalid in forms",
+          "date": "2021-07-08T17:45:34Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "901982b4c1331eaddc103f2f886d143505658c30",
+          "message": "build: update hosted-git-info to fix security advisories",
+          "date": "2021-06-21T18:59:40Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "78b107331e9903874cbb71404683f191f9172f7e",
+          "message": "feat(menu): render backdrop to backdropParent",
+          "date": "2021-06-10T17:17:02Z",
+          "authorName": "Atif Afzal",
+          "authorLogin": "atfzls"
+        },
+        {
+          "sha": "4d75a8caabfc0bc02268b46dfbd92f0f114b95d1",
+          "message": "build: update to Karma v6 and fix security advisories",
+          "date": "2021-06-04T13:49:54Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "139a381af5ed6d1183a8e0916fe6e8ce62041aaa",
+          "message": "chore: update CircleCI NodeJS image and build-tools orb",
+          "date": "2021-04-30T01:18:15Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "47897e6066d705263d22fc7012ee2cb240535452",
+          "message": "chore: update GitHub templates for LTS",
+          "date": "2021-04-07T14:57:52Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "17cc35dd31d2f9a6ee65fe6e9a98a08e02c7c1f0",
+          "message": "chore: use ES6+ linting in test/, gulp/, and config/",
+          "date": "2021-03-29T21:32:32Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "45bab333818fe61427265ba443daeac57fddad89",
+          "message": "build: fix security warnings and update dependencies",
+          "date": "2021-03-29T21:32:32Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "7c4d8a0cac6f96f75a3ee8a30876f65778b62d65",
+          "message": "docs(readme): link to mat-aio website instead of github",
+          "date": "2021-02-23T00:52:45Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "b6e682606670190cbe9220a8c513b172bfa42aac",
+          "message": "docs(home): remove details about current dev efforts",
+          "date": "2021-02-13T01:37:10Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "bd0f7874d203e85ef88d514150bc8cabeb547ec2",
+          "message": "build(deps): bump socket.io from 2.3.0 to 2.4.1",
+          "date": "2021-01-25T18:46:20Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "b0483e8811ecf1c02beda93e241242f51ede66a7",
+          "message": "update version number in package.json to 1.2.2",
+          "date": "2020-12-18T06:22:33Z",
+          "authorName": "Miles Malerba",
+          "authorLogin": "mmalerba"
+        },
+        {
+          "sha": "41c71ed1eb7826c1927902f19dc8d8ea5bbfda22",
+          "message": "fix(fab-speed-dial): keyboard navigation issues with tab and shift+tab",
+          "date": "2020-12-17T23:26:47Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "e7dfcc166a8dbb7cb07d5c5f339a41e396025733",
+          "message": "fix(fab-speed-dial): opens when trigger button is disabled",
+          "date": "2020-12-17T23:21:36Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "da86e6282ce01c6ec31758350946b9ee1e8536f5",
+          "message": "fix(fab-speed-dial): action items are in tab order when closed",
+          "date": "2020-12-17T23:21:03Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        }
+      ],
+      "finalCommit": {
+        "sha": "952c06705a7eddaa02fcbb2fd931e06740702404",
+        "message": "Clear .mailmap",
+        "date": "2024-09-05T18:38:54Z",
+        "authorName": "Jeremy Elbourn",
+        "authorLogin": "jelbourn"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "1.1.x",
+          "lastCommitDate": "2020-09-01T19:02:20Z",
+          "aheadBy": 10,
+          "behindBy": 147
+        },
+        {
+          "name": "Splaktar-patch-1",
+          "lastCommitDate": "2018-01-27T09:39:27Z",
+          "aheadBy": 1,
+          "behindBy": 530
+        },
+        {
+          "name": "autocomplete-chips-big-combined-pr",
+          "lastCommitDate": "2018-11-07T18:55:12Z",
+          "aheadBy": 2,
+          "behindBy": 366
+        },
+        {
+          "name": "eslint-plugin-angular",
+          "lastCommitDate": "2020-03-31T03:06:50Z",
+          "aheadBy": 1,
+          "behindBy": 199
+        },
+        {
+          "name": "fixCodingGuideFormatting",
+          "lastCommitDate": "2018-02-07T06:48:21Z",
+          "aheadBy": 1,
+          "behindBy": 522
+        },
+        {
+          "name": "fixConflictWithBabelMinify",
+          "lastCommitDate": "2018-06-29T18:21:48Z",
+          "aheadBy": 1,
+          "behindBy": 431
+        },
+        {
+          "name": "fixDialogDocsTypo",
+          "lastCommitDate": "2018-03-12T19:45:34Z",
+          "aheadBy": 1,
+          "behindBy": 503
+        },
+        {
+          "name": "fixPanelReopenAnimation",
+          "lastCommitDate": "2018-09-18T00:20:51Z",
+          "aheadBy": 1,
+          "behindBy": 390
+        },
+        {
+          "name": "fixSelectKeyboardSearch",
+          "lastCommitDate": "2018-05-26T20:10:05Z",
+          "aheadBy": 1,
+          "behindBy": 447
+        },
+        {
+          "name": "fixSideNavDocs",
+          "lastCommitDate": "2018-03-07T20:28:02Z",
+          "aheadBy": 1,
+          "behindBy": 507
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 12157,
+          "title": "MatDatePicker implementation issue: Cannot read properties of undefined (reading 'subscribe') for MatDatepickerInputBase",
+          "state": "closed",
+          "createdAt": "2022-04-06T10:49:47Z",
+          "closedAt": "2022-04-11T22:00:09Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12151,
+          "title": "$mdDialog throws TypeError: o.cleanupElement is not a function",
+          "state": "open",
+          "createdAt": "2022-02-20T10:13:39Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "needs: demo",
+            "needs: more info"
+          ]
+        },
+        {
+          "number": 12149,
+          "title": "datepicker: works incorrectly when ng-model-options=\"{timezone: 'UTC'}\" is set",
+          "state": "open",
+          "createdAt": "2022-02-15T15:32:25Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "type: bug",
+            "needs: investigation"
+          ]
+        },
+        {
+          "number": 12148,
+          "title": "Radio button (mat-radio) Click effect not disappear until focus lost",
+          "state": "closed",
+          "createdAt": "2022-02-15T12:07:08Z",
+          "closedAt": "2022-02-15T19:32:20Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12144,
+          "title": "@angular/material installation fails with unexpected error: unable to get local issuer certificate",
+          "state": "closed",
+          "createdAt": "2022-01-17T17:48:58Z",
+          "closedAt": "2022-01-19T08:13:53Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12140,
+          "title": "Problem using Content-Security-Policy with Print Syle",
+          "state": "closed",
+          "createdAt": "2021-12-25T15:23:46Z",
+          "closedAt": "2022-01-19T08:21:08Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12136,
+          "title": "How to access ng-content in material dialog",
+          "state": "closed",
+          "createdAt": "2021-11-29T03:14:47Z",
+          "closedAt": "2021-12-15T06:08:35Z",
+          "comments": 1,
+          "labels": [
+            "needs: demo",
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12135,
+          "title": "docs: Travis CI removal broke ability to update documentation site on commit",
+          "state": "closed",
+          "createdAt": "2021-11-23T19:54:11Z",
+          "closedAt": "2021-11-29T18:52:41Z",
+          "comments": 2,
+          "labels": [
+            "type: docs",
+            "P1: urgent"
+          ]
+        },
+        {
+          "number": 12134,
+          "title": "select: changes scroll position when closed with bootstrap 5",
+          "state": "closed",
+          "createdAt": "2021-11-23T19:48:25Z",
+          "closedAt": "2021-12-15T06:06:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 12133,
+          "title": "Md-Dialog Box is not draggable and Movable so there should be option for  drag and drop. If there is already supported please give me coed",
+          "state": "closed",
+          "createdAt": "2021-11-19T12:03:11Z",
+          "closedAt": "2021-11-19T15:04:56Z",
+          "comments": 1,
+          "labels": [
+            "type: docs",
+            "resolution: invalid",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12127,
+          "title": "card actions- add center alignment in card.d.ts",
+          "state": "closed",
+          "createdAt": "2021-10-19T00:15:54Z",
+          "closedAt": "2021-10-19T00:50:12Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12126,
+          "title": "select: fails to close popover on option click",
+          "state": "open",
+          "createdAt": "2021-10-06T22:32:02Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "severity: regression",
+            "P3: important"
+          ]
+        },
+        {
+          "number": 12125,
+          "title": "\"Platform\" module fails to detect Edge browser",
+          "state": "closed",
+          "createdAt": "2021-10-06T10:11:04Z",
+          "closedAt": "2021-10-06T14:46:54Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12120,
+          "title": "#698 If is opened a second dialog, the first one closes automatically. ",
+          "state": "closed",
+          "createdAt": "2021-09-03T10:53:02Z",
+          "closedAt": "2021-11-18T21:59:29Z",
+          "comments": 2,
+          "labels": [
+            "resolution: can't reproduce"
+          ]
+        },
+        {
+          "number": 12119,
+          "title": "https://ng-matero.github.io/extensions/",
+          "state": "closed",
+          "createdAt": "2021-08-20T18:36:36Z",
+          "closedAt": "2021-08-20T19:53:49Z",
+          "comments": 2,
+          "labels": [
+            "type: docs"
+          ]
+        },
+        {
+          "number": 12118,
+          "title": "datepicker: invalid value on first load from moment",
+          "state": "open",
+          "createdAt": "2021-08-08T08:29:50Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": [
+            "type: bug",
+            "P2: required"
+          ]
+        },
+        {
+          "number": 12116,
+          "title": "There is a problem with the example",
+          "state": "closed",
+          "createdAt": "2021-07-13T18:05:01Z",
+          "closedAt": "2021-07-13T18:42:17Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12114,
+          "title": "Update project to gulp-sass@5",
+          "state": "closed",
+          "createdAt": "2021-07-05T15:54:08Z",
+          "closedAt": "2021-11-23T19:41:48Z",
+          "comments": 1,
+          "labels": [
+            "type: build",
+            "P2: required"
+          ]
+        },
+        {
+          "number": 12113,
+          "title": "Update project to gulp@4",
+          "state": "open",
+          "createdAt": "2021-07-05T15:51:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "type: build",
+            "P4: minor"
+          ]
+        },
+        {
+          "number": 12110,
+          "title": "Why does this exist",
+          "state": "closed",
+          "createdAt": "2021-06-11T22:41:11Z",
+          "closedAt": "2021-06-12T06:27:05Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12109,
+          "title": "was angular material a last minute project?",
+          "state": "closed",
+          "createdAt": "2021-06-11T22:38:03Z",
+          "closedAt": "2021-06-12T06:28:27Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12108,
+          "title": "Dropdowns don't actually drop down, they drop OVER",
+          "state": "closed",
+          "createdAt": "2021-06-11T22:29:11Z",
+          "closedAt": "2021-06-12T06:31:28Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12107,
+          "title": "Unable to have both a placeholder and a floating label",
+          "state": "closed",
+          "createdAt": "2021-06-11T22:16:07Z",
+          "closedAt": "2021-06-12T06:30:58Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12106,
+          "title": "floatLabel=never + appearance=\"outline\" causes selected option to not be centered if no mat label is provided",
+          "state": "closed",
+          "createdAt": "2021-06-11T22:10:38Z",
+          "closedAt": "2021-06-12T06:30:18Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12105,
+          "title": "Angular Date Picker Calendar Icon Size, Padding, Background color, are all not easily customizable",
+          "state": "closed",
+          "createdAt": "2021-06-11T21:14:50Z",
+          "closedAt": "2021-06-12T06:29:42Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12104,
+          "title": "Ripple Effect Still Present After Click, Despite disableRipple Being Set",
+          "state": "closed",
+          "createdAt": "2021-06-11T21:09:52Z",
+          "closedAt": "2021-06-12T06:29:09Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12100,
+          "title": "select: dropdown box is cut off and locate out of the screen in RTL view on mobile/iPad",
+          "state": "open",
+          "createdAt": "2021-05-24T07:08:02Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "type: bug",
+            "i18n: bi-directional",
+            "needs: demo"
+          ]
+        },
+        {
+          "number": 12098,
+          "title": "util: getParentWithPointerEvents > hasComputedStyle causes forced reflow",
+          "state": "open",
+          "createdAt": "2021-05-17T14:06:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "type: performance",
+            "P3: important"
+          ]
+        },
+        {
+          "number": 12096,
+          "title": "NullInjectorError MatDialogConfig",
+          "state": "closed",
+          "createdAt": "2021-05-11T13:16:57Z",
+          "closedAt": "2021-05-11T20:54:12Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "resolution: invalid",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12095,
+          "title": "Blank dropdown in version choices",
+          "state": "closed",
+          "createdAt": "2021-05-10T20:16:02Z",
+          "closedAt": "2021-05-10T20:18:30Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12091,
+          "title": "select: label not visible when using md-selected-text",
+          "state": "open",
+          "createdAt": "2021-04-20T19:03:08Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "needs: investigation",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12090,
+          "title": "Need utility css classes included in angular material",
+          "state": "closed",
+          "createdAt": "2021-04-13T15:02:26Z",
+          "closedAt": "2021-06-03T21:27:10Z",
+          "comments": 3,
+          "labels": [
+            "needs: feedback"
+          ]
+        },
+        {
+          "number": 12088,
+          "title": "navbar: position: fixed causes issues with this library",
+          "state": "closed",
+          "createdAt": "2021-04-07T13:07:41Z",
+          "closedAt": "2021-06-03T21:26:35Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "needs: demo",
+            "needs: feedback"
+          ]
+        },
+        {
+          "number": 12081,
+          "title": "Dialog: Not working in IE11 - console error",
+          "state": "closed",
+          "createdAt": "2021-02-25T12:11:21Z",
+          "closedAt": "2021-04-07T02:02:13Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "browser: IE",
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12078,
+          "title": "chips: md-transform-chip never called",
+          "state": "closed",
+          "createdAt": "2021-02-16T21:45:32Z",
+          "closedAt": "2021-02-16T22:07:15Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12077,
+          "title": "How to limit selection via first letter of the option in mat select",
+          "state": "closed",
+          "createdAt": "2021-02-15T18:58:50Z",
+          "closedAt": "2021-02-15T19:20:21Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "resolution: invalid",
+            "needs triage"
+          ]
+        },
+        {
+          "number": 12075,
+          "title": "datepicker: invalid value on first load from string",
+          "state": "closed",
+          "createdAt": "2021-01-26T11:32:27Z",
+          "closedAt": "2021-07-08T17:45:35Z",
+          "comments": 6,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "severity: regression",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12072,
+          "title": "mat-autocomplete problem with formControl binding in reactive forms",
+          "state": "closed",
+          "createdAt": "2021-01-18T12:02:21Z",
+          "closedAt": "2021-01-19T08:22:13Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12071,
+          "title": "Angular Material date picker doesn't filled correctly with method type()",
+          "state": "closed",
+          "createdAt": "2021-01-18T10:57:05Z",
+          "closedAt": "2021-01-18T12:53:39Z",
+          "comments": 2,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12070,
+          "title": "Error: node_modules/@angular/material/stepper/stepper.d.ts:39:14",
+          "state": "closed",
+          "createdAt": "2021-01-12T10:55:10Z",
+          "closedAt": "2021-01-12T18:23:03Z",
+          "comments": 3,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12056,
+          "title": "Multiple Chip Input Issue",
+          "state": "closed",
+          "createdAt": "2020-12-11T07:45:29Z",
+          "closedAt": "2020-12-12T06:05:46Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12054,
+          "title": "menu: focus lost when opening with keyboard and first item is disabled",
+          "state": "closed",
+          "createdAt": "2020-12-10T10:47:54Z",
+          "closedAt": "2020-12-16T21:04:29Z",
+          "comments": 4,
+          "labels": [
+            "resolution: fixed",
+            "a11y",
+            "ui: focus",
+            "P3: important",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12052,
+          "title": "datepicker: sharing a Date as ng-model between a Datepicker and input[type=\"time\"] resets the time value",
+          "state": "closed",
+          "createdAt": "2020-12-08T11:45:16Z",
+          "closedAt": "2020-12-09T13:29:05Z",
+          "comments": 3,
+          "labels": [
+            "type: bug",
+            "resolution: duplicate"
+          ]
+        },
+        {
+          "number": 12051,
+          "title": "checkbox: inside menu-item does not get focus using keyboard navigation",
+          "state": "closed",
+          "createdAt": "2020-12-07T20:49:18Z",
+          "closedAt": "2020-12-14T00:59:19Z",
+          "comments": 3,
+          "labels": [
+            "a11y",
+            "ui: focus",
+            "resolution: works as expected"
+          ]
+        },
+        {
+          "number": 12046,
+          "title": "checkbox: aria-checked attribute gives unexpected results",
+          "state": "closed",
+          "createdAt": "2020-11-12T12:09:49Z",
+          "closedAt": "2020-11-16T18:43:37Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "a11y",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12044,
+          "title": "checkbox: wrong positioning with ng-click directive and md-secondary class in md-list-item",
+          "state": "closed",
+          "createdAt": "2020-11-09T08:07:00Z",
+          "closedAt": "2020-11-14T23:58:06Z",
+          "comments": 1,
+          "labels": [
+            "resolution: works as expected"
+          ]
+        },
+        {
+          "number": 12043,
+          "title": "FAB Speed Dial: keyboard navigation with tab key gives unexpected results",
+          "state": "closed",
+          "createdAt": "2020-11-08T10:57:34Z",
+          "closedAt": "2020-12-17T23:26:48Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "a11y",
+            "P3: important",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12040,
+          "title": "menu: menu items are overlayed when progress bar is running",
+          "state": "open",
+          "createdAt": "2020-10-29T20:37:35Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "os: iOS",
+            "P3: important"
+          ]
+        },
+        {
+          "number": 12029,
+          "title": "layout: unexpected behaviour when nesting flex-gt-x inside of layout-gt-y",
+          "state": "closed",
+          "createdAt": "2020-10-07T18:37:40Z",
+          "closedAt": "2020-10-16T08:19:05Z",
+          "comments": 2,
+          "labels": [
+            "ui: layout",
+            "resolution: works as expected"
+          ]
+        },
+        {
+          "number": 12028,
+          "title": "datepicker: with UTC timezone set doesn't handle time offset +2:00",
+          "state": "closed",
+          "createdAt": "2020-10-06T16:53:55Z",
+          "closedAt": "2020-10-12T17:34:34Z",
+          "comments": 4,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "i18n: localization",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12026,
+          "title": "datepicker: modifies time",
+          "state": "closed",
+          "createdAt": "2020-10-05T15:07:16Z",
+          "closedAt": "2020-10-12T17:34:34Z",
+          "comments": 3,
+          "labels": [
+            "resolution: fixed",
+            "needs: more info",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12025,
+          "title": "datepicker: When initializing a datepicker with an empty value and timezone set in in ng-model-options an exception is thrown",
+          "state": "closed",
+          "createdAt": "2020-10-05T09:42:58Z",
+          "closedAt": "2020-10-05T18:47:30Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "i18n: localization",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 12024,
+          "title": "New date adapter for Date Picker",
+          "state": "closed",
+          "createdAt": "2020-09-24T04:17:02Z",
+          "closedAt": "2020-09-24T18:33:08Z",
+          "comments": 2,
+          "labels": [
+            "resolution: duplicate"
+          ]
+        },
+        {
+          "number": 12008,
+          "title": "Mat Datepicket min date validation not working",
+          "state": "closed",
+          "createdAt": "2020-09-03T22:12:13Z",
+          "closedAt": "2020-09-06T01:44:25Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12005,
+          "title": "material/input: matTextareaAutosize causes jumping to the bottom when editing",
+          "state": "closed",
+          "createdAt": "2020-08-31T15:18:08Z",
+          "closedAt": "2020-08-31T18:10:09Z",
+          "comments": 2,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 12000,
+          "title": "calendar, datepicker: when local tz is GMT+X, using ng-model-options to specify the tz causes previous day to be selected",
+          "state": "closed",
+          "createdAt": "2020-08-28T02:38:34Z",
+          "closedAt": "2020-08-31T18:43:54Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "i18n: localization",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11998,
+          "title": "Accessibility issue in mat-paginator because of Mat-select field",
+          "state": "closed",
+          "createdAt": "2020-08-14T07:59:02Z",
+          "closedAt": "2020-08-14T19:40:09Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 11997,
+          "title": "button(fab): icon color is changed to black from white in 1.2.0",
+          "state": "closed",
+          "createdAt": "2020-08-13T05:38:25Z",
+          "closedAt": "2020-08-13T06:10:48Z",
+          "comments": 2,
+          "labels": [
+            "resolution: duplicate",
+            "ui: theme"
+          ]
+        },
+        {
+          "number": 11996,
+          "title": "since v1.2.0 the theme is totally messed up",
+          "state": "closed",
+          "createdAt": "2020-08-06T16:41:16Z",
+          "closedAt": "2020-08-06T17:29:44Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 11995,
+          "title": "checkbox: label text not centered with non-default font-size",
+          "state": "closed",
+          "createdAt": "2020-08-06T12:41:50Z",
+          "closedAt": "2020-12-09T15:29:44Z",
+          "comments": 2,
+          "labels": [
+            "ui: CSS",
+            "P3: important"
+          ]
+        },
+        {
+          "number": 11990,
+          "title": "Slider is not sliding anymore after the version 9.2.0 with Capacitor",
+          "state": "closed",
+          "createdAt": "2020-07-31T10:49:09Z",
+          "closedAt": "2020-07-31T20:37:27Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 11984,
+          "title": "datepicker: select date again error",
+          "state": "closed",
+          "createdAt": "2020-07-28T12:33:46Z",
+          "closedAt": "2020-07-29T18:47:57Z",
+          "comments": 1,
+          "labels": [
+            "resolution: duplicate"
+          ]
+        },
+        {
+          "number": 11975,
+          "title": "radio-button: support Windows High Contrast - black theme",
+          "state": "open",
+          "createdAt": "2020-07-23T19:03:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "type: enhancement",
+            "ui: theme",
+            "g3: reported",
+            "P3: important",
+            "os: Windows"
+          ]
+        },
+        {
+          "number": 11974,
+          "title": "radio-button: Chromevox and JAWS screen readers do not announce the label of the radio buttons",
+          "state": "closed",
+          "createdAt": "2020-07-22T20:18:14Z",
+          "closedAt": "2020-07-30T19:10:29Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "a11y",
+            "g3: reported",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11973,
+          "title": "radio-button: VoiceOver doesn't announce labels properly",
+          "state": "closed",
+          "createdAt": "2020-07-22T20:01:01Z",
+          "closedAt": "2020-07-30T19:10:29Z",
+          "comments": 2,
+          "labels": [
+            "type: bug",
+            "a11y",
+            "g3: reported",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11969,
+          "title": "select(header): closes when filter input is focused",
+          "state": "closed",
+          "createdAt": "2020-07-21T09:39:04Z",
+          "closedAt": "2020-07-22T16:43:16Z",
+          "comments": 1,
+          "labels": [
+            "type: bug",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11966,
+          "title": "list: secondary action checkboxes aren't aligned with secondary action icon buttons",
+          "state": "closed",
+          "createdAt": "2020-07-16T22:27:44Z",
+          "closedAt": "2020-07-22T19:52:28Z",
+          "comments": 0,
+          "labels": [
+            "type: bug",
+            "ui: CSS",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11963,
+          "title": "datepicker: min-date validation bug",
+          "state": "closed",
+          "createdAt": "2020-07-16T06:42:38Z",
+          "closedAt": "2020-08-31T18:23:59Z",
+          "comments": 16,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "i18n: localization",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11962,
+          "title": "chips(autocomplete): closes when scrollbar is clicked",
+          "state": "closed",
+          "createdAt": "2020-07-16T00:27:29Z",
+          "closedAt": "2020-09-20T23:01:25Z",
+          "comments": 8,
+          "labels": [
+            "needs: demo",
+            "resolution: can't reproduce",
+            "g3: reported",
+            "os: macOS"
+          ]
+        },
+        {
+          "number": 11960,
+          "title": "radio-button: unable to select a radio button using space key",
+          "state": "closed",
+          "createdAt": "2020-07-15T18:09:11Z",
+          "closedAt": "2020-09-18T20:40:34Z",
+          "comments": 2,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "a11y",
+            "g3: reported",
+            "P2: required",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11954,
+          "title": "multiple mat-progress-bar in a page - rendering issue",
+          "state": "closed",
+          "createdAt": "2020-07-06T06:12:51Z",
+          "closedAt": "2020-07-06T06:21:55Z",
+          "comments": 1,
+          "labels": [
+            "resolution: invalid"
+          ]
+        },
+        {
+          "number": 11952,
+          "title": "select(multiple): rendering bug when model array is changed",
+          "state": "open",
+          "createdAt": "2020-06-30T13:20:43Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "needs: demo"
+          ]
+        },
+        {
+          "number": 11946,
+          "title": "panel: sometimes doesn't appear in 1.1.23",
+          "state": "closed",
+          "createdAt": "2020-06-22T18:01:18Z",
+          "closedAt": "2020-06-23T10:23:04Z",
+          "comments": 4,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11945,
+          "title": "datepicker: 1.1.23 does not work with $mdDateLocaleProvider",
+          "state": "closed",
+          "createdAt": "2020-06-22T16:05:09Z",
+          "closedAt": "2020-06-29T17:40:17Z",
+          "comments": 5,
+          "labels": [
+            "i18n: localization",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        },
+        {
+          "number": 11943,
+          "title": "datepicker: cut off on small displays",
+          "state": "closed",
+          "createdAt": "2020-06-18T07:26:36Z",
+          "closedAt": "2020-06-19T00:11:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 11941,
+          "title": "panel: new unsafe-inline styles",
+          "state": "closed",
+          "createdAt": "2020-06-17T18:06:20Z",
+          "closedAt": "2020-06-18T18:51:38Z",
+          "comments": 6,
+          "labels": [
+            "type: bug",
+            "resolution: fixed",
+            "severity: regression",
+            "P1: urgent",
+            "has: Pull Request"
+          ]
+        }
+      ],
+      "stats": {
+        "openCount": 11,
+        "totalFetched": 76,
+        "medianDaysToFirstResponse": 0.9,
+        "openOverOneYearNoReply": 2
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Material Design for AngularJS Apps\n[![npm version](https://badge.fury.io/js/angular-material.svg)](https://www.npmjs.com/package/angular-material)\n[![Build Status](https://travis-ci.org/angular/material.svg)](https://travis-ci.org/angular/material)\n\n[Material Design](https://material.io/archive/guidelines/) is a specification for a\nunified system of visual, motion, and interaction design that adapts across different devices. Our\ngoal is to deliver a lean, lightweight set of AngularJS-native UI elements that implement the\nmaterial design specification for use in AngularJS single-page applications (SPAs).\n\n**AngularJS Material** is an implementation of Google's \n[Material Design Specification (2014-2017)](https://material.io/archive/guidelines/material-design/)\nfor [AngularJS](https://angularjs.org) (v1.x) developers.\n\nFor an implementation of the [Material Design Specification (2018+)](https://material.io/design/),\nplease see the [Angular Material](https://material.angular.io/) project which is built for\n[Angular](https://angular.io) (v2+) developers.\n\n### <a name=\"lts\"></a> End-of-Life\n\n**AngularJS Material support has officially ended as of January 2022.**\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status)\nand [read the end of life announcement](https://goo.gle/angularjs-end-of-life). Visit\n[material.angular.io](https://material.angular.io) for the actively supported Angular Material.\n\nFind details on reporting security issues\n[here](https://github.com/angular/material/blob/master/SECURITY.md).\n\n![venn diagram](https://cloud.githubusercontent.com/assets/210413/5077572/30dfc2f0-6e6a-11e4-9723-07c918128f4f.png)\n\nAngularJS Material includes a rich set of reusable, well-tested, and accessible UI components.\n\nQuick Links:\n\n*  [API & Demos](#demos)\n*  [Building](#building)\n*  [Installing](#installing)\n\n\nPlease note that using the latest version of AngularJS Material requires the use of\n**[AngularJS](https://angularjs.org/) 1.7.2** or higher.\n\nAngularJS Material supports the browser versions defined in the `browserslist` field\nof our [package.json](package.json). Find out more on our\n[docs site](https://material.angularjs.org/latest/#browser-support).\n\nAngularJS Material supports the screen reader versions listed\n[here](https://material.angularjs.org/latest/#screen-reader-support).\n\n## <a name=\"demos\"></a> Online Documentation and Demos\n\n<div style=\"border: 1px solid #ccc\">\n  <img src=\"https://user-images.githubusercontent.com/3506071/93010488-11578980-f55b-11ea-9ea3-c4a7bffd20b9.png\" style=\"display:block;\">\n</div><br>\n\n- Visit [material.angularjs.org](https://material.angularjs.org/) online to review the API, see the\n  components in action via live demos, and to read our detailed guides which include the layout system,\n  theming system, typography, and more.\n- Or you can build the documentation and demos locally; see\n  [Build Docs & Demos](https://github.com/angular/material/tree/master/docs/README.md) for details.\n\n## <a name=\"building\"></a> Building\n\nDevelopers can build AngularJS Material using NPM and gulp.\n\nFirst install or update your local project's **npm** dependencies:\n\n```bash\nnpm install\n```\n\nInstall Gulp v3 globally:\n\n```bash\nnpm install -g gulp@3\n```\n\nThen run the **gulp** tasks:\n\n```bash\n# To build `angular-material.js/.css` and `Theme` files in the `/dist` directory\ngulp build\n\n# To build the AngularJS Material Docs and Demos in `/dist/docs` directory\ngulp docs\n```\n\nFor development, use the `docs:watch` **NPM** script to run in dev mode:\n\n```bash\n# To build the AngularJS Material Source, Docs, and Demos in watch mode\nnpm run docs:watch\n```\n\nFor more details on how the build process works and additional commands (available for testing and\ndebugging) developers should read the [Build Guide](docs/guides/BUILD.md).\n\n## <a name=\"installing\"></a> Installing Build (Distribution Files)\n\n#### NPM\n\nFor developers not interested in building the AngularJS Material library... use **NPM** to install\nand use the AngularJS Material distribution files.\n\nChange to your project's root directory.\n\n```bash\n# To get the latest stable version, use NPM from the command line.\nnpm install angular-material --save\n\n# To get the most recent, latest committed-to-master version use:\nnpm install http://github.com/angular/bower-material#master --save\n```\n\n#### Other Dependency Managers\n\nVisit our [distribution repository](https://github.com/angular/bower-material/blob/master/README.md)\nfor more details on how to install and use the AngularJS Material distribution files within your local\nproject.\n\n#### CDN\n\nCDN versions of AngularJS Material are available.\n\nWith the Google CDN, you will not need to download local copies of the distribution files. Instead,\nsimply reference the CDN urls to easily use those remote library files. This is especially useful\nwhen using online tools such as [CodePen](http://codepen.io/) or [Plunker](http://plnkr.co/).\n\n```html\n  <head>\n\n    <!-- AngularJS Material CSS now available via Google CDN; version 1.2.1 used here -->\n   <link rel=\"stylesheet\" href=\"https://ajax.googleapis.com/ajax/libs/angular_material/1.2.1/angular-material.min.css\">\n\n  </head>\n  <body>\n\n    <!-- AngularJS Material Dependencies -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-animate.min.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-aria.min.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-messages.min.js\"></script>\n\n    <!-- AngularJS Material Javascript now available via Google CDN; version 1.2.1 used here -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angular_material/1.2.1/angular-material.min.js\"></script>\n  </body>\n```\n\nDevelopers seeking the latest, most-current build versions can use [GitCDN.xyz](https://gitcdn.xyz/) to\npull directly from our [distribution repository](https://github.com/angular/bower-material):\n\n```html\n  <head>\n\n    <!-- AngularJS Material CSS using GitCDN to load directly from `bower-material/master` -->\n    <link rel=\"stylesheet\" href=\"https://gitcdn.xyz/cdn/angular/bower-material/master/angular-material.css\">\n\n  </head>\n  <body>\n\n    <!-- AngularJS Material Dependencies -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-animate.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-aria.js\"></script>\n    <script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-messages.min.js\"></script>\n\n    <!-- AngularJS Material Javascript using GitCDN to load directly from `bower-material/master` -->\n    <script src=\"https://gitcdn.xyz/cdn/angular/bower-material/master/angular-material.js\"></script>\n\n  </body>\n```\n\nOnce you have all the necessary assets installed, add `ngMaterial` and `ngMessages` as dependencies for your\napp:\n\n```javascript\nangular.module('myApp', ['ngMaterial', 'ngMessages']);\n```\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 671,
+      "flatlineMonth": "2024-09",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:19:24.711Z"
+  },
+  "autopsy": {
+    "epitaph": "It began with Material Design dreams in 2014 and ended with a lone 'Clear .mailmap' commit in September 2024, archived by its own owner after formally declaring End-of-Life in January 2022.",
+    "causes": [
+      {
+        "label": "Official End-of-Life Declaration",
+        "confidencePct": 98,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "cdce2babd081ba82ab70f7e14c7a9de215ffc489"
+          },
+          {
+            "type": "commit",
+            "ref": "bfc8ae7cd17e43c7b4d531b2a0e0f97b26a4d4a7"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#12135"
+          }
+        ]
+      },
+      {
+        "label": "Superseded by Angular Material (v2+)",
+        "confidencePct": 95,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "b6e682606670190cbe9220a8c513b172bfa42aac"
+          },
+          {
+            "type": "commit",
+            "ref": "c9f67b39f23b9cb620decdb916278305b6c2ae79"
+          }
+        ]
+      },
+      {
+        "label": "Prolonged Commit Starvation",
+        "confidencePct": 90,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "0b55529940d516a94777ca1d179e65df7835dd2a"
+          },
+          {
+            "type": "commit",
+            "ref": "952c06705a7eddaa02fcbb2fd931e06740702404"
+          },
+          {
+            "type": "branch",
+            "ref": "1.1.x"
+          }
+        ]
+      },
+      {
+        "label": "Build Toolchain Decay",
+        "confidencePct": 75,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#12113"
+          },
+          {
+            "type": "issue",
+            "ref": "#12114"
+          },
+          {
+            "type": "commit",
+            "ref": "5e2d21350cd0278f210c1e2bb951786c4047bbb6"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and issue a community governance call to find volunteer maintainers willing to steward the AngularJS v1.x legacy codebase.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Upgrade the build toolchain from Gulp v3 to Gulp v4 and migrate remaining build dependencies to resolve open build issues.",
+        "effort": "a week"
+      },
+      {
+        "step": "Triage and close or document the 11 open issues, marking them clearly as EOL with migration guidance to Angular Material v2+.",
+        "effort": "a long weekend"
+      },
+      {
+        "step": "Publish a final 1.2.6 patch release with all merged fixes and updated EOL notices in the package metadata.",
+        "effort": "a week"
+      },
+      {
+        "step": "Set up a read-only community mirror with frozen documentation so legacy users are not left stranded when the docs site eventually goes dark.",
+        "effort": "a heroic quarter"
+      }
+    ],
+    "lastWordsGloss": "'Clear .mailmap' — because when a project dies, the last act of housekeeping is erasing the names of everyone who tried to save it."
+  }
+}

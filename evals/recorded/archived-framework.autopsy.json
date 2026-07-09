@@ -1,0 +1,108 @@
+{
+  "epitaph": "Once hailed as the hackable framework for a decade, it died mid-migration with an unfinished plugin system, a stalled 2.x release, and a final commit named 'final-cleanup' that was anything but final for the 48,213 stars left behind.",
+  "causes": [
+    {
+      "label": "Deliberate archival by owner — development formally ceased",
+      "confidencePct": 98,
+      "evidence": [
+        {
+          "type": "readme",
+          "ref": "README"
+        },
+        {
+          "type": "commit",
+          "ref": "016fc9ba0bb479b136aa5b4237f05a1babde026e"
+        },
+        {
+          "type": "commit",
+          "ref": "c03710baca5343e671fda244c1d412f544d40b14"
+        }
+      ]
+    },
+    {
+      "label": "Commit velocity collapse — 41 commits/month to 1 in six months",
+      "confidencePct": 92,
+      "evidence": [
+        {
+          "type": "commit",
+          "ref": "b08c5823559a508326b9281cd3ab682868052ac4"
+        },
+        {
+          "type": "branch",
+          "ref": "develop"
+        },
+        {
+          "type": "branch",
+          "ref": "feature/plugin-system"
+        }
+      ]
+    },
+    {
+      "label": "Unfinished plugin system and stalled 2.x release left the codebase incomplete",
+      "confidencePct": 87,
+      "evidence": [
+        {
+          "type": "file",
+          "ref": "src/plugins/index.ts"
+        },
+        {
+          "type": "file",
+          "ref": "src/core/scheduler.ts"
+        },
+        {
+          "type": "branch",
+          "ref": "feature/plugin-system"
+        },
+        {
+          "type": "issue",
+          "ref": "#202"
+        }
+      ]
+    },
+    {
+      "label": "Unresolved bug accumulation with zero maintainer engagement",
+      "confidencePct": 80,
+      "evidence": [
+        {
+          "type": "issue",
+          "ref": "#200"
+        },
+        {
+          "type": "issue",
+          "ref": "#201"
+        },
+        {
+          "type": "issue",
+          "ref": "#206"
+        },
+        {
+          "type": "file",
+          "ref": "src/cache/store.ts"
+        }
+      ]
+    }
+  ],
+  "revival": [
+    {
+      "step": "Unarchive the repository and publish a clear governance document naming at least one active maintainer with merge authority",
+      "effort": "an afternoon"
+    },
+    {
+      "step": "Triage and close or label all 14 open issues; address the stale Apple Silicon and memory-leak bugs first as they block basic usability",
+      "effort": "a week"
+    },
+    {
+      "step": "Finish or formally remove the plugin API — resolve the FIXME in src/plugins/index.ts and document the contract so the wave of 'pluggable X' feature requests can be evaluated",
+      "effort": "a heroic quarter"
+    },
+    {
+      "step": "Complete the cache layer wiring (src/cache/store.ts) and replace the stopgap scheduler (src/core/scheduler.ts) to deliver on the 2.x promise",
+      "effort": "a heroic quarter"
+    },
+    {
+      "step": "Publish a 2.0 release with a migration guide and deprecation timeline so the 6,172 forks have a canonical upgrade path",
+      "effort": "a week"
+    }
+  ],
+  "lastWordsGloss": "'final-cleanup' — because nothing says done like merging a PR called final into an archive and walking away from 48,213 believers without so much as a changelog entry."
+}

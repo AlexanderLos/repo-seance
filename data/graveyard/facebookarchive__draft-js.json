@@ -1,0 +1,1797 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "facebookarchive",
+      "name": "draft-js",
+      "fullName": "facebookarchive/draft-js",
+      "description": "A React framework for building text editors.",
+      "htmlUrl": "https://github.com/facebookarchive/draft-js",
+      "createdAt": "2016-02-19T20:18:26Z",
+      "pushedAt": "2023-02-06T15:35:05Z",
+      "archived": true,
+      "stars": 22629,
+      "forks": 2605,
+      "defaultBranch": "main",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 1201,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2016-07",
+          "count": 15
+        },
+        {
+          "month": "2016-08",
+          "count": 18
+        },
+        {
+          "month": "2016-09",
+          "count": 25
+        },
+        {
+          "month": "2016-10",
+          "count": 13
+        },
+        {
+          "month": "2016-11",
+          "count": 16
+        },
+        {
+          "month": "2016-12",
+          "count": 29
+        },
+        {
+          "month": "2017-01",
+          "count": 17
+        },
+        {
+          "month": "2017-02",
+          "count": 29
+        },
+        {
+          "month": "2017-03",
+          "count": 14
+        },
+        {
+          "month": "2017-04",
+          "count": 17
+        },
+        {
+          "month": "2017-05",
+          "count": 6
+        },
+        {
+          "month": "2017-06",
+          "count": 7
+        },
+        {
+          "month": "2017-07",
+          "count": 19
+        },
+        {
+          "month": "2017-08",
+          "count": 18
+        },
+        {
+          "month": "2017-09",
+          "count": 27
+        },
+        {
+          "month": "2017-10",
+          "count": 26
+        },
+        {
+          "month": "2017-11",
+          "count": 40
+        },
+        {
+          "month": "2017-12",
+          "count": 12
+        },
+        {
+          "month": "2018-01",
+          "count": 22
+        },
+        {
+          "month": "2018-02",
+          "count": 23
+        },
+        {
+          "month": "2018-03",
+          "count": 19
+        },
+        {
+          "month": "2018-04",
+          "count": 10
+        },
+        {
+          "month": "2018-05",
+          "count": 13
+        },
+        {
+          "month": "2018-06",
+          "count": 5
+        },
+        {
+          "month": "2018-07",
+          "count": 3
+        },
+        {
+          "month": "2018-08",
+          "count": 23
+        },
+        {
+          "month": "2018-09",
+          "count": 33
+        },
+        {
+          "month": "2018-10",
+          "count": 28
+        },
+        {
+          "month": "2018-11",
+          "count": 6
+        },
+        {
+          "month": "2018-12",
+          "count": 7
+        },
+        {
+          "month": "2019-01",
+          "count": 9
+        },
+        {
+          "month": "2019-02",
+          "count": 12
+        },
+        {
+          "month": "2019-03",
+          "count": 9
+        },
+        {
+          "month": "2019-04",
+          "count": 11
+        },
+        {
+          "month": "2019-05",
+          "count": 6
+        },
+        {
+          "month": "2019-06",
+          "count": 9
+        },
+        {
+          "month": "2019-07",
+          "count": 20
+        },
+        {
+          "month": "2019-08",
+          "count": 15
+        },
+        {
+          "month": "2019-09",
+          "count": 10
+        },
+        {
+          "month": "2019-10",
+          "count": 11
+        },
+        {
+          "month": "2019-11",
+          "count": 17
+        },
+        {
+          "month": "2019-12",
+          "count": 23
+        },
+        {
+          "month": "2020-01",
+          "count": 20
+        },
+        {
+          "month": "2020-02",
+          "count": 11
+        },
+        {
+          "month": "2020-03",
+          "count": 23
+        },
+        {
+          "month": "2020-04",
+          "count": 16
+        },
+        {
+          "month": "2020-05",
+          "count": 16
+        },
+        {
+          "month": "2020-06",
+          "count": 4
+        },
+        {
+          "month": "2020-07",
+          "count": 26
+        },
+        {
+          "month": "2020-08",
+          "count": 12
+        },
+        {
+          "month": "2020-09",
+          "count": 13
+        },
+        {
+          "month": "2020-10",
+          "count": 29
+        },
+        {
+          "month": "2020-11",
+          "count": 10
+        },
+        {
+          "month": "2020-12",
+          "count": 7
+        },
+        {
+          "month": "2021-01",
+          "count": 4
+        },
+        {
+          "month": "2021-02",
+          "count": 5
+        },
+        {
+          "month": "2021-03",
+          "count": 11
+        },
+        {
+          "month": "2021-04",
+          "count": 9
+        },
+        {
+          "month": "2021-05",
+          "count": 3
+        },
+        {
+          "month": "2021-06",
+          "count": 6
+        },
+        {
+          "month": "2021-07",
+          "count": 4
+        },
+        {
+          "month": "2021-08",
+          "count": 5
+        },
+        {
+          "month": "2021-09",
+          "count": 5
+        },
+        {
+          "month": "2021-10",
+          "count": 2
+        },
+        {
+          "month": "2021-11",
+          "count": 3
+        },
+        {
+          "month": "2021-12",
+          "count": 1
+        },
+        {
+          "month": "2022-01",
+          "count": 3
+        },
+        {
+          "month": "2022-02",
+          "count": 5
+        },
+        {
+          "month": "2022-03",
+          "count": 5
+        },
+        {
+          "month": "2022-04",
+          "count": 15
+        },
+        {
+          "month": "2022-05",
+          "count": 6
+        },
+        {
+          "month": "2022-06",
+          "count": 9
+        },
+        {
+          "month": "2022-07",
+          "count": 5
+        },
+        {
+          "month": "2022-08",
+          "count": 3
+        },
+        {
+          "month": "2022-09",
+          "count": 6
+        },
+        {
+          "month": "2022-10",
+          "count": 1
+        },
+        {
+          "month": "2022-11",
+          "count": 2
+        },
+        {
+          "month": "2022-12",
+          "count": 3
+        }
+      ],
+      "recent": [
+        {
+          "sha": "afdb5c3177c13fd26cb0abbdc439488f3e21b73b",
+          "message": "Revert D41973343: replace require ReactDOM with ReactDOMLegacy_DEPRECATED",
+          "date": "2022-12-14T15:16:46Z",
+          "authorName": "Jan Kassens",
+          "authorLogin": "kassens"
+        },
+        {
+          "sha": "bc8c486104c3f9a66064d793e8002cc073a9fb7f",
+          "message": "Add annotations to break type cycles in www root",
+          "date": "2022-12-13T22:52:04Z",
+          "authorName": "Sam Zhou",
+          "authorLogin": "SamChou19815"
+        },
+        {
+          "sha": "ea485ccfcdd5d8317f37a58f79afba02b56895c5",
+          "message": "replace require ReactDOM with ReactDOMLegacy_DEPRECATED",
+          "date": "2022-12-13T14:51:48Z",
+          "authorName": "Jan Kassens",
+          "authorLogin": "kassens"
+        },
+        {
+          "sha": "ed2389eb38807ddef726b1876fa9b8f04da015b7",
+          "message": "Add explicit annotations to underconstrained implicit instantiations in html/shared",
+          "date": "2022-11-08T01:33:11Z",
+          "authorName": "Mike Vitousek",
+          "authorLogin": "mvitousek"
+        },
+        {
+          "sha": "ebc2d0f9e534e9040087b86e52fcb33c32d20d9d",
+          "message": "Pre-suppress errors ahead of 0.192.0 release",
+          "date": "2022-11-04T02:17:54Z",
+          "authorName": "Sam Zhou",
+          "authorLogin": "SamChou19815"
+        },
+        {
+          "sha": "e66e9c4811d4fa6dc6b194e91148ea0ef1bff9b1",
+          "message": "Add explicit annotations to empty arrays in html",
+          "date": "2022-10-05T21:50:33Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "49051495e372f043918c98dddb6903d976300f96",
+          "message": "Ensure all CSS files are copyrighted and formatted correctly",
+          "date": "2022-09-24T00:01:34Z",
+          "authorName": "Baraa Hamodi",
+          "authorLogin": "bhamodi"
+        },
+        {
+          "sha": "4161b21a63d9167db205cd298f774fedf263ce5a",
+          "message": "Format JavaScript files with Prettier: scripts/draft-js/__github__/src/util",
+          "date": "2022-09-22T09:10:03Z",
+          "authorName": "CodemodService Bot",
+          "authorLogin": null
+        },
+        {
+          "sha": "678dacec8b9e647edb16b69ec4e30e25abc0ba4e",
+          "message": "Format all CSS files with prettier",
+          "date": "2022-09-20T05:13:06Z",
+          "authorName": "Baraa Hamodi",
+          "authorLogin": "bhamodi"
+        },
+        {
+          "sha": "d6553b923a504dda2d37f3cab95cb5c1f97d1b7c",
+          "message": "upgrade to Flow 0.187.0",
+          "date": "2022-09-15T14:52:02Z",
+          "authorName": "Marshall Roch",
+          "authorLogin": "mroch"
+        },
+        {
+          "sha": "1cbe517b696f5c57acf68f198c814a8d79b62873",
+          "message": "Revert D39352199: Ensure all CSS files are copyrighted and formatted correctly",
+          "date": "2022-09-08T20:59:44Z",
+          "authorName": "Mark Edson",
+          "authorLogin": "markedson1024"
+        },
+        {
+          "sha": "6e1a1d466bcc6d51ad423012c225cf59e24b171a",
+          "message": "Ensure all CSS files are copyrighted and formatted correctly",
+          "date": "2022-09-08T19:05:19Z",
+          "authorName": "Baraa Hamodi",
+          "authorLogin": "bhamodi"
+        },
+        {
+          "sha": "ea2a7679b5203835d6a8b37cf2da0a25d8ccf164",
+          "message": "html/shared/draft-js/model/modifier/exploration",
+          "date": "2022-08-29T16:55:52Z",
+          "authorName": "Dead Code Bot",
+          "authorLogin": null
+        },
+        {
+          "sha": "2e82cc5a741dae997ff8efaced6ff0ab4eb4905e",
+          "message": "Daily removal of unused Flow suppressions",
+          "date": "2022-08-24T21:19:11Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "98b63c29b99300140e9623806124e8f1efbbe81b",
+          "message": "Remove @emails from non-generated files (91/n)",
+          "date": "2022-08-02T00:47:34Z",
+          "authorName": "Nidhi Kadkol",
+          "authorLogin": null
+        },
+        {
+          "sha": "9f2638c98c41cb49c99da01c6e38b7d2d57403f1",
+          "message": "Remove @emails from non-generated files (79/n)",
+          "date": "2022-07-28T19:11:36Z",
+          "authorName": "Nidhi Kadkol",
+          "authorLogin": null
+        },
+        {
+          "sha": "e0dafbc8a8a06076d2a5c198132f8f9dbfcc7124",
+          "message": "Add new annotation format to non-generated files (109/n)",
+          "date": "2022-07-21T10:24:18Z",
+          "authorName": "Rujin Cao",
+          "authorLogin": "Drizzlecrj"
+        },
+        {
+          "sha": "6a05170a5bc54c6400b23c21d157b80336f1bd2b",
+          "message": "Add suppressions ahead of the 0.183.0 flow deploy to www",
+          "date": "2022-07-21T00:27:38Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "d425d05610fbf81e7686ba04c3f9184ab0b89b91",
+          "message": "Fix ESLint complains of //$FlowFixMe",
+          "date": "2022-07-19T04:43:43Z",
+          "authorName": "Rujin Cao",
+          "authorLogin": "Drizzlecrj"
+        },
+        {
+          "sha": "1041469e7b56826b6d1f650cedcae493e3b7585f",
+          "message": "Codemod `{...null}` to `{}` in remaining files",
+          "date": "2022-07-14T00:15:45Z",
+          "authorName": "George Zahariev",
+          "authorLogin": "gkz"
+        },
+        {
+          "sha": "7b2a6168e651f3a27a0665d43e596d987341b06f",
+          "message": "Add new annotation format to non-generated files (105/n)",
+          "date": "2022-06-30T22:34:50Z",
+          "authorName": "Nidhi Kadkol",
+          "authorLogin": null
+        },
+        {
+          "sha": "70414e8186cff1ac8da3c037e291997cde331f39",
+          "message": "remove (this: any) casts from the codebase",
+          "date": "2022-06-30T00:13:56Z",
+          "authorName": "Brad Zacher",
+          "authorLogin": "bradzacher"
+        },
+        {
+          "sha": "16fd8a64c9468b1db4548cd614ad0c29cad34419",
+          "message": "Add new annotation format to non-generated files (103/n)",
+          "date": "2022-06-29T23:16:56Z",
+          "authorName": "Nidhi Kadkol",
+          "authorLogin": null
+        },
+        {
+          "sha": "e74da14ee6b41efcdf1698864cde97d974cd0264",
+          "message": "Revert D37478365: remove (this: any) casts from the codebase",
+          "date": "2022-06-29T02:36:52Z",
+          "authorName": "Kyle Minshall",
+          "authorLogin": "Kilenaitor"
+        },
+        {
+          "sha": "8417079ac7c005e1f52d889885c2eb7ad4c1d9e5",
+          "message": "remove (this: any) casts from the codebase",
+          "date": "2022-06-29T01:09:47Z",
+          "authorName": "Brad Zacher",
+          "authorLogin": "bradzacher"
+        },
+        {
+          "sha": "86c009d078cafedb92810514dc7268bb1938fc9b",
+          "message": "Autofix ESLint Rule fb-www/format-docblock: html/shared/draft-js/model/paste/__mocks__",
+          "date": "2022-06-10T16:08:54Z",
+          "authorName": "CodemodService Bot",
+          "authorLogin": null
+        },
+        {
+          "sha": "35bee2b5da6dc2a440a0680c87811a80373940f2",
+          "message": "Suppress missing annotations and lock html/shared",
+          "date": "2022-06-03T18:31:16Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "16e3104976bfe2db1109054793e6cb07a2e30c38",
+          "message": "Add annotations to empty objects composed of optional properties",
+          "date": "2022-06-02T02:50:03Z",
+          "authorName": "George Zahariev",
+          "authorLogin": "gkz"
+        },
+        {
+          "sha": "e7bdd5e57ed155ec5d742d9574a24271310b98b0",
+          "message": "Add LTI annotations to function params in html/shared [manually-modified]",
+          "date": "2022-06-01T01:13:09Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        },
+        {
+          "sha": "c420bdff8779a3fb679de8d00cacc86e4019433d",
+          "message": "Add LTI annotations to function params in html/shared",
+          "date": "2022-05-31T17:07:16Z",
+          "authorName": "Pieter Vanderwerff",
+          "authorLogin": "pieterv"
+        }
+      ],
+      "finalCommit": {
+        "sha": "afdb5c3177c13fd26cb0abbdc439488f3e21b73b",
+        "message": "Revert D41973343: replace require ReactDOM with ReactDOMLegacy_DEPRECATED\n\nDifferential Revision:\nD41973343 (https://github.com/facebook/draft-js/commit/ea485ccfcdd5d8317f37a58f79afba02b56895c5)\n\nOriginal commit changeset: 8203c6074d1d\n\nOriginal Phabricator Diff: D41973343 (https://github.com/facebook/draft-js/commit/ea485ccfcdd5d8317f37a58f79afba02b56895c5)\n\nfbshipit-source-id: 42166e20fe787973fdf4397c6903b6e63f485cad",
+        "date": "2022-12-14T15:16:46Z",
+        "authorName": "Jan Kassens",
+        "authorLogin": "kassens"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "0.9-stable",
+          "lastCommitDate": "2016-09-16T23:08:27Z",
+          "aheadBy": 2,
+          "behindBy": 956
+        },
+        {
+          "name": "0.10-stable",
+          "lastCommitDate": "2017-01-28T18:12:40Z",
+          "aheadBy": 5,
+          "behindBy": 892
+        },
+        {
+          "name": "0.10.0-alpha",
+          "lastCommitDate": "2016-12-04T02:10:09Z",
+          "aheadBy": 0,
+          "behindBy": 907
+        },
+        {
+          "name": "0.11.0-alpha",
+          "lastCommitDate": "2017-07-28T18:31:25Z",
+          "aheadBy": 8,
+          "behindBy": 854
+        },
+        {
+          "name": "0.11.0-beta",
+          "lastCommitDate": "2019-07-09T08:36:12Z",
+          "aheadBy": 24,
+          "behindBy": 406
+        },
+        {
+          "name": "Daniel15-patch-1",
+          "lastCommitDate": "2017-11-01T18:11:36Z",
+          "aheadBy": 1,
+          "behindBy": 704
+        },
+        {
+          "name": "dependabot/add-v2-config-file",
+          "lastCommitDate": "2021-04-29T21:32:03Z",
+          "aheadBy": 1,
+          "behindBy": 92
+        },
+        {
+          "name": "dependabot/npm_and_yarn/alex-8.1.1",
+          "lastCommitDate": "2020-05-05T23:14:52Z",
+          "aheadBy": 1,
+          "behindBy": 236
+        },
+        {
+          "name": "dependabot/npm_and_yarn/babel/core-7.9.6",
+          "lastCommitDate": "2020-05-05T23:13:06Z",
+          "aheadBy": 1,
+          "behindBy": 236
+        },
+        {
+          "name": "dependabot/npm_and_yarn/babel/core-7.14.8",
+          "lastCommitDate": "2021-07-26T13:55:19Z",
+          "aheadBy": 1,
+          "behindBy": 80
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 3181,
+          "title": "InvalidStateError: 'extend' requires a Range to be added to the Selection",
+          "state": "open",
+          "createdAt": "2022-12-12T17:59:12Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3180,
+          "title": "http://localhost:8000/",
+          "state": "closed",
+          "createdAt": "2022-11-28T11:08:24Z",
+          "closedAt": "2022-11-28T11:09:46Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3179,
+          "title": "wrong return value of getInlineStyleForCollapsedSelection and getInlineStyleForNonCollapsedSelection",
+          "state": "open",
+          "createdAt": "2022-11-07T08:02:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3178,
+          "title": "when input some IME punctuation, the editor crashs",
+          "state": "open",
+          "createdAt": "2022-11-02T11:28:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3177,
+          "title": "pre select inline style, then input in composition mode, the selected inlinestyle not work",
+          "state": "open",
+          "createdAt": "2022-10-27T02:47:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3176,
+          "title": "how to stop the style i add in replaceText?",
+          "state": "open",
+          "createdAt": "2022-10-21T02:44:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3175,
+          "title": "URGENT :: How to update words arrays in handleStrategy of decorator?",
+          "state": "open",
+          "createdAt": "2022-10-12T09:31:31Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3174,
+          "title": "How to get the cursor position?",
+          "state": "closed",
+          "createdAt": "2022-10-12T02:52:02Z",
+          "closedAt": "2022-10-21T06:09:11Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 3173,
+          "title": "why draftInlineStyleType only can be default type?",
+          "state": "closed",
+          "createdAt": "2022-10-11T10:37:49Z",
+          "closedAt": "2022-10-21T06:11:06Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3170,
+          "title": "How to change blockType by pressing keyboard",
+          "state": "open",
+          "createdAt": "2022-10-06T07:17:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3169,
+          "title": "Pressing return jumps to start of line in Android API 33",
+          "state": "open",
+          "createdAt": "2022-09-27T02:16:45Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3168,
+          "title": "How to insert texts via google chrome extension to an input created by DraftJS",
+          "state": "open",
+          "createdAt": "2022-09-26T11:00:57Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3167,
+          "title": "Is/should convertToRaw be based on some kind of open standard?",
+          "state": "closed",
+          "createdAt": "2022-09-22T11:00:26Z",
+          "closedAt": "2022-09-23T11:05:58Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3166,
+          "title": "Ordered and unordered lists don't work",
+          "state": "open",
+          "createdAt": "2022-09-16T16:31:25Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3164,
+          "title": "Add custom classes",
+          "state": "open",
+          "createdAt": "2022-09-12T11:38:45Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3163,
+          "title": "state in decorator are memorised",
+          "state": "open",
+          "createdAt": "2022-09-01T18:47:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3162,
+          "title": "created by DraftEditorTextNode",
+          "state": "open",
+          "createdAt": "2022-08-24T03:26:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3161,
+          "title": "Bug in demo text editor on website",
+          "state": "open",
+          "createdAt": "2022-08-12T12:50:00Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 3160,
+          "title": "Ctrl+A selection doesn't work in Firefox when there are action items",
+          "state": "open",
+          "createdAt": "2022-08-09T14:03:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3159,
+          "title": "read-only font size not working",
+          "state": "open",
+          "createdAt": "2022-08-08T15:58:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3158,
+          "title": "nested list with depth > 4",
+          "state": "open",
+          "createdAt": "2022-08-08T14:44:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3157,
+          "title": "Just a question",
+          "state": "open",
+          "createdAt": "2022-08-08T13:00:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3156,
+          "title": "Cannot read properties of undefined (reading 'isInCompositionMode')",
+          "state": "open",
+          "createdAt": "2022-07-30T18:32:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3155,
+          "title": "how to use convertFromHTML in Node or Java",
+          "state": "open",
+          "createdAt": "2022-07-24T13:38:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3154,
+          "title": "UMD version of draft-js",
+          "state": "open",
+          "createdAt": "2022-07-21T04:11:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3153,
+          "title": "How do I set the image default width and height of an image?",
+          "state": "open",
+          "createdAt": "2022-07-16T17:03:39Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3152,
+          "title": "bug feedback",
+          "state": "open",
+          "createdAt": "2022-07-05T07:44:15Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3151,
+          "title": "Tab key does not indent if multiple items are selected from the list",
+          "state": "open",
+          "createdAt": "2022-06-28T13:41:55Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3150,
+          "title": "BUG - wrong order for inlineStyleRanges when serializing the object",
+          "state": "open",
+          "createdAt": "2022-06-22T07:18:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3149,
+          "title": "After insert from Mac touchbar, you can no longer delete",
+          "state": "open",
+          "createdAt": "2022-06-17T19:58:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3148,
+          "title": "TypeError: _ref is undefined",
+          "state": "closed",
+          "createdAt": "2022-06-16T17:45:04Z",
+          "closedAt": "2022-06-16T18:14:01Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3147,
+          "title": "Package vulnerability update required. (fbjs > cross-fetch)",
+          "state": "open",
+          "createdAt": "2022-06-14T09:52:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3145,
+          "title": "how to add tooltip in draft js ?",
+          "state": "closed",
+          "createdAt": "2022-05-30T08:55:05Z",
+          "closedAt": "2022-09-28T13:31:54Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3144,
+          "title": "Choosing value by click while in composition mode makes irregular content state",
+          "state": "open",
+          "createdAt": "2022-05-24T18:13:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3141,
+          "title": "\"Writer.com\" Chrome plugin causes errors when pasting text",
+          "state": "open",
+          "createdAt": "2022-05-18T20:23:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3140,
+          "title": "Replace the text {{timer}} with react component",
+          "state": "open",
+          "createdAt": "2022-05-09T21:24:26Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3139,
+          "title": "delete atomic by backspace will get 'a'",
+          "state": "open",
+          "createdAt": "2022-05-09T06:41:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3138,
+          "title": "EditorState.createWithContent() returning orphans entities of previous editorState",
+          "state": "open",
+          "createdAt": "2022-05-02T12:07:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3137,
+          "title": "Problem with replaceText Modifier function",
+          "state": "open",
+          "createdAt": "2022-04-20T09:09:24Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3132,
+          "title": "Support React 18 Warning: ReactDOM.render is no longer supported in React 18.",
+          "state": "open",
+          "createdAt": "2022-04-10T13:34:43Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3131,
+          "title": "Support inline styles for blocks.",
+          "state": "open",
+          "createdAt": "2022-04-07T04:38:23Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3130,
+          "title": "Is DraftJs still supported?",
+          "state": "closed",
+          "createdAt": "2022-04-06T19:46:09Z",
+          "closedAt": "2022-04-13T20:51:33Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3129,
+          "title": "A problem with custom inline styles",
+          "state": "open",
+          "createdAt": "2022-04-05T14:35:51Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3128,
+          "title": "Editor Selection State does not update when mouseup occurs outside of iframe or storybook window",
+          "state": "open",
+          "createdAt": "2022-03-30T15:37:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3127,
+          "title": "`anchorKey` and `focusKey` are identical when selecting multiple blocks",
+          "state": "closed",
+          "createdAt": "2022-03-26T00:19:34Z",
+          "closedAt": "2022-03-26T16:05:06Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3126,
+          "title": "Can't go to next line in Editor component in Chrome Browser Android",
+          "state": "open",
+          "createdAt": "2022-03-17T07:45:24Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3125,
+          "title": "[SECURITY] Update fbjs and release to mitigate CVE-2022-0235",
+          "state": "closed",
+          "createdAt": "2022-03-15T11:05:18Z",
+          "closedAt": "2022-04-13T00:36:34Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 3124,
+          "title": "Rendering an inline input element",
+          "state": "open",
+          "createdAt": "2022-03-09T02:43:23Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3123,
+          "title": "Memory leak in generate random key",
+          "state": "open",
+          "createdAt": "2022-03-07T22:29:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3120,
+          "title": "How can I get selected text with applying styles?",
+          "state": "open",
+          "createdAt": "2022-03-04T09:32:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3118,
+          "title": "Editor state not updating on Android as long as a word gets \"underlined\"",
+          "state": "open",
+          "createdAt": "2022-03-02T08:42:40Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 3114,
+          "title": "Applying metadata to specific block",
+          "state": "open",
+          "createdAt": "2022-02-15T12:54:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3113,
+          "title": "The Chinese input overwrites the previous input",
+          "state": "open",
+          "createdAt": "2022-02-14T10:03:59Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 3112,
+          "title": "use Draft.js cause memery-leak，how to solve it？",
+          "state": "open",
+          "createdAt": "2022-02-09T02:48:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3111,
+          "title": "Text size",
+          "state": "open",
+          "createdAt": "2022-02-06T17:33:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3110,
+          "title": "How to add style to custom entity",
+          "state": "open",
+          "createdAt": "2022-02-03T16:44:11Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3109,
+          "title": "Draft.js example crashes with Linux input method on Node.removeChild",
+          "state": "open",
+          "createdAt": "2022-02-02T01:41:47Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3106,
+          "title": "Editor focus out of view when pressing enter",
+          "state": "open",
+          "createdAt": "2022-01-25T14:40:19Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3105,
+          "title": "React JS app gets crash on Editor with linkify plugins for Samsung galaxy series.",
+          "state": "open",
+          "createdAt": "2022-01-20T06:26:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3104,
+          "title": "[bug] v0.11.3 breaks auto scroll to bottom when enter",
+          "state": "open",
+          "createdAt": "2022-01-19T20:27:31Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3103,
+          "title": "Editor 在 onBlur 时如何修改内部的 editorState ",
+          "state": "closed",
+          "createdAt": "2022-01-18T08:39:09Z",
+          "closedAt": "2022-10-13T09:23:57Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3101,
+          "title": "Superscript and subscript is missing from `HTMLTagToRawInlineStyleMap`",
+          "state": "open",
+          "createdAt": "2022-01-16T15:35:16Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 3100,
+          "title": "href is transformed in Toolbar link \"react\": \"^17.0.2\"",
+          "state": "open",
+          "createdAt": "2022-01-11T18:54:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3099,
+          "title": "Some fixtures are not working correctly on nextjs",
+          "state": "closed",
+          "createdAt": "2022-01-11T00:34:59Z",
+          "closedAt": "2022-01-28T05:07:07Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3098,
+          "title": "when text is empty how to forbidden init set like set <br/> or span with \\n",
+          "state": "open",
+          "createdAt": "2022-01-06T08:29:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3097,
+          "title": "Storing and updating editorstate in redux",
+          "state": "closed",
+          "createdAt": "2021-12-29T23:55:40Z",
+          "closedAt": "2021-12-30T00:10:08Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3096,
+          "title": "Bug with add link",
+          "state": "open",
+          "createdAt": "2021-12-28T10:33:35Z",
+          "closedAt": null,
+          "comments": 14,
+          "labels": []
+        },
+        {
+          "number": 3095,
+          "title": "insertAtomicBlock keeps inserting the atomic block at the start of the content",
+          "state": "open",
+          "createdAt": "2021-12-23T10:02:47Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3093,
+          "title": "Why do we need Composition Mode?",
+          "state": "open",
+          "createdAt": "2021-12-22T09:24:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3092,
+          "title": "Enter key is not working on inline buttons - Accessibility",
+          "state": "open",
+          "createdAt": "2021-12-20T14:37:38Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3091,
+          "title": "Is draft-js stabilized now? ",
+          "state": "closed",
+          "createdAt": "2021-12-15T09:19:51Z",
+          "closedAt": "2022-04-13T20:52:12Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3090,
+          "title": "Issue with mergeBlockData()",
+          "state": "open",
+          "createdAt": "2021-12-10T17:44:58Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3089,
+          "title": "Undo from Chrome contextual menu is not properly working",
+          "state": "open",
+          "createdAt": "2021-12-09T14:55:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3088,
+          "title": "Bug: Incorrect work of the \"EditorState.createWithContent\", \"convertToRaw\" , \"convertFromRaw\";",
+          "state": "open",
+          "createdAt": "2021-12-09T13:39:26Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3087,
+          "title": "How to delete the image (from database) after using backspace in editor ?  (draftjs)",
+          "state": "open",
+          "createdAt": "2021-12-01T17:05:17Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3086,
+          "title": "Draftjs.org is blocked in India",
+          "state": "open",
+          "createdAt": "2021-11-26T04:23:22Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 3085,
+          "title": "Trailing whitespace stripped on pasting rich text",
+          "state": "open",
+          "createdAt": "2021-11-25T12:24:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3083,
+          "title": "How to get the text align style with stateToHTML using React wyswyig editor",
+          "state": "open",
+          "createdAt": "2021-11-20T18:01:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3082,
+          "title": "Accented characters in Icelandic erased after next keystroke and cursor jumps to beginning on MacBook and some Linux setups",
+          "state": "open",
+          "createdAt": "2021-11-19T10:35:08Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3081,
+          "title": "How can i truncate pasted text if limit exceeded? ",
+          "state": "closed",
+          "createdAt": "2021-11-18T09:06:46Z",
+          "closedAt": "2022-01-24T09:04:39Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3079,
+          "title": "iOS handwriting input, scroll back to top",
+          "state": "closed",
+          "createdAt": "2021-11-05T03:07:38Z",
+          "closedAt": "2021-11-09T03:02:36Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3078,
+          "title": "convertFromHTML using node.js getting problem for img tag only.",
+          "state": "open",
+          "createdAt": "2021-10-29T13:17:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3077,
+          "title": "Can I embed this JS plugin in Flutter Application?",
+          "state": "open",
+          "createdAt": "2021-10-29T02:40:40Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3076,
+          "title": "[SECURITY] Upgrade FBJS to avoid ua-parser-js exploit",
+          "state": "closed",
+          "createdAt": "2021-10-25T14:17:06Z",
+          "closedAt": "2022-04-13T00:38:12Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 3075,
+          "title": "Link functionality doesn't work in a dialog type of content or in a html form",
+          "state": "open",
+          "createdAt": "2021-10-18T14:00:06Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3074,
+          "title": "onBlur is not called when blur is triggered via the ‘collapsed address bar’ in iOS15 Safari",
+          "state": "open",
+          "createdAt": "2021-10-14T12:48:37Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3072,
+          "title": "TypeError: Invalid attempt to iterate non-iterable instance in _createForOfIteratorHelperLoose",
+          "state": "open",
+          "createdAt": "2021-10-07T21:43:06Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3071,
+          "title": "toolbar not show when i use basic example",
+          "state": "open",
+          "createdAt": "2021-10-07T10:11:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3070,
+          "title": "Setting a default inline style to be activated on render?",
+          "state": "open",
+          "createdAt": "2021-10-02T00:20:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3069,
+          "title": "Runtime error when using Draft.js with NextJS",
+          "state": "open",
+          "createdAt": "2021-09-30T13:33:04Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3067,
+          "title": "onDragOver cursor support",
+          "state": "open",
+          "createdAt": "2021-09-22T22:17:45Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3066,
+          "title": "Jumping cursor",
+          "state": "open",
+          "createdAt": "2021-09-21T09:50:51Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 3065,
+          "title": "draft.js allows copying hyperlink but not filtering out the hyperlink when editor does not allow adding hyperlink",
+          "state": "open",
+          "createdAt": "2021-09-20T21:46:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3064,
+          "title": "Easy way to clear the editor content",
+          "state": "open",
+          "createdAt": "2021-09-15T00:08:31Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3063,
+          "title": "no accessor of editorState available from Editor",
+          "state": "open",
+          "createdAt": "2021-09-14T14:01:39Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3062,
+          "title": "`Uncaught TypeError: _this._buildHandler is not a function`",
+          "state": "open",
+          "createdAt": "2021-09-12T00:41:55Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3061,
+          "title": "How to insert a table",
+          "state": "open",
+          "createdAt": "2021-09-09T14:15:51Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3041,
+          "title": "convertFromHTML removes HTML entities such as &nbsp;",
+          "state": "open",
+          "createdAt": "2021-09-01T17:10:18Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 3040,
+          "title": "On line break, don't continue the heading style.",
+          "state": "open",
+          "createdAt": "2021-08-30T14:28:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3038,
+          "title": "the blockRenderMap function throws an internal error during normal use",
+          "state": "closed",
+          "createdAt": "2021-08-23T21:32:57Z",
+          "closedAt": "2021-08-24T02:49:57Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3037,
+          "title": "draft-js convertFromRaw method does not apply the fontSize styles to the formatted text retrieved from the database",
+          "state": "closed",
+          "createdAt": "2021-08-13T10:02:54Z",
+          "closedAt": "2021-09-21T10:15:10Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3036,
+          "title": "Do you plan to provide full mobile accessibility soon ?",
+          "state": "open",
+          "createdAt": "2021-08-11T16:29:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3035,
+          "title": "BUG: Package fails to build",
+          "state": "open",
+          "createdAt": "2021-08-11T12:45:17Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 3034,
+          "title": "Default ArrowUp and ArrowDown behavior not working if specified in `keyBindingFn` ",
+          "state": "open",
+          "createdAt": "2021-08-09T12:44:05Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 3033,
+          "title": "Add documentation for `formatPastedText` Editor Component prop",
+          "state": "open",
+          "createdAt": "2021-08-04T17:24:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3023,
+          "title": "Editor not triggering onChange event for Spacebar key input",
+          "state": "open",
+          "createdAt": "2021-07-30T18:35:02Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3022,
+          "title": "Weird behaviour when using complex Decorator Components",
+          "state": "open",
+          "createdAt": "2021-07-28T13:53:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3019,
+          "title": "Error inserting text",
+          "state": "open",
+          "createdAt": "2021-07-21T16:24:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3018,
+          "title": "Cannot read property 'OrderedMap' of undefined at Object../node_modules/draft-js/lib/BlockMapBuilder.js",
+          "state": "open",
+          "createdAt": "2021-07-20T11:34:46Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3015,
+          "title": "Add text inside the block. The previous text is rendered json",
+          "state": "open",
+          "createdAt": "2021-07-16T12:22:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3013,
+          "title": "Does DraftJS have flow types available to use?",
+          "state": "open",
+          "createdAt": "2021-07-08T22:05:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3012,
+          "title": "How can we set max line in editor?",
+          "state": "open",
+          "createdAt": "2021-07-06T04:31:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 3008,
+          "title": "Get the word count like in MS Word and others?",
+          "state": "closed",
+          "createdAt": "2021-07-03T04:34:04Z",
+          "closedAt": "2021-07-04T06:41:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 3007,
+          "title": "Add insertAtCoordinate API",
+          "state": "open",
+          "createdAt": "2021-07-02T15:38:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 2983,
+          "title": "Editor bugs when using google keyboard on android",
+          "state": "open",
+          "createdAt": "2021-06-09T10:42:18Z",
+          "closedAt": null,
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 2981,
+          "title": "How to automatically split blocks with enter (line break)",
+          "state": "open",
+          "createdAt": "2021-06-09T04:27:54Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 2980,
+          "title": "Customize selection",
+          "state": "open",
+          "createdAt": "2021-06-07T23:29:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 98,
+        "totalFetched": 117,
+        "medianDaysToFirstResponse": 6.8,
+        "openOverOneYearNoReply": 61
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "<p align=\"center\">\n  <a href=\"http://draftjs.org/\">\n    <img src=\"https://draftjs.org/img/draftjs-logo.svg\" alt=\"draftjs-logo\" width=\"8%\" />\n  </a>\n</p>\n<h1 align=\"center\">\n  Draft.js\n</h1>\n<p align=\"center\">\n  <a href=\"https://travis-ci.org/facebook/draft-js\">\n    <img src=\"https://img.shields.io/travis/facebook/draft-js/master.svg?style=flat\" alt=\"Build Status\" />\n  </a>\n  <a href=\"https://yarn.pm/draft-js\">\n    <img src=\"https://img.shields.io/npm/v/draft-js.svg?style=flat\" alt=\"npm version\" />\n  </a>\n</p>\n<p align=\"center\">\n  <img src=\"https://media.giphy.com/media/XHUjaxELpc11SiRSqN/giphy.gif\" alt=\"Live Demo\" />\n</p>\n\n--------------------\n## Status\n\n**THIS PROJECT IS CURRENTLY IN MAINTENANCE MODE. It will not receive any feature updates, only critical security bug patches. On 31st December 2022 the repo will be fully archived.**\n\nFor users looking for an open source alternative, Meta have been working on migrating to a new framework, called [Lexical](https://github.com/facebook/lexical). It's still experimental, and we're working on adding migration guides, but, we believe, it provides a more performant and accessible alternative.\n\n--------------------\nDraft.js is a JavaScript rich text editor framework, built for React and\nbacked by an immutable model.\n\n- **Extensible and Customizable:** We provide the building blocks to enable\nthe creation of a broad variety of rich text composition experiences, from\nbasic text styles to embedded media.\n- **Declarative Rich Text:** Draft.js fits seamlessly into\n[React](http://facebook.github.io/react/) applications,\nabstracting away the details of rendering, selection, and input behavior with a\nfamiliar declarative API.\n- **Immutable Editor State:** The Draft.js model is built\nwith [immutable-js](https://facebook.github.io/immutable-js/), offering\nan API with functional state updates and aggressively leveraging data persistence\nfor scalable memory usage.\n\n[Learn how to use Draft.js in your own project.](https://draftjs.org/docs/getting-started/)\n\nDraft.js is used in production on Facebook, including status and\ncomment inputs, [Notes](https://www.facebook.com/notes/), and\n[messenger.com](https://www.messenger.com).\n\n## API Notice\n\nBefore getting started, please be aware that we recently changed the API of\nEntity storage in Draft. \n\nPreviously, the old API was set to be removed in `v0.11.0`. Since, the plans have changed— `v0.11.0` still supports the old API and `v0.12.0` will remove it. Refer to [the docs](https://draftjs.org/docs/v0-10-api-migration) for more information and information on how to migrate.\n\n## Getting Started\n\n```\nnpm install --save draft-js react react-dom\n\nor\n\nyarn add draft-js react react-dom\n```\n\nDraft.js depends on React and React DOM which must also be installed.\n\n### Using Draft.js\n\n```javascript\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport {Editor, EditorState} from 'draft-js';\n\nfunction MyEditor() {\n\n  \n  constructor(props) {\n    super(props);\n    this.state = {editorState: EditorState.createEmpty()};\n    this.onChange = (editorState) => this.setState({editorState});\n    this.setEditor = (editor) => {\n      this.editor = editor;\n    };\n    this.focusEditor = () => {\n      if (this.editor) {\n        this.editor.focus();\n      }\n    };\n  }\n\n  componentDidMount() {\n    this.focusEditor();\n  }\n\n  render() {\n    return (\n      <div style={styles.editor} onClick={this.focusEditor}>\n        <Editor\n          ref={this.setEditor}\n          editorState={this.state.editorState}\n          onChange={this.onChange}\n        />\n      </div>\n    );\n  }\n}\n\nconst styles = {\n  editor: {\n    border: '1px solid gray',\n    minHeight: '6em'\n  }\n};\n\nReactDOM.render(\n  <MyEditor />,\n  document.getElementById('container')\n);\n```\n\nSince the release of React 16.8, you can use [Hooks](https://reactjs.org/docs/hooks-intro.html) as a way to work with `EditorState` without using a class.\n\n\n```js\nimport React from \"react\";\nimport { Editor, EditorState } from \"draft-js\";\nimport \"draft-js/dist/Draft.css\";\n\nexport default function MyEditor() {\n  const [editorState, setEditorState] = React.useState(() =>\n    EditorState.createEmpty()\n  );\n\n  const editor = React.useRef(null);\n  function focusEditor() {\n    editor.current.focus();\n  }\n\n  return (\n    <div\n      style={{ border: \"1px solid black\", minHeight: \"6em\", cursor: \"text\" }}\n      onClick={focusEditor}\n    >\n      <Editor\n        ref={editor}\n        editorState={editorState}\n        onChange={setEditorState}\n        placeholder=\"Write something!\"\n      />\n    </div>\n  );\n}\n\n```\n\nNote that the editor itself is only as tall as its contents. In order to give users a visual cue, we recommend setting a border and a minimum height via the `.DraftEditor-root` CSS selector, or using a wrapper div like in the above example.\n\nBecause Draft.js supports unicode, you must have the following meta tag in the `<head>` `</head>` block of your HTML file:\n\n```html\n<meta charset=\"utf-8\" />\n```\n\nFurther examples of how Draft.js can be used are provided in the `/examples` directory of this repo.\n\n### Building Draft.js\n\nDraft.js is built with [Yarn](https://classic.yarnpkg.com/en/) v1. Using other package managers mgiht work, but is not officially supported.\n\nTo clone and build, run:\n\n```\ngit clone https://github.com/facebook/draft-js.git\ncd draft-js\nyarn install\nyarn run build\n```\n\n### Examples\n\nTo run the examples in the `/examples` directory, first build Draft.js locally as described above. Then, open the example HTML files in your browser.\n\n## Browser Support\n\n| ![IE / Edge](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_32x32.png) <br /> IE / Edge | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_32x32.png) <br /> Firefox | ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_32x32.png) <br /> Chrome | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_32x32.png) <br /> Safari | ![iOS Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_32x32.png) <br />iOS Safari | ![Chrome for Android](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_32x32.png) <br/> Chrome for Android |\n| --------- | --------- | --------- | --------- | --------- | --------- |\n| IE11, Edge [1, 2]| last 2 versions| last 2 versions| last 2 versions| not fully supported [3] | not fully supported [3]\n\n[1] May need a shim or a polyfill for some syntax used in Draft.js ([docs](https://draftjs.org/docs/advanced-topics-issues-and-pitfalls/#polyfills)).\n\n[2] IME inputs have known issues in these browsers, especially Korean ([docs](https://draftjs.org/docs/advanced-topics-issues-and-pitfalls/#ime-and-internet-explorer)).\n\n[3] There are known issues with mobile browsers, especially on Android ([docs](https://draftjs.org/docs/advanced-topics-issues-and-pitfalls/#mobile-not-yet-supported)).\n\n## Resources and Ecosystem\n\nCheck out this curated list of articles and open-sourced projects/utilities: [Awesome Draft-JS](https://github.com/nikgraf/awesome-draft-js).\n\n## Discussion and Support\n\nJoin our [Slack team](https://draftjs.herokuapp.com)!\n\n## Contribute\n\nWe welcome pull requests. Learn how to\n[contribute](https://github.com/facebook/draft-js/blob/master/CONTRIBUTING.md).\n\n## License\n\nDraft.js is [MIT licensed](https://github.com/facebook/draft-js/blob/master/LICENSE).\n\nExamples provided in this repository and in the documentation are separately\nlicensed.\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1248,
+      "flatlineMonth": "2022-12",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:13:43.276Z"
+  },
+  "autopsy": {
+    "epitaph": "Archived on the last day of 2022 as promised, Draft.js closed its final chapter with a reverted ReactDOM shim — a framework that shaped a generation of React text editors, silenced not by failure but by deliberate farewell.",
+    "causes": [
+      {
+        "label": "Deliberate archival by owner (Meta/Facebook)",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "afdb5c3177c13fd26cb0abbdc439488f3e21b73b"
+          }
+        ]
+      },
+      {
+        "label": "Migration to successor framework Lexical",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#3130"
+          },
+          {
+            "type": "issue",
+            "ref": "#3091"
+          }
+        ]
+      },
+      {
+        "label": "React 18 incompatibility and ReactDOM legacy API churn",
+        "confidencePct": 85,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#3132"
+          },
+          {
+            "type": "commit",
+            "ref": "afdb5c3177c13fd26cb0abbdc439488f3e21b73b"
+          },
+          {
+            "type": "commit",
+            "ref": "ea485ccfcdd5d8317f37a58f79afba02b56895c5"
+          }
+        ]
+      },
+      {
+        "label": "Unresolved security vulnerabilities in dependencies",
+        "confidencePct": 72,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#3147"
+          },
+          {
+            "type": "issue",
+            "ref": "#3125"
+          },
+          {
+            "type": "issue",
+            "ref": "#3076"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Un-archive the repository and publish a v0.11.x patch that replaces the deprecated ReactDOM.render call with React 18's createRoot API, resolving the most-reported open issue.",
+        "effort": "a week"
+      },
+      {
+        "step": "Upgrade the fbjs dependency to remediate CVE-2022-0235 (cross-fetch) and the ua-parser-js exploit flagged in issues #3125 and #3076, then cut a new npm release.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Triage and close the 98 open issues, labelling them as wont-fix or migrating reproducible bugs to the Lexical repository with a clear redirect notice for users.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Replace the broken Travis CI badge in the README with a working GitHub Actions CI workflow to restore contributor trust and catch regressions.",
+        "effort": "a day"
+      },
+      {
+        "step": "Publish an official migration guide from Draft.js to Lexical, linked prominently from the README, to give the 22 000+ stargazers a dignified off-ramp.",
+        "effort": "a week"
+      }
+    ],
+    "lastWordsGloss": "'Revert … replace require ReactDOM with ReactDOMLegacy_DEPRECATED' — fitting last words for a framework that spent its final breath undoing the future, then quietly locked the door behind it."
+  }
+}

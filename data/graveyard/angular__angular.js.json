@@ -1,0 +1,1451 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "angular",
+      "name": "angular.js",
+      "fullName": "angular/angular.js",
+      "description": "AngularJS - HTML enhanced for web apps!",
+      "htmlUrl": "https://github.com/angular/angular.js",
+      "createdAt": "2010-01-06T00:34:37Z",
+      "pushedAt": "2024-04-12T17:43:16Z",
+      "archived": true,
+      "stars": 58585,
+      "forks": 27092,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 9074,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2016-09",
+          "count": 17
+        },
+        {
+          "month": "2016-10",
+          "count": 75
+        },
+        {
+          "month": "2016-11",
+          "count": 87
+        },
+        {
+          "month": "2016-12",
+          "count": 51
+        },
+        {
+          "month": "2017-01",
+          "count": 43
+        },
+        {
+          "month": "2017-02",
+          "count": 43
+        },
+        {
+          "month": "2017-03",
+          "count": 53
+        },
+        {
+          "month": "2017-04",
+          "count": 32
+        },
+        {
+          "month": "2017-05",
+          "count": 24
+        },
+        {
+          "month": "2017-06",
+          "count": 23
+        },
+        {
+          "month": "2017-07",
+          "count": 35
+        },
+        {
+          "month": "2017-08",
+          "count": 17
+        },
+        {
+          "month": "2017-09",
+          "count": 17
+        },
+        {
+          "month": "2017-10",
+          "count": 25
+        },
+        {
+          "month": "2017-11",
+          "count": 17
+        },
+        {
+          "month": "2017-12",
+          "count": 24
+        },
+        {
+          "month": "2018-01",
+          "count": 34
+        },
+        {
+          "month": "2018-02",
+          "count": 39
+        },
+        {
+          "month": "2018-03",
+          "count": 20
+        },
+        {
+          "month": "2018-04",
+          "count": 16
+        },
+        {
+          "month": "2018-05",
+          "count": 28
+        },
+        {
+          "month": "2018-06",
+          "count": 29
+        },
+        {
+          "month": "2018-07",
+          "count": 34
+        },
+        {
+          "month": "2018-08",
+          "count": 18
+        },
+        {
+          "month": "2018-09",
+          "count": 7
+        },
+        {
+          "month": "2018-10",
+          "count": 13
+        },
+        {
+          "month": "2018-11",
+          "count": 22
+        },
+        {
+          "month": "2018-12",
+          "count": 15
+        },
+        {
+          "month": "2019-01",
+          "count": 19
+        },
+        {
+          "month": "2019-02",
+          "count": 5
+        },
+        {
+          "month": "2019-03",
+          "count": 5
+        },
+        {
+          "month": "2019-04",
+          "count": 1
+        },
+        {
+          "month": "2019-05",
+          "count": 2
+        },
+        {
+          "month": "2019-07",
+          "count": 3
+        },
+        {
+          "month": "2019-11",
+          "count": 4
+        },
+        {
+          "month": "2020-01",
+          "count": 3
+        },
+        {
+          "month": "2020-02",
+          "count": 4
+        },
+        {
+          "month": "2020-03",
+          "count": 1
+        },
+        {
+          "month": "2020-04",
+          "count": 3
+        },
+        {
+          "month": "2020-05",
+          "count": 16
+        },
+        {
+          "month": "2020-06",
+          "count": 7
+        },
+        {
+          "month": "2020-07",
+          "count": 6
+        },
+        {
+          "month": "2020-08",
+          "count": 9
+        },
+        {
+          "month": "2020-09",
+          "count": 14
+        },
+        {
+          "month": "2020-10",
+          "count": 6
+        },
+        {
+          "month": "2021-02",
+          "count": 14
+        },
+        {
+          "month": "2021-03",
+          "count": 3
+        },
+        {
+          "month": "2021-04",
+          "count": 1
+        },
+        {
+          "month": "2021-06",
+          "count": 7
+        },
+        {
+          "month": "2021-08",
+          "count": 1
+        },
+        {
+          "month": "2021-12",
+          "count": 3
+        },
+        {
+          "month": "2022-03",
+          "count": 1
+        },
+        {
+          "month": "2022-04",
+          "count": 3
+        },
+        {
+          "month": "2024-04",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "d8f77817eb5c98dec5317bc3756d1ea1812bcfbe",
+          "message": "chore: update post LTS links (#17187)",
+          "date": "2024-04-12T17:43:13Z",
+          "authorName": "Mike Brocchi",
+          "authorLogin": "Brocco"
+        },
+        {
+          "sha": "47bf11ee94664367a26ed8c91b9b586d3dd420f5",
+          "message": "docs(changelog): fix wrong date in changelog for 1.8.3",
+          "date": "2022-04-12T15:48:22Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "b5aa42586e5750b780324bb50e6a0bffda8cb6be",
+          "message": "docs(changelog): fix typo in changelog for 1.8.3",
+          "date": "2022-04-11T20:26:36Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "cf16b241e1c61c22a820ed8211bc2332ede88e62",
+          "message": "docs(changelog): add release notes for 1.8.3",
+          "date": "2022-04-07T16:13:37Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "757d56ea9c3de6245df7e5cac025dbf7077082ff",
+          "message": "docs(*): update end-of-life messages (#17177)",
+          "date": "2022-03-18T19:04:55Z",
+          "authorName": "Jeremy Elbourn",
+          "authorLogin": "jelbourn"
+        },
+        {
+          "sha": "f3624374e436cec6a8e42ff9298df429c26f8c56",
+          "message": "docs(eol): add EOL options text and link to template header used in every page",
+          "date": "2021-12-09T23:00:31Z",
+          "authorName": "Ed Clement",
+          "authorLogin": null
+        },
+        {
+          "sha": "fb04e424bb0826c07090fa4cac91b6fbe7108b18",
+          "message": "test(Angular): fix `angularInit()` tests on Safari v15+",
+          "date": "2021-12-09T20:20:18Z",
+          "authorName": "Ed Clement",
+          "authorLogin": null
+        },
+        {
+          "sha": "6a52c4f90cc661c0605cd98e6cb04455ba913f58",
+          "message": "test(input): fix tests on Firefox v93+",
+          "date": "2021-12-09T20:19:58Z",
+          "authorName": "Ed Clement",
+          "authorLogin": null
+        },
+        {
+          "sha": "ed30c4d0ea820d79601ca17e2c670e6acae16eb7",
+          "message": "docs(README.md): add wiki link to MVC",
+          "date": "2021-08-24T08:24:46Z",
+          "authorName": "Gage Guzman",
+          "authorLogin": "Gkolman"
+        },
+        {
+          "sha": "4032655100dfb085e20e07d364f6292d64cfc15c",
+          "message": "chore(deps): bump js-yaml from 3.5.5 to 3.14.1",
+          "date": "2021-06-12T13:25:47Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "47f8c65aca7a55ea2978ef575822596689cb2648",
+          "message": "chore(deps): bump normalize-url from 4.5.0 to 4.5.1",
+          "date": "2021-06-12T12:26:29Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "56b0ee32756d9ac7ab39145e6c6df656fa649c07",
+          "message": "chore(e2e): run tests against Chrome 91 on macOS Catalina",
+          "date": "2021-06-12T12:25:34Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "58cd89742029291a30678bfe440fad958c9a0275",
+          "message": "chore(e2e): run tests against Firefox 85 on macOS Catalina",
+          "date": "2021-06-12T12:22:18Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "c3769a6b5b169ab1f5f1fc4de7a840fb47ecaa48",
+          "message": "chore(functions): support NodeJS LTS v14. fix audit issues",
+          "date": "2021-06-07T17:02:55Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "c140d89583be1a1bb424689ecfeb3f7ce9b9d9b1",
+          "message": "chore(build): support NodeJS LTS v14. fix audit issues",
+          "date": "2021-06-05T17:46:59Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "1a5b0517d059297c775329323a5b036a69b5554e",
+          "message": "docs(misc/Version Support Status): update URL for XLTS.dev",
+          "date": "2021-06-01T13:23:10Z",
+          "authorName": "Michael Prentice",
+          "authorLogin": "Splaktar"
+        },
+        {
+          "sha": "e29900c78f8fa962559b1cf95e1e7d428230e645",
+          "message": "docs($parse): fix typo in parse.js",
+          "date": "2021-04-22T08:49:07Z",
+          "authorName": "Ikko Ashimine",
+          "authorLogin": "eltociear"
+        },
+        {
+          "sha": "02545a8bab39a1ce2bf5bf1278ef3243cfa909ff",
+          "message": "chore(deps): bump y18n from 3.2.1 to 3.2.2",
+          "date": "2021-03-31T16:45:19Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "9bff2ce8fb170d7a33d3ad551922d7e23e9f82fc",
+          "message": "docs($parse): fix typo in lval.ngdoc",
+          "date": "2021-03-09T11:27:46Z",
+          "authorName": "Ikko Ashimine",
+          "authorLogin": "eltociear"
+        },
+        {
+          "sha": "d463206d0a186df84c0e775ba6dc1f5f30bdff7b",
+          "message": "chore(deps): bump elliptic from 6.5.3 to 6.5.4",
+          "date": "2021-03-09T11:25:06Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "ae8e903edf88a83fedd116ae02c0628bf72b150c",
+          "message": "chore(deps): bump bl from 1.2.2 to 1.2.3",
+          "date": "2021-02-06T19:31:35Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "89c7794b21f409e9a4e20be34069f00c574b9285",
+          "message": "chore(deps): bump https-proxy-agent from 2.2.1 to 2.2.4",
+          "date": "2021-02-06T19:30:54Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "8a941b8ea97cabea34b6c11a4cf52e80fe1c05dc",
+          "message": "chore(deps): bump ini from 1.3.4 to 1.3.7",
+          "date": "2021-02-06T19:30:11Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "30a4424da29ea921381d1f2472e8c2ca05ece379",
+          "message": "chore(ci): only run `deploy-code-firebase` on master",
+          "date": "2021-02-06T17:46:27Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "a6fa1ce76ec0637a554acc88d1a8c3a4e2b5ebae",
+          "message": "chore(ci): fix failing `deploy-code` job",
+          "date": "2021-02-06T11:42:28Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "63d613fccfecde3078ef7302a681abba412cc270",
+          "message": "fix(code.angularjs.org): correctly re-construct paths on Windows in `sendStoredFile()`",
+          "date": "2021-02-06T09:50:11Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "ed7d506b7d4bc026d5645ef43ee60fbd59b35eee",
+          "message": "chore(build): update Firebase dependencies to latest versions",
+          "date": "2021-02-06T09:50:06Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "12df4d6a00e42e5b6b3e5b0e04bef6e822058c6a",
+          "message": "chore(build): use Node.js v12 for Firebase functions on `{code,docs}-angularjs-org`",
+          "date": "2021-02-06T09:50:06Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "4267ad65a5725da567c63e26dc43c29f3efbbf8b",
+          "message": "chore(ci): use default project from config when deploying to Firebase",
+          "date": "2021-02-06T09:50:06Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        },
+        {
+          "sha": "66ada20d1bada0842d2ed924c44fde2e84a8bd2b",
+          "message": "chore(ci): also deploy `code-angularjs-org` to Firebase",
+          "date": "2021-02-06T09:50:06Z",
+          "authorName": "George Kalpakas",
+          "authorLogin": "gkalpak"
+        }
+      ],
+      "finalCommit": {
+        "sha": "d8f77817eb5c98dec5317bc3756d1ea1812bcfbe",
+        "message": "chore: update post LTS links (#17187)\n\nCo-authored-by: Mike Brocchi <brocco@users.noreply.github.com>",
+        "date": "2024-04-12T17:43:13Z",
+        "authorName": "Mike Brocchi",
+        "authorLogin": "Brocco"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "dependabot/npm_and_yarn/follow-redirects-1.14.7",
+          "lastCommitDate": "2022-01-14T21:33:34Z",
+          "aheadBy": 1,
+          "behindBy": 5
+        },
+        {
+          "name": "dependabot/npm_and_yarn/marked-4.0.10",
+          "lastCommitDate": "2022-01-15T01:25:58Z",
+          "aheadBy": 1,
+          "behindBy": 5
+        },
+        {
+          "name": "dependabot/npm_and_yarn/shelljs-0.8.5",
+          "lastCommitDate": "2022-01-15T04:06:47Z",
+          "aheadBy": 1,
+          "behindBy": 5
+        },
+        {
+          "name": "dependabot/npm_and_yarn/tar-4.4.19",
+          "lastCommitDate": "2021-08-31T16:55:32Z",
+          "aheadBy": 1,
+          "behindBy": 8
+        },
+        {
+          "name": "fix-aria-click",
+          "lastCommitDate": "2018-09-05T17:33:33Z",
+          "aheadBy": 3,
+          "behindBy": 208
+        },
+        {
+          "name": "g3_v1_0",
+          "lastCommitDate": "2013-10-30T21:59:33Z",
+          "aheadBy": 733,
+          "behindBy": 6992
+        },
+        {
+          "name": "g3_v1_2",
+          "lastCommitDate": "2015-09-23T21:02:01Z",
+          "aheadBy": 973,
+          "behindBy": 4666
+        },
+        {
+          "name": "g3_v1_3",
+          "lastCommitDate": "2016-01-19T14:11:44Z",
+          "aheadBy": 317,
+          "behindBy": 2785
+        },
+        {
+          "name": "g3_v1_4",
+          "lastCommitDate": "2016-06-07T08:44:56Z",
+          "aheadBy": 357,
+          "behindBy": 2010
+        },
+        {
+          "name": "g3_v1_5",
+          "lastCommitDate": "2017-02-06T21:25:40Z",
+          "aheadBy": 565,
+          "behindBy": 1487
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 17186,
+          "title": "[]",
+          "state": "closed",
+          "createdAt": "2022-03-30T04:14:09Z",
+          "closedAt": "2022-03-30T09:03:06Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17184,
+          "title": "AngularJs 1.7.0 Upgrade Issue.",
+          "state": "closed",
+          "createdAt": "2022-03-21T13:11:28Z",
+          "closedAt": "2022-03-21T13:28:08Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17183,
+          "title": "what correct typing for $sanitize?",
+          "state": "closed",
+          "createdAt": "2022-03-12T14:35:25Z",
+          "closedAt": "2022-03-12T14:50:42Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17181,
+          "title": "ngChange handler called, on submit, for blank type=\"number\" fields, when they haven't changed",
+          "state": "open",
+          "createdAt": "2022-02-25T10:56:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17180,
+          "title": "Vulnerable libraries angular JavaScript angular.js 1.5.3 SNYK-npm",
+          "state": "closed",
+          "createdAt": "2022-02-21T11:23:07Z",
+          "closedAt": "2022-02-21T11:39:29Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 17179,
+          "title": "AngularJs",
+          "state": "closed",
+          "createdAt": "2022-02-17T02:43:30Z",
+          "closedAt": "2022-02-17T07:15:09Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17178,
+          "title": "Angular.Js",
+          "state": "closed",
+          "createdAt": "2022-02-06T00:30:24Z",
+          "closedAt": "2022-02-06T08:06:29Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17169,
+          "title": "so long",
+          "state": "closed",
+          "createdAt": "2022-01-03T17:13:56Z",
+          "closedAt": "2022-01-06T11:12:08Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17168,
+          "title": "ngOptions removeUnknownOption() doesn't work right in mobile browsers",
+          "state": "closed",
+          "createdAt": "2021-12-30T04:57:53Z",
+          "closedAt": "2022-01-24T20:38:00Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17167,
+          "title": "Transition Rejection :  while upgrading angularjs from 1.5 to 1.8 ",
+          "state": "closed",
+          "createdAt": "2021-12-29T13:26:24Z",
+          "closedAt": "2022-01-06T16:24:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17163,
+          "title": "docs: fix the docs to be CommonMark compliant",
+          "state": "open",
+          "createdAt": "2021-11-18T21:26:42Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17159,
+          "title": "Why not just include the gtag script in your header?",
+          "state": "closed",
+          "createdAt": "2021-09-06T20:29:16Z",
+          "closedAt": "2021-09-06T20:34:27Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 17158,
+          "title": "Touch and Hold on the link cannot bring up context menu",
+          "state": "closed",
+          "createdAt": "2021-09-04T06:32:55Z",
+          "closedAt": "2021-09-06T17:58:03Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 17156,
+          "title": "jjkzh;[\\., .]/'ng .;lpk[jk]';'",
+          "state": "closed",
+          "createdAt": "2021-08-31T06:05:33Z",
+          "closedAt": "2021-08-31T06:11:49Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17155,
+          "title": "jjkzh;[\\., .]/'ng .;lpk[jk]",
+          "state": "closed",
+          "createdAt": "2021-08-31T06:05:33Z",
+          "closedAt": "2021-08-31T07:32:47Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17138,
+          "title": "cant understand why $http:Baddata occur in angularjs php and json.",
+          "state": "closed",
+          "createdAt": "2021-06-04T07:19:06Z",
+          "closedAt": "2021-06-04T12:01:00Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 17137,
+          "title": "cant understand why this error occurs in angularjs PHP JSON. This is my error",
+          "state": "closed",
+          "createdAt": "2021-06-04T06:39:04Z",
+          "closedAt": "2021-06-04T07:04:32Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17135,
+          "title": "angular-orianat issue",
+          "state": "closed",
+          "createdAt": "2021-05-18T09:01:49Z",
+          "closedAt": "2021-10-04T11:19:47Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17131,
+          "title": "erro ao criar um projeto no angular",
+          "state": "closed",
+          "createdAt": "2021-05-10T20:08:20Z",
+          "closedAt": "2021-05-11T07:38:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17130,
+          "title": "Não consigo instalar angular, o node já instalei",
+          "state": "closed",
+          "createdAt": "2021-05-10T19:45:27Z",
+          "closedAt": "2021-05-11T07:39:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17123,
+          "title": "Migrate angularjs applicaiton to vue js",
+          "state": "closed",
+          "createdAt": "2021-04-08T09:12:22Z",
+          "closedAt": "2021-04-08T13:32:21Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17121,
+          "title": "AngularJS SUCKS",
+          "state": "closed",
+          "createdAt": "2021-03-15T06:22:18Z",
+          "closedAt": "2021-03-15T10:49:56Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17118,
+          "title": "It seems the problem presents itself when upgrading to Angular 1.8.2  preAssignBindingsEnabled deprecrared in 1.8.2",
+          "state": "closed",
+          "createdAt": "2021-03-04T05:02:22Z",
+          "closedAt": "2021-04-07T08:59:28Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17117,
+          "title": "Firefox 86 breaks Defered Bootstrap (window.name empty)",
+          "state": "open",
+          "createdAt": "2021-03-02T16:07:32Z",
+          "closedAt": null,
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 17113,
+          "title": "Number field with datalist does not trigger change event",
+          "state": "closed",
+          "createdAt": "2021-02-05T13:01:57Z",
+          "closedAt": "2021-02-05T15:48:34Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17112,
+          "title": "Upgraded Angular 1.5 to 1.6 and facing UI issues",
+          "state": "closed",
+          "createdAt": "2021-02-05T10:10:58Z",
+          "closedAt": "2021-02-05T12:02:22Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17111,
+          "title": "(Some) documentation website is broken",
+          "state": "closed",
+          "createdAt": "2021-02-05T06:45:24Z",
+          "closedAt": "2021-02-06T09:52:55Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17110,
+          "title": "Error building docs",
+          "state": "closed",
+          "createdAt": "2021-01-27T09:50:38Z",
+          "closedAt": "2021-01-27T10:57:27Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17109,
+          "title": "Angular ",
+          "state": "closed",
+          "createdAt": "2021-01-07T12:51:30Z",
+          "closedAt": "2021-03-19T10:23:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17107,
+          "title": "ng-if breaks correct checkbox behavior...",
+          "state": "closed",
+          "createdAt": "2020-12-26T14:23:37Z",
+          "closedAt": "2021-04-07T08:58:45Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17100,
+          "title": "README.md",
+          "state": "closed",
+          "createdAt": "2020-12-11T13:04:50Z",
+          "closedAt": "2020-12-11T14:18:01Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17098,
+          "title": "LEADERSHIP",
+          "state": "closed",
+          "createdAt": "2020-12-05T20:58:22Z",
+          "closedAt": "2020-12-06T09:35:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17096,
+          "title": "OKTA Session closing API is failing in angularjs",
+          "state": "closed",
+          "createdAt": "2020-11-30T11:52:24Z",
+          "closedAt": "2020-11-30T12:57:22Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17094,
+          "title": "Release update of nuget package",
+          "state": "closed",
+          "createdAt": "2020-10-26T12:45:10Z",
+          "closedAt": "2020-10-26T16:08:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17091,
+          "title": "Issue on IOS14",
+          "state": "closed",
+          "createdAt": "2020-10-20T08:38:54Z",
+          "closedAt": "2021-04-07T08:49:17Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17089,
+          "title": "Email Id validation fails in AngularJS V1.8.0",
+          "state": "closed",
+          "createdAt": "2020-10-13T07:22:09Z",
+          "closedAt": "2020-10-13T13:43:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17088,
+          "title": "version 1.8.1 mutually-supporting (2020-09-30) - Deprecation Notices are not correct!",
+          "state": "closed",
+          "createdAt": "2020-10-11T12:10:41Z",
+          "closedAt": "2020-10-14T12:45:49Z",
+          "comments": 1,
+          "labels": [
+            "type: docs",
+            "component: misc core",
+            "severity: confusing"
+          ]
+        },
+        {
+          "number": 17087,
+          "title": "[IE11]: Checkbox state and ng-model binding not in sync on calling preventDefault inside click handler",
+          "state": "open",
+          "createdAt": "2020-10-09T14:52:35Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17085,
+          "title": "callback url with HTTP Post not working using ui.router",
+          "state": "closed",
+          "createdAt": "2020-10-05T11:13:14Z",
+          "closedAt": "2020-10-05T12:05:52Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17069,
+          "title": "f$t(t) mass data 4027665741072384 $http): support ",
+          "state": "closed",
+          "createdAt": "2020-09-07T05:08:45Z",
+          "closedAt": "2020-09-07T09:09:31Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17065,
+          "title": "Getting Uncaught TypeError: angularModule(...).info is not a function for angularJs version 1.7.9",
+          "state": "closed",
+          "createdAt": "2020-08-21T13:25:46Z",
+          "closedAt": "2020-08-21T14:31:48Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17061,
+          "title": "angular.equals(new String(\"a\"), \"a\") return false",
+          "state": "closed",
+          "createdAt": "2020-08-03T07:59:16Z",
+          "closedAt": "2020-08-03T22:36:56Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 17058,
+          "title": "Surface news about LTS extension",
+          "state": "closed",
+          "createdAt": "2020-07-28T07:33:30Z",
+          "closedAt": "2020-08-23T12:36:08Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 17052,
+          "title": "How to build or generate dist folder in Angular 1.5 project?",
+          "state": "closed",
+          "createdAt": "2020-07-04T09:05:47Z",
+          "closedAt": "2020-07-04T10:51:26Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17051,
+          "title": "Dought",
+          "state": "closed",
+          "createdAt": "2020-07-01T18:57:25Z",
+          "closedAt": "2020-07-02T14:44:39Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17050,
+          "title": "How to hide Version information of Angular JS library in the rendered Web response?",
+          "state": "closed",
+          "createdAt": "2020-06-29T05:57:22Z",
+          "closedAt": "2020-06-30T08:05:19Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17049,
+          "title": "Missing version 1.8.0 on CDNJS",
+          "state": "closed",
+          "createdAt": "2020-06-28T15:47:59Z",
+          "closedAt": "2020-06-29T12:02:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17045,
+          "title": "DOM-based cross-site scripting (DOM_XSS) issue found in angular.js in Coverity scan",
+          "state": "open",
+          "createdAt": "2020-06-15T09:34:24Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 17038,
+          "title": "Expression execution within HTML entities",
+          "state": "closed",
+          "createdAt": "2020-05-28T11:01:00Z",
+          "closedAt": "2020-05-30T12:25:14Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 17037,
+          "title": "My sessionContoller.jr made some #404 output for me",
+          "state": "closed",
+          "createdAt": "2020-05-27T15:19:21Z",
+          "closedAt": "2020-05-27T18:30:53Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17036,
+          "title": "My Weather App",
+          "state": "closed",
+          "createdAt": "2020-05-26T06:53:38Z",
+          "closedAt": "2020-05-26T14:40:56Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17032,
+          "title": "Documentation website error...",
+          "state": "closed",
+          "createdAt": "2020-05-24T16:36:21Z",
+          "closedAt": "2020-05-24T19:11:50Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17031,
+          "title": "Documentation web site broken: \"SyntaxError: Invalid or unexpected token\"  / \"Uncaught Error: [$injector:modulerr]\"",
+          "state": "closed",
+          "createdAt": "2020-05-24T10:24:34Z",
+          "closedAt": "2020-05-25T05:41:43Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 17025,
+          "title": "Depend Bot",
+          "state": "closed",
+          "createdAt": "2020-05-17T08:25:13Z",
+          "closedAt": "2020-06-01T09:52:49Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17023,
+          "title": "Changing the Route? Can this be done",
+          "state": "closed",
+          "createdAt": "2020-05-04T13:05:04Z",
+          "closedAt": "2020-05-04T14:15:10Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17020,
+          "title": "Update jQuery to v3.5.0",
+          "state": "closed",
+          "createdAt": "2020-04-29T20:48:50Z",
+          "closedAt": "2020-04-30T15:17:00Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17019,
+          "title": "$processModelValue() cannot pass objects through $formatters properly",
+          "state": "open",
+          "createdAt": "2020-04-23T21:19:25Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 17011,
+          "title": "$uibmodal.open partially opening on internet explorer angularjs v1.6.9",
+          "state": "closed",
+          "createdAt": "2020-04-06T18:22:00Z",
+          "closedAt": "2020-04-06T19:50:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17010,
+          "title": "Cross-site scripting vulnerability in code.angularjs.org-firebase",
+          "state": "closed",
+          "createdAt": "2020-03-31T12:24:20Z",
+          "closedAt": "2020-04-01T12:12:47Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 17007,
+          "title": "Single NPM package (or tagged git repo) with all modules",
+          "state": "closed",
+          "createdAt": "2020-03-11T19:24:53Z",
+          "closedAt": "2020-03-12T21:02:40Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 17005,
+          "title": "ui-select slow in IE 11",
+          "state": "closed",
+          "createdAt": "2020-03-05T02:54:45Z",
+          "closedAt": "2020-03-05T02:56:07Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 17004,
+          "title": "ui-select slow in IE11 - AngularJS 1.6.x",
+          "state": "closed",
+          "createdAt": "2020-03-05T02:52:52Z",
+          "closedAt": "2020-03-05T09:48:39Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 17003,
+          "title": "Angular CLI 9 - Unable to copy assets: EFAULT: bad address in system call argument, copyfile",
+          "state": "closed",
+          "createdAt": "2020-03-03T07:35:56Z",
+          "closedAt": "2020-03-03T10:48:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16984,
+          "title": "ng-if condition that evaluates to TRUE can prevent GUI updates",
+          "state": "closed",
+          "createdAt": "2020-02-24T12:21:18Z",
+          "closedAt": "2020-02-24T13:44:49Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16983,
+          "title": "Security issue: $interpolate / $parse allows access to constructor",
+          "state": "closed",
+          "createdAt": "2020-02-24T10:53:33Z",
+          "closedAt": "2020-02-24T13:36:13Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16946,
+          "title": "[Non Critical] - Animations no longer working after Chrome update.",
+          "state": "closed",
+          "createdAt": "2020-02-10T16:21:54Z",
+          "closedAt": "2020-02-11T13:34:28Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 16944,
+          "title": "Polynomial Interactive graph - Angular 7 with option for editing co ordinates",
+          "state": "closed",
+          "createdAt": "2020-02-05T06:54:31Z",
+          "closedAt": "2020-02-05T13:46:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16941,
+          "title": "support sameSite cookie \"None\"",
+          "state": "closed",
+          "createdAt": "2020-01-25T15:39:15Z",
+          "closedAt": "2020-01-25T21:48:47Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 16940,
+          "title": "Dynamically load factory",
+          "state": "closed",
+          "createdAt": "2020-01-24T14:01:28Z",
+          "closedAt": "2020-01-24T16:06:23Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16939,
+          "title": "AngularJs version Deprecation",
+          "state": "closed",
+          "createdAt": "2020-01-20T05:49:32Z",
+          "closedAt": "2020-01-20T08:34:44Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 16937,
+          "title": "`angular-translate` (where `$translateProvider` comes from) is not an official package.",
+          "state": "closed",
+          "createdAt": "2020-01-07T17:18:48Z",
+          "closedAt": "2020-01-08T10:56:06Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16936,
+          "title": "`angular-translate` (where `$translateProvider` comes from) is not an official package.",
+          "state": "closed",
+          "createdAt": "2020-01-07T17:02:13Z",
+          "closedAt": "2020-01-07T17:05:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16933,
+          "title": "AngularJS1.6.2 - IE9 compatibility slow rendering for Translate Provider Static File Loader",
+          "state": "closed",
+          "createdAt": "2020-01-06T15:36:40Z",
+          "closedAt": "2020-01-07T16:48:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16929,
+          "title": "What versions does CVE-2019-10768 involve?",
+          "state": "closed",
+          "createdAt": "2019-12-30T02:58:16Z",
+          "closedAt": "2019-12-30T08:39:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16928,
+          "title": "two input fields but one ng model",
+          "state": "closed",
+          "createdAt": "2019-12-22T09:02:14Z",
+          "closedAt": "2019-12-22T20:29:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16927,
+          "title": "AngujarJS 1.7.9 is not available in Bower",
+          "state": "closed",
+          "createdAt": "2019-12-18T11:16:20Z",
+          "closedAt": "2019-12-18T14:13:52Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16926,
+          "title": "simple make google homepage html",
+          "state": "closed",
+          "createdAt": "2019-12-14T15:42:59Z",
+          "closedAt": "2019-12-14T16:00:20Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 16925,
+          "title": "angularjs 1.7.8 ng-model values are not updated when using select2 library 4.0.2 feature in templates",
+          "state": "closed",
+          "createdAt": "2019-12-03T13:39:38Z",
+          "closedAt": "2019-12-03T15:36:49Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 16924,
+          "title": "How to create File object in AngularJS ?",
+          "state": "closed",
+          "createdAt": "2019-12-02T09:15:07Z",
+          "closedAt": "2019-12-02T10:33:45Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 16923,
+          "title": "Feature: Set URL base on $httpProvider",
+          "state": "closed",
+          "createdAt": "2019-11-29T12:52:21Z",
+          "closedAt": "2019-12-12T09:40:50Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16921,
+          "title": "angularjs version of 1.7.9 is not available in Maven",
+          "state": "closed",
+          "createdAt": "2019-11-26T06:57:04Z",
+          "closedAt": "2019-11-26T12:09:13Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16920,
+          "title": "The angularjs version of 1.7.9 is not available in Maven.May i know, when it will be available .",
+          "state": "closed",
+          "createdAt": "2019-11-26T06:53:45Z",
+          "closedAt": "2019-11-26T06:58:01Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 16919,
+          "title": "1.7.9 release",
+          "state": "closed",
+          "createdAt": "2019-11-22T17:20:37Z",
+          "closedAt": "2019-11-28T09:26:20Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 16918,
+          "title": "ngSanitize error lowercase is not a function",
+          "state": "closed",
+          "createdAt": "2019-11-18T22:51:23Z",
+          "closedAt": "2019-11-18T22:57:19Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16917,
+          "title": "Created \"null\" option into select ng-options sets to false when other option is clicked",
+          "state": "open",
+          "createdAt": "2019-11-18T18:11:15Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "component: forms",
+            "resolution: won't fix",
+            "browser: chrome"
+          ]
+        },
+        {
+          "number": 16916,
+          "title": "ng-options with \"track by\" in select box makes all clicked options \"selected\"",
+          "state": "open",
+          "createdAt": "2019-11-18T17:37:43Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "component: forms",
+            "resolution: won't fix"
+          ]
+        },
+        {
+          "number": 16914,
+          "title": "How to make Youtube video with autoplay and with sound on page load? ",
+          "state": "closed",
+          "createdAt": "2019-11-08T09:14:33Z",
+          "closedAt": "2019-11-08T20:24:42Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 16912,
+          "title": "Data binding not working in Canary ",
+          "state": "closed",
+          "createdAt": "2019-11-06T21:30:54Z",
+          "closedAt": "2019-11-06T22:47:11Z",
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 8,
+        "totalFetched": 88,
+        "medianDaysToFirstResponse": 0.1,
+        "openOverOneYearNoReply": 2
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "AngularJS [![CircleCI](https://circleci.com/gh/angular/angular.js/tree/master.svg?style=shield)](https://circleci.com/gh/angular/workflows/angular.js/tree/master)\n=========\n\nAngularJS lets you write client-side web applications as if you had a smarter browser.  It lets you\nuse good old HTML (or HAML, Jade/Pug and friends!) as your template language and lets you extend HTML’s\nsyntax to express your application’s components clearly and succinctly.  It automatically\nsynchronizes data from your UI (view) with your JavaScript objects (model) through 2-way data\nbinding. To help you structure your application better and make it easy to test, AngularJS teaches\nthe browser how to do dependency injection and inversion of control.\n\nIt also helps with server-side communication, taming async callbacks with promises and deferred objects,\nand it makes client-side navigation and deep linking with hashbang urls or HTML5 pushState a\npiece of cake. Best of all? It makes development fun!\n\n--------------------\n\n**AngularJS support has officially ended as of January 2022.\n[See what ending support means](https://docs.angularjs.org/misc/version-support-status)\nand [read the end of life announcement](https://goo.gle/angularjs-end-of-life).**\n\n**Visit [angular.io](https://angular.io) for the actively supported Angular.**\n\n--------------------\n\n* Web site: https://angularjs.org\n* Tutorial: https://docs.angularjs.org/tutorial\n* API Docs: https://docs.angularjs.org/api\n* Developer Guide: https://docs.angularjs.org/guide\n* Contribution guidelines: [CONTRIBUTING.md](CONTRIBUTING.md)\n* Core Development: [DEVELOPERS.md](DEVELOPERS.md)\n* Dashboard: https://dashboard.angularjs.org\n\n\nDocumentation\n--------------------\nGo to https://docs.angularjs.org\n\nContribute\n--------------------\n\nWe've set up a separate document for our\n[contribution guidelines](https://github.com/angular/angular.js/blob/master/CONTRIBUTING.md).\n\nDevelop\n--------------------\n\nWe've set up a separate document for\n[developers](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md).\n\n\n[![Analytics](https://ga-beacon.appspot.com/UA-8594346-11/angular.js/README.md?pixel)](https://github.com/igrigorik/ga-beacon)\n\nWhat to use AngularJS for and when to use it\n---------\nAngularJS is the next generation framework where each component is designed to work with every other\ncomponent in an interconnected way like a well-oiled machine. AngularJS is JavaScript MVC made easy\nand done right. (Well it is not really MVC, read on, to understand what this means.)\n\n#### MVC, no, MV* done the right way!\n[MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller), short for\nModel-View-Controller, is a design pattern, i.e. how the code should be organized and how the\ndifferent parts of an application separated for proper readability and debugging. Model is the data\nand the database. View is the user interface and what the user sees. Controller is the main link\nbetween Model and View. These are the three pillars of major programming frameworks present on the\nmarket today. On the other hand AngularJS works on MV*, short for Model-View-_Whatever_. The\n_Whatever_ is AngularJS's way of telling that you may create any kind of linking between the Model\nand the View here.\n\nUnlike other frameworks in any programming language, where MVC, the three separate components, each\none has to be written and then connected by the programmer, AngularJS helps the programmer by asking\nhim/her to just create these and everything else will be taken care of by AngularJS.\n\n#### Interconnection with HTML at the root level\nAngularJS uses HTML to define the user's interface. AngularJS also enables the programmer to write\nnew HTML tags (AngularJS Directives) and increase the readability and understandability of the HTML\ncode. Directives are AngularJS’s way of bringing additional functionality to HTML. Directives\nachieve this by enabling us to invent our own HTML elements. This also helps in making the code DRY\n(Don't Repeat Yourself), which means once created, a new directive can be used anywhere within the\napplication.\n\nHTML is also used to determine the wiring of the app. Special attributes in the HTML determine where\nto load the app, which components or controllers to use for each element, etc. We specify \"what\"\ngets loaded, but not \"how\". This declarative approach greatly simplifies app development in a sort\nof WYSIWYG way. Rather than spending time on how the program flows and orchestrating the various\nmoving parts, we simply define what we want and AngularJS will take care of the dependencies.\n\n#### Data Handling made simple\nData and Data Models in AngularJS are plain JavaScript objects and one can add and change properties\ndirectly on it and loop over objects and arrays at will.\n\n#### Two-way Data Binding\nOne of AngularJS's strongest features. Two-way Data Binding means that if something changes in the\nModel, the change gets reflected in the View instantaneously, and the same happens the other way\naround. This is also referred to as Reactive Programming, i.e. suppose `a = b + c` is being\nprogrammed and after this, if the value of `b` and/or `c` is changed then the value of `a` will be\nautomatically updated to reflect the change. AngularJS uses its \"scopes\" as a glue between the Model\nand View and makes these updates in one available for the other.\n\n#### Less Written Code and Easily Maintainable Code\nEverything in AngularJS is created to enable the programmer to end up writing less code that is\neasily maintainable and readable by any other new person on the team. Believe it or not, one can\nwrite a complete working two-way data binded application in less than 10 lines of code. Try and see\nfor yourself!\n\n#### Testing Ready\nAngularJS has Dependency Injection, i.e. it takes care of providing all the necessary dependencies\nto its controllers and services whenever required. This helps in making the AngularJS code ready for\nunit testing by making use of mock dependencies created and injected. This makes AngularJS more\nmodular and easily testable thus in turn helping a team create more robust applications.\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 817,
+      "flatlineMonth": "2024-04",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:12:56.879Z"
+  },
+  "autopsy": {
+    "epitaph": "Born in the browser's golden age to make HTML smarter, AngularJS — which officially ended support in January 2022 — breathed its last in April 2024, its final act a dutiful update of post-LTS links, a tombstone polished for the grave.",
+    "causes": [
+      {
+        "label": "Official End-of-Life and Archival by Owner",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "d8f77817eb5c98dec5317bc3756d1ea1812bcfbe"
+          },
+          {
+            "type": "commit",
+            "ref": "757d56ea9c3de6245df7e5cac025dbf7077082ff"
+          }
+        ]
+      },
+      {
+        "label": "Generational Succession by Angular (v2+)",
+        "confidencePct": 95,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#17123"
+          },
+          {
+            "type": "issue",
+            "ref": "#16939"
+          }
+        ]
+      },
+      {
+        "label": "Chronic Commit Atrophy — Activity Collapsed to Near-Zero",
+        "confidencePct": 90,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "47bf11ee94664367a26ed8c91b9b586d3dd420f5"
+          },
+          {
+            "type": "commit",
+            "ref": "cf16b241e1c61c22a820ed8211bc2332ede88e62"
+          }
+        ]
+      },
+      {
+        "label": "Unresolved Security Vulnerabilities Left Open",
+        "confidencePct": 72,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#17045"
+          },
+          {
+            "type": "issue",
+            "ref": "#17180"
+          },
+          {
+            "type": "issue",
+            "ref": "#16929"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Un-archive the repository and publish a clear governance charter naming active maintainers responsible for security patches only",
+        "effort": "a long afternoon and a team agreement"
+      },
+      {
+        "step": "Patch the open DOM-based XSS issue (#17045) and the reported vulnerable library issues to stop the security-rot narrative",
+        "effort": "a week of focused security triage"
+      },
+      {
+        "step": "Merge the stale Dependabot branches (follow-redirects, marked, shelljs, tar) that have been sitting unmerged since 2021–2022",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Replace the CircleCI badge in the README with a working green build and update all dead post-LTS documentation links beyond the single commit already made",
+        "effort": "a long weekend"
+      },
+      {
+        "step": "Establish a minimal LTS-only release cadence — security fixes only, no features — with a public roadmap and a hard sunset date to set honest expectations",
+        "effort": "a heroic quarter of organizational negotiation"
+      }
+    ],
+    "lastWordsGloss": "'Update post LTS links' — because when a framework dies, the most anyone can muster is tidying the signage pointing away from the corpse."
+  }
+}

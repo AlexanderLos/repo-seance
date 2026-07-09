@@ -1,0 +1,1488 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "google",
+      "name": "web-starter-kit",
+      "fullName": "google/web-starter-kit",
+      "description": "Web Starter Kit - a workflow for multi-device websites",
+      "htmlUrl": "https://github.com/google/web-starter-kit",
+      "createdAt": "2014-04-07T08:45:18Z",
+      "pushedAt": "2024-04-22T23:42:34Z",
+      "archived": true,
+      "stars": 18293,
+      "forks": 2919,
+      "defaultBranch": "master",
+      "license": "Apache-2.0"
+    },
+    "commits": {
+      "totalCount": 720,
+      "fetchedCount": 720,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2014-04",
+          "count": 21
+        },
+        {
+          "month": "2014-05",
+          "count": 54
+        },
+        {
+          "month": "2014-06",
+          "count": 279
+        },
+        {
+          "month": "2014-07",
+          "count": 58
+        },
+        {
+          "month": "2014-08",
+          "count": 72
+        },
+        {
+          "month": "2014-09",
+          "count": 14
+        },
+        {
+          "month": "2014-10",
+          "count": 15
+        },
+        {
+          "month": "2014-11",
+          "count": 7
+        },
+        {
+          "month": "2014-12",
+          "count": 12
+        },
+        {
+          "month": "2015-01",
+          "count": 8
+        },
+        {
+          "month": "2015-02",
+          "count": 6
+        },
+        {
+          "month": "2015-03",
+          "count": 4
+        },
+        {
+          "month": "2015-04",
+          "count": 9
+        },
+        {
+          "month": "2015-05",
+          "count": 10
+        },
+        {
+          "month": "2015-06",
+          "count": 12
+        },
+        {
+          "month": "2015-07",
+          "count": 4
+        },
+        {
+          "month": "2015-08",
+          "count": 7
+        },
+        {
+          "month": "2015-09",
+          "count": 17
+        },
+        {
+          "month": "2015-10",
+          "count": 18
+        },
+        {
+          "month": "2015-11",
+          "count": 26
+        },
+        {
+          "month": "2015-12",
+          "count": 26
+        },
+        {
+          "month": "2016-01",
+          "count": 7
+        },
+        {
+          "month": "2016-02",
+          "count": 4
+        },
+        {
+          "month": "2016-03",
+          "count": 4
+        },
+        {
+          "month": "2016-05",
+          "count": 1
+        },
+        {
+          "month": "2016-06",
+          "count": 5
+        },
+        {
+          "month": "2016-08",
+          "count": 3
+        },
+        {
+          "month": "2016-09",
+          "count": 2
+        },
+        {
+          "month": "2016-11",
+          "count": 7
+        },
+        {
+          "month": "2016-12",
+          "count": 5
+        },
+        {
+          "month": "2017-04",
+          "count": 1
+        },
+        {
+          "month": "2017-12",
+          "count": 1
+        },
+        {
+          "month": "2018-01",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "e7e55e891ff6f00b223db5a5ef531e0ffaf84bbb",
+          "message": "Merge pull request #961 from imkarthikk/patch-1",
+          "date": "2018-01-09T19:16:10Z",
+          "authorName": "Matt Gaunt",
+          "authorLogin": null
+        },
+        {
+          "sha": "c7f2e582a5dd5882861c7c340dce1579c9b2b03d",
+          "message": "Changing Bullet to Horizontal Line",
+          "date": "2017-12-26T17:28:38Z",
+          "authorName": "Karthik K",
+          "authorLogin": "imkarthikk"
+        },
+        {
+          "sha": "7e6d82927070baa982c5c1875e75f79f83c9114d",
+          "message": "Merge pull request #916 from brianhaferkamp/patch-1",
+          "date": "2017-04-04T00:14:44Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "420943f5d4e402fcac7ac1d288ded195ab0e148d",
+          "message": "Copy edits",
+          "date": "2016-12-27T15:54:57Z",
+          "authorName": "Brian Haferkamp",
+          "authorLogin": "brianhaferkamp"
+        },
+        {
+          "sha": "63315d42543a2b82607c27504bdae90f5da8e665",
+          "message": "Add note about yarn support to docs",
+          "date": "2016-12-13T19:55:00Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "e8728d5617c69fa9259327a0c6a830f61f848f2d",
+          "message": "Add yarn.lock file",
+          "date": "2016-12-13T19:53:15Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "f47cf2b37ba7b87b4afe69d8fcde74281315d03e",
+          "message": "Merge pull request #905 from kennith/master",
+          "date": "2016-12-13T19:49:57Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "f702e149df14496571f704e677426bc9f394b7f6",
+          "message": "Merge pull request #906 from JustineOwl/master",
+          "date": "2016-12-13T19:49:41Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "cd378bb7a8057848fc03929d46c8c5d19f08a95a",
+          "message": "Add sourcemaps to the tmp folder",
+          "date": "2016-11-25T21:27:15Z",
+          "authorName": "Justine",
+          "authorLogin": "justynasowinska"
+        },
+        {
+          "sha": "4aeb81a3f50a2add27e5258963efad733fe339c7",
+          "message": "Add main.js to alternative starting point page",
+          "date": "2016-11-22T17:23:06Z",
+          "authorName": "Kennith Leung",
+          "authorLogin": "kennith"
+        },
+        {
+          "sha": "8e030e1fb1a8345acd9385e72a29bb6c622ddce8",
+          "message": "Merge pull request #885 from nirgn975/firebase-doc-fix",
+          "date": "2016-11-15T00:46:47Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "af4444c2ad8af26df08f6fb6dff44ecc09579aba",
+          "message": "Merge pull request #883 from diegorodriguesvieira/master",
+          "date": "2016-11-15T00:46:35Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "c645b6bb459dbc2a9e929201dbc1d8f1350a247a",
+          "message": "Merge pull request #886 from nirgn975/dependency-updates",
+          "date": "2016-11-15T00:45:51Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "f53294a8b3b21ad0c251b8b99a6dcf95f887b07c",
+          "message": "Merge pull request #887 from nirgn975/nodejs_version",
+          "date": "2016-11-15T00:45:33Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "08318b3e1451f76de6c5a5cedd775e84b077df21",
+          "message": "chore(mdl): Use MDL 1.2.1 (#891)",
+          "date": "2016-11-15T00:45:21Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "495cfa576442bd4ca72998bb3991a2776bca2f81",
+          "message": "chore(mdl): Use MDL 1.2.1",
+          "date": "2016-09-13T14:49:39Z",
+          "authorName": "Jonathan Garbee",
+          "authorLogin": "Garbee"
+        },
+        {
+          "sha": "a50e437932da8a18ea8d9565f00d491a68f6850f",
+          "message": "Add node version 6 to travis.",
+          "date": "2016-09-05T10:09:29Z",
+          "authorName": "Nir Galon",
+          "authorLogin": null
+        },
+        {
+          "sha": "497fb2c4a98d4b936b95177fe08067e60ba2f11d",
+          "message": "Update npm dependencies.",
+          "date": "2016-08-26T11:54:35Z",
+          "authorName": "Nir Galon",
+          "authorLogin": null
+        },
+        {
+          "sha": "63028abbeeec0a933703e0f868d16956f3483b33",
+          "message": "Add firebase login command to deploy docs.",
+          "date": "2016-08-21T18:39:32Z",
+          "authorName": "Nir Galon",
+          "authorLogin": null
+        },
+        {
+          "sha": "9e64942c8951824092a5a56b738944d3fb12f482",
+          "message": "README: remove unused file",
+          "date": "2016-08-19T17:42:20Z",
+          "authorName": "Diego Rodrigues Vieira",
+          "authorLogin": "diegorodriguesvieira"
+        },
+        {
+          "sha": "128b2efdab595e0a4c8a563fcf1d1724ef98b8aa",
+          "message": "upgrade to mdl 1.1.3 and change locations as well (#877)",
+          "date": "2016-06-23T18:11:00Z",
+          "authorName": "Karthik K",
+          "authorLogin": null
+        },
+        {
+          "sha": "08c01c14b4d1aa0eef41d8daad8221e7bb334006",
+          "message": "remove usage of the gulp-uncss plugin (#876)",
+          "date": "2016-06-19T10:04:49Z",
+          "authorName": "Babak Vahdat",
+          "authorLogin": "bvahdat"
+        },
+        {
+          "sha": "dd87a6b4b74ab75df582dd4ae8b46435574dd1fa",
+          "message": "live browser reloading on js files is missing (#867)",
+          "date": "2016-06-18T18:11:51Z",
+          "authorName": "Babak Vahdat",
+          "authorLogin": "bvahdat"
+        },
+        {
+          "sha": "591ceb4c07be650efbc14af322c1a3cdf3fa3684",
+          "message": "Remove registration.update() (#866)",
+          "date": "2016-06-02T20:46:40Z",
+          "authorName": "Jeffrey Posnick",
+          "authorLogin": "jeffposnick"
+        },
+        {
+          "sha": "20eb47852b3d1c2f301dc1fcb5083e992ab359a0",
+          "message": "Fix issue #848 (#853)",
+          "date": "2016-06-02T20:45:45Z",
+          "authorName": "Wenchen Li",
+          "authorLogin": "neolwc"
+        },
+        {
+          "sha": "722095f1ed333c9b8d35aa982abb47895fa3d938",
+          "message": "Update sw-precache to latest",
+          "date": "2016-05-30T17:50:19Z",
+          "authorName": "Addy Osmani",
+          "authorLogin": "addyosmani"
+        },
+        {
+          "sha": "5c3b6fb615d7dee13680087bc1a961620f96e52a",
+          "message": "Merge pull request #852 from arjunsajeev/master",
+          "date": "2016-03-24T22:22:04Z",
+          "authorName": "Surma",
+          "authorLogin": "surma"
+        },
+        {
+          "sha": "7e252061e55d6f2cbdc36382f65b7ab5812e79c9",
+          "message": "Fix typo in gulpfile.babel.js",
+          "date": "2016-03-24T19:08:37Z",
+          "authorName": "Arjun Sajeev",
+          "authorLogin": "arjunsajeev"
+        },
+        {
+          "sha": "f32bba55d4d049fec42de47b22e1bf5731015b7b",
+          "message": "Merge pull request #851 from ReadmeCritic/master",
+          "date": "2016-03-23T15:09:51Z",
+          "authorName": "Surma",
+          "authorLogin": "surma"
+        },
+        {
+          "sha": "852e55c406d82b3c6f9efe1d004b4293b6a6afdb",
+          "message": "Update README URLs based on HTTP redirects",
+          "date": "2016-03-23T14:43:15Z",
+          "authorName": "ReadmeCritic",
+          "authorLogin": "ReadmeCritic"
+        }
+      ],
+      "finalCommit": {
+        "sha": "e7e55e891ff6f00b223db5a5ef531e0ffaf84bbb",
+        "message": "Merge pull request #961 from imkarthikk/patch-1\n\nChanging Bullet to Horizontal Line",
+        "date": "2018-01-09T19:16:10Z",
+        "authorName": "Matt Gaunt",
+        "authorLogin": null
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "0.6-preview",
+          "lastCommitDate": "2015-03-21T18:47:21Z",
+          "aheadBy": 331,
+          "behindBy": 173
+        },
+        {
+          "name": "add-script-sourcemap",
+          "lastCommitDate": "2015-08-14T13:20:13Z",
+          "aheadBy": 1,
+          "behindBy": 131
+        },
+        {
+          "name": "build-updates",
+          "lastCommitDate": "2015-04-30T18:09:06Z",
+          "aheadBy": 0,
+          "behindBy": 161
+        },
+        {
+          "name": "codepen-http",
+          "lastCommitDate": "2015-10-01T15:25:17Z",
+          "aheadBy": 0,
+          "behindBy": 106
+        },
+        {
+          "name": "dependabot/npm_and_yarn/npm_and_yarn-f1bb56b70e",
+          "lastCommitDate": "2024-04-22T23:42:15Z",
+          "aheadBy": 1,
+          "behindBy": 0
+        },
+        {
+          "name": "dependabot/npm_and_yarn/tar-2.2.2",
+          "lastCommitDate": "2021-08-04T23:45:12Z",
+          "aheadBy": 1,
+          "behindBy": 0
+        },
+        {
+          "name": "fix-css-sourcemap",
+          "lastCommitDate": "2015-08-14T12:11:19Z",
+          "aheadBy": 1,
+          "behindBy": 133
+        },
+        {
+          "name": "gh-pages",
+          "lastCommitDate": "2015-04-15T12:22:33Z",
+          "aheadBy": 102,
+          "behindBy": 368
+        },
+        {
+          "name": "icons",
+          "lastCommitDate": "2014-08-15T09:52:58Z",
+          "aheadBy": 3,
+          "behindBy": 287
+        },
+        {
+          "name": "linebreaks",
+          "lastCommitDate": "2015-11-24T13:57:18Z",
+          "aheadBy": 1,
+          "behindBy": 73
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 1039,
+          "title": "Something easy ",
+          "state": "open",
+          "createdAt": "2023-07-13T00:35:22Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1028,
+          "title": "The page link is not working",
+          "state": "open",
+          "createdAt": "2021-12-12T19:19:46Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1027,
+          "title": "Can't run gulp... Someone can help me? ",
+          "state": "open",
+          "createdAt": "2021-09-24T00:43:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1023,
+          "title": "error",
+          "state": "open",
+          "createdAt": "2021-05-22T13:23:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1022,
+          "title": "The Travis CI build could not complete due to an error",
+          "state": "closed",
+          "createdAt": "2021-05-16T15:22:19Z",
+          "closedAt": "2021-06-27T15:14:15Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1016,
+          "title": "Hello",
+          "state": "open",
+          "createdAt": "2021-01-09T16:57:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1013,
+          "title": "my localhost 3000 is not loading and says that GET <that page>.html",
+          "state": "open",
+          "createdAt": "2020-10-07T01:58:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 987,
+          "title": "ages",
+          "state": "open",
+          "createdAt": "2019-10-11T14:56:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 986,
+          "title": "const { Math, Object } = primordials; ReferenceError: primordials is not defined",
+          "state": "open",
+          "createdAt": "2019-07-28T15:29:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 982,
+          "title": "Failed to load external module babel-core/register",
+          "state": "open",
+          "createdAt": "2019-02-05T11:26:10Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 975,
+          "title": "2 step verification code change phone number jarroddeming@gmail.com ",
+          "state": "closed",
+          "createdAt": "2018-11-13T05:20:53Z",
+          "closedAt": "2024-08-09T20:22:01Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 974,
+          "title": "jarroddeming@gmail.com",
+          "state": "closed",
+          "createdAt": "2018-09-07T21:11:13Z",
+          "closedAt": "2024-08-09T20:22:11Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 971,
+          "title": "TailWindCss",
+          "state": "closed",
+          "createdAt": "2018-03-07T16:11:38Z",
+          "closedAt": "2019-02-24T16:41:49Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 962,
+          "title": "r",
+          "state": "closed",
+          "createdAt": "2017-12-30T03:48:05Z",
+          "closedAt": "2018-01-09T19:11:55Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 960,
+          "title": "Changes npm test script in package.json",
+          "state": "closed",
+          "createdAt": "2017-12-05T03:52:39Z",
+          "closedAt": "2020-07-06T14:13:28Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 959,
+          "title": "ar",
+          "state": "closed",
+          "createdAt": "2017-11-08T21:06:17Z",
+          "closedAt": "2018-01-09T19:12:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 958,
+          "title": "Why is the Web Starter Kit no longer supported and what has replaced it?",
+          "state": "closed",
+          "createdAt": "2017-10-21T12:21:43Z",
+          "closedAt": "2018-01-09T19:13:34Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 957,
+          "title": "main.css and main.min.js are not served from cached",
+          "state": "closed",
+          "createdAt": "2017-10-15T14:20:55Z",
+          "closedAt": "2017-10-15T15:48:14Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 956,
+          "title": "Current state of project",
+          "state": "closed",
+          "createdAt": "2017-10-09T14:02:46Z",
+          "closedAt": "2017-10-10T09:37:14Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 954,
+          "title": "The proper way to include js libraries?",
+          "state": "open",
+          "createdAt": "2017-09-26T05:49:10Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 953,
+          "title": "'gulp serve' Works, 'gulp' Crashes!",
+          "state": "closed",
+          "createdAt": "2017-09-11T11:56:48Z",
+          "closedAt": "2017-09-11T14:05:16Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 950,
+          "title": "Update Minimum version of Node required",
+          "state": "open",
+          "createdAt": "2017-09-06T02:52:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 947,
+          "title": "v0.6.5 npm install fails on Windows x64 because of missing node-sass download",
+          "state": "open",
+          "createdAt": "2017-08-22T22:48:45Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 946,
+          "title": "forms css",
+          "state": "open",
+          "createdAt": "2017-07-31T19:08:17Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 945,
+          "title": "incomplete html files produced with gulp",
+          "state": "open",
+          "createdAt": "2017-07-20T19:44:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 943,
+          "title": "jquery",
+          "state": "open",
+          "createdAt": "2017-06-24T05:33:22Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 942,
+          "title": "when i run gulp serve:dist the cdn links doesn't works",
+          "state": "open",
+          "createdAt": "2017-06-24T05:12:56Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 940,
+          "title": "[Discussion] Next release",
+          "state": "closed",
+          "createdAt": "2017-05-23T21:55:30Z",
+          "closedAt": "2020-07-25T07:11:47Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 939,
+          "title": "pick loader in require",
+          "state": "closed",
+          "createdAt": "2017-05-22T21:46:20Z",
+          "closedAt": "2017-05-22T21:46:34Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 938,
+          "title": "cssnano conflicts with autoprefixer",
+          "state": "open",
+          "createdAt": "2017-05-21T20:16:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 935,
+          "title": "[RFC] Add the ability to use template inheritance",
+          "state": "open",
+          "createdAt": "2017-05-09T21:59:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 934,
+          "title": "Cache busting",
+          "state": "open",
+          "createdAt": "2017-05-09T10:53:21Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 932,
+          "title": "Update Firebase deploy docs",
+          "state": "open",
+          "createdAt": "2017-04-25T18:50:00Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 930,
+          "title": "Problem starting Node ",
+          "state": "open",
+          "createdAt": "2017-03-31T19:10:11Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 928,
+          "title": "Can not deploy to Heroku",
+          "state": "open",
+          "createdAt": "2017-03-25T04:16:11Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 927,
+          "title": "Unusable due to corruption of Index.html by nonsense Latin phrases",
+          "state": "closed",
+          "createdAt": "2017-03-21T09:28:42Z",
+          "closedAt": "2017-03-21T16:05:12Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 926,
+          "title": "Material Components for the web (MDC-Web) Switch",
+          "state": "open",
+          "createdAt": "2017-03-19T11:44:58Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 925,
+          "title": "MDL Runtime Caching Currently broken",
+          "state": "open",
+          "createdAt": "2017-02-28T22:52:23Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 924,
+          "title": "HTML Cache META attributes doesn't work",
+          "state": "open",
+          "createdAt": "2017-02-24T13:45:37Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 923,
+          "title": "[Question] Server side code?",
+          "state": "open",
+          "createdAt": "2017-02-19T15:06:02Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 921,
+          "title": "[Introduction Video/presentation/Screenshot needed]",
+          "state": "open",
+          "createdAt": "2017-01-26T16:34:05Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 920,
+          "title": "Error: pass strings or arrays of strings",
+          "state": "closed",
+          "createdAt": "2017-01-06T23:48:32Z",
+          "closedAt": "2024-11-15T07:20:52Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 919,
+          "title": "Optimize Images not working?",
+          "state": "open",
+          "createdAt": "2017-01-05T11:59:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 917,
+          "title": "gulp serve is working but gulp or gulp serve:dist is not",
+          "state": "closed",
+          "createdAt": "2016-12-28T16:59:09Z",
+          "closedAt": "2023-09-27T02:58:33Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 913,
+          "title": "useref usage is very confusing to any noob",
+          "state": "closed",
+          "createdAt": "2016-12-19T00:51:39Z",
+          "closedAt": "2018-01-09T19:40:42Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 912,
+          "title": "Cannot find module 'gulp-load-plugins'",
+          "state": "closed",
+          "createdAt": "2016-12-17T19:44:37Z",
+          "closedAt": "2018-01-09T19:28:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 911,
+          "title": "Add support for Yarn",
+          "state": "closed",
+          "createdAt": "2016-12-13T19:55:54Z",
+          "closedAt": "2016-12-13T19:56:13Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 910,
+          "title": "Connect the repo to Reviewable",
+          "state": "closed",
+          "createdAt": "2016-12-08T06:45:28Z",
+          "closedAt": "2016-12-08T07:49:57Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 909,
+          "title": "Connect the repo to Reviewable",
+          "state": "closed",
+          "createdAt": "2016-12-08T06:28:12Z",
+          "closedAt": "2017-01-11T02:41:55Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 908,
+          "title": "Web Starter Kit after 'firebase deploy' : No Service Worker - OK on localhost",
+          "state": "open",
+          "createdAt": "2016-12-01T14:22:39Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 907,
+          "title": "[Question] How to add Typescript support",
+          "state": "open",
+          "createdAt": "2016-11-29T18:40:10Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 904,
+          "title": "Uncaught ReferenceError: require is not defined(…)",
+          "state": "open",
+          "createdAt": "2016-11-18T02:39:11Z",
+          "closedAt": null,
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 903,
+          "title": "Error in gulp server command",
+          "state": "open",
+          "createdAt": "2016-11-17T09:14:39Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 902,
+          "title": "There is a error when running gulp command",
+          "state": "open",
+          "createdAt": "2016-11-17T09:06:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 901,
+          "title": "How to handle the reference differences between src and dist?",
+          "state": "open",
+          "createdAt": "2016-11-16T21:24:04Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 900,
+          "title": "Copying files to `dist`",
+          "state": "closed",
+          "createdAt": "2016-11-04T18:19:58Z",
+          "closedAt": "2016-11-04T18:41:52Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 897,
+          "title": "consider clearing cache in clean task",
+          "state": "open",
+          "createdAt": "2016-10-03T01:20:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 896,
+          "title": "Documentation",
+          "state": "closed",
+          "createdAt": "2016-10-01T20:16:57Z",
+          "closedAt": "2016-10-03T06:26:26Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 895,
+          "title": "Import from NPM/Bower",
+          "state": "open",
+          "createdAt": "2016-09-29T10:28:38Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 894,
+          "title": "The kit works, but...",
+          "state": "open",
+          "createdAt": "2016-09-25T17:23:38Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 893,
+          "title": "UPDATE http://google.github.io/web-starter-kit/hello-world/",
+          "state": "open",
+          "createdAt": "2016-09-21T19:10:38Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 892,
+          "title": "gulp serve \"Working directory changed to\" issue",
+          "state": "open",
+          "createdAt": "2016-09-16T01:42:57Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 889,
+          "title": "Add HTML partial support",
+          "state": "open",
+          "createdAt": "2016-09-09T15:04:05Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 888,
+          "title": " Failed to load external module babel-register",
+          "state": "open",
+          "createdAt": "2016-09-08T13:13:45Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 884,
+          "title": "Example code uses old version of Material Design Lite",
+          "state": "closed",
+          "createdAt": "2016-08-20T20:47:12Z",
+          "closedAt": "2016-11-15T00:45:21Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 882,
+          "title": "Babel Core ^6.0.0 - Unexpected token import",
+          "state": "closed",
+          "createdAt": "2016-08-15T08:11:04Z",
+          "closedAt": "2018-01-09T20:08:23Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 881,
+          "title": "Update Google Analytics snippet",
+          "state": "closed",
+          "createdAt": "2016-08-04T14:40:49Z",
+          "closedAt": "2018-01-09T20:07:50Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 880,
+          "title": "Feature: Swap out Gulp for a Module Bundler",
+          "state": "closed",
+          "createdAt": "2016-07-26T17:08:05Z",
+          "closedAt": "2018-01-09T20:05:18Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 879,
+          "title": "Integrate `stylelint` for linting styles",
+          "state": "closed",
+          "createdAt": "2016-07-19T17:12:01Z",
+          "closedAt": "2017-04-17T10:32:38Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 878,
+          "title": "Requiring external module babel-core/register",
+          "state": "closed",
+          "createdAt": "2016-07-09T09:44:08Z",
+          "closedAt": "2016-08-08T12:20:36Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 875,
+          "title": "Requiring external module babel-register",
+          "state": "closed",
+          "createdAt": "2016-06-18T10:25:40Z",
+          "closedAt": "2016-06-23T18:05:34Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 874,
+          "title": "The right way to do localization?",
+          "state": "closed",
+          "createdAt": "2016-06-16T22:28:57Z",
+          "closedAt": "2018-01-09T19:58:28Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 872,
+          "title": "Problem with uncss + mdl-sass",
+          "state": "closed",
+          "createdAt": "2016-06-14T22:03:46Z",
+          "closedAt": "2018-01-09T20:08:16Z",
+          "comments": 1,
+          "labels": [
+            "documentation"
+          ]
+        },
+        {
+          "number": 871,
+          "title": "Default index.html navbar and button being overlapped",
+          "state": "closed",
+          "createdAt": "2016-06-14T19:38:56Z",
+          "closedAt": "2018-01-09T20:04:20Z",
+          "comments": 10,
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "number": 870,
+          "title": "Error: Cannot find module 'eslint-plugin-react'",
+          "state": "closed",
+          "createdAt": "2016-06-07T14:18:10Z",
+          "closedAt": "2016-06-21T14:43:11Z",
+          "comments": 3,
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "number": 869,
+          "title": "Add official generator for Yeoman",
+          "state": "closed",
+          "createdAt": "2016-06-06T18:02:30Z",
+          "closedAt": "2018-01-09T19:55:57Z",
+          "comments": 2,
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "number": 868,
+          "title": "Why can't merge with MDL ?",
+          "state": "closed",
+          "createdAt": "2016-06-06T17:46:26Z",
+          "closedAt": "2016-06-18T18:16:18Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 865,
+          "title": "Cannot find module 'eslint-config-google' in atom editor",
+          "state": "closed",
+          "createdAt": "2016-05-28T15:21:13Z",
+          "closedAt": "2016-06-18T18:17:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 864,
+          "title": ".tmp directory permissions issue",
+          "state": "closed",
+          "createdAt": "2016-05-24T19:01:44Z",
+          "closedAt": "2018-01-09T19:57:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 863,
+          "title": "Gulp not copying all my folders and files to dist",
+          "state": "closed",
+          "createdAt": "2016-05-20T13:36:04Z",
+          "closedAt": "2016-05-22T13:07:06Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 862,
+          "title": "Failed to load external module babel/register",
+          "state": "closed",
+          "createdAt": "2016-05-08T00:05:09Z",
+          "closedAt": "2016-05-10T13:21:52Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 860,
+          "title": "ServiceWorker doesn't work in Firefox with Starter Kit OOTB",
+          "state": "closed",
+          "createdAt": "2016-05-03T12:47:15Z",
+          "closedAt": "2016-06-02T20:46:40Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 857,
+          "title": "Sourcemaps not working after gulp serve",
+          "state": "closed",
+          "createdAt": "2016-04-23T09:46:31Z",
+          "closedAt": "2018-01-09T19:55:12Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 856,
+          "title": "gulpfile: scripts task: multiple script files",
+          "state": "closed",
+          "createdAt": "2016-04-21T05:49:44Z",
+          "closedAt": "2018-01-09T19:53:46Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 855,
+          "title": "Question about Offline support.",
+          "state": "closed",
+          "createdAt": "2016-04-07T14:50:22Z",
+          "closedAt": "2016-04-07T15:58:03Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 854,
+          "title": "gulp serve not working as expected",
+          "state": "closed",
+          "createdAt": "2016-04-07T03:40:41Z",
+          "closedAt": "2016-04-07T20:17:05Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 848,
+          "title": "Scripts folder generated one level up from Project root",
+          "state": "closed",
+          "createdAt": "2016-03-01T11:49:11Z",
+          "closedAt": "2016-06-04T10:35:07Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 846,
+          "title": "WSK Example",
+          "state": "closed",
+          "createdAt": "2016-02-29T17:51:15Z",
+          "closedAt": "2018-01-09T19:53:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 845,
+          "title": "rollup + babel on WSK2",
+          "state": "closed",
+          "createdAt": "2016-02-28T19:33:19Z",
+          "closedAt": "2018-01-09T19:52:42Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 844,
+          "title": "Simple relative links in footer",
+          "state": "closed",
+          "createdAt": "2016-02-28T01:39:45Z",
+          "closedAt": "2016-02-29T01:24:33Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 843,
+          "title": "Error with 'gulp deploy' task?",
+          "state": "open",
+          "createdAt": "2016-02-27T19:33:04Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 842,
+          "title": "MDL: Why do you have to reference the same set of source files twice?",
+          "state": "closed",
+          "createdAt": "2016-02-25T10:52:18Z",
+          "closedAt": "2018-01-09T19:52:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 838,
+          "title": "critical path",
+          "state": "closed",
+          "createdAt": "2016-02-20T15:03:17Z",
+          "closedAt": "2016-02-22T15:48:24Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 835,
+          "title": "Service Worker throwing 404 errors on Windows",
+          "state": "closed",
+          "createdAt": "2016-02-18T12:13:17Z",
+          "closedAt": "2016-03-01T13:15:20Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 834,
+          "title": "What about stylus support ?",
+          "state": "closed",
+          "createdAt": "2016-02-17T04:50:04Z",
+          "closedAt": "2016-02-17T14:01:58Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 831,
+          "title": "ERR_INSECURE_RESPONSE when registering service-worker. ",
+          "state": "closed",
+          "createdAt": "2016-02-12T17:03:46Z",
+          "closedAt": "2016-02-13T07:59:41Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 830,
+          "title": "Install Material Lite",
+          "state": "closed",
+          "createdAt": "2016-02-11T23:19:33Z",
+          "closedAt": "2016-02-15T15:06:56Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 829,
+          "title": "Pages failing WCAG2 AA accessibility testing.",
+          "state": "closed",
+          "createdAt": "2016-02-10T23:00:14Z",
+          "closedAt": "2016-06-18T18:20:42Z",
+          "comments": 1,
+          "labels": [
+            "bug",
+            "accessibility"
+          ]
+        },
+        {
+          "number": 828,
+          "title": "Error: Cannot find module './lib/log'",
+          "state": "closed",
+          "createdAt": "2016-02-10T14:08:56Z",
+          "closedAt": "2016-02-11T11:10:27Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 821,
+          "title": "Windows installation fails due to missing VCBuild.exe",
+          "state": "closed",
+          "createdAt": "2016-01-31T09:41:08Z",
+          "closedAt": "2018-01-09T19:50:53Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 819,
+          "title": "Installation issue with web-starter-kit-0.6.1",
+          "state": "closed",
+          "createdAt": "2016-01-22T20:14:29Z",
+          "closedAt": "2016-02-15T15:08:37Z",
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 42,
+        "totalFetched": 101,
+        "medianDaysToFirstResponse": 6.4,
+        "openOverOneYearNoReply": 14
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# [![Web Starter Kit](https://cloud.githubusercontent.com/assets/110953/11445049/f05512ba-9520-11e5-8fdb-8c8eb5f690d0.jpg)](https://github.com/google/web-starter-kit/releases/latest)\n\n## Overview\n\n[Web Starter Kit](https://developers.google.com/web/tools/starter-kit/) is an opinionated boilerplate for web development. Tools for building a great experience across many devices and [performance oriented](#web-performance). Helping you to stay productive following the best practices outlined in Google's [Web Fundamentals](https://developers.google.com/web/fundamentals/). A solid starting point for both professionals and newcomers to the industry.\n\n### Features\n\n| Feature                                | Summary                                                                                                                                                                                                                                                     |\n|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| Responsive boilerplate | A responsive boilerplate optimized for the multi-screen web. Powered by [Material Design Lite](http://getmdl.io).  You're free to use either this or a completely clean-slate  via [basic.html](https://github.com/google/web-starter-kit/blob/master/app/basic.html).                          |\n| Sass support                           | Compile [Sass](http://sass-lang.com/) into CSS with ease, bringing support for variables, mixins and more. (Run `gulp serve` or `gulp` for production)                                                                                                      |\n| Performance optimization               | Minify and concatenate JavaScript, CSS, HTML and images to help keep your pages lean. (Run `gulp` to create an optimised version of your project to `/dist`)                                                                                                |\n| Code Linting               | JavaScript code linting is done using [ESLint](http://eslint.org) - a pluggable linter tool for identifying and reporting on patterns in JavaScript. Web Starter Kit uses ESLint with [eslint-config-google](https://github.com/google/eslint-config-google), which tries to follow the Google JavaScript style guide.                                                                                                |\n| ES2015 via Babel 6.0                   | Optional ES2015 support using [Babel](https://babeljs.io/). To enable ES2015 support remove the line `\"only\": \"gulpfile.babel.js\",` in the [.babelrc](.babelrc) file. ES2015 source code will be automatically transpiled to ES5 for wide browser support.  |\n| Built-in HTTP Server                   | A built-in server for previewing your site locally while you develop and iterate                                                                                                                                                                            |\n| Live Browser Reloading                 | Reload the browser in real-time anytime an edit is made without the need for an extension. (Run `gulp serve` and edit your files)                                                                                                                           |\n| Cross-device Synchronization           | Synchronize clicks, scrolls, forms and live-reload across multiple devices as you edit your project. Powered by [BrowserSync](http://browsersync.io). (Run `gulp serve` and open up the IP provided on other devices on your network)                       |\n| Offline support                     | Thanks to our baked in [Service Worker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/) [pre-caching](https://github.com/google/web-starter-kit/blob/master/gulpfile.babel.js#L226), sites deploying `dist` to a HTTPS domain will enjoy offline support. This is made possible by [sw-precache](https://github.com/GoogleChrome/sw-precache/).                                                                                                                                              |\n| PageSpeed Insights                     | Web performance metrics showing how well your site performs on mobile and desktop (Run `gulp pagespeed`)                                                                                                                                                    |\n\n## Quickstart\n\n[Download](https://github.com/google/web-starter-kit/releases/latest) the kit or clone this repository and build on what is included in the `app` directory.\n\nThere are two HTML starting points, from which you can choose:\n\n- `index.html` - the default starting point, containing Material Design layout.\n- `basic.html` - no layout, but still includes our minimal mobile best-practices\n\nBe sure to look over the [installation docs](docs/install.md) to verify your environment is prepared to run WSK.\nOnce you have verified that your system can run WSK, check out the [commands](docs/commands.md) available to get started.\n\n## Web Performance\n\nWeb Starter Kit strives to give you a high performance starting point out of the box. Our median Web Page Test [scores](http://www.webpagetest.org/result/151201_VW_XYC/) for the default template have a [Speed Index](https://sites.google.com/a/webpagetest.org/docs/using-webpagetest/metrics/speed-index) of ~1100 (1000 is ideal) and a repeat-visit Speed Index of ~550 thanks to Service Worker precaching.\n\n## Browser Support\n\nAt present, we officially aim to support the last two versions of the following browsers:\n\n* Chrome\n* Edge\n* Firefox\n* Safari\n* Opera\n* Internet Explorer 9+\n\nThis is not to say that Web Starter Kit cannot be used in browsers older than those reflected, but merely that our focus will be on ensuring our layouts work great in the above.\n\n## Troubleshooting\n\nIf you find yourself running into issues during installation or running the tools, please check our [Troubleshooting](https://github.com/google/web-starter-kit/wiki/Troubleshooting) guide and then open an [issue](https://github.com/google/web-starter-kit/issues). We would be happy to discuss how they can be solved.\n\n## A Boilerplate-only Option\n\nIf you would prefer not to use any of our tooling, delete the following files from the project: `package.json`, `gulpfile.babel.js` and `.travis.yml`. You can now safely use the boilerplate with an alternative build-system or no build-system at all if you choose.\n\n## Docs and Recipes\n\n* [File Appendix](https://github.com/google/web-starter-kit/blob/master/docs/file-appendix.md) - What do the different files here do?\n* [Using Material Design Lite's Sass](https://github.com/google/web-starter-kit/blob/master/docs/mdl-sass.md) - how to get MDL's Sass working with WSK\n* [Deployment guides](https://github.com/google/web-starter-kit/blob/master/docs/deploy.md) - available for Firebase, Google App Engine and other services.\n* [Gulp recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) - the official Gulp recipes directory includes a comprehensive list of guides for different workflows you can add to your project.\n\n## Inspiration\n\nWeb Starter Kit is inspired by [Mobile HTML5 Boilerplate](https://html5boilerplate.com/mobile/) and Yeoman's [generator-gulp-webapp](https://github.com/yeoman/generator-webapp), having taken input from contributors to both projects during development. Our [FAQs](https://github.com/google/web-starter-kit/wiki/FAQ) attempt to answer commonly asked questions about the project.\n\n## Contributing\n\nContributions, questions and comments are all welcome and encouraged. For code contributions to Web Starter Kit, please see our [Contribution guide](CONTRIBUTING.md) before submitting a pull request. [Website](https://developers.google.com/web/tools/starter-kit/) related issues should be filed on the [Web Fundamentals](https://github.com/google/WebFundamentals/issues/new) issue tracker.\n\n## License\n\nApache 2.0  \nCopyright 2",
+      "truncated": true
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 807,
+      "flatlineMonth": "2018-01",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:16:36.902Z"
+  },
+  "autopsy": {
+    "epitaph": "Once a glorious boilerplate that taught 18,000 stars how to gulp their way to the multi-device web, it flatlined in January 2018 with its final breath spent changing a bullet to a horizontal line, then was sealed in the archive forever.",
+    "causes": [
+      {
+        "label": "Owner-Archived / Deliberate Abandonment",
+        "confidencePct": 97,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#958"
+          },
+          {
+            "type": "issue",
+            "ref": "#956"
+          },
+          {
+            "type": "commit",
+            "ref": "e7e55e8"
+          }
+        ]
+      },
+      {
+        "label": "Commit Activity Collapse — Six-Year Slow Bleed",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "e7e55e8"
+          },
+          {
+            "type": "commit",
+            "ref": "7e6d829"
+          },
+          {
+            "type": "issue",
+            "ref": "#940"
+          }
+        ]
+      },
+      {
+        "label": "Dependency & Toolchain Rot (Gulp, Babel, Node Incompatibilities)",
+        "confidencePct": 88,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#986"
+          },
+          {
+            "type": "issue",
+            "ref": "#982"
+          },
+          {
+            "type": "issue",
+            "ref": "#1027"
+          }
+        ]
+      },
+      {
+        "label": "Dependabot Security PRs Left Unmerged on Dead Branch",
+        "confidencePct": 75,
+        "evidence": [
+          {
+            "type": "branch",
+            "ref": "dependabot/npm_and_yarn/npm_and_yarn-f1bb56b70e"
+          },
+          {
+            "type": "branch",
+            "ref": "dependabot/npm_and_yarn/tar-2.2.2"
+          },
+          {
+            "type": "issue",
+            "ref": "#1022"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and triage the 42 open issues, closing stale and off-topic ones (e.g. #1039 'Something easy', #987 'ages') to restore signal-to-noise ratio.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Replace the Gulp/Babel build pipeline with a modern bundler (Vite or similar) to resolve the cascade of 'primordials is not defined' and 'Failed to load external module babel-core/register' runtime errors blocking new contributors.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Merge or close the open Dependabot branches (dependabot/npm_and_yarn/npm_and_yarn-f1bb56b70e and dependabot/npm_and_yarn/tar-2.2.2) and audit all npm dependencies for current compatibility.",
+        "effort": "a week"
+      },
+      {
+        "step": "Update the README to reflect current browser support (drop Internet Explorer 9+ claims), replace the dead developers.google.com/web/tools/starter-kit/ link, and point users to active successor projects.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Re-establish CI by fixing the Travis CI configuration that issue #1022 confirms was broken, or migrate to GitHub Actions with a Node LTS matrix.",
+        "effort": "a week"
+      }
+    ],
+    "lastWordsGloss": "Changing Bullet to Horizontal Line — a fitting epitaph for a project that spent its last breath on punctuation while the entire Gulp ecosystem crumbled beneath it."
+  }
+}

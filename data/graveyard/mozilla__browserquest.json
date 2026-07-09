@@ -1,0 +1,407 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "mozilla",
+      "name": "BrowserQuest",
+      "fullName": "mozilla/BrowserQuest",
+      "description": "DEPRECATED - A HTML5/JavaScript multiplayer game experiment",
+      "htmlUrl": "https://github.com/mozilla/BrowserQuest",
+      "createdAt": "2011-09-30T18:47:48Z",
+      "pushedAt": "2023-07-14T00:56:50Z",
+      "archived": true,
+      "stars": 9377,
+      "forks": 2923,
+      "defaultBranch": "master",
+      "license": "Other"
+    },
+    "commits": {
+      "totalCount": 153,
+      "fetchedCount": 153,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2011-10",
+          "count": 24
+        },
+        {
+          "month": "2012-02",
+          "count": 13
+        },
+        {
+          "month": "2012-03",
+          "count": 109
+        },
+        {
+          "month": "2012-04",
+          "count": 7
+        }
+      ],
+      "recent": [
+        {
+          "sha": "af32d247cac3495ca430d0effbb88dd5f3250b2c",
+          "message": "Update map exporter docs",
+          "date": "2012-04-10T17:30:26Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "fc9f6c6b6f8bc1e7f84aaaee96bacc5021f58861",
+          "message": "Add map exporter tool",
+          "date": "2012-04-10T17:22:35Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "8d9856e17f7b79ca30cc24b919fd869c08a8ff8a",
+          "message": "Fix require call and missing semicolon",
+          "date": "2012-04-06T15:18:39Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "b49c329251647990520b3122579609bd5f5de4c0",
+          "message": "Merge remote branch 'bnoordhuis/metrics'",
+          "date": "2012-04-06T15:06:04Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "f580f2f4c85c080b2906561a227044e4e3ce6dcd",
+          "message": "Merge remote branch 'mkrecny/deps'",
+          "date": "2012-04-06T14:54:46Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "4e173bab1819516f537d6df6041568a30de6eea1",
+          "message": "Add sound files",
+          "date": "2012-04-06T14:00:28Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "25f2298c004bc852edba302fe74cc805795ee7d5",
+          "message": "Update license and readme",
+          "date": "2012-04-06T13:14:27Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "7d818ace2ede5decd0c6b419ff7c9539aed689c7",
+          "message": "Add licensing information",
+          "date": "2012-03-29T16:22:04Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "cfa6f4461db6f94f076c6c358420c41dd6b1b6e7",
+          "message": "doc: server metrics require the memcache module",
+          "date": "2012-03-28T15:40:53Z",
+          "authorName": "Ben Noordhuis",
+          "authorLogin": "bnoordhuis"
+        },
+        {
+          "sha": "cfde236247eb07afa6a1ae4bf033932e2ff035ae",
+          "message": "server: lazy-load memcache module",
+          "date": "2012-03-28T15:40:51Z",
+          "authorName": "Ben Noordhuis",
+          "authorLogin": "bnoordhuis"
+        },
+        {
+          "sha": "4b32ddc7350922e13fcf2e1b135ac55b40fed02b",
+          "message": "removed main, and /static dir in this branch",
+          "date": "2012-03-27T18:18:53Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "e8148c1c540eefa01572cae50115d908cecf4c99",
+          "message": "proper formatting in package.json",
+          "date": "2012-03-27T18:11:06Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "cf235e9d7f7305174870bfbe0781e45a929b1ba5",
+          "message": "Merge branch 'dependencies'",
+          "date": "2012-03-27T18:07:47Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "0fc4eac381f9716873e54f44dca5c79ddf3d59e5",
+          "message": "added static file server in /static via express",
+          "date": "2012-03-27T16:53:16Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "2c3669ad9af32b51edaf2bdef5257e4673f355a4",
+          "message": "metrics.isReady is undefined if metrics are not enabled",
+          "date": "2012-03-27T15:33:53Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "47117aeca857792e8d1c93ba0255bd6f1d8cab2a",
+          "message": "more documentation",
+          "date": "2012-03-27T15:04:28Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "0d4f0b2eafea9440f0b74b9bc50340eec962a2fd",
+          "message": "updated docs to reflect package.json deps install",
+          "date": "2012-03-27T15:01:42Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "c1a19d7e32dbb19ee204792b23c6d3dd8bb2d598",
+          "message": "added package.json for dependencies",
+          "date": "2012-03-27T15:00:04Z",
+          "authorName": "mkrecny",
+          "authorLogin": "mkrecny"
+        },
+        {
+          "sha": "34d3c082d653a4fd7405a748181dd68418762d40",
+          "message": "Add longer requirejs timeout duration",
+          "date": "2012-03-27T14:26:06Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "389292781f9c6e542ce88c2a38015db4de0b8dbe",
+          "message": "Update blog post links",
+          "date": "2012-03-27T12:29:31Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "8e9c940f7216e13c308036116410195b881c4552",
+          "message": "Update credits",
+          "date": "2012-03-27T10:35:35Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "5c10b3a0a0f5b2c54da6d29115bd9f04116a68ae",
+          "message": "Bug 732411: Fix a rare case where a mob stuck on top of a player would slow the game down",
+          "date": "2012-03-26T11:32:34Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "749fc5a443f0591d54c47ab5a64834859afc5f50",
+          "message": "Remove console output from build version",
+          "date": "2012-03-26T09:24:31Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "863a580e42710e711b6581ae2bbad02ec1f83f28",
+          "message": "Fix remaining sprite glitches",
+          "date": "2012-03-26T09:23:30Z",
+          "authorName": "Guigui",
+          "authorLogin": "glecollinet"
+        },
+        {
+          "sha": "84b1b475594ae61c5106658e25880ff89b6e014d",
+          "message": "Minor map ajustments",
+          "date": "2012-03-26T09:19:11Z",
+          "authorName": "Guigui",
+          "authorLogin": "glecollinet"
+        },
+        {
+          "sha": "b02e314d292bd663056fea65d5b61a4f8d0424a1",
+          "message": "Fix grammar in coder NPC script",
+          "date": "2012-03-25T00:16:59Z",
+          "authorName": "Guigui",
+          "authorLogin": "glecollinet"
+        },
+        {
+          "sha": "e41fa31eade284284700af2b49b1afbf94f2fa76",
+          "message": "Bug 738999: Prevent dying mobs from reappearing",
+          "date": "2012-03-24T23:36:05Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "4c23f09218ed745650c006dd182c1eae9a354206",
+          "message": "Bug 738361: Fix music fading bugs",
+          "date": "2012-03-24T19:50:50Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "9514bef76d999451e733f46df0ddd88510cb45c9",
+          "message": "Clean up",
+          "date": "2012-03-24T17:51:34Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        },
+        {
+          "sha": "c8d5679f01cb0ceeee5551baf24bd6e196eaded1",
+          "message": "Bug 738395: Characters should never get stuck if diagonally adjacent to their target",
+          "date": "2012-03-24T17:42:37Z",
+          "authorName": "sork",
+          "authorLogin": "sork"
+        }
+      ],
+      "finalCommit": {
+        "sha": "af32d247cac3495ca430d0effbb88dd5f3250b2c",
+        "message": "Update map exporter docs",
+        "date": "2012-04-10T17:30:26Z",
+        "authorName": "sork",
+        "authorLogin": "sork"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "cdn-hosting",
+          "lastCommitDate": "2012-04-05T17:04:06Z",
+          "aheadBy": 9,
+          "behindBy": 18
+        },
+        {
+          "name": "legal",
+          "lastCommitDate": "2012-05-23T07:15:41Z",
+          "aheadBy": 7,
+          "behindBy": 0
+        },
+        {
+          "name": "master",
+          "lastCommitDate": "2012-04-10T17:30:26Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "prod",
+          "lastCommitDate": "2013-01-21T12:31:43Z",
+          "aheadBy": 24,
+          "behindBy": 0
+        }
+      ],
+      "capped": false
+    },
+    "issues": {
+      "items": [],
+      "stats": {
+        "openCount": 0,
+        "totalFetched": 0,
+        "medianDaysToFirstResponse": null,
+        "openOverOneYearNoReply": 0
+      },
+      "capped": false
+    },
+    "readme": {
+      "excerpt": "BrowserQuest\n============\n\nBrowserQuest is a HTML5/JavaScript multiplayer game experiment.\n\n\nDocumentation\n-------------\n\nDocumentation is located in client and server directories.\n\n\nLicense\n-------\n\nCode is licensed under MPL 2.0. Content is licensed under CC-BY-SA 3.0.\nSee the LICENSE file for details.\n\n\nCredits\n-------\nCreated by [Little Workshop](http://www.littleworkshop.fr):\n\n* Franck Lecollinet - [@whatthefranck](http://twitter.com/whatthefranck)\n* Guillaume Lecollinet - [@glecollinet](http://twitter.com/glecollinet)",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1091,
+      "flatlineMonth": "2012-04",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:16:15.163Z"
+  },
+  "autopsy": {
+    "epitaph": "Born as a shining HTML5/JavaScript multiplayer experiment in 2011, BrowserQuest blazed through 109 commits in a single March and then fell silent forever in April 2012, archived at last like a relic under glass—its final words merely updating docs for a map exporter no one would ever run again.",
+    "causes": [
+      {
+        "label": "Owner Archival / Explicit Deprecation",
+        "confidencePct": 97,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "af32d247cac3495ca430d0effbb88dd5f3250b2c"
+          }
+        ]
+      },
+      {
+        "label": "Commit Activity Flatlined Immediately After Launch Spike",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "af32d247cac3495ca430d0effbb88dd5f3250b2c"
+          },
+          {
+            "type": "commit",
+            "ref": "25f2298c004bc852edba302fe74cc805795ee7d5"
+          },
+          {
+            "type": "branch",
+            "ref": "master"
+          }
+        ]
+      },
+      {
+        "label": "Unmerged Feature Branches Left to Rot",
+        "confidencePct": 74,
+        "evidence": [
+          {
+            "type": "branch",
+            "ref": "cdn-hosting"
+          },
+          {
+            "type": "branch",
+            "ref": "legal"
+          },
+          {
+            "type": "branch",
+            "ref": "prod"
+          }
+        ]
+      },
+      {
+        "label": "Experimental One-Off Nature With No Maintenance Roadmap",
+        "confidencePct": 85,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "7d818ace2ede5decd0c6b419ff7c9539aed689c7"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and triage the three orphaned branches (cdn-hosting, legal, prod), merging or closing each with documented rationale.",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Modernize the Node.js server dependencies by auditing package.json and upgrading to current LTS-compatible versions of all modules.",
+        "effort": "a week"
+      },
+      {
+        "step": "Replace the aging RequireJS module system with a modern bundler (Vite or esbuild) to make the client buildable in a contemporary browser environment.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Port the WebSocket server layer to a maintained library and validate against current browser WebSocket APIs, since the original experiment targeted 2012-era implementations.",
+        "effort": "a week"
+      },
+      {
+        "step": "Write a minimal CI pipeline (GitHub Actions) covering lint, build, and a smoke-test server startup, so future contributors cannot silently break the only 153 commits this project ever earned.",
+        "effort": "an afternoon"
+      }
+    ],
+    "lastWordsGloss": "'Update map exporter docs' — because when your multiplayer world is dying, the important thing is to leave tidy instructions for a tool nobody will ever export a map with."
+  }
+}

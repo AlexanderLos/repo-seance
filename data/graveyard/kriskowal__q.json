@@ -1,0 +1,1941 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "kriskowal",
+      "name": "q",
+      "fullName": "kriskowal/q",
+      "description": "A promise library for JavaScript",
+      "htmlUrl": "https://github.com/kriskowal/q",
+      "createdAt": "2010-09-04T01:21:12Z",
+      "pushedAt": "2023-11-08T10:50:34Z",
+      "archived": true,
+      "stars": 15029,
+      "forks": 1185,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 902,
+      "fetchedCount": 902,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2010-09",
+          "count": 6
+        },
+        {
+          "month": "2010-10",
+          "count": 13
+        },
+        {
+          "month": "2010-11",
+          "count": 20
+        },
+        {
+          "month": "2010-12",
+          "count": 20
+        },
+        {
+          "month": "2011-01",
+          "count": 42
+        },
+        {
+          "month": "2011-02",
+          "count": 15
+        },
+        {
+          "month": "2011-03",
+          "count": 14
+        },
+        {
+          "month": "2011-04",
+          "count": 3
+        },
+        {
+          "month": "2011-05",
+          "count": 13
+        },
+        {
+          "month": "2011-06",
+          "count": 38
+        },
+        {
+          "month": "2011-07",
+          "count": 8
+        },
+        {
+          "month": "2011-08",
+          "count": 10
+        },
+        {
+          "month": "2011-10",
+          "count": 12
+        },
+        {
+          "month": "2011-11",
+          "count": 2
+        },
+        {
+          "month": "2011-12",
+          "count": 4
+        },
+        {
+          "month": "2012-01",
+          "count": 30
+        },
+        {
+          "month": "2012-02",
+          "count": 25
+        },
+        {
+          "month": "2012-03",
+          "count": 9
+        },
+        {
+          "month": "2012-04",
+          "count": 39
+        },
+        {
+          "month": "2012-05",
+          "count": 54
+        },
+        {
+          "month": "2012-06",
+          "count": 3
+        },
+        {
+          "month": "2012-07",
+          "count": 22
+        },
+        {
+          "month": "2012-08",
+          "count": 25
+        },
+        {
+          "month": "2012-10",
+          "count": 16
+        },
+        {
+          "month": "2012-11",
+          "count": 50
+        },
+        {
+          "month": "2012-12",
+          "count": 25
+        },
+        {
+          "month": "2013-01",
+          "count": 36
+        },
+        {
+          "month": "2013-02",
+          "count": 53
+        },
+        {
+          "month": "2013-03",
+          "count": 17
+        },
+        {
+          "month": "2013-04",
+          "count": 22
+        },
+        {
+          "month": "2013-05",
+          "count": 17
+        },
+        {
+          "month": "2013-06",
+          "count": 28
+        },
+        {
+          "month": "2013-07",
+          "count": 19
+        },
+        {
+          "month": "2013-08",
+          "count": 6
+        },
+        {
+          "month": "2013-09",
+          "count": 7
+        },
+        {
+          "month": "2013-10",
+          "count": 3
+        },
+        {
+          "month": "2014-01",
+          "count": 3
+        },
+        {
+          "month": "2014-02",
+          "count": 7
+        },
+        {
+          "month": "2014-03",
+          "count": 10
+        },
+        {
+          "month": "2014-04",
+          "count": 10
+        },
+        {
+          "month": "2014-05",
+          "count": 6
+        },
+        {
+          "month": "2014-07",
+          "count": 5
+        },
+        {
+          "month": "2014-08",
+          "count": 2
+        },
+        {
+          "month": "2014-09",
+          "count": 5
+        },
+        {
+          "month": "2014-10",
+          "count": 4
+        },
+        {
+          "month": "2014-11",
+          "count": 16
+        },
+        {
+          "month": "2015-01",
+          "count": 1
+        },
+        {
+          "month": "2015-02",
+          "count": 13
+        },
+        {
+          "month": "2015-04",
+          "count": 21
+        },
+        {
+          "month": "2015-05",
+          "count": 12
+        },
+        {
+          "month": "2015-09",
+          "count": 4
+        },
+        {
+          "month": "2015-10",
+          "count": 3
+        },
+        {
+          "month": "2015-11",
+          "count": 2
+        },
+        {
+          "month": "2015-12",
+          "count": 4
+        },
+        {
+          "month": "2016-02",
+          "count": 5
+        },
+        {
+          "month": "2016-03",
+          "count": 6
+        },
+        {
+          "month": "2016-09",
+          "count": 3
+        },
+        {
+          "month": "2016-10",
+          "count": 3
+        },
+        {
+          "month": "2016-11",
+          "count": 1
+        },
+        {
+          "month": "2016-12",
+          "count": 2
+        },
+        {
+          "month": "2017-01",
+          "count": 4
+        },
+        {
+          "month": "2017-03",
+          "count": 5
+        },
+        {
+          "month": "2017-05",
+          "count": 4
+        },
+        {
+          "month": "2017-06",
+          "count": 1
+        },
+        {
+          "month": "2017-10",
+          "count": 4
+        },
+        {
+          "month": "2018-02",
+          "count": 2
+        },
+        {
+          "month": "2020-05",
+          "count": 2
+        },
+        {
+          "month": "2021-09",
+          "count": 6
+        }
+      ],
+      "recent": [
+        {
+          "sha": "d180f4a0b22499607ac750b56766c8829d6bff43",
+          "message": "Merge pull request #854 from kriskowal/benjamingr-patch-1",
+          "date": "2021-09-15T14:47:43Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "0dc3d80508dfb4fcc36241474a204c6eafa08cf6",
+          "message": "Update README.md",
+          "date": "2021-09-15T14:47:35Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "3ef3318582e6ca7f50e3c96f9b41a0bfff453198",
+          "message": "Update README.md",
+          "date": "2021-09-15T14:47:20Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "f414202ba1f000de64f6a14fcd462352d77e21e6",
+          "message": "Update README.md",
+          "date": "2021-09-15T14:46:40Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "736018ba866c435e9a2cf442817e5a9abe266d94",
+          "message": "Update README.md",
+          "date": "2021-09-15T14:46:32Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "d639e8d74e332d4f940521fca5541710d3162f73",
+          "message": "Add note",
+          "date": "2021-09-15T10:47:45Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "6bc7f524eb104aca8bffde95f180b5210eb8dd4b",
+          "message": "docs: Fix simple typo, whereever -> wherever #847",
+          "date": "2020-05-18T21:50:09Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "70e6950e42a6357a9b5a7f1c2415db4aa8dc2ef5",
+          "message": "docs: Fix simple typo, whereever -> wherever",
+          "date": "2020-05-18T20:05:31Z",
+          "authorName": "Tim Gates",
+          "authorLogin": "timgates42"
+        },
+        {
+          "sha": "8545bd6f6953dfd2a5e7fa4052ed6b39e010a8c5",
+          "message": "Merge pull request #825 from josephlin55555/patch-1",
+          "date": "2018-02-05T00:18:43Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "e20c1498485948a88c6b44dc917d9a3ab2e7c338",
+          "message": "[Update] license to current year",
+          "date": "2018-02-01T21:54:45Z",
+          "authorName": "Joseph Lin",
+          "authorLogin": "josephlin55555"
+        },
+        {
+          "sha": "c2f5a6f35456389a806acca50bfd929cbe30c4cb",
+          "message": "1.5.1",
+          "date": "2017-10-19T17:55:35Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "60cd32232b6eac7fef52995b1bd136e7278d396f",
+          "message": "Prepare 1.5.1 release notes",
+          "date": "2017-10-19T17:55:17Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "1524e1a19a5dd7132b4a221b81be23b9f78f588a",
+          "message": "Merge pull request #823 from addaleax/no-dispose",
+          "date": "2017-10-18T12:23:46Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "b944fe049b4ac308c7269f5cd74dd10f9b8d6c67",
+          "message": "spec: don't use domain.dispose()",
+          "date": "2017-10-18T11:58:08Z",
+          "authorName": "Anna Henningsen",
+          "authorLogin": "addaleax"
+        },
+        {
+          "sha": "1f04d5d6cb7f2410651a11fa9037bb6ec326970d",
+          "message": "Merge pull request #813 from ivanetchart/change_any_behavior",
+          "date": "2017-06-01T00:28:11Z",
+          "authorName": "jbunton-atlassian",
+          "authorLogin": "jbunton-atlassian"
+        },
+        {
+          "sha": "9175f60da197b2edf23dfc55fb7343502216ebd9",
+          "message": "Apply feedback",
+          "date": "2017-05-31T21:55:28Z",
+          "authorName": "Ivan Etchart",
+          "authorLogin": "ivanetchart"
+        },
+        {
+          "sha": "a78a46ef9883a25dd322b29bb1b424c97132d2c1",
+          "message": "Improve tests",
+          "date": "2017-05-31T21:34:08Z",
+          "authorName": "Ivan Etchart",
+          "authorLogin": "ivanetchart"
+        },
+        {
+          "sha": "1bcb612fe565ad02e8eaa5e11712480dfd77a59b",
+          "message": "Improve any behavior",
+          "date": "2017-05-31T20:04:46Z",
+          "authorName": "Ivan Etchart",
+          "authorLogin": "ivanetchart"
+        },
+        {
+          "sha": "a964880a4d0ba6d3a9e66fcbd07fdb9fa3e6db8f",
+          "message": "Avoid .any not rejecting when promises reject with no value",
+          "date": "2017-05-18T20:08:18Z",
+          "authorName": "Ivan Etchart",
+          "authorLogin": null
+        },
+        {
+          "sha": "4fecabe07ff9f3683a3d4548e7f81c2aba693326",
+          "message": "Update change log with version",
+          "date": "2017-03-22T02:14:19Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "0ba2b1b399d9f24b92671e960305af45c99c5040",
+          "message": "1.5.0",
+          "date": "2017-03-22T02:14:00Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "9ede4c5495926358c7309fbb77d193374da93498",
+          "message": "Merge pull request #803 from mariotsi/patch-1",
+          "date": "2017-03-21T22:35:40Z",
+          "authorName": "jbunton-atlassian",
+          "authorLogin": "jbunton-atlassian"
+        },
+        {
+          "sha": "db76578ea11bbf5f9ed9a7c590f3309e56a75001",
+          "message": "Updating comment with correct method name.",
+          "date": "2017-03-21T16:52:08Z",
+          "authorName": "Simone Mariotti",
+          "authorLogin": "mariotsi"
+        },
+        {
+          "sha": "3d648e42d53f7a4dfcf92282af36ea4bd7836d01",
+          "message": "More dashes for horizontal rule in design document",
+          "date": "2017-03-17T21:09:42Z",
+          "authorName": "Kris Kowal",
+          "authorLogin": "kriskowal"
+        },
+        {
+          "sha": "d8fd7893b02d20c1ffb8f28aeaa4a95b6641a69c",
+          "message": "Merge pull request #791 from kriskowal/meh",
+          "date": "2017-01-23T13:19:47Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "14cd3476b9b6e60d82b4fcd025bdfc2ce848ab1f",
+          "message": "Merge pull request #799 from amZotti/v1",
+          "date": "2017-01-23T13:18:36Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "8b71d6201e96c8868d1580a4d6dc704061eb9f3f",
+          "message": "Merge pull request #792 from artemv/v1",
+          "date": "2017-01-02T11:30:31Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "c1f648ec3cc1f8af0414b67b688c655f81acbbe0",
+          "message": "Docs: Update year in README and LICENSE",
+          "date": "2017-01-02T04:24:08Z",
+          "authorName": "Anthony Zotti",
+          "authorLogin": "amZotti"
+        },
+        {
+          "sha": "c0fdb66cf2efebf419f703ee30509267fd7c3350",
+          "message": "Merge pull request #798 from kennynaoh/cdnjs-badge",
+          "date": "2016-12-15T12:48:24Z",
+          "authorName": "Benjamin Gruenbaum",
+          "authorLogin": "benjamingr"
+        },
+        {
+          "sha": "c080f7f9edc0fdb400b5be66d2ebd50f880cb05c",
+          "message": "Add CDNJS badge in readme",
+          "date": "2016-12-15T10:56:03Z",
+          "authorName": "naoh",
+          "authorLogin": "kennynaoh"
+        }
+      ],
+      "finalCommit": {
+        "sha": "d180f4a0b22499607ac750b56766c8829d6bff43",
+        "message": "Merge pull request #854 from kriskowal/benjamingr-patch-1\n\nAdd note",
+        "date": "2021-09-15T14:47:43Z",
+        "authorName": "Benjamin Gruenbaum",
+        "authorLogin": "benjamingr"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "continuum",
+          "lastCommitDate": "2013-08-20T23:04:16Z",
+          "aheadBy": 3,
+          "behindBy": 186
+        },
+        {
+          "name": "faust",
+          "lastCommitDate": "2015-03-07T23:31:05Z",
+          "aheadBy": 118,
+          "behindBy": 180
+        },
+        {
+          "name": "gh-pages",
+          "lastCommitDate": "2014-07-10T02:55:24Z",
+          "aheadBy": 1,
+          "behindBy": 140
+        },
+        {
+          "name": "master",
+          "lastCommitDate": "2021-09-15T14:47:43Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "meh",
+          "lastCommitDate": "2016-10-04T23:43:45Z",
+          "aheadBy": 0,
+          "behindBy": 41
+        },
+        {
+          "name": "no-console",
+          "lastCommitDate": "2014-02-10T20:33:15Z",
+          "aheadBy": 0,
+          "behindBy": 172
+        },
+        {
+          "name": "then-done",
+          "lastCommitDate": "2014-02-22T22:25:56Z",
+          "aheadBy": 78,
+          "behindBy": 180
+        },
+        {
+          "name": "thenable-inspect",
+          "lastCommitDate": "2013-10-30T20:45:22Z",
+          "aheadBy": 36,
+          "behindBy": 180
+        },
+        {
+          "name": "v0.8",
+          "lastCommitDate": "2013-01-06T23:30:37Z",
+          "aheadBy": 0,
+          "behindBy": 425
+        },
+        {
+          "name": "v0.9",
+          "lastCommitDate": "2014-01-04T17:38:23Z",
+          "aheadBy": 0,
+          "behindBy": 175
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 867,
+          "title": "Npm install error，can not download ",
+          "state": "closed",
+          "createdAt": "2024-09-02T09:50:24Z",
+          "closedAt": "2024-09-02T15:16:54Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 866,
+          "title": "Mark as deprecated on npm?",
+          "state": "closed",
+          "createdAt": "2024-06-11T12:08:27Z",
+          "closedAt": "2024-06-11T21:20:05Z",
+          "comments": 15,
+          "labels": []
+        },
+        {
+          "number": 865,
+          "title": "rasamaha",
+          "state": "closed",
+          "createdAt": "2023-11-22T12:49:25Z",
+          "closedAt": "2023-11-22T21:13:49Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 861,
+          "title": "Need 'qs' version upadted to latest version to resolve Security Vulnerabilities",
+          "state": "closed",
+          "createdAt": "2023-09-18T15:23:36Z",
+          "closedAt": "2023-09-18T18:41:23Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 857,
+          "title": "How can i convert an existing promise  to a callback in Node.js ?",
+          "state": "open",
+          "createdAt": "2022-08-17T07:50:52Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 855,
+          "title": "Why return function ref ?",
+          "state": "open",
+          "createdAt": "2021-12-06T06:40:28Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 853,
+          "title": "Add warning and recommend native promises",
+          "state": "closed",
+          "createdAt": "2021-09-14T08:07:01Z",
+          "closedAt": "2021-09-15T14:47:43Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 852,
+          "title": "In v2, not v1, package.json uses deprecated form of license {}",
+          "state": "closed",
+          "createdAt": "2021-04-02T16:24:43Z",
+          "closedAt": "2021-04-02T16:32:37Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 851,
+          "title": "The q4 and after is so hard to understand",
+          "state": "closed",
+          "createdAt": "2020-07-31T08:46:38Z",
+          "closedAt": "2020-09-02T18:56:59Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 850,
+          "title": "Minified release?",
+          "state": "open",
+          "createdAt": "2020-07-18T22:54:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 849,
+          "title": "Safari drops ticks for backgrounded tasks iOS 14",
+          "state": "open",
+          "createdAt": "2020-07-10T08:49:47Z",
+          "closedAt": null,
+          "comments": 13,
+          "labels": []
+        },
+        {
+          "number": 848,
+          "title": "Google Analytics",
+          "state": "closed",
+          "createdAt": "2020-06-25T19:04:08Z",
+          "closedAt": "2020-06-26T00:53:48Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 846,
+          "title": "Invalid token q.js?v=1588706333081:854 Invalid token",
+          "state": "closed",
+          "createdAt": "2020-05-05T19:28:02Z",
+          "closedAt": "2020-05-06T17:54:53Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 845,
+          "title": "How do u like await?",
+          "state": "closed",
+          "createdAt": "2020-03-19T01:21:26Z",
+          "closedAt": "2020-03-19T01:39:28Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 843,
+          "title": "Is Q a superset of a native Promise?",
+          "state": "open",
+          "createdAt": "2019-04-15T15:36:29Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 842,
+          "title": "Issues with Promise prototype.",
+          "state": "closed",
+          "createdAt": "2019-01-30T20:30:22Z",
+          "closedAt": "2019-01-31T16:47:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 840,
+          "title": "Question : Global Error handling in Promise",
+          "state": "closed",
+          "createdAt": "2018-09-24T08:38:12Z",
+          "closedAt": "2018-09-25T19:12:43Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 839,
+          "title": "Q.allSettled returning unhandled rejection promises",
+          "state": "closed",
+          "createdAt": "2018-09-21T13:48:54Z",
+          "closedAt": "2018-09-25T19:23:45Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 837,
+          "title": "async function giving error",
+          "state": "closed",
+          "createdAt": "2018-09-03T06:56:55Z",
+          "closedAt": "2018-09-03T08:23:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 836,
+          "title": "Is it possible to use a native Promise object with q ?",
+          "state": "closed",
+          "createdAt": "2018-08-24T16:02:08Z",
+          "closedAt": "2018-08-24T16:18:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 835,
+          "title": "unhandledRejection does not provide promise.stack",
+          "state": "closed",
+          "createdAt": "2018-08-14T00:41:12Z",
+          "closedAt": "2018-08-14T02:01:38Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 834,
+          "title": "Using jQuery v3+, Q($.ajax) promise returned doesn't seem to resolve",
+          "state": "closed",
+          "createdAt": "2018-08-08T04:18:14Z",
+          "closedAt": "2018-08-08T05:14:42Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 833,
+          "title": "asdf",
+          "state": "closed",
+          "createdAt": "2018-08-07T21:13:23Z",
+          "closedAt": "2018-08-07T23:47:04Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 832,
+          "title": "Q fails to perform circularity check",
+          "state": "open",
+          "createdAt": "2018-04-23T09:55:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 831,
+          "title": "Catch exceptions in Q promises with settimeout",
+          "state": "closed",
+          "createdAt": "2018-04-05T16:21:48Z",
+          "closedAt": "2018-04-06T16:56:19Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 830,
+          "title": "Questions about q.try ",
+          "state": "closed",
+          "createdAt": "2018-03-29T17:49:25Z",
+          "closedAt": "2018-03-29T18:59:39Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 829,
+          "title": "npm install will not install q library",
+          "state": "closed",
+          "createdAt": "2018-03-13T03:05:26Z",
+          "closedAt": "2018-03-13T08:53:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 827,
+          "title": "Converting Q to Typescript",
+          "state": "open",
+          "createdAt": "2018-02-20T00:46:51Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 826,
+          "title": "Recursion with promises.",
+          "state": "closed",
+          "createdAt": "2018-02-03T02:59:00Z",
+          "closedAt": "2018-02-03T03:16:25Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 824,
+          "title": "bower.json file not in root directory",
+          "state": "open",
+          "createdAt": "2017-12-01T09:11:35Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 822,
+          "title": "Implement the util.inspect.custom symbol",
+          "state": "open",
+          "createdAt": "2017-09-25T22:14:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 821,
+          "title": "q.all inside q.all",
+          "state": "closed",
+          "createdAt": "2017-09-24T19:48:09Z",
+          "closedAt": "2017-09-24T20:30:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 820,
+          "title": "\"require is not defined\"",
+          "state": "closed",
+          "createdAt": "2017-09-21T19:25:54Z",
+          "closedAt": "2017-09-24T20:27:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 819,
+          "title": "Internal q TypeError on node-express server",
+          "state": "closed",
+          "createdAt": "2017-08-21T18:34:47Z",
+          "closedAt": "2017-08-22T07:16:54Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 818,
+          "title": ".then(onFulfilled) did not callback onFulfilled for response code 201",
+          "state": "closed",
+          "createdAt": "2017-08-04T20:52:17Z",
+          "closedAt": "2017-08-07T01:13:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 815,
+          "title": "Q.npost is not resolving promise",
+          "state": "closed",
+          "createdAt": "2017-05-31T07:01:59Z",
+          "closedAt": "2017-08-22T11:04:12Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 814,
+          "title": "Q.when() is not resolved synchronously while Q() is",
+          "state": "open",
+          "createdAt": "2017-05-27T09:01:56Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 812,
+          "title": "Rejecting with no value using Q.any()",
+          "state": "closed",
+          "createdAt": "2017-05-18T20:09:42Z",
+          "closedAt": "2017-06-01T14:43:55Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 811,
+          "title": "No always callback?",
+          "state": "closed",
+          "createdAt": "2017-05-11T17:23:40Z",
+          "closedAt": "2020-05-25T22:44:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 810,
+          "title": "Q.any() is not documented in the API reference",
+          "state": "open",
+          "createdAt": "2017-04-28T12:24:36Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 809,
+          "title": "Forget to resolve.",
+          "state": "closed",
+          "createdAt": "2017-04-20T10:28:52Z",
+          "closedAt": "2017-04-20T10:49:21Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 808,
+          "title": "Custom promise chaining",
+          "state": "open",
+          "createdAt": "2017-04-17T14:05:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 807,
+          "title": "Static \"Q.when()\" mentioned but not formally documented.",
+          "state": "open",
+          "createdAt": "2017-04-14T18:34:39Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 806,
+          "title": "while installing on Ubuntu i get the error    ( works good on mac ) ",
+          "state": "closed",
+          "createdAt": "2017-04-05T19:45:42Z",
+          "closedAt": "2017-04-05T22:19:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 805,
+          "title": "Recommend native promises?",
+          "state": "open",
+          "createdAt": "2017-03-22T08:46:54Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 804,
+          "title": "Make master the primary branch again.",
+          "state": "closed",
+          "createdAt": "2017-03-22T02:11:13Z",
+          "closedAt": "2017-04-06T08:15:56Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 802,
+          "title": "q is crashing with the following array",
+          "state": "closed",
+          "createdAt": "2017-02-14T11:47:29Z",
+          "closedAt": "2017-03-05T00:06:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 801,
+          "title": "promise.delay not working as expected for rejected promises",
+          "state": "closed",
+          "createdAt": "2017-01-23T12:56:32Z",
+          "closedAt": "2017-01-23T12:57:58Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 800,
+          "title": "Put latest version on Nuget, remove experimental tag",
+          "state": "closed",
+          "createdAt": "2017-01-12T15:09:05Z",
+          "closedAt": "2017-01-12T15:14:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 796,
+          "title": "Q module fails to load if `e.stack` throws",
+          "state": "open",
+          "createdAt": "2016-12-09T21:34:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 795,
+          "title": "\"q.all(promises).then\"  versus  \"q.all(promises).spread\"",
+          "state": "open",
+          "createdAt": "2016-11-08T15:12:17Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 794,
+          "title": "q series/mapSeries",
+          "state": "open",
+          "createdAt": "2016-11-05T18:44:33Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 793,
+          "title": "npm package warnings",
+          "state": "open",
+          "createdAt": "2016-10-25T00:37:40Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 790,
+          "title": "Read Format in Netbeans",
+          "state": "closed",
+          "createdAt": "2016-09-27T05:18:28Z",
+          "closedAt": "2016-10-04T23:46:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 788,
+          "title": "Series with Q",
+          "state": "closed",
+          "createdAt": "2016-08-09T18:38:48Z",
+          "closedAt": "2016-10-04T23:46:40Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 785,
+          "title": "Q.timeout does not reject wrapped promise",
+          "state": "closed",
+          "createdAt": "2016-06-22T17:15:09Z",
+          "closedAt": "2016-06-22T17:53:56Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 784,
+          "title": "getting full errors stacks using Q.allSettled?",
+          "state": "closed",
+          "createdAt": "2016-05-24T14:01:50Z",
+          "closedAt": "2016-10-04T23:50:14Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 783,
+          "title": "Where can I get the minified q.js?",
+          "state": "open",
+          "createdAt": "2016-05-20T19:09:50Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 781,
+          "title": "Break from promise chain early",
+          "state": "closed",
+          "createdAt": "2016-05-17T10:00:18Z",
+          "closedAt": "2018-02-27T00:08:02Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 780,
+          "title": "asynchronous for each",
+          "state": "closed",
+          "createdAt": "2016-05-03T16:57:55Z",
+          "closedAt": "2016-05-04T07:42:54Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 779,
+          "title": "Importing/requiring q module works with both small and caps",
+          "state": "closed",
+          "createdAt": "2016-05-02T19:47:31Z",
+          "closedAt": "2016-05-03T15:33:16Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 778,
+          "title": "bundle typings for TypeScript",
+          "state": "open",
+          "createdAt": "2016-05-01T10:07:02Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 777,
+          "title": "Support for yielding streams along with promises by generator functions in `Q.spawn`",
+          "state": "open",
+          "createdAt": "2016-04-28T06:51:01Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 776,
+          "title": "Question: Proper way to get Q via Chrome",
+          "state": "open",
+          "createdAt": "2016-04-21T19:25:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 770,
+          "title": "correct way to make loop with promise in nodejs",
+          "state": "closed",
+          "createdAt": "2016-03-11T02:38:29Z",
+          "closedAt": "2016-05-04T07:43:16Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 769,
+          "title": "v1.4.2 patch release checklist",
+          "state": "open",
+          "createdAt": "2016-03-07T18:49:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 767,
+          "title": "Chai assertion is not working inside '.then'",
+          "state": "open",
+          "createdAt": "2016-03-02T04:42:24Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 766,
+          "title": "Missing error handler on `socket`. TypeError: Cannot call method 'then' of undefined whe try to make a promise with postgres query result",
+          "state": "closed",
+          "createdAt": "2016-02-26T07:58:39Z",
+          "closedAt": "2016-02-26T17:40:21Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 764,
+          "title": "TypeError: Q.nextTick.runAfter is not a function",
+          "state": "open",
+          "createdAt": "2016-02-18T07:46:25Z",
+          "closedAt": null,
+          "comments": 17,
+          "labels": []
+        },
+        {
+          "number": 763,
+          "title": "Automatically propagate all exceptions",
+          "state": "closed",
+          "createdAt": "2016-02-10T13:51:55Z",
+          "closedAt": "2016-02-23T11:43:06Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 760,
+          "title": "Consider disabling unhandled rejecting tracking by default",
+          "state": "open",
+          "createdAt": "2016-02-04T08:38:18Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 759,
+          "title": "sync function",
+          "state": "closed",
+          "createdAt": "2016-02-02T16:10:02Z",
+          "closedAt": "2016-02-23T09:00:36Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 755,
+          "title": "React-Native throws: This environment was not anticipated by Q. Please file a bug.",
+          "state": "open",
+          "createdAt": "2016-01-17T21:43:17Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 754,
+          "title": "Uncaught TypeError: Cannot read property 'set' of undefined",
+          "state": "open",
+          "createdAt": "2016-01-08T08:27:47Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 752,
+          "title": "Object.create overrided by other library",
+          "state": "closed",
+          "createdAt": "2015-12-17T12:05:19Z",
+          "closedAt": "2018-09-17T20:25:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 751,
+          "title": "http://documentup.com/kriskowal/q/ \"issue\"",
+          "state": "open",
+          "createdAt": "2015-12-14T10:39:08Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 749,
+          "title": "Q.all() behaviour vs. readme",
+          "state": "closed",
+          "createdAt": "2015-12-08T21:47:12Z",
+          "closedAt": "2015-12-09T18:28:12Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 746,
+          "title": "Q.all surprisingly manipulates array passed to it",
+          "state": "open",
+          "createdAt": "2015-11-27T16:14:37Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 745,
+          "title": "Promise.catch eats errors",
+          "state": "closed",
+          "createdAt": "2015-11-23T21:35:17Z",
+          "closedAt": "2015-11-23T21:36:22Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 744,
+          "title": "Support test in jasmine 2.X",
+          "state": "open",
+          "createdAt": "2015-11-22T06:22:07Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 742,
+          "title": "Sync last version published between NPM and Bower",
+          "state": "closed",
+          "createdAt": "2015-11-05T09:01:35Z",
+          "closedAt": "2015-11-09T09:30:02Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 741,
+          "title": "security issue: imposes one doman context over the other",
+          "state": "open",
+          "createdAt": "2015-11-02T07:40:04Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 739,
+          "title": "Q.all hanging main thread",
+          "state": "closed",
+          "createdAt": "2015-10-21T22:55:25Z",
+          "closedAt": "2015-10-27T19:24:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 738,
+          "title": "How to abort all future promises and discard current result when it returns",
+          "state": "closed",
+          "createdAt": "2015-10-19T13:10:34Z",
+          "closedAt": "2015-10-19T13:34:58Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 734,
+          "title": "Tight coupling with NodeJS and unhandled exception events",
+          "state": "open",
+          "createdAt": "2015-09-30T11:21:36Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 732,
+          "title": "Finally not returning resolved value",
+          "state": "open",
+          "createdAt": "2015-09-29T01:24:07Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 731,
+          "title": "Worst scaling of them all",
+          "state": "open",
+          "createdAt": "2015-09-26T22:39:25Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 730,
+          "title": "Brunch build error",
+          "state": "closed",
+          "createdAt": "2015-09-19T08:24:28Z",
+          "closedAt": "2016-03-17T22:36:57Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 729,
+          "title": "broken html on http://documentup.com/kriskowal/q/",
+          "state": "open",
+          "createdAt": "2015-09-07T12:28:06Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 728,
+          "title": ".done() equivalent with native ES6 Promises?",
+          "state": "closed",
+          "createdAt": "2015-08-18T17:10:16Z",
+          "closedAt": "2015-08-31T04:32:22Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 727,
+          "title": "`Q.all()` never fulfilled immediately",
+          "state": "closed",
+          "createdAt": "2015-08-15T20:46:46Z",
+          "closedAt": "2015-08-16T19:43:48Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 726,
+          "title": "Question - Deferred Anti Pattern",
+          "state": "closed",
+          "createdAt": "2015-08-10T13:13:59Z",
+          "closedAt": "2015-08-10T15:39:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 725,
+          "title": "CPU 100% when use Q.nbind()",
+          "state": "open",
+          "createdAt": "2015-08-10T10:59:02Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 724,
+          "title": "\"The design q4\"  is too difficult to understand",
+          "state": "open",
+          "createdAt": "2015-08-09T07:59:25Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 723,
+          "title": "q.allDone - a combination of q.all and q.allSettled",
+          "state": "open",
+          "createdAt": "2015-08-07T14:46:01Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 722,
+          "title": "Why is it called Q?",
+          "state": "open",
+          "createdAt": "2015-08-04T19:31:04Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 721,
+          "title": "Promise seems not a Monad",
+          "state": "closed",
+          "createdAt": "2015-07-28T06:34:37Z",
+          "closedAt": "2015-07-28T06:45:05Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 719,
+          "title": "API Reference for Q.nfapply not describing all conditions where returned promise does resolve",
+          "state": "open",
+          "createdAt": "2015-07-22T11:36:31Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 718,
+          "title": "Promises not adding to the array and returning values ",
+          "state": "closed",
+          "createdAt": "2015-07-18T20:04:58Z",
+          "closedAt": "2015-07-20T05:17:47Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 717,
+          "title": "*deleted*",
+          "state": "closed",
+          "createdAt": "2015-07-16T04:51:10Z",
+          "closedAt": "2015-07-16T08:35:40Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 716,
+          "title": "catchResolve/catchReject",
+          "state": "open",
+          "createdAt": "2015-07-15T16:04:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 714,
+          "title": "Hey all my libs are broken because Q use collectoins/shim",
+          "state": "closed",
+          "createdAt": "2015-07-09T10:40:21Z",
+          "closedAt": "2015-07-09T21:53:30Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 713,
+          "title": "Q 2.0.0 \"Cannot find module 'collections/shim'\"",
+          "state": "closed",
+          "createdAt": "2015-07-03T20:21:55Z",
+          "closedAt": "2015-07-03T20:41:32Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 712,
+          "title": "Q fails to detect circular promise chain",
+          "state": "open",
+          "createdAt": "2015-07-02T09:46:36Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 710,
+          "title": "Node JS Q module fails to install in my npm environment",
+          "state": "open",
+          "createdAt": "2015-06-29T20:10:30Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 709,
+          "title": "Q fails core-js Promise polyfill test",
+          "state": "open",
+          "createdAt": "2015-06-29T10:40:36Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 707,
+          "title": "v1.4.1- Cannot call method 'push' of undefined@/q.js:552:35",
+          "state": "open",
+          "createdAt": "2015-06-24T16:11:59Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 706,
+          "title": "How to chain q.nfcall syncronous",
+          "state": "open",
+          "createdAt": "2015-06-22T12:16:04Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 704,
+          "title": "Calculating progress when using spread",
+          "state": "open",
+          "createdAt": "2015-06-19T00:14:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 703,
+          "title": "string const memory update && strict mode ?",
+          "state": "open",
+          "createdAt": "2015-06-10T08:18:58Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 702,
+          "title": "resolve value is undefined when chaining then method",
+          "state": "closed",
+          "createdAt": "2015-06-05T18:17:19Z",
+          "closedAt": "2015-06-05T18:31:17Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 700,
+          "title": "Validate input of Q.all",
+          "state": "open",
+          "createdAt": "2015-06-02T09:28:12Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 699,
+          "title": "Trouble with chained promises",
+          "state": "closed",
+          "createdAt": "2015-06-01T10:41:51Z",
+          "closedAt": "2015-06-03T15:26:10Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 698,
+          "title": "Promise.method(func)",
+          "state": "closed",
+          "createdAt": "2015-05-26T18:02:29Z",
+          "closedAt": "2015-05-27T12:44:11Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 696,
+          "title": " Q.all can get the right result.",
+          "state": "closed",
+          "createdAt": "2015-05-21T14:18:12Z",
+          "closedAt": "2015-05-21T15:14:31Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 695,
+          "title": "Q.all -> sequential in debug mode",
+          "state": "closed",
+          "createdAt": "2015-05-21T07:15:29Z",
+          "closedAt": "2015-05-21T07:34:28Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 694,
+          "title": "Should fix licenses",
+          "state": "closed",
+          "createdAt": "2015-05-19T16:00:23Z",
+          "closedAt": "2015-05-24T19:54:17Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 692,
+          "title": "npm update on debian wheezy installs the wrong version of q",
+          "state": "closed",
+          "createdAt": "2015-05-13T13:01:40Z",
+          "closedAt": "2015-05-24T19:56:11Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 691,
+          "title": "Type error when chaining Q.ninvoke ",
+          "state": "closed",
+          "createdAt": "2015-05-11T06:34:59Z",
+          "closedAt": "2015-05-23T06:43:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 688,
+          "title": "injectArgument function",
+          "state": "open",
+          "createdAt": "2015-05-07T16:28:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 687,
+          "title": "onProgress wrapping on .notify()",
+          "state": "open",
+          "createdAt": "2015-04-27T10:25:05Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 685,
+          "title": "first e.stack access is slow with CoffeeScript",
+          "state": "open",
+          "createdAt": "2015-04-26T15:43:33Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 684,
+          "title": "Is there a way to throw immediately by crashing the application rather than propagating a rejected promise and having to reveal it using `done`?",
+          "state": "closed",
+          "createdAt": "2015-04-26T01:30:58Z",
+          "closedAt": "2015-04-26T01:44:10Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 683,
+          "title": "HtmlUnit cannot parse q.js when used with Chrome",
+          "state": "open",
+          "createdAt": "2015-04-25T00:56:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 681,
+          "title": "PromiseChain sequential",
+          "state": "closed",
+          "createdAt": "2015-04-22T12:20:56Z",
+          "closedAt": "2015-05-24T19:34:40Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 680,
+          "title": "Pass result of promise to another deferred",
+          "state": "closed",
+          "createdAt": "2015-04-21T11:47:16Z",
+          "closedAt": "2015-04-22T00:45:42Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 679,
+          "title": "Unexpected behavior with Object.defineProperty",
+          "state": "closed",
+          "createdAt": "2015-04-20T13:56:04Z",
+          "closedAt": "2015-04-20T14:32:15Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 678,
+          "title": "promises escalation bug",
+          "state": "closed",
+          "createdAt": "2015-04-16T16:29:36Z",
+          "closedAt": "2015-04-16T16:39:44Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 677,
+          "title": "Q.js has no option to non populate the global namespace",
+          "state": "closed",
+          "createdAt": "2015-04-15T20:43:59Z",
+          "closedAt": "2015-05-09T16:15:33Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 676,
+          "title": "1/3 slower on node v0.12.x",
+          "state": "open",
+          "createdAt": "2015-04-14T06:59:13Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 675,
+          "title": "q.all().then().then() switches from rejected to fulfilled",
+          "state": "closed",
+          "createdAt": "2015-04-13T21:46:43Z",
+          "closedAt": "2015-04-13T21:48:23Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 674,
+          "title": "Release 1.2.0 doesn't have tag",
+          "state": "closed",
+          "createdAt": "2015-04-07T23:22:09Z",
+          "closedAt": "2015-04-25T22:27:57Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 671,
+          "title": "Supported Browsers",
+          "state": "open",
+          "createdAt": "2015-03-25T03:29:31Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 669,
+          "title": "Q has serious troubles since Browserify >= 8.1.0",
+          "state": "closed",
+          "createdAt": "2015-03-24T11:03:14Z",
+          "closedAt": "2015-03-24T14:07:32Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 668,
+          "title": "Provide links to educational reference material",
+          "state": "open",
+          "createdAt": "2015-03-24T05:39:01Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 666,
+          "title": "Halt on promises-aplus-tests 2.x",
+          "state": "closed",
+          "createdAt": "2015-03-18T17:10:07Z",
+          "closedAt": "2015-03-19T02:47:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 665,
+          "title": "makeNodeResolver returns array of arguments instead of standard arguments",
+          "state": "closed",
+          "createdAt": "2015-03-18T16:40:56Z",
+          "closedAt": "2015-03-18T16:47:38Z",
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 57,
+        "totalFetched": 137,
+        "medianDaysToFirstResponse": 0.1,
+        "openOverOneYearNoReply": 16
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "\n## Note\n\nPlease consider using [JavaScript promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) instead of Q. Native promises are faster, have better tooling support and are the future.\n\nWhen work on Q began, promises were an academic novelty in JavaScript, unlikely to be adopted much less popular, though obviously full of…promise. Callbacks dominated the landscape. Q aimed to introduce a technology to JavaScript that had been proven and vetted in languages like E and C♯. With four years of incubation, evangelism, education, and feedback, promises became part of the language. Every modern browser contains a built-in `Promise` implementation. Being able to influence the internet and working on a library used by millions of codebases was an exciting and humbling experience.\n\nQ isn't going anywhere. The code is still here and bugs will be fixed but further development has been unnecessary for many years. We encourage you to read the code and the explainers to glimpse into the history of the internet.\n\n# Q\n\n[![Build Status](https://secure.travis-ci.org/kriskowal/q.svg?branch=master)](http://travis-ci.org/kriskowal/q)\n[![CDNJS](https://img.shields.io/cdnjs/v/q.js.svg)](https://cdnjs.com/libraries/q.js)\n\n<a href=\"http://promises-aplus.github.com/promises-spec\">\n    <img src=\"http://kriskowal.github.io/q/q.png\" align=\"right\" alt=\"Q logo\" />\n</a>\n\nIf a function cannot return a value or throw an exception without\nblocking, it can return a promise instead.  A promise is an object\nthat represents the return value or the thrown exception that the\nfunction may eventually provide.  A promise can also be used as a\nproxy for a [remote object][Q-Connection] to overcome latency.\n\n[Q-Connection]: https://github.com/kriskowal/q-connection\n\nOn the first pass, promises can mitigate the “[Pyramid of\nDoom][POD]”: the situation where code marches to the right faster\nthan it marches forward.\n\n[POD]: http://calculist.org/blog/2011/12/14/why-coroutines-wont-work-on-the-web/\n\n```javascript\nstep1(function (value1) {\n    step2(value1, function(value2) {\n        step3(value2, function(value3) {\n            step4(value3, function(value4) {\n                // Do something with value4\n            });\n        });\n    });\n});\n```\n\nWith a promise library, you can flatten the pyramid.\n\n```javascript\nQ.fcall(promisedStep1)\n.then(promisedStep2)\n.then(promisedStep3)\n.then(promisedStep4)\n.then(function (value4) {\n    // Do something with value4\n})\n.catch(function (error) {\n    // Handle any error from all above steps\n})\n.done();\n```\n\nWith this approach, you also get implicit error propagation, just like `try`,\n`catch`, and `finally`.  An error in `promisedStep1` will flow all the way to\nthe `catch` function, where it’s caught and handled.  (Here `promisedStepN` is\na version of `stepN` that returns a promise.)\n\nThe callback approach is called an “inversion of control”.\nA function that accepts a callback instead of a return value\nis saying, “Don’t call me, I’ll call you.”.  Promises\n[un-invert][IOC] the inversion, cleanly separating the input\narguments from control flow arguments.  This simplifies the\nuse and creation of API’s, particularly variadic,\nrest and spread arguments.\n\n[IOC]: http://www.slideshare.net/domenicdenicola/callbacks-promises-and-coroutines-oh-my-the-evolution-of-asynchronicity-in-javascript\n\n\n## Getting Started\n\nThe Q module can be loaded as:\n\n-   A ``<script>`` tag (creating a ``Q`` global variable): ~2.5 KB minified and\n    gzipped.\n-   A Node.js and CommonJS module, available in [npm](https://npmjs.org/) as\n    the [q](https://npmjs.org/package/q) package\n-   An AMD module\n-   A [component](https://github.com/component/component) as ``microjs/q``\n-   Using [bower](http://bower.io/) as `q#^1.4.1`\n-   Using [NuGet](http://nuget.org/) as [Q](https://nuget.org/packages/q)\n\nQ can exchange promises with jQuery, Dojo, When.js, WinJS, and more.\n\n## Resources\n\nOur [wiki][] contains a number of useful resources, including:\n\n- A method-by-method [Q API reference][reference].\n- A growing [examples gallery][examples], showing how Q can be used to make\n  everything better. From XHR to database access to accessing the Flickr API,\n  Q is there for you.\n- There are many libraries that produce and consume Q promises for everything\n  from file system/database access or RPC to templating. For a list of some of\n  the more popular ones, see [Libraries][].\n- If you want materials that introduce the promise concept generally, and the\n  below tutorial isn't doing it for you, check out our collection of\n  [presentations, blog posts, and podcasts][resources].\n- A guide for those [coming from jQuery's `$.Deferred`][jquery].\n\nWe'd also love to have you join the Q-Continuum [mailing list][].\n\n[wiki]: https://github.com/kriskowal/q/wiki\n[reference]: https://github.com/kriskowal/q/wiki/API-Reference\n[examples]: https://github.com/kriskowal/q/wiki/Examples-Gallery\n[Libraries]: https://github.com/kriskowal/q/wiki/Libraries\n[resources]: https://github.com/kriskowal/q/wiki/General-Promise-Resources\n[jquery]: https://github.com/kriskowal/q/wiki/Coming-from-jQuery\n[mailing list]: https://groups.google.com/forum/#!forum/q-continuum\n\n\n## Tutorial\n\nPromises have a ``then`` method, which you can use to get the eventual\nreturn value (fulfillment) or thrown exception (rejection).\n\n```javascript\npromiseMeSomething()\n.then(function (value) {\n}, function (reason) {\n});\n```\n\nIf ``promiseMeSomething`` returns a promise that gets fulfilled later\nwith a return value, the first function (the fulfillment handler) will be\ncalled with the value.  However, if the ``promiseMeSomething`` function\ngets rejected later by a thrown exception, the second function (the\nrejection handler) will be called with the exception.\n\nNote that resolution of a promise is always asynchronous: that is, the\nfulfillment or rejection handler will always be called in the next turn of the\nevent loop (i.e. `process.nextTick` in Node). This gives you a nice\nguarantee when mentally tracing the flow of your code, namely that\n``then`` will always return before either handler is executed.\n\nIn this tutorial, we begin with how to consume and work with promises. We'll\ntalk about how to create them, and thus create functions like\n`promiseMeSomething` that return promises, [below](#the-beginning).\n\n\n### Propagation\n\nThe ``then`` method returns a promise, which in this example, I’m\nassigning to ``outputPromise``.\n\n```javascript\nvar outputPromise = getInputPromise()\n.then(function (input) {\n}, function (reason) {\n});\n```\n\nThe ``outputPromise`` variable becomes a new promise for the return\nvalue of either handler.  Since a function can only either return a\nvalue or throw an exception, only one handler will ever be called and it\nwill be responsible for resolving ``outputPromise``.\n\n-   If you return a value in a handler, ``outputPromise`` will get\n    fulfilled.\n\n-   If you throw an exception in a handler, ``outputPromise`` will get\n    rejected.\n\n-   If you return a **promise** in a handler, ``outputPromise`` will\n    “become” that promise.  Being able to become a new promise is useful\n    for managing delays, combining results, or recovering from errors.\n\nIf the ``getInputPromise()`` promise gets rejected and you omit the\nrejection handler, the **error** will go to ``outputPromise``:\n\n```javascript\nvar outputPromise = getInputPromise()\n.then(function (value) {\n});\n```\n\nIf the input promise gets fulfilled and you omit the fulfillment handler, the\n**value** will go to ``outputPromise``:\n\n```javascript\nvar outputPromise = getInputPromise()\n.then(null, function (error) {\n});\n```\n\nQ promises provide a ``fail`` shorthand for ``then`` when you are only\ninterested in handling the error:\n\n```javascript\nvar outputPromise = getInputPromise()\n.fail(function (error) {\n});\n```\n\nIf you are writing JavaScript for modern engines only or using\nCoffeeScript, you may use `catch` instead of `fail`.\n\nPromises also have a ``fin`` function that is like a ``finally`` clause.\nThe final handler gets called, with no arguments, when the promise\nreturned by ``getInputPromise()`` either returns a value or throws an\nerror.  The value re",
+      "truncated": true
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 973,
+      "flatlineMonth": "2021-09",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:18:47.761Z"
+  },
+  "autopsy": {
+    "epitaph": "Born when callbacks ruled the earth and promises were a mere academic novelty, Q lived long enough to teach the language what it was missing—then watched, with quiet dignity, as native Promise swallowed it whole and its owner archived the grave.",
+    "causes": [
+      {
+        "label": "Superseded by native JavaScript Promises",
+        "confidencePct": 97,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#853"
+          },
+          {
+            "type": "issue",
+            "ref": "#805"
+          },
+          {
+            "type": "commit",
+            "ref": "d180f4a"
+          }
+        ]
+      },
+      {
+        "label": "Owner deliberately archived the repository",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "d180f4a"
+          },
+          {
+            "type": "issue",
+            "ref": "#866"
+          },
+          {
+            "type": "issue",
+            "ref": "#853"
+          }
+        ]
+      },
+      {
+        "label": "Commit activity flatlined years before archival",
+        "confidencePct": 88,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "6bc7f524eb104aca8bffde95f180b5210eb8dd4b"
+          },
+          {
+            "type": "branch",
+            "ref": "faust"
+          },
+          {
+            "type": "branch",
+            "ref": "continuum"
+          }
+        ]
+      },
+      {
+        "label": "Security vulnerabilities and dependency rot left unaddressed",
+        "confidencePct": 62,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#861"
+          },
+          {
+            "type": "issue",
+            "ref": "#741"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and publish a formal deprecation notice on npm pointing users to native Promise and modern alternatives like p-map or promise-fun",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Triage and close the 57 open issues, leaving only actionable bug reports with clear reproduction steps",
+        "effort": "a week"
+      },
+      {
+        "step": "Audit and update the dependency on 'qs' flagged in issue #861 to resolve the reported security vulnerability, then cut a patch release",
+        "effort": "a day or two"
+      },
+      {
+        "step": "Merge the abandoned long-lived branches (faust, then-done, thenable-inspect) or formally close them with explanation, reducing repository confusion",
+        "effort": "a long weekend"
+      },
+      {
+        "step": "Add a prominent deprecation badge to the README and publish a final 1.5.2 tombstone release to npm marking the package as deprecated so package managers surface the warning automatically",
+        "effort": "an afternoon"
+      }
+    ],
+    "lastWordsGloss": "'Add note' — and what a note it was: a gentle README whisper telling fifteen thousand stargazers to please stop using us."
+  }
+}

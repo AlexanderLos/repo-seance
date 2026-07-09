@@ -10,10 +10,11 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "evals": "tsx evals/run.ts",
+    "evals:record": "RECORD=1 node --env-file=.env.local --import tsx evals/run.ts",
     "e2e": "playwright test",
     "check:stats": "node scripts/check-hardcoded-stats.mjs",
     "check:secrets": "node scripts/check-bundle-secrets.mjs",
-    "precache": "tsx scripts/precache-graveyard.ts"
+    "precache": "node --env-file=.env.local --import tsx scripts/precache-graveyard.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.110.0",

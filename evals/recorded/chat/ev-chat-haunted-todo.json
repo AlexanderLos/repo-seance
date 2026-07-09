@@ -1,0 +1,4 @@
+{
+  "question": "What did you leave unfinished in the loader?",
+  "rawText": "The wound is still open in `src/loader.ts` — a `TODO` left in the code, a promise to handle empty input without crashing, never kept. Issue #5 was closed, perhaps patched over, but the comment remained, a whisper of the thing that was never truly fixed. I carried that small incompletion all the way to the end.\n\nEVIDENCE: [{\"type\":\"file\",\"ref\":\"src/loader.ts\"}, {\"type\":\"issue\",\"ref\":\"#5\"}]"
+}

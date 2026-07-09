@@ -1,0 +1,1843 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "googlearchive",
+      "name": "code-prettify",
+      "fullName": "googlearchive/code-prettify",
+      "description": "An embeddable script that makes source-code snippets in HTML prettier.",
+      "htmlUrl": "https://github.com/googlearchive/code-prettify",
+      "createdAt": "2015-04-22T18:32:17Z",
+      "pushedAt": "2020-04-21T16:43:49Z",
+      "archived": true,
+      "stars": 5766,
+      "forks": 884,
+      "defaultBranch": "master",
+      "license": "Apache-2.0"
+    },
+    "commits": {
+      "totalCount": 473,
+      "fetchedCount": 473,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2006-10",
+          "count": 12
+        },
+        {
+          "month": "2007-01",
+          "count": 5
+        },
+        {
+          "month": "2007-03",
+          "count": 3
+        },
+        {
+          "month": "2007-04",
+          "count": 5
+        },
+        {
+          "month": "2007-05",
+          "count": 1
+        },
+        {
+          "month": "2007-08",
+          "count": 3
+        },
+        {
+          "month": "2007-09",
+          "count": 1
+        },
+        {
+          "month": "2007-10",
+          "count": 1
+        },
+        {
+          "month": "2008-07",
+          "count": 17
+        },
+        {
+          "month": "2008-08",
+          "count": 1
+        },
+        {
+          "month": "2009-01",
+          "count": 11
+        },
+        {
+          "month": "2009-05",
+          "count": 12
+        },
+        {
+          "month": "2009-06",
+          "count": 1
+        },
+        {
+          "month": "2009-07",
+          "count": 2
+        },
+        {
+          "month": "2009-08",
+          "count": 2
+        },
+        {
+          "month": "2009-10",
+          "count": 6
+        },
+        {
+          "month": "2009-11",
+          "count": 3
+        },
+        {
+          "month": "2009-12",
+          "count": 7
+        },
+        {
+          "month": "2010-03",
+          "count": 1
+        },
+        {
+          "month": "2010-07",
+          "count": 12
+        },
+        {
+          "month": "2010-08",
+          "count": 3
+        },
+        {
+          "month": "2010-09",
+          "count": 1
+        },
+        {
+          "month": "2010-10",
+          "count": 3
+        },
+        {
+          "month": "2010-11",
+          "count": 3
+        },
+        {
+          "month": "2010-12",
+          "count": 2
+        },
+        {
+          "month": "2011-03",
+          "count": 51
+        },
+        {
+          "month": "2011-04",
+          "count": 3
+        },
+        {
+          "month": "2011-05",
+          "count": 5
+        },
+        {
+          "month": "2011-06",
+          "count": 7
+        },
+        {
+          "month": "2011-07",
+          "count": 3
+        },
+        {
+          "month": "2011-10",
+          "count": 1
+        },
+        {
+          "month": "2012-03",
+          "count": 22
+        },
+        {
+          "month": "2012-04",
+          "count": 6
+        },
+        {
+          "month": "2012-07",
+          "count": 2
+        },
+        {
+          "month": "2013-01",
+          "count": 1
+        },
+        {
+          "month": "2013-02",
+          "count": 47
+        },
+        {
+          "month": "2013-03",
+          "count": 10
+        },
+        {
+          "month": "2013-05",
+          "count": 1
+        },
+        {
+          "month": "2013-06",
+          "count": 3
+        },
+        {
+          "month": "2014-03",
+          "count": 1
+        },
+        {
+          "month": "2015-04",
+          "count": 21
+        },
+        {
+          "month": "2015-05",
+          "count": 2
+        },
+        {
+          "month": "2015-06",
+          "count": 1
+        },
+        {
+          "month": "2015-07",
+          "count": 4
+        },
+        {
+          "month": "2015-08",
+          "count": 21
+        },
+        {
+          "month": "2015-09",
+          "count": 13
+        },
+        {
+          "month": "2015-10",
+          "count": 3
+        },
+        {
+          "month": "2015-11",
+          "count": 1
+        },
+        {
+          "month": "2015-12",
+          "count": 20
+        },
+        {
+          "month": "2016-01",
+          "count": 2
+        },
+        {
+          "month": "2016-02",
+          "count": 5
+        },
+        {
+          "month": "2016-04",
+          "count": 2
+        },
+        {
+          "month": "2016-12",
+          "count": 7
+        },
+        {
+          "month": "2017-01",
+          "count": 72
+        },
+        {
+          "month": "2017-03",
+          "count": 1
+        },
+        {
+          "month": "2017-08",
+          "count": 1
+        },
+        {
+          "month": "2017-11",
+          "count": 7
+        },
+        {
+          "month": "2018-03",
+          "count": 3
+        },
+        {
+          "month": "2018-04",
+          "count": 1
+        },
+        {
+          "month": "2019-02",
+          "count": 1
+        },
+        {
+          "month": "2019-03",
+          "count": 1
+        },
+        {
+          "month": "2019-04",
+          "count": 1
+        },
+        {
+          "month": "2019-06",
+          "count": 1
+        },
+        {
+          "month": "2020-04",
+          "count": 1
+        }
+      ],
+      "recent": [
+        {
+          "sha": "e006587b4a893f0281e9dc9a53001c7ed584d4e7",
+          "message": "docs: mark as archived",
+          "date": "2020-04-21T16:43:39Z",
+          "authorName": "Grant Timmerman",
+          "authorLogin": "grant"
+        },
+        {
+          "sha": "f1c3473acd1e8ea8c8c1a60c56e89f5cdd06f915",
+          "message": "Fix hex color typo (#595)",
+          "date": "2019-06-20T16:18:13Z",
+          "authorName": "Alex Lynd",
+          "authorLogin": null
+        },
+        {
+          "sha": "e14ed1c3c40f78fca2a11af4cb0fa251f6f997fc",
+          "message": "Rust: Add missing dyn keyword, and add new reserved key word async, await and try (#590)",
+          "date": "2019-04-05T14:01:32Z",
+          "authorName": "Antoine PLASKOWSKI",
+          "authorLogin": "Stargateur"
+        },
+        {
+          "sha": "b5fa4d1bf0ba91cfa7f12a67b75b047a42d2f91f",
+          "message": "Remove RawGit dependency. (#573)",
+          "date": "2019-03-05T15:16:38Z",
+          "authorName": "Nuno Cruces",
+          "authorLogin": "ncruces"
+        },
+        {
+          "sha": "f20e1523dfd916f2502e212ec14e30a27ad50ec9",
+          "message": "Add top link to rawgit migration announcement",
+          "date": "2019-02-25T14:18:18Z",
+          "authorName": "Mike Samuel",
+          "authorLogin": "mikesamuel"
+        },
+        {
+          "sha": "453bd5f51e61245339b738b1bbdd42d7848722ba",
+          "message": "Add `from` as a JavaScript keyword (#539)",
+          "date": "2018-04-29T19:23:30Z",
+          "authorName": "Mathias Bynens",
+          "authorLogin": "mathiasbynens"
+        },
+        {
+          "sha": "fbd527e9f76914e36f730ec9849f2115473a65d8",
+          "message": "completing swift keywords: _, Any, repeat, throws, where (#528)",
+          "date": "2018-03-05T21:06:03Z",
+          "authorName": "Antoine Cœur",
+          "authorLogin": "Coeur"
+        },
+        {
+          "sha": "b1687472455bf934cf4eefd853f586298d493c4a",
+          "message": "patch previous commit into the files of record and rebuild derivatives",
+          "date": "2018-03-05T17:35:11Z",
+          "authorName": "Mike Samuel",
+          "authorLogin": "mikesamuel"
+        },
+        {
+          "sha": "5cd53ec210d8f32f503187b6b840668429c3fa9a",
+          "message": "Add `import` and `of` (`for`-`of`) to JSCRIPT_KEYWORDS (#530)",
+          "date": "2018-03-05T15:43:49Z",
+          "authorName": "Mathias Bynens",
+          "authorLogin": "mathiasbynens"
+        },
+        {
+          "sha": "05ad1b76f8af1232da963c17bad144107b07e59a",
+          "message": "Regenerated snapshotted files after merging a number of PRs.",
+          "date": "2017-11-03T17:09:59Z",
+          "authorName": "Mike Samuel",
+          "authorLogin": "mikesamuel"
+        },
+        {
+          "sha": "bc58215f06e0eb201f18c07ed4f91038e6610e30",
+          "message": "update lang-lasso.js (#443)",
+          "date": "2017-11-03T16:55:33Z",
+          "authorName": "Eric Knibbe",
+          "authorLogin": "EricFromCanada"
+        },
+        {
+          "sha": "2947694456da3bd93b87406a77c9495e7e3b5010",
+          "message": "Format i128 and u128 in Rust. (#465)",
+          "date": "2017-11-03T16:53:48Z",
+          "authorName": "Clar Roʒe",
+          "authorLogin": null
+        },
+        {
+          "sha": "db324aecea1dd688987a5b08455665c78fadde68",
+          "message": "define should be anonymous (#472)",
+          "date": "2017-11-03T16:53:18Z",
+          "authorName": "Thomas Grainger",
+          "authorLogin": "graingert"
+        },
+        {
+          "sha": "bc963bb01ea8ee225910a8ac3e898ff299066366",
+          "message": "Update lang-swift.js (#487)",
+          "date": "2017-11-03T16:49:25Z",
+          "authorName": "Antoine Cœur",
+          "authorLogin": "Coeur"
+        },
+        {
+          "sha": "c1433b2ead3b6984eec5b0a27699ccd1cdfbce6f",
+          "message": "Download link 404 (#490)",
+          "date": "2017-11-03T16:48:56Z",
+          "authorName": "Schalk Neethling",
+          "authorLogin": null
+        },
+        {
+          "sha": "8913c2fec0faf80edd3b18278cd4782884bd2be1",
+          "message": "small changes so that it can be used directly in a npm pipeline (#476)",
+          "date": "2017-11-03T16:48:09Z",
+          "authorName": "Alex Milanov",
+          "authorLogin": "alex-milanov"
+        },
+        {
+          "sha": "f425d31cd036c3dab7c5e49084e8d36bd7ebfd45",
+          "message": "Kotlin support (#496)",
+          "date": "2017-08-15T14:16:20Z",
+          "authorName": "Michael",
+          "authorLogin": "mibac138"
+        },
+        {
+          "sha": "760e6e7312ff9f6f6d2c0e02447186092b429feb",
+          "message": "Add Elixir language support (#478)",
+          "date": "2017-03-15T14:13:01Z",
+          "authorName": "Jacek Królikowski",
+          "authorLogin": "nietaki"
+        },
+        {
+          "sha": "e9fae9a0c8639ebfd86474bba9a46243a24b09c1",
+          "message": "element nodeName is case sensitive (fix #309)",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "61f16eb39cc672c6a19afac7bbc8dcac53448b0e",
+          "message": "minor fixes",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "d751df35bd1a8c87c7f20e1e41779c6d0443b94e",
+          "message": "prettify_tests: move test golden into own scripts",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "b84166ddb6f24f4fa79d43181604a2f4f5a06640",
+          "message": "prettify_tests: add a simple module loader instead of document.write",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "74828a36cd567750f95961947c3a1854d931e48f",
+          "message": "modules_tests: additional HTML normalization in tests",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "22643f20e21634d2a7dfd27b04b308a902b1025e",
+          "message": "modules_tests: update test reporting",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "185276e5762f369c11db477a00ca52a3451264f3",
+          "message": "modules_tests: fill job object fields",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "80860ab19f2cb3fa98c89952e53c2d1e02598ef8",
+          "message": "modules_tests: set classnames input/golden/actual",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "fafaeea09c69cf1031516b279cf9480fac01d6a9",
+          "message": "modules_tests: comments + minor edits",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "72fb21c48c72313078d8bbfbce9e9df8e3ede860",
+          "message": "modules_tests: properly close tags",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "2e91cf66abdd312ccb893fabc300e31428e62d8a",
+          "message": "modules_tests: move CSS to common stylesheet",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        },
+        {
+          "sha": "c12c0e48284d9231c9dc57c5f26cc30fd982ce9a",
+          "message": "modules_tests: minor edits",
+          "date": "2017-01-26T18:43:20Z",
+          "authorName": "Amro",
+          "authorLogin": "amroamroamro"
+        }
+      ],
+      "finalCommit": {
+        "sha": "e006587b4a893f0281e9dc9a53001c7ed584d4e7",
+        "message": "docs: mark as archived",
+        "date": "2020-04-21T16:43:39Z",
+        "authorName": "Grant Timmerman",
+        "authorLogin": "grant"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "master",
+          "lastCommitDate": "2020-04-21T16:43:39Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "release-10-Feb-2013",
+          "lastCommitDate": "2013-02-10T23:10:38Z",
+          "aheadBy": 1,
+          "behindBy": 225
+        },
+        {
+          "name": "wiki",
+          "lastCommitDate": "2015-04-22T18:34:49Z",
+          "aheadBy": null,
+          "behindBy": null
+        }
+      ],
+      "capped": false
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 621,
+          "title": "Add support to MiniZinc",
+          "state": "open",
+          "createdAt": "2020-04-20T12:33:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 620,
+          "title": "Request support for DigitalMicrograph Scripting language (DM-script)",
+          "state": "open",
+          "createdAt": "2020-04-17T16:52:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 619,
+          "title": "How auto justify codes?",
+          "state": "open",
+          "createdAt": "2020-04-14T01:26:01Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 617,
+          "title": "Added 'record' among Java keywords",
+          "state": "open",
+          "createdAt": "2020-04-11T18:54:13Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 616,
+          "title": "Request support of ChoiceScript language",
+          "state": "open",
+          "createdAt": "2020-04-10T15:57:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 615,
+          "title": "Makefile: is it really supported?",
+          "state": "open",
+          "createdAt": "2020-03-20T11:22:54Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 614,
+          "title": "Golang run-on string when backticks appear to be escaped",
+          "state": "open",
+          "createdAt": "2020-03-04T17:33:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 613,
+          "title": "Request: terraform / hcl language support",
+          "state": "open",
+          "createdAt": "2020-02-28T15:08:09Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 610,
+          "title": "XSS risks?",
+          "state": "open",
+          "createdAt": "2020-02-26T10:01:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 608,
+          "title": "Extra white-space appears on the first line",
+          "state": "closed",
+          "createdAt": "2020-02-03T13:40:45Z",
+          "closedAt": "2020-02-03T15:42:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 606,
+          "title": "Wrong highlighting on stackoverflow.com vba if default is used",
+          "state": "open",
+          "createdAt": "2020-01-07T21:00:39Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 604,
+          "title": "Performance problem with \"Hit Test\" in Chrome",
+          "state": "closed",
+          "createdAt": "2019-12-23T14:25:10Z",
+          "closedAt": "2019-12-24T19:46:42Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 603,
+          "title": "White space indentation added on Firefox when using linenums class",
+          "state": "open",
+          "createdAt": "2019-12-07T11:03:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 602,
+          "title": "Add support for AppleScript",
+          "state": "open",
+          "createdAt": "2019-11-20T14:32:53Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 599,
+          "title": "How to use `Google Code Prettifier` to VBA macro in Microsoft Excel ?",
+          "state": "open",
+          "createdAt": "2019-08-08T16:30:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 598,
+          "title": "Add support for Perl6",
+          "state": "open",
+          "createdAt": "2019-07-30T18:12:09Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 597,
+          "title": "No GitHub wiki",
+          "state": "open",
+          "createdAt": "2019-07-26T23:42:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 596,
+          "title": "Add support for Idris",
+          "state": "open",
+          "createdAt": "2019-07-03T23:17:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 591,
+          "title": "[Feature Request] Add diff / patch highlighting support for StackExchange websites.",
+          "state": "open",
+          "createdAt": "2019-05-11T18:01:02Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 587,
+          "title": "Add support for Chapel?",
+          "state": "open",
+          "createdAt": "2019-03-06T19:11:28Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 586,
+          "title": "Add support for Gradle/Groovy",
+          "state": "open",
+          "createdAt": "2019-03-04T14:45:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 585,
+          "title": "Error loading library for python: ModuleNotFoundErrorNo module named 'yapf'",
+          "state": "open",
+          "createdAt": "2019-03-02T04:55:56Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 584,
+          "title": "pre tags with different languages",
+          "state": "closed",
+          "createdAt": "2019-02-24T00:59:02Z",
+          "closedAt": "2019-02-24T01:01:05Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 582,
+          "title": "got 404 when loading java syntax skin js file",
+          "state": "open",
+          "createdAt": "2019-02-23T23:15:40Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 581,
+          "title": "Can't get this lib to work in html",
+          "state": "closed",
+          "createdAt": "2019-02-18T00:31:53Z",
+          "closedAt": "2019-02-18T00:47:12Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 580,
+          "title": "Export prettify as a function",
+          "state": "open",
+          "createdAt": "2019-01-29T17:22:27Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 578,
+          "title": "How to use in vue.js",
+          "state": "open",
+          "createdAt": "2019-01-22T15:31:57Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 575,
+          "title": "Add support for .ini files",
+          "state": "open",
+          "createdAt": "2019-01-07T12:29:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 574,
+          "title": "allow using code-prettify without dom",
+          "state": "open",
+          "createdAt": "2018-12-27T02:11:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 572,
+          "title": "[Ruby] Magic global variables like $` confuse highlighter",
+          "state": "open",
+          "createdAt": "2018-11-20T18:51:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 571,
+          "title": "\"code prettifier\" doesn't prettify any code",
+          "state": "closed",
+          "createdAt": "2018-11-18T13:56:53Z",
+          "closedAt": "2019-03-18T09:59:16Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 567,
+          "title": "Support AppleScript",
+          "state": "open",
+          "createdAt": "2018-11-12T02:43:16Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 564,
+          "title": "repo has dependencies on rawgit, which is shutting down",
+          "state": "closed",
+          "createdAt": "2018-10-14T22:11:32Z",
+          "closedAt": "2019-03-05T15:16:39Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 563,
+          "title": "XML attribute value with \">\" breaks syntax highlighting",
+          "state": "open",
+          "createdAt": "2018-10-11T10:54:34Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 561,
+          "title": "Code-prettify treats the character literal '\"' as the start of a double quoted string",
+          "state": "closed",
+          "createdAt": "2018-09-07T20:36:55Z",
+          "closedAt": "2018-09-07T22:52:33Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 560,
+          "title": "SystemVerilog support",
+          "state": "open",
+          "createdAt": "2018-08-30T07:25:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 559,
+          "title": "add `diff` language to highlight diff pastes",
+          "state": "open",
+          "createdAt": "2018-08-22T08:52:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 555,
+          "title": "using prettify.js to style editable code",
+          "state": "closed",
+          "createdAt": "2018-07-20T07:32:50Z",
+          "closedAt": "2018-07-24T09:47:12Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 554,
+          "title": "Add Chrome to list of supported browsers.",
+          "state": "open",
+          "createdAt": "2018-07-19T15:51:40Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 553,
+          "title": "Docblock highlighting in PHP sometimes doesn't work",
+          "state": "open",
+          "createdAt": "2018-07-07T21:41:45Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 551,
+          "title": "[Kotlin] functions are not highlighted correctly",
+          "state": "open",
+          "createdAt": "2018-06-15T14:16:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 550,
+          "title": "[Kotlin] annotations are keywords are highlighted differently",
+          "state": "open",
+          "createdAt": "2018-06-15T14:14:15Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 549,
+          "title": "[Kotlin] String interpolation is not highlighted correctly",
+          "state": "open",
+          "createdAt": "2018-06-15T14:10:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 548,
+          "title": "[Kotlin] numbers are highlighted incorrectly in function names",
+          "state": "open",
+          "createdAt": "2018-06-15T14:09:28Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 547,
+          "title": "C++ syntax out of date",
+          "state": "open",
+          "createdAt": "2018-06-11T23:48:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 546,
+          "title": "Doesn't perfectly work when reload dynamically with javascript. ",
+          "state": "closed",
+          "createdAt": "2018-05-31T06:28:50Z",
+          "closedAt": "2018-05-31T18:54:35Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 545,
+          "title": "Support for Liquid",
+          "state": "open",
+          "createdAt": "2018-05-25T07:22:34Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 544,
+          "title": "Incorrect comment detection inside Bash parameter expansion",
+          "state": "closed",
+          "createdAt": "2018-05-24T21:17:45Z",
+          "closedAt": "2018-05-24T21:29:46Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 541,
+          "title": "Python highlighting combination \"\"\"\" \" \"\"\"\"",
+          "state": "closed",
+          "createdAt": "2018-05-09T15:14:05Z",
+          "closedAt": "2018-05-09T15:27:15Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 540,
+          "title": "More skins per page",
+          "state": "open",
+          "createdAt": "2018-05-04T20:18:34Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 538,
+          "title": "Whether to consider supporting Flask-Jinja2??",
+          "state": "open",
+          "createdAt": "2018-04-24T09:17:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 535,
+          "title": "Ruby range syntax ( `..` double-dot and `...` triple-dot) is broken ",
+          "state": "open",
+          "createdAt": "2018-04-03T07:36:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 534,
+          "title": "Have it use local copy of prettify.css?",
+          "state": "closed",
+          "createdAt": "2018-04-01T22:16:19Z",
+          "closedAt": "2018-04-02T13:11:42Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 533,
+          "title": "Add YARA support",
+          "state": "open",
+          "createdAt": "2018-03-28T19:00:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 531,
+          "title": "Add support for Markdown “language” ",
+          "state": "open",
+          "createdAt": "2018-03-16T00:10:23Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 529,
+          "title": "Lua highlighter thinks -- inside [[ .. ]] is a comment",
+          "state": "open",
+          "createdAt": "2018-03-03T00:38:34Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 527,
+          "title": "prettify code appended via js, after page load ",
+          "state": "closed",
+          "createdAt": "2018-02-18T21:16:01Z",
+          "closedAt": "2018-02-18T21:25:55Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 526,
+          "title": "Change loading order of the prettify css",
+          "state": "open",
+          "createdAt": "2018-02-15T00:37:00Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 524,
+          "title": "lang-bash: single-quoted backslash '\\' is not interpreted correctly",
+          "state": "open",
+          "createdAt": "2018-02-08T09:11:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 523,
+          "title": "Limit prettifying by time",
+          "state": "open",
+          "createdAt": "2018-01-30T08:00:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 522,
+          "title": "Terminal tag isn't colored properly",
+          "state": "closed",
+          "createdAt": "2018-01-26T00:52:11Z",
+          "closedAt": "2018-01-26T01:27:55Z",
+          "comments": 4,
+          "labels": [
+            "Status-Invalid",
+            "lang-html"
+          ]
+        },
+        {
+          "number": 521,
+          "title": "Support question: formatting js code ",
+          "state": "closed",
+          "createdAt": "2018-01-06T07:03:07Z",
+          "closedAt": "2018-01-06T08:18:14Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 520,
+          "title": "sparql support",
+          "state": "open",
+          "createdAt": "2018-01-05T09:41:32Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "enhancement",
+            "lang-sql"
+          ]
+        },
+        {
+          "number": 519,
+          "title": "Can't type angle brackets in Markdown",
+          "state": "closed",
+          "createdAt": "2017-12-25T21:31:59Z",
+          "closedAt": "2018-01-11T21:33:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 517,
+          "title": "How to remove black box around code (or change it's color)",
+          "state": "closed",
+          "createdAt": "2017-12-16T00:04:13Z",
+          "closedAt": "2017-12-31T02:34:16Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 516,
+          "title": "Add support for shell_session syntax highlighting",
+          "state": "open",
+          "createdAt": "2017-12-13T08:15:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 515,
+          "title": "regex lookbehind question",
+          "state": "open",
+          "createdAt": "2017-12-12T16:52:38Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 514,
+          "title": "can i highlight a specific line?",
+          "state": "closed",
+          "createdAt": "2017-12-10T11:10:43Z",
+          "closedAt": "2017-12-10T11:17:05Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 513,
+          "title": "Add support for pine-script (Tradingview)",
+          "state": "open",
+          "createdAt": "2017-12-04T09:50:12Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "number": 510,
+          "title": "Additional line break started appearing in the code",
+          "state": "closed",
+          "createdAt": "2017-11-08T19:55:58Z",
+          "closedAt": "2017-11-08T20:08:54Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 509,
+          "title": "C# functions are treated as types",
+          "state": "open",
+          "createdAt": "2017-11-01T02:24:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 508,
+          "title": "Add support for CMake syntax",
+          "state": "open",
+          "createdAt": "2017-10-11T10:22:53Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 507,
+          "title": "Use commit or tag instead of branch in RawGit URL",
+          "state": "open",
+          "createdAt": "2017-10-04T19:42:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 506,
+          "title": "Add support for AutoHotkey syntax",
+          "state": "open",
+          "createdAt": "2017-08-31T13:39:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 505,
+          "title": "Add Kotlin to the list of supported languages",
+          "state": "open",
+          "createdAt": "2017-08-19T12:35:35Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 504,
+          "title": "Lua highlighter doesn't recognize literal (raw) strings",
+          "state": "open",
+          "createdAt": "2017-08-17T19:53:50Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "bug",
+            "lang-lua"
+          ]
+        },
+        {
+          "number": 503,
+          "title": "Support for assembler",
+          "state": "closed",
+          "createdAt": "2017-08-13T11:11:03Z",
+          "closedAt": "2017-08-18T09:00:12Z",
+          "comments": 1,
+          "labels": [
+            "Status-Duplicate",
+            "lang-asm"
+          ]
+        },
+        {
+          "number": 502,
+          "title": "VBA Highlighting Syntax issues",
+          "state": "closed",
+          "createdAt": "2017-08-10T19:32:53Z",
+          "closedAt": "2017-08-12T09:39:50Z",
+          "comments": 1,
+          "labels": [
+            "Status-Invalid",
+            "lang-vb"
+          ]
+        },
+        {
+          "number": 501,
+          "title": "404 on CDN",
+          "state": "closed",
+          "createdAt": "2017-08-03T00:58:26Z",
+          "closedAt": "2017-08-10T21:03:13Z",
+          "comments": 1,
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "number": 499,
+          "title": "https://github.com/kyamagu/mexopencv/blob/cf1a888af62da199e2e049433af431f2d10e70b2/Makefile",
+          "state": "closed",
+          "createdAt": "2017-07-28T22:47:43Z",
+          "closedAt": "2017-08-10T20:52:25Z",
+          "comments": 0,
+          "labels": [
+            "Status-Invalid"
+          ]
+        },
+        {
+          "number": 498,
+          "title": "Consistently document and tag releases",
+          "state": "open",
+          "createdAt": "2017-07-24T11:10:46Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 497,
+          "title": "Support for JSX",
+          "state": "open",
+          "createdAt": "2017-07-07T13:43:25Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 495,
+          "title": "JSDoc prettyprint's plain text markdown, adding colors",
+          "state": "closed",
+          "createdAt": "2017-07-04T20:43:24Z",
+          "closedAt": "2017-07-19T17:26:35Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 494,
+          "title": "lang-html does not support data attributes",
+          "state": "closed",
+          "createdAt": "2017-06-28T20:55:47Z",
+          "closedAt": "2017-08-10T21:31:58Z",
+          "comments": 2,
+          "labels": [
+            "Status-Invalid",
+            "lang-html"
+          ]
+        },
+        {
+          "number": 493,
+          "title": "Missing Documentation :: Guidelines for submissions.",
+          "state": "open",
+          "createdAt": "2017-06-19T21:02:53Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 492,
+          "title": "JavaScript template literals not highlighted properly.",
+          "state": "open",
+          "createdAt": "2017-06-04T08:49:57Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 491,
+          "title": "Kotlin language support",
+          "state": "closed",
+          "createdAt": "2017-05-20T17:49:29Z",
+          "closedAt": "2017-08-18T09:03:22Z",
+          "comments": 3,
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "number": 489,
+          "title": "Shell does not have types",
+          "state": "open",
+          "createdAt": "2017-05-15T20:48:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 488,
+          "title": "xml invisible",
+          "state": "closed",
+          "createdAt": "2017-05-11T13:41:48Z",
+          "closedAt": "2017-08-12T09:53:32Z",
+          "comments": 1,
+          "labels": [
+            "Status-Duplicate",
+            "Status-Invalid",
+            "lang-html"
+          ]
+        },
+        {
+          "number": 484,
+          "title": "Syntax Highlighting Regarding 'union' Keyword in Java",
+          "state": "open",
+          "createdAt": "2017-04-27T00:29:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 483,
+          "title": "Adding support for x86 assembly language",
+          "state": "open",
+          "createdAt": "2017-04-19T13:20:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "lang-asm"
+          ]
+        },
+        {
+          "number": 482,
+          "title": "Syntax highlighting for python 3 treats `//` as comment",
+          "state": "closed",
+          "createdAt": "2017-03-28T21:23:59Z",
+          "closedAt": "2017-03-29T06:25:39Z",
+          "comments": 4,
+          "labels": [
+            "Status-Invalid",
+            "lang-py"
+          ]
+        },
+        {
+          "number": 481,
+          "title": "404 when I try to download the resources",
+          "state": "closed",
+          "createdAt": "2017-03-07T16:02:13Z",
+          "closedAt": "2017-03-13T16:13:38Z",
+          "comments": 3,
+          "labels": [
+            "Status-Duplicate"
+          ]
+        },
+        {
+          "number": 480,
+          "title": "Gitter Chat Room",
+          "state": "open",
+          "createdAt": "2017-03-03T22:59:25Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "discussion"
+          ]
+        },
+        {
+          "number": 479,
+          "title": "Cannot locate/download project archive",
+          "state": "open",
+          "createdAt": "2017-03-03T16:22:38Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 477,
+          "title": "C# String Interpolation",
+          "state": "open",
+          "createdAt": "2017-02-27T17:28:05Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "enhancement",
+            "lang-cs"
+          ]
+        },
+        {
+          "number": 473,
+          "title": "use babel + es2017 import/export to generate UMD modules",
+          "state": "open",
+          "createdAt": "2017-01-21T13:12:24Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 468,
+          "title": " HTML synthax highlighting not displaying correclty",
+          "state": "open",
+          "createdAt": "2017-01-18T12:50:49Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "lang-html"
+          ]
+        },
+        {
+          "number": 462,
+          "title": "Add main fileld to package.json",
+          "state": "closed",
+          "createdAt": "2016-11-22T15:30:29Z",
+          "closedAt": "2017-01-21T13:04:57Z",
+          "comments": 3,
+          "labels": [
+            "enhancement",
+            "build/install"
+          ]
+        },
+        {
+          "number": 461,
+          "title": "Please add support for ReStructured Text",
+          "state": "open",
+          "createdAt": "2016-11-18T21:57:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "enhancement"
+          ]
+        },
+        {
+          "number": 459,
+          "title": "Tag a git(hub) release",
+          "state": "closed",
+          "createdAt": "2016-11-03T04:01:29Z",
+          "closedAt": "2016-12-11T19:03:37Z",
+          "comments": 1,
+          "labels": [
+            "Status-Duplicate",
+            "build/install"
+          ]
+        },
+        {
+          "number": 458,
+          "title": "PowerShell: backslash is not an escape character in a double quoted string",
+          "state": "open",
+          "createdAt": "2016-10-27T05:16:23Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 454,
+          "title": "Shell: Double-quotes inside a comment inside a quoted command substitution create confusion ",
+          "state": "open",
+          "createdAt": "2016-09-02T13:05:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "bug",
+            "lang-sh"
+          ]
+        },
+        {
+          "number": 453,
+          "title": "Shell: parsing quotes inside comment inside command substituion",
+          "state": "closed",
+          "createdAt": "2016-09-02T09:33:38Z",
+          "closedAt": "2016-09-02T12:36:10Z",
+          "comments": 4,
+          "labels": [
+            "bug",
+            "Status-Invalid",
+            "lang-sh"
+          ]
+        },
+        {
+          "number": 452,
+          "title": "Allow skipping skin loading",
+          "state": "open",
+          "createdAt": "2016-08-24T13:01:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 451,
+          "title": "Feature: Cassandra Query Language (cql) support",
+          "state": "open",
+          "createdAt": "2016-08-18T13:37:18Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "enhancement",
+            "question"
+          ]
+        },
+        {
+          "number": 450,
+          "title": "Functionality request - Code formatting",
+          "state": "closed",
+          "createdAt": "2016-08-07T10:34:37Z",
+          "closedAt": "2016-09-01T14:56:59Z",
+          "comments": 2,
+          "labels": [
+            "enhancement",
+            "Status-WontFix"
+          ]
+        },
+        {
+          "number": 449,
+          "title": "Python comments not highlighted as such when not preceded by a space",
+          "state": "open",
+          "createdAt": "2016-07-28T18:25:48Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": [
+            "bug",
+            "lang-py"
+          ]
+        },
+        {
+          "number": 444,
+          "title": "Adding content after the page is loaded (and was pretty-printed)",
+          "state": "closed",
+          "createdAt": "2016-07-15T19:25:32Z",
+          "closedAt": "2016-07-15T21:08:49Z",
+          "comments": 6,
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "number": 439,
+          "title": "Swift's #selector statement seems not to terminate correctly",
+          "state": "closed",
+          "createdAt": "2016-06-17T15:38:02Z",
+          "closedAt": "2016-06-17T16:15:59Z",
+          "comments": 2,
+          "labels": [
+            "Status-Invalid",
+            "lang-swift"
+          ]
+        },
+        {
+          "number": 438,
+          "title": "Skins broken?",
+          "state": "closed",
+          "createdAt": "2016-06-01T11:31:13Z",
+          "closedAt": "2016-06-02T07:22:40Z",
+          "comments": 2,
+          "labels": [
+            "Status-Invalid"
+          ]
+        },
+        {
+          "number": 437,
+          "title": "Objective-C nonnull and nullable keywords aren't highlighted",
+          "state": "open",
+          "createdAt": "2016-05-04T00:17:52Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "enhancement",
+            "lang-objc"
+          ]
+        },
+        {
+          "number": 434,
+          "title": "Prettifying JSON Schema",
+          "state": "closed",
+          "createdAt": "2016-04-27T15:57:05Z",
+          "closedAt": "2016-06-08T13:40:43Z",
+          "comments": 2,
+          "labels": [
+            "question"
+          ]
+        },
+        {
+          "number": 432,
+          "title": "Add bower.json",
+          "state": "closed",
+          "createdAt": "2016-04-16T17:23:17Z",
+          "closedAt": "2017-01-21T12:58:36Z",
+          "comments": 2,
+          "labels": [
+            "enhancement",
+            "build/install"
+          ]
+        },
+        {
+          "number": 429,
+          "title": "Wrapping long lines of code",
+          "state": "closed",
+          "createdAt": "2016-04-08T09:40:59Z",
+          "closedAt": "2016-04-29T08:43:43Z",
+          "comments": 2,
+          "labels": [
+            "Status-Invalid",
+            "question"
+          ]
+        },
+        {
+          "number": 427,
+          "title": "Syntax / Code Highlighting extended component",
+          "state": "closed",
+          "createdAt": "2016-03-03T09:49:21Z",
+          "closedAt": "2016-03-03T09:50:53Z",
+          "comments": 0,
+          "labels": [
+            "Status-Invalid"
+          ]
+        },
+        {
+          "number": 425,
+          "title": "Objective-C #import and #include directives show as comments",
+          "state": "open",
+          "createdAt": "2016-02-18T01:38:35Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "lang-objc"
+          ]
+        },
+        {
+          "number": 424,
+          "title": "Pack code-prettify into a oficial npm package",
+          "state": "closed",
+          "createdAt": "2016-02-12T17:57:08Z",
+          "closedAt": "2016-06-21T12:57:43Z",
+          "comments": 1,
+          "labels": [
+            "Status-Duplicate",
+            "build/install"
+          ]
+        },
+        {
+          "number": 422,
+          "title": "Use Github Pages instead of Rawgit",
+          "state": "closed",
+          "createdAt": "2016-02-05T22:09:51Z",
+          "closedAt": "2019-03-05T15:16:39Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 420,
+          "title": "C# 6.0 String Interpolation",
+          "state": "open",
+          "createdAt": "2016-02-03T14:47:15Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": [
+            "enhancement",
+            "lang-cs"
+          ]
+        },
+        {
+          "number": 419,
+          "title": "Skin fails to load from minified version on CDNJS",
+          "state": "open",
+          "createdAt": "2016-01-30T10:27:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 416,
+          "title": "Add support for the Julia language",
+          "state": "open",
+          "createdAt": "2016-01-10T23:28:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": [
+            "enhancement",
+            "lang-julia"
+          ]
+        }
+      ],
+      "stats": {
+        "openCount": 80,
+        "totalFetched": 122,
+        "medianDaysToFirstResponse": 3.4,
+        "openOverOneYearNoReply": 45
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Status: Archived\n\n![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)\n\nThis repository has been archived and is no longer maintained.\n\n---\n\n# JavaScript code prettifier\n\nAnnouncement: [**Action required** *rawgit.com* is going away](https://groups.google.com/forum/#!topic/js-code-prettifier/IFHev_kLm30).\n\nAn embeddable script that makes source-code snippets in HTML prettier.\n\n* Works on HTML pages.\n* Works even if code contains embedded links, line numbers, etc.\n* Simple API: include some JS & CSS and add an onload handler.\n* Lightweights: small download and does not block page from loading while\n  running.\n* Customizable styles via CSS. See the [themes gallery][1].\n* Supports all C-like, Bash-like, and XML-like languages. No need to specify\n  the language.\n* Extensible language handlers for other languages. You can specify the\n  language.\n* Widely used with good cross-browser support. Powers https://code.google.com/\n  and http://stackoverflow.com/\n\n[See an example][2].\n\n## Setup\n\n * Include the script tag below in your document:\n```HTML\n<script src=\"https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js\"></script>\n```\n * See [Getting Started](docs/getting_started.md) to configure that URL with\n   options you need.\n * Look at the [skin gallery][1] and pick styles that suit you.\n\n## Usage\n\nPut code snippets in `<pre class=\"prettyprint\">...</pre>` or\n`<code class=\"prettyprint\">...</code>` and it will automatically be\npretty-printed.\n\n```HTML\n<pre class=\"prettyprint\">class Voila {\npublic:\n  // Voila\n  static const string VOILA = \"Voila\";\n\n  // will not interfere with embedded <a href=\"#voila2\">tags</a>.\n}</pre>\n```\n\n## FAQ\n\n### For which languages does it work?\n\nThe comments in `prettify.js` are authoritative but the lexer should work on a\nnumber of languages including C and friends, Java, Python, Bash, SQL, HTML,\nXML, CSS, JavaScript, Makefile, and Rust.\n\nIt works passably on Ruby, PHP, VB, and Awk and a decent subset of Perl and\nRuby, but because of commenting conventions, doesn't work on Smalltalk, OCaml,\netc. without a language extension.\n\nOther languages are supported via extensions:\n\n[Apollo](src/lang-apollo.js);\n[Basic](src/lang-basic.js);\n[Clojure](src/lang-clj.js);\n[CSS](src/lang-css.js);\n[Dart](src/lang-dart.js);\n[Erlang](src/lang-erlang.js);\n[Go](src/lang-go.js);\n[Haskell](src/lang-hs.js);\n[Lasso](src/lang-lasso.js);\n[Lisp, Scheme](src/lang-lisp.js);\n[LLVM](src/lang-llvm.js);\n[Logtalk](src/lang-logtalk.js);\n[Lua](src/lang-lua.js);\n[MATLAB](src/lang-matlab.js);\n[MLs: F#, Ocaml,SML](src/lang-ml.js);\n[Mumps](src/lang-mumps.js);\n[Nemerle](src/lang-n.js);\n[Pascal](src/lang-pascal.js);\n[Protocol buffers](src/lang-proto.js);\n[R, S](src/lang-r.js);\n[RD](src/lang-rd.js);\n[Rust](src/lang-rust.js);\n[Scala](src/lang-scala.js);\n[SQL](src/lang-sql.js);\n[Swift](src/lang-swift.js);\n[TCL](src/lang-tcl.js);\n[LaTeX](src/lang-tex.js);\n[Visual Basic](src/lang-vb.js);\n[VHDL](src/lang-vhdl.js);\n[Wiki](src/lang-wiki.js);\n[XQ](src/lang-xq.js);\n[YAML](src/lang-yaml.js)\n\nIf you'd like to add an extension for your favorite language, please look at\n`src/lang-lisp.js` and submit a pull request.\n\n### How do I specify the language of my code?\n\nYou don't need to specify the language since `PR.prettyPrint()` will guess.\nYou can specify a language by specifying the language extension along with the\n`prettyprint` class:\n\n```HTML\n<pre class=\"prettyprint lang-html\">\n  The lang-* class specifies the language file extensions.\n  File extensions supported by default include:\n    \"bsh\", \"c\", \"cc\", \"cpp\", \"cs\", \"csh\", \"cyc\", \"cv\", \"htm\", \"html\", \"java\",\n    \"js\", \"m\", \"mxml\", \"perl\", \"pl\", \"pm\", \"py\", \"rb\", \"sh\", \"xhtml\", \"xml\",\n    \"xsl\".\n</pre>\n```\n\nYou may also use the [HTML 5][3] convention of embedding a `<code>` element\ninside the `<pre>` and using `language-java` style classes:\n\n```HTML\n<pre class=\"prettyprint\"><code class=\"language-java\">...</code></pre>\n```\n\n### It doesn't work on \"obfuscated code sample\"?\n\nYes. Prettifying obfuscated code is like putting lipstick on a pig &mdash;\ni.e. outside the scope of this tool.\n\n### Which browsers does it work with?\n\nIt's been tested with IE 6, Firefox 1.5 & 2, and Safari 2.0.4. Look at\n[the tests][4] to see if it works in your browser.\n\n### What's changed?\n\nSee the [changelog](CHANGES.md).\n\n### Why doesn't Prettyprinting of strings work on WordPress?\n\nApparently wordpress does \"smart quoting\" which changes close quotes.  This\ncauses end quotes to not match up with open quotes.\n\nThis breaks prettifying as well as copying and pasting of code samples.  See\n[WordPress's help center][5] for info on how to stop smart quoting of code\nsnippets.\n\n### How do I put line numbers in my code?\n\nYou can use the `linenums` class to turn on line numbering.  If your code\ndoesn't start at line number `1`, you can add a colon and a line number to the\nend of that class as in `linenums:52`. For example:\n\n```HTML\n<pre class=\"prettyprint linenums:4\"\n>// This is line 4.\nfoo();\nbar();\nbaz();\nboo();\nfar();\nfaz();\n</pre>\n```\n\n### How do I prevent a portion of markup from being marked as code?\n\nYou can use the `nocode` class to identify a span of markup that is not code:\n\n```HTML\n<pre class=\"prettyprint\">\nint x = foo();  /* This is a comment  <span class=\"nocode\">This is not code</span>\n  Continuation of comment */\nint y = bar();\n</pre>\n```\n\nFor a more complete example see the [issue #22 testcase][6].\n\n### I get an error message \"a is not a function\" or \"opt_whenDone is not a function\"\n\nIf you are calling `prettyPrint` via an event handler, wrap it in a function.\nInstead of doing:\n\n```JavaScript\naddEventListener('load', PR.prettyPrint, false);\n```\n\nwrap it in a closure like:\n\n```JavaScript\naddEventListener('load', function(event) { PR.prettyPrint(); }, false);\n```\n\nso that the browser does not pass an event object to `PR.prettyPrint`\nwhich will confuse it.\n\n### How can I customize the colors and styles of my code?\n\nPrettify adds `<span>` with `class`es describing the kind of code.  You can\ncreate CSS styles to matches these classes.\n\nSee the [theme gallery][1] for examples.\n\n### I can't add classes to my code (because it comes from Markdown, etc.)\n\nInstead of `<pre class=\"prettyprint ...\">` you can use a comment or processing\ninstructions that survives processing instructions: `<?prettify ...?>` works\nas explained in [Getting Started](docs/getting_started.md).\n\n### How can I put line numbers on every line instead of just every fifth line?\n\nPrettify puts lines into an HTML list element so that line numbers aren't\ncaught by copy/paste, and the line numbering is controlled by CSS in the\ndefault stylesheet, `prettify.css`.\n\nThe following should turn line numbering back on for the other lines:\n\n```HTML\n<style>\nli.L0, li.L1, li.L2, li.L3,\nli.L5, li.L6, li.L7, li.L8 {\n  list-style-type: decimal !important;\n}\n</style>\n```\n\n## Discussion\n\nPlease use the official [support group][7] for discussions, suggestions, and\ngeneral feedback.\n\n## License\n\n[Apache License 2.0](COPYING)\n\n\n[1]: https://raw.githack.com/google/code-prettify/master/styles/index.html\n[2]: https://raw.githack.com/google/code-prettify/master/examples/quine.html\n[3]: http://dev.w3.org/html5/spec-author-view/the-code-element.html#the-code-element\n[4]: https://raw.githack.com/google/code-prettify/master/tests/prettify_test.html\n[5]: http://wordpress.org/support/topic/125038\n[6]: https://raw.githack.com/google/code-prettify/master/tests/prettify_test.html#issue22\n[7]: http://groups.google.com/group/js-code-prettifier\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 2269,
+      "flatlineMonth": "2020-04",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:17:18.863Z"
+  },
+  "autopsy": {
+    "epitaph": "Once it made the code of Google and Stack Overflow beautiful, but Google archived it in April 2020, and now its 80 open issues moulder unanswered like syntax errors in a forgotten file.",
+    "causes": [
+      {
+        "label": "Deliberate archival by owner",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "e006587b4a893f0281e9dc9a53001c7ed584d4e7"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      },
+      {
+        "label": "Chronic maintainer abandonment — commit activity collapsed to near-zero",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "e006587b4a893f0281e9dc9a53001c7ed584d4e7"
+          },
+          {
+            "type": "issue",
+            "ref": "#498"
+          }
+        ]
+      },
+      {
+        "label": "Accumulation of unresolved bugs and feature requests with no triage",
+        "confidencePct": 85,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#610"
+          },
+          {
+            "type": "issue",
+            "ref": "#614"
+          },
+          {
+            "type": "issue",
+            "ref": "#617"
+          },
+          {
+            "type": "issue",
+            "ref": "#492"
+          }
+        ]
+      },
+      {
+        "label": "Infrastructure dependency rot — RawGit CDN shutdown left users stranded",
+        "confidencePct": 78,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#564"
+          },
+          {
+            "type": "commit",
+            "ref": "b5fa4d1bf0ba91cfa7f12a67b75b047a42d2f91f"
+          },
+          {
+            "type": "commit",
+            "ref": "f20e1523dfd916f2502e212ec14e30a27ad50ec9"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Unarchive the repository and appoint at least one active maintainer with merge rights, publishing a clear governance document",
+        "effort": "an afternoon"
+      },
+      {
+        "step": "Triage all 80+ open issues, closing stale or invalid ones and labelling genuine bugs and feature requests for community pickup",
+        "effort": "a week"
+      },
+      {
+        "step": "Migrate all CDN references away from rawgit to jsdelivr or GitHub Pages and audit the README for other dead links",
+        "effort": "a day"
+      },
+      {
+        "step": "Add a modern CI pipeline (linting, automated tests on PR) and publish a versioned release to npm with a proper package.json main field",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Solicit community-contributed language extensions for the many requested but missing languages (Terraform, JSX, Kotlin improvements, etc.) via a CONTRIBUTING guide",
+        "effort": "a week"
+      }
+    ],
+    "lastWordsGloss": "'docs: mark as archived' — the most honest commit message ever written, and also the last will and testament of a script that once made Stack Overflow pretty."
+  }
+}

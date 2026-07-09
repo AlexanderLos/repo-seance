@@ -1,0 +1,1275 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "facebookarchive",
+      "name": "flux",
+      "fullName": "facebookarchive/flux",
+      "description": "Application Architecture for Building User Interfaces",
+      "htmlUrl": "https://github.com/facebookarchive/flux",
+      "createdAt": "2014-07-20T23:33:08Z",
+      "pushedAt": "2023-03-21T23:41:43Z",
+      "archived": true,
+      "stars": 17457,
+      "forks": 3384,
+      "defaultBranch": "main",
+      "license": "Other"
+    },
+    "commits": {
+      "totalCount": 506,
+      "fetchedCount": 506,
+      "capped": false,
+      "monthly": [
+        {
+          "month": "2014-07",
+          "count": 36
+        },
+        {
+          "month": "2014-08",
+          "count": 41
+        },
+        {
+          "month": "2014-09",
+          "count": 18
+        },
+        {
+          "month": "2014-10",
+          "count": 17
+        },
+        {
+          "month": "2014-11",
+          "count": 17
+        },
+        {
+          "month": "2014-12",
+          "count": 9
+        },
+        {
+          "month": "2015-01",
+          "count": 19
+        },
+        {
+          "month": "2015-02",
+          "count": 22
+        },
+        {
+          "month": "2015-03",
+          "count": 20
+        },
+        {
+          "month": "2015-04",
+          "count": 16
+        },
+        {
+          "month": "2015-05",
+          "count": 20
+        },
+        {
+          "month": "2015-06",
+          "count": 14
+        },
+        {
+          "month": "2015-07",
+          "count": 8
+        },
+        {
+          "month": "2015-08",
+          "count": 23
+        },
+        {
+          "month": "2015-09",
+          "count": 2
+        },
+        {
+          "month": "2015-10",
+          "count": 1
+        },
+        {
+          "month": "2015-11",
+          "count": 13
+        },
+        {
+          "month": "2015-12",
+          "count": 2
+        },
+        {
+          "month": "2016-01",
+          "count": 12
+        },
+        {
+          "month": "2016-04",
+          "count": 18
+        },
+        {
+          "month": "2016-05",
+          "count": 14
+        },
+        {
+          "month": "2016-06",
+          "count": 1
+        },
+        {
+          "month": "2016-07",
+          "count": 1
+        },
+        {
+          "month": "2016-08",
+          "count": 2
+        },
+        {
+          "month": "2016-09",
+          "count": 2
+        },
+        {
+          "month": "2016-10",
+          "count": 3
+        },
+        {
+          "month": "2016-11",
+          "count": 1
+        },
+        {
+          "month": "2016-12",
+          "count": 11
+        },
+        {
+          "month": "2017-01",
+          "count": 3
+        },
+        {
+          "month": "2017-02",
+          "count": 3
+        },
+        {
+          "month": "2017-03",
+          "count": 2
+        },
+        {
+          "month": "2017-05",
+          "count": 1
+        },
+        {
+          "month": "2017-06",
+          "count": 1
+        },
+        {
+          "month": "2017-07",
+          "count": 4
+        },
+        {
+          "month": "2017-10",
+          "count": 2
+        },
+        {
+          "month": "2017-11",
+          "count": 3
+        },
+        {
+          "month": "2018-03",
+          "count": 1
+        },
+        {
+          "month": "2018-04",
+          "count": 1
+        },
+        {
+          "month": "2018-06",
+          "count": 1
+        },
+        {
+          "month": "2018-07",
+          "count": 1
+        },
+        {
+          "month": "2018-11",
+          "count": 1
+        },
+        {
+          "month": "2019-01",
+          "count": 1
+        },
+        {
+          "month": "2019-02",
+          "count": 2
+        },
+        {
+          "month": "2019-04",
+          "count": 1
+        },
+        {
+          "month": "2019-07",
+          "count": 3
+        },
+        {
+          "month": "2019-10",
+          "count": 4
+        },
+        {
+          "month": "2020-02",
+          "count": 3
+        },
+        {
+          "month": "2020-06",
+          "count": 1
+        },
+        {
+          "month": "2020-07",
+          "count": 4
+        },
+        {
+          "month": "2020-08",
+          "count": 4
+        },
+        {
+          "month": "2020-09",
+          "count": 1
+        },
+        {
+          "month": "2020-10",
+          "count": 1
+        },
+        {
+          "month": "2020-11",
+          "count": 3
+        },
+        {
+          "month": "2020-12",
+          "count": 10
+        },
+        {
+          "month": "2021-01",
+          "count": 3
+        },
+        {
+          "month": "2021-03",
+          "count": 3
+        },
+        {
+          "month": "2021-05",
+          "count": 7
+        },
+        {
+          "month": "2021-06",
+          "count": 6
+        },
+        {
+          "month": "2021-07",
+          "count": 2
+        },
+        {
+          "month": "2021-09",
+          "count": 9
+        },
+        {
+          "month": "2021-11",
+          "count": 2
+        },
+        {
+          "month": "2021-12",
+          "count": 2
+        },
+        {
+          "month": "2022-01",
+          "count": 1
+        },
+        {
+          "month": "2022-02",
+          "count": 7
+        },
+        {
+          "month": "2022-03",
+          "count": 3
+        },
+        {
+          "month": "2022-04",
+          "count": 5
+        },
+        {
+          "month": "2022-05",
+          "count": 1
+        },
+        {
+          "month": "2022-06",
+          "count": 15
+        },
+        {
+          "month": "2022-07",
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "count": 5
+        },
+        {
+          "month": "2023-02",
+          "count": 3
+        },
+        {
+          "month": "2023-03",
+          "count": 6
+        }
+      ],
+      "recent": [
+        {
+          "sha": "4ee8c50865c357e005cb40ea03cdd403533aad26",
+          "message": "4.0.4",
+          "date": "2023-03-21T23:39:37Z",
+          "authorName": "Yangshun",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "d358d739e5552ab9ef1b623d066a94ddd2c19195",
+          "message": "misc: update logo in README.md",
+          "date": "2023-03-21T08:38:11Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "a925a449876c1821d88de39aad540eb363ad048f",
+          "message": "misc: prepare repo for archiving. it has been a good run~",
+          "date": "2023-03-21T07:01:38Z",
+          "authorName": "Yangshun",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "adea2594b657f5b9b7ab3261e27bcb7cc2d24e11",
+          "message": "build(deps): bump dns-packet from 5.3.1 to 5.4.0 in /website (#577)",
+          "date": "2023-03-21T05:57:50Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "c5980a35904c8343a8957a0530062998851d38c1",
+          "message": "build(deps): bump @sideway/formula from 3.0.0 to 3.0.1 in /website (#579)",
+          "date": "2023-03-15T12:51:44Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "927ac146441f2cb83fa56440084f4ea9223d6304",
+          "message": "build(deps): bump webpack from 5.75.0 to 5.76.1 in /website (#578)",
+          "date": "2023-03-15T12:37:39Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "9e148303a4789a1a9f9f9ca3c102522d82f09691",
+          "message": "chore: upgrade deps",
+          "date": "2023-02-07T04:07:17Z",
+          "authorName": "Yangshun",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "ea105c33b1a5143018c0230643a2fd8504598c8c",
+          "message": "website: docusaurus@2.1.0",
+          "date": "2023-02-07T04:04:10Z",
+          "authorName": "Yangshun",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "d440a7340631b47f32b1a57933e4ddc48a9e50bd",
+          "message": "build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 in /website (#576)",
+          "date": "2023-02-04T00:14:01Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "0572b712b936ec955d9f05e21d2d9fa3a07eea58",
+          "message": "build(deps): bump ua-parser-js from 0.7.28 to 0.7.33 (#575)",
+          "date": "2023-01-27T04:05:26Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "f472ec72953414b65db5adef58b6725f5c8f62a0",
+          "message": "build(deps): bump minimatch from 3.0.4 to 3.1.2 (#574)",
+          "date": "2023-01-27T04:05:17Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "b790892d64529cb42ef8cd0d6c93de545270b056",
+          "message": "build(deps): bump ua-parser-js from 0.7.24 to 0.7.33 in /website (#573)",
+          "date": "2023-01-27T03:57:54Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "3b3fcd3722d27ac43866083e51ba768dda82888e",
+          "message": "build(deps): bump loader-utils from 2.0.0 to 2.0.4 in /website (#570)",
+          "date": "2023-01-11T04:23:33Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "2d39c509086e52937b6a21032aad0e0b177b32f7",
+          "message": "build(deps): bump json5 from 2.2.0 to 2.2.3 in /website (#572)",
+          "date": "2023-01-11T04:22:33Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "0b7e5fa922d0403eaa3fd63da9135e4513fa30d1",
+          "message": "build(deps): bump terser from 5.7.0 to 5.14.2 in /website (#568)",
+          "date": "2022-07-20T01:32:40Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "e240208ae91fa4a724130e7f06e19c08b5d81218",
+          "message": "chore: more copyright header",
+          "date": "2022-06-03T05:33:28Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "f0c41931a4e206ea74cd706a9223a3e37fbb05bb",
+          "message": "chore: update copyright headers",
+          "date": "2022-06-03T05:13:21Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "aea3dc44d7815f3cd6e8fd943529e7d45de649a4",
+          "message": "chore: add copyright headers",
+          "date": "2022-06-03T05:11:47Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "aadb7d8c78fff7689655eb1b0426bf6df5af10c8",
+          "message": "chore: run Prettier on every file",
+          "date": "2022-06-03T05:11:37Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "6c7214ed7afcf785e0590d273026c02592f76b78",
+          "message": "website: add required links",
+          "date": "2022-06-03T04:43:27Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "27c5c5cbccbc709b98b3fdf81d42f6869188deda",
+          "message": "chore: use Yarn for CI",
+          "date": "2022-06-02T08:41:38Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "4ee9a524fccf16ae386208c5df5d388e492536c5",
+          "message": "chore: update Node.js CI matrix",
+          "date": "2022-06-02T08:34:15Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "d616d932eea6f7f6685a76a87ea133b819e88042",
+          "message": "website: make homepage videos responsive. fixes #561",
+          "date": "2022-06-02T08:31:46Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "41945a8dff9f6eff30c56553778496ebd5d31ad9",
+          "message": "build(deps): bump browserslist from 4.16.3 to 4.20.3 in /website (#567)",
+          "date": "2022-06-02T08:25:13Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "156491fc9b299d27c205483e886b0e86b4dd1bc3",
+          "message": "build(deps): bump ansi-regex from 4.1.0 to 4.1.1 in /website (#566)",
+          "date": "2022-06-02T08:25:08Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "ce7585b7ad486e008246769f860c410a8e98d6e9",
+          "message": "build(deps): bump nth-check from 2.0.0 to 2.1.1 in /website (#565)",
+          "date": "2022-06-02T08:25:04Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        },
+        {
+          "sha": "62e030ca5f6052f9111d08709de35f3d2e1995c5",
+          "message": "chore: update formatting",
+          "date": "2022-06-02T08:22:45Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "8d5f5b71202fa8da54e751022418cc89c9177f87",
+          "message": "chore: upgrade to Jest 28",
+          "date": "2022-06-02T08:21:01Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "c1cf4d9e65fb4173e2261bd0a4e94671d5dea385",
+          "message": "website: upgrade Docusaurus version",
+          "date": "2022-06-02T07:34:48Z",
+          "authorName": "Yangshun Tay",
+          "authorLogin": "yangshun"
+        },
+        {
+          "sha": "4c661220b7b86a60951eb6971b292e22ac62227d",
+          "message": "build(deps): bump eventsource from 1.1.0 to 1.1.1 in /website (#564)",
+          "date": "2022-06-01T06:11:49Z",
+          "authorName": "dependabot[bot]",
+          "authorLogin": "dependabot[bot]"
+        }
+      ],
+      "finalCommit": {
+        "sha": "4ee8c50865c357e005cb40ea03cdd403533aad26",
+        "message": "4.0.4",
+        "date": "2023-03-21T23:39:37Z",
+        "authorName": "Yangshun",
+        "authorLogin": "yangshun"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "gh-pages",
+          "lastCommitDate": "2023-03-21T07:03:20Z",
+          "aheadBy": 47,
+          "behindBy": 493
+        },
+        {
+          "name": "main",
+          "lastCommitDate": "2023-03-21T23:39:37Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        }
+      ],
+      "capped": false
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 563,
+          "title": "Add react-18 as peer dependency.",
+          "state": "open",
+          "createdAt": "2022-05-14T07:27:24Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 561,
+          "title": "Video goes off screen and does not fit neatly",
+          "state": "closed",
+          "createdAt": "2022-05-05T08:21:54Z",
+          "closedAt": "2022-06-02T08:31:53Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 538,
+          "title": "Will there be a Chinese version?",
+          "state": "closed",
+          "createdAt": "2021-10-13T11:10:20Z",
+          "closedAt": "2021-10-13T12:00:00Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 537,
+          "title": "mock flux store - react test",
+          "state": "closed",
+          "createdAt": "2021-10-04T09:27:00Z",
+          "closedAt": "2021-12-10T23:36:29Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 519,
+          "title": "CVE-2021-27292: ua-parser-js needs to upgrade to 0.7.24 ",
+          "state": "closed",
+          "createdAt": "2021-03-31T15:55:17Z",
+          "closedAt": "2021-12-10T23:32:36Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 513,
+          "title": "NPM reports flux vulnerabilities ",
+          "state": "closed",
+          "createdAt": "2020-12-01T18:51:02Z",
+          "closedAt": "2020-12-29T05:12:54Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 509,
+          "title": "Add React 17 support",
+          "state": "closed",
+          "createdAt": "2020-11-08T16:42:43Z",
+          "closedAt": "2020-11-08T17:11:48Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 506,
+          "title": "Is fbemitter project discontinued? Is flux?",
+          "state": "closed",
+          "createdAt": "2020-10-20T17:43:13Z",
+          "closedAt": "2020-12-14T14:59:59Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 505,
+          "title": "CVE-2020-7733 vulnerability by linking to an older fbjs version",
+          "state": "closed",
+          "createdAt": "2020-09-24T07:38:33Z",
+          "closedAt": "2020-12-14T14:56:14Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 504,
+          "title": "CVE-2020-15168 found in node-fetch@1.7.3 ",
+          "state": "closed",
+          "createdAt": "2020-09-18T12:44:48Z",
+          "closedAt": "2021-01-09T12:31:01Z",
+          "comments": 13,
+          "labels": []
+        },
+        {
+          "number": 489,
+          "title": "Container create context issues after Babel 7.9.x update.",
+          "state": "closed",
+          "createdAt": "2020-06-04T12:10:19Z",
+          "closedAt": "2022-04-07T11:01:14Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 486,
+          "title": "Flux container breaks class methods defined with class properties syntax",
+          "state": "open",
+          "createdAt": "2020-03-22T05:16:01Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 484,
+          "title": "Is this code a good way to update react component from dispatch in OOP class object?",
+          "state": "closed",
+          "createdAt": "2020-03-09T13:30:10Z",
+          "closedAt": "2020-03-10T08:27:26Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 480,
+          "title": "how do we differ from Architecture and pattern?",
+          "state": "closed",
+          "createdAt": "2019-11-30T02:30:34Z",
+          "closedAt": "2019-11-30T22:37:40Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 478,
+          "title": "Please update the following components: FluxContainer(containerClass) React 16.10.2",
+          "state": "closed",
+          "createdAt": "2019-10-21T15:03:50Z",
+          "closedAt": "2020-12-23T08:39:47Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 475,
+          "title": "Using version of fbjs that depends on unsupported core-js module",
+          "state": "closed",
+          "createdAt": "2019-09-10T14:56:31Z",
+          "closedAt": "2021-12-10T23:35:15Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 470,
+          "title": "TypeError: Class constructor App cannot be invoked without 'new'",
+          "state": "closed",
+          "createdAt": "2019-06-14T13:34:01Z",
+          "closedAt": "2019-06-24T20:03:31Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 468,
+          "title": "Flux Utils + Hooks",
+          "state": "closed",
+          "createdAt": "2019-04-24T14:17:36Z",
+          "closedAt": "2019-04-26T18:28:20Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 467,
+          "title": "New Flux store instance created upon second component referencing store",
+          "state": "open",
+          "createdAt": "2019-02-14T16:03:09Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 465,
+          "title": "Cannot dispatch in the middle of a dispatch.",
+          "state": "closed",
+          "createdAt": "2018-12-10T23:45:37Z",
+          "closedAt": "2018-12-13T22:26:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 463,
+          "title": "What benefits can we get from flux?",
+          "state": "closed",
+          "createdAt": "2018-10-31T12:14:38Z",
+          "closedAt": "2018-10-31T13:44:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 461,
+          "title": "Load initial",
+          "state": "closed",
+          "createdAt": "2018-09-12T12:39:11Z",
+          "closedAt": "2018-09-16T20:43:01Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 460,
+          "title": "Questions about behavior Container.createFunctional",
+          "state": "closed",
+          "createdAt": "2018-08-13T14:33:48Z",
+          "closedAt": "2018-08-13T16:00:59Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 457,
+          "title": "how to combine two store in a common store",
+          "state": "closed",
+          "createdAt": "2018-06-27T10:51:57Z",
+          "closedAt": "2018-06-28T00:55:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 455,
+          "title": "how to calculateState from two store in same component",
+          "state": "closed",
+          "createdAt": "2018-06-26T10:30:40Z",
+          "closedAt": "2018-06-26T10:41:00Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 454,
+          "title": "Unable to launch todo example app",
+          "state": "closed",
+          "createdAt": "2018-05-18T19:40:13Z",
+          "closedAt": "2018-05-18T20:58:53Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 452,
+          "title": "FluxContainer: Unsafe lifecycle methods were found within a strict-mode tree",
+          "state": "open",
+          "createdAt": "2018-05-08T05:55:33Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 450,
+          "title": "Consider Generics on the FluxReduceStore.reducer action type",
+          "state": "closed",
+          "createdAt": "2018-04-18T05:49:46Z",
+          "closedAt": "2018-04-18T06:27:57Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 448,
+          "title": "Example using Store instead of ReduceStore",
+          "state": "closed",
+          "createdAt": "2018-03-27T20:26:59Z",
+          "closedAt": "2018-04-19T01:15:30Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 447,
+          "title": "404 - Broken link for https://facebook.github.io/flux/docs/react.html#content",
+          "state": "closed",
+          "createdAt": "2018-03-15T20:10:58Z",
+          "closedAt": "2019-01-26T00:01:05Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 446,
+          "title": "error with flux when using app [created with create-react-app]",
+          "state": "closed",
+          "createdAt": "2018-02-23T12:02:09Z",
+          "closedAt": "2018-02-25T17:34:59Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 445,
+          "title": "npm error missing script watch is coming",
+          "state": "closed",
+          "createdAt": "2018-02-07T03:10:38Z",
+          "closedAt": "2018-02-07T06:16:23Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 444,
+          "title": "Per app settings - feature request",
+          "state": "closed",
+          "createdAt": "2017-12-19T22:50:50Z",
+          "closedAt": "2017-12-19T23:56:52Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 442,
+          "title": "React 16.x support (TypeScript)",
+          "state": "closed",
+          "createdAt": "2017-11-23T12:01:07Z",
+          "closedAt": "2022-06-02T08:27:32Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 441,
+          "title": "seems library are missing when install npm",
+          "state": "closed",
+          "createdAt": "2017-11-14T10:26:10Z",
+          "closedAt": "2020-12-15T07:50:19Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 439,
+          "title": "Switch from BSD + Patents to MIT license",
+          "state": "closed",
+          "createdAt": "2017-11-06T11:36:20Z",
+          "closedAt": "2017-11-06T16:13:53Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 436,
+          "title": "[Dispatcher] How is it possible dispatch function to be exectuted simultaneously",
+          "state": "closed",
+          "createdAt": "2017-10-05T10:45:57Z",
+          "closedAt": "2017-10-05T18:14:25Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 435,
+          "title": "What's the difference of redux an flux?",
+          "state": "closed",
+          "createdAt": "2017-09-26T09:11:53Z",
+          "closedAt": "2018-04-19T01:16:14Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 423,
+          "title": "Improvement : Error on dispatching a mutable state in Reduce Store",
+          "state": "closed",
+          "createdAt": "2017-08-24T19:01:50Z",
+          "closedAt": "2017-08-24T19:37:25Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 422,
+          "title": "flux-jest: npm run test fails",
+          "state": "closed",
+          "createdAt": "2017-08-16T21:46:57Z",
+          "closedAt": "2020-12-14T15:05:35Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 419,
+          "title": "React 16 support",
+          "state": "closed",
+          "createdAt": "2017-07-27T16:38:56Z",
+          "closedAt": "2017-07-27T19:18:40Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 418,
+          "title": "Sync website with github again",
+          "state": "closed",
+          "createdAt": "2017-07-17T17:04:41Z",
+          "closedAt": "2020-12-15T07:51:06Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 417,
+          "title": "Flow: \"FluxStore. Required module not found\" (and many more)",
+          "state": "closed",
+          "createdAt": "2017-07-15T21:06:54Z",
+          "closedAt": "2017-07-16T12:26:49Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 415,
+          "title": "ERROR in ./~/flux/index.js",
+          "state": "closed",
+          "createdAt": "2017-06-16T05:02:11Z",
+          "closedAt": "2017-07-19T17:17:31Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 413,
+          "title": " Does flux/utils/Container.createFunctional work with 'react-router@v3?",
+          "state": "closed",
+          "createdAt": "2017-06-07T13:41:38Z",
+          "closedAt": "2017-06-07T17:13:04Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 410,
+          "title": "Flux dispatcher example uses property not found in Store API",
+          "state": "closed",
+          "createdAt": "2017-05-11T10:22:18Z",
+          "closedAt": "2017-05-11T18:09:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 409,
+          "title": "Flux utils : How to passing props from Container to Container ???",
+          "state": "closed",
+          "createdAt": "2017-05-02T11:25:51Z",
+          "closedAt": "2017-08-04T19:03:29Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 408,
+          "title": "Using data from Stores directly within a component",
+          "state": "closed",
+          "createdAt": "2017-04-27T10:34:15Z",
+          "closedAt": "2017-08-04T19:03:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 407,
+          "title": "Bring back FluxMapStore in a separate npm package for immutable stuff",
+          "state": "closed",
+          "createdAt": "2017-04-17T04:13:39Z",
+          "closedAt": "2020-12-15T07:52:04Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 406,
+          "title": "newb",
+          "state": "closed",
+          "createdAt": "2017-04-11T04:56:22Z",
+          "closedAt": "2017-04-11T15:36:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 404,
+          "title": "Typo in 'flux/utils' documentation, wrong number of classes",
+          "state": "closed",
+          "createdAt": "2017-03-24T08:25:16Z",
+          "closedAt": "2017-03-24T20:14:46Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 399,
+          "title": "Subclasses problem",
+          "state": "closed",
+          "createdAt": "2017-02-19T07:12:34Z",
+          "closedAt": "2017-02-23T00:39:19Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 396,
+          "title": "Readme example tutorial todomvc incomplete",
+          "state": "closed",
+          "createdAt": "2017-02-09T08:35:54Z",
+          "closedAt": "2017-02-09T11:45:03Z",
+          "comments": 3,
+          "labels": [
+            "enhancement",
+            "examples"
+          ]
+        },
+        {
+          "number": 394,
+          "title": "React flux",
+          "state": "closed",
+          "createdAt": "2017-01-27T11:54:18Z",
+          "closedAt": "2017-01-27T14:07:35Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 391,
+          "title": "Somebody know work flux with rails?",
+          "state": "closed",
+          "createdAt": "2017-01-20T19:08:06Z",
+          "closedAt": "2017-01-20T19:32:33Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 390,
+          "title": "Add explanation for flow generic types in documentation",
+          "state": "open",
+          "createdAt": "2017-01-19T01:27:35Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 384,
+          "title": "How to make a api call waitFor a action to finish?",
+          "state": "closed",
+          "createdAt": "2016-10-28T02:54:32Z",
+          "closedAt": "2016-12-16T02:15:28Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 383,
+          "title": "fluxpackage issue",
+          "state": "closed",
+          "createdAt": "2016-10-27T06:23:17Z",
+          "closedAt": "2016-10-27T18:24:11Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 382,
+          "title": "Can't manage to have Container with `withProps: true` working since #346",
+          "state": "closed",
+          "createdAt": "2016-10-18T13:45:42Z",
+          "closedAt": "2016-10-19T21:21:28Z",
+          "comments": 5,
+          "labels": [
+            "bug"
+          ]
+        },
+        {
+          "number": 381,
+          "title": "Missing v3.0.0 on GitHub",
+          "state": "closed",
+          "createdAt": "2016-10-18T01:57:11Z",
+          "closedAt": "2016-10-18T06:16:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 380,
+          "title": "v3.0.0 - Build issue when React isn't installed",
+          "state": "closed",
+          "createdAt": "2016-10-05T21:16:51Z",
+          "closedAt": "2016-10-05T23:44:33Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 378,
+          "title": "Fullscreen video artificating during cursor hiding",
+          "state": "closed",
+          "createdAt": "2016-09-28T06:46:51Z",
+          "closedAt": "2016-09-28T20:20:37Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 373,
+          "title": "Cannot assign to read only property '__esModule' of #<Object>",
+          "state": "closed",
+          "createdAt": "2016-08-15T13:27:33Z",
+          "closedAt": "2017-08-04T19:01:44Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 371,
+          "title": "Null Dispatcher",
+          "state": "closed",
+          "createdAt": "2016-08-12T20:53:31Z",
+          "closedAt": "2016-08-15T02:25:48Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 368,
+          "title": "react Dispatcher.dispatch in action, not dispatching payload to store",
+          "state": "closed",
+          "createdAt": "2016-07-30T05:37:17Z",
+          "closedAt": "2016-12-16T02:14:09Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 366,
+          "title": "Action dispatching in setTimeout callback causes \"Cannot dispatch in the middle of a dispatch\" error",
+          "state": "closed",
+          "createdAt": "2016-07-25T19:37:42Z",
+          "closedAt": "2016-07-25T20:00:48Z",
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 5,
+        "totalFetched": 66,
+        "medianDaysToFirstResponse": 0.5,
+        "openOverOneYearNoReply": 0
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "## ⚠️ The Flux project has been archived and no further changes will be made. We recommend using more sophisticated alternatives like [Redux](http://redux.js.org/), [MobX](https://mobx.js.org/), [Recoil](https://recoiljs.org/), [Zustand](https://github.com/pmndrs/zustand), or [Jotai](https://github.com/pmndrs/jotai).\n\n<p align=\"center\">\n  <img src=\"https://github.com/facebookarchive/flux/blob/main/website/static/img/flux-logo-color.svg\" alt=\"logo\" width=\"20%\" />\n</p>\n<h1 align=\"center\">\n  Flux\n</h1>\n<p align=\"center\">\n  An application architecture for React utilizing a unidirectional data flow.<br>\n\n  <a href=\"https://github.com/facebook/flux/blob/master/LICENSE\">\n    <img src=\"https://img.shields.io/badge/License-BSD%20-blue.svg\" alt=\"Licence Badge\" />\n  </a>\n  <a href=\"https://www.npmjs.com/package/flux\">\n    <img src=\"https://img.shields.io/npm/v/flux.svg?style=flat\" alt=\"Current npm package version.\" />\n  </a>\n</p>\n\n<hr/>\n\n<img src=\"./img/flux-diagram-white-background.png\" style=\"width: 100%;\" />\n\n## Getting Started\n\nStart by looking through the [guides and examples](./examples) on Github. For more resources and API docs check out [facebook.github.io/flux](https://facebookarchive.github.io/flux).\n\n## How Flux works\n\nFor more information on how Flux works check out the [Flux Concepts](./examples/flux-concepts) guide, or the [In Depth Overview](https://facebookarchive.github.io/flux/docs/in-depth-overview).\n\n## Requirements\n\nFlux is more of a pattern than a framework, and does not have any hard dependencies. However, we often use [EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter) as a basis for `Stores` and [React](https://github.com/facebook/react) for our `Views`. The one piece of Flux not readily available elsewhere is the `Dispatcher`. This module, along with some other utilities, is available here to complete your Flux toolbox.\n\n## Installing Flux\n\nFlux is available as a [npm module](https://www.npmjs.org/package/flux), so you can add it to your package.json file or run `npm install flux`. The dispatcher will be available as `Flux.Dispatcher` and can be required like this:\n\n```javascript\nconst Dispatcher = require('flux').Dispatcher;\n```\n\nTake a look at the [dispatcher API and some examples](https://facebookarchive.github.io/flux/docs/dispatcher).\n\n## Flux Utils\n\nWe have also provided some basic utility classes to help get you started with Flux. These base classes are a solid foundation for a simple Flux application, but they are **not** a feature-complete framework that will handle all use cases. There are many other great Flux frameworks out there if these utilities do not fulfill your needs.\n\n```js\nimport {ReduceStore} from 'flux/utils';\n\nclass CounterStore extends ReduceStore<number> {\n  getInitialState(): number {\n    return 0;\n  }\n\n  reduce(state: number, action: Object): number {\n    switch (action.type) {\n      case 'increment':\n        return state + 1;\n\n      case 'square':\n        return state * state;\n\n      default:\n        return state;\n    }\n  }\n}\n```\n\nCheck out the [examples](./examples) and [documentation](https://facebookarchive.github.io/flux/docs/flux-utils) for more information.\n\n## Building Flux from a Cloned Repo\n\nClone the repo and navigate into the resulting `flux` directory. Then run `npm install`.\n\nThis will run [Gulp](https://gulpjs.com/)-based build tasks automatically and produce the file Flux.js, which you can then require as a module.\n\nYou could then require the Dispatcher like so:\n\n```javascript\nconst Dispatcher = require('path/to/this/directory/Flux').Dispatcher;\n```\n\nThe build process also produces de-sugared versions of the `Dispatcher` and `invariant` modules in a `lib` directory, and you can require those modules directly, copying them into whatever directory is most convenient for you. The `flux-todomvc` and `flux-chat` example applications both do this.\n\n## License\n\nFlux is BSD-licensed. We also provide an additional patent grant.\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1205,
+      "flatlineMonth": "2023-03",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:14:27.691Z"
+  },
+  "autopsy": {
+    "epitaph": "Once the unidirectional gospel of Facebook's UI frontier, Flux was archived by its own keeper with the quiet epitaph 'it has been a good run~', while the README itself pointed mourners toward Redux, MobX, Recoil, Zustand, and Jotai.",
+    "causes": [
+      {
+        "label": "Deliberate owner archival — project intentionally retired",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "a925a449876c1821d88de39aad540eb363ad048f"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      },
+      {
+        "label": "Ecosystem supersession — succeeded by more sophisticated alternatives",
+        "confidencePct": 92,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#506"
+          },
+          {
+            "type": "issue",
+            "ref": "#435"
+          }
+        ]
+      },
+      {
+        "label": "Dependency rot and accumulating CVEs — security vulnerabilities left festering",
+        "confidencePct": 78,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#519"
+          },
+          {
+            "type": "issue",
+            "ref": "#505"
+          },
+          {
+            "type": "issue",
+            "ref": "#504"
+          },
+          {
+            "type": "commit",
+            "ref": "adea2594b657f5b9b7ab3261e27bcb7cc2d24e11"
+          }
+        ]
+      },
+      {
+        "label": "React compatibility lag — perpetual catch-up with React peer dependency versions",
+        "confidencePct": 70,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#563"
+          },
+          {
+            "type": "issue",
+            "ref": "#509"
+          },
+          {
+            "type": "issue",
+            "ref": "#452"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Un-archive the repository and publish a community governance charter, transferring stewardship from facebookarchive to an active open-source collective",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Resolve the open React 18 peer dependency issue (#563) and release a version that declares correct peerDependencies in package.json",
+        "effort": "a week"
+      },
+      {
+        "step": "Address the open FluxContainer strict-mode unsafe lifecycle warning (#452) and class-properties syntax breakage (#486) with targeted patches",
+        "effort": "a week"
+      },
+      {
+        "step": "Replace the fbjs and fbemitter dependencies that caused recurring CVEs with modern, maintained equivalents",
+        "effort": "a week"
+      },
+      {
+        "step": "Rewrite FluxContainer to support React Hooks as a first-class API, making the library competitive with Zustand and Jotai for new projects",
+        "effort": "a heroic quarter"
+      }
+    ],
+    "lastWordsGloss": "'4.0.4' — a version bump so terse it makes a tombstone look verbose, shipped minutes after 'it has been a good run~' and sealed forever under the archive glass."
+  }
+}

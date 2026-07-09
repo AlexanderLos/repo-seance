@@ -1,0 +1,1929 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "atom",
+      "name": "atom",
+      "fullName": "atom/atom",
+      "description": ":atom: The hackable text editor",
+      "htmlUrl": "https://github.com/atom/atom",
+      "createdAt": "2012-01-20T18:18:21Z",
+      "pushedAt": "2023-01-03T10:49:48Z",
+      "archived": true,
+      "stars": 60811,
+      "forks": 17204,
+      "defaultBranch": "master",
+      "license": "MIT"
+    },
+    "commits": {
+      "totalCount": 38533,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2020-05",
+          "count": 59
+        },
+        {
+          "month": "2020-06",
+          "count": 65
+        },
+        {
+          "month": "2020-07",
+          "count": 28
+        },
+        {
+          "month": "2020-08",
+          "count": 36
+        },
+        {
+          "month": "2020-09",
+          "count": 213
+        },
+        {
+          "month": "2020-10",
+          "count": 85
+        },
+        {
+          "month": "2020-11",
+          "count": 21
+        },
+        {
+          "month": "2020-12",
+          "count": 7
+        },
+        {
+          "month": "2021-01",
+          "count": 33
+        },
+        {
+          "month": "2021-02",
+          "count": 13
+        },
+        {
+          "month": "2021-03",
+          "count": 32
+        },
+        {
+          "month": "2021-04",
+          "count": 31
+        },
+        {
+          "month": "2021-05",
+          "count": 99
+        },
+        {
+          "month": "2021-06",
+          "count": 37
+        },
+        {
+          "month": "2021-07",
+          "count": 65
+        },
+        {
+          "month": "2021-08",
+          "count": 41
+        },
+        {
+          "month": "2021-09",
+          "count": 40
+        },
+        {
+          "month": "2021-10",
+          "count": 12
+        },
+        {
+          "month": "2021-11",
+          "count": 8
+        },
+        {
+          "month": "2021-12",
+          "count": 5
+        },
+        {
+          "month": "2022-01",
+          "count": 13
+        },
+        {
+          "month": "2022-02",
+          "count": 16
+        },
+        {
+          "month": "2022-03",
+          "count": 3
+        },
+        {
+          "month": "2022-04",
+          "count": 3
+        },
+        {
+          "month": "2022-05",
+          "count": 6
+        },
+        {
+          "month": "2022-06",
+          "count": 5
+        },
+        {
+          "month": "2022-09",
+          "count": 7
+        },
+        {
+          "month": "2022-10",
+          "count": 2
+        },
+        {
+          "month": "2022-11",
+          "count": 15
+        }
+      ],
+      "recent": [
+        {
+          "sha": "1c3bd35ce238dc0491def9e1780d04748d8e18af",
+          "message": "Merge pull request #25709 from atom/fix-snapshot-result-macos",
+          "date": "2022-11-22T16:11:57Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "6b696d632941c18a683d01eaf0bf3dc38daf6ca7",
+          "message": "Use the new naming format for snapshots on macOS",
+          "date": "2022-11-22T15:56:11Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "f54276d38cd112d64c4c9ccdb982cf52ee682c8f",
+          "message": "1.65.0-dev",
+          "date": "2022-11-16T14:31:05Z",
+          "authorName": "Hubot",
+          "authorLogin": "hubot"
+        },
+        {
+          "sha": "a0bbe30d36fe352041a9766656ca60f5946793f6",
+          "message": "1.64.0-dev",
+          "date": "2022-11-16T11:39:58Z",
+          "authorName": "Hubot",
+          "authorLogin": "hubot"
+        },
+        {
+          "sha": "729daa2f0aa47bcbcd89ac723f1c7938e4199aad",
+          "message": "Merge pull request #25694 from atom/fix-uploads",
+          "date": "2022-11-15T05:29:26Z",
+          "authorName": "Sadick",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "4decada54e6512184cb1ae9f238c44264fe4ce41",
+          "message": "Remove dependancies.",
+          "date": "2022-11-15T05:27:44Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "8f388db20c7c56996905ac9056a5b6d2111b8d1d",
+          "message": "Merge pull request #25693 from atom/disable-tests",
+          "date": "2022-11-15T05:25:04Z",
+          "authorName": "Sadick",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "3f66da9b6f3388f2f9e6ce381f1f1cec407d1698",
+          "message": "Disable tests.",
+          "date": "2022-11-15T04:47:26Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "2291b59a289bc2d9d3bd64482b2964eaf0cb5e11",
+          "message": "Merge pull request #25684 from atom/install-from-github",
+          "date": "2022-11-10T15:46:07Z",
+          "authorName": "Sadick",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "c8f8c065dd4f224f7823ec3767dc52f34465d102",
+          "message": "Merge branch 'sunsetting-announcement' into install-from-github",
+          "date": "2022-11-09T16:24:42Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "1d7aeb6f47906fe18a590d5b9d1628a5285f427d",
+          "message": "Allow restoring the sunsetting announcement tab",
+          "date": "2022-11-09T11:54:28Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "0df5017430c0bc8ae143fbe6ea5faf6f2a3c10b5",
+          "message": "Don't show sunsetting announcement along with the welcome views, but independently",
+          "date": "2022-11-09T11:54:12Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "fea53502585c5b42d1b6f3a60f23ce0670e326a9",
+          "message": "Fix linting issues",
+          "date": "2022-11-07T18:38:04Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "99a28922db92864e20a43f27932ea127dbc67e08",
+          "message": "Merge branch 'sunsetting-announcement' into install-from-github",
+          "date": "2022-11-07T18:24:49Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "c9ff20f258e810d053fc4306f8290366e65af8e8",
+          "message": "DEBUG",
+          "date": "2022-11-04T13:49:48Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "d2bd2fc77dd391b36d6a8c4343851b70cfa9b4f5",
+          "message": "WIP",
+          "date": "2022-10-31T07:34:39Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "842125f291ac1b65e3446bebdee6f43ba5d76534",
+          "message": "Change to github refs",
+          "date": "2022-10-28T06:10:28Z",
+          "authorName": "sadick254",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "e522312ffadbe4833f4d902b682b1f6940629910",
+          "message": "Improve copy",
+          "date": "2022-09-29T15:45:10Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "2338a2897d430ff120b7c6db34dfbaa50b516418",
+          "message": "upgrade to window-2019 (#25633)",
+          "date": "2022-09-27T07:07:12Z",
+          "authorName": "Sadick",
+          "authorLogin": "sadick254"
+        },
+        {
+          "sha": "df229dd1a44f6672f820b0558a63cb3769a279a2",
+          "message": "Create new view to announce we're sunsetting Atom",
+          "date": "2022-09-26T16:41:47Z",
+          "authorName": "Sergio Padrino",
+          "authorLogin": "sergiou87"
+        },
+        {
+          "sha": "586efc2aeb1337a7f0b3dbd1b316bb73a073d968",
+          "message": "Merge pull request #25622 from DeeDeeG/rpm-spec-recommends-usr-lib-lsb_release",
+          "date": "2022-09-13T19:09:24Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "b448c4b852448cfda7e7d79d7372a3d03e9916ac",
+          "message": "Merge pull request #23502 from HarlemSquirrel/patch-1",
+          "date": "2022-09-13T17:46:46Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "8fd6ee4a0601ee342a9ee8ca956c147208d8b04b",
+          "message": "Add lsb_release file to \"Recommends:\" of rpm spec",
+          "date": "2022-09-13T17:01:35Z",
+          "authorName": "DeeDeeG",
+          "authorLogin": "DeeDeeG"
+        },
+        {
+          "sha": "4c590020f68b6d3bb72f52f0a5d7465edab97eb7",
+          "message": "Merge pull request #25541 from expeehaa/remove_rpm_lsb_requirement",
+          "date": "2022-09-13T09:08:53Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "16c4b54fb7ced1801f6dd954de341418c6d41b28",
+          "message": "Replace RPM spec requirement \"lsb-core-noarch\" with \"/usr/bin/lsb_release\".",
+          "date": "2022-06-23T23:08:51Z",
+          "authorName": "expeehaa",
+          "authorLogin": "expeehaa"
+        },
+        {
+          "sha": "17a31e3a3729070768f31bbce7ce9bcc09f5a2b8",
+          "message": "Merge pull request #25442 from claytonrcarter/fix-usage-message",
+          "date": "2022-06-23T09:02:41Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "ae147229891f8f06ba5953747a4614274135168f",
+          "message": "Merge pull request #25459 from jesuscb99/master",
+          "date": "2022-06-23T09:01:25Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "38c599e31903340883d7ffbeef116ac0657875bb",
+          "message": "Merge pull request #25483 from realpixelcode/master",
+          "date": "2022-06-23T08:58:15Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "cf5e379eb974c399457fda436d2aef7d39268d51",
+          "message": "atom sunset",
+          "date": "2022-06-08T15:02:25Z",
+          "authorName": "Musa Ibrahim",
+          "authorLogin": "darangi"
+        },
+        {
+          "sha": "c9658ad459c2a5c6f136fc1e7f83b4c800092a85",
+          "message": "update copyright year in licence",
+          "date": "2022-05-25T07:03:40Z",
+          "authorName": "Pixelcode",
+          "authorLogin": "realpixelcode"
+        }
+      ],
+      "finalCommit": {
+        "sha": "1c3bd35ce238dc0491def9e1780d04748d8e18af",
+        "message": "Merge pull request #25709 from atom/fix-snapshot-result-macos\n\nFix `File` -> `Open…` menu on macOS",
+        "date": "2022-11-22T16:11:57Z",
+        "authorName": "Sergio Padrino",
+        "authorLogin": "sergiou87"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "1.5-releases-archived",
+          "lastCommitDate": "2016-03-01T19:38:50Z",
+          "aheadBy": 8,
+          "behindBy": 11565
+        },
+        {
+          "name": "1.22-releases",
+          "lastCommitDate": "2017-11-21T08:06:45Z",
+          "aheadBy": 55,
+          "behindBy": 5253
+        },
+        {
+          "name": "1.33-releases",
+          "lastCommitDate": "2018-12-19T19:00:51Z",
+          "aheadBy": 50,
+          "behindBy": 2819
+        },
+        {
+          "name": "1.37-releases",
+          "lastCommitDate": "2019-05-21T20:01:11Z",
+          "aheadBy": 19,
+          "behindBy": 2274
+        },
+        {
+          "name": "1.38-releases",
+          "lastCommitDate": "2019-06-14T20:08:32Z",
+          "aheadBy": 17,
+          "behindBy": 1943
+        },
+        {
+          "name": "1.39-releases",
+          "lastCommitDate": "2019-07-25T14:15:26Z",
+          "aheadBy": 21,
+          "behindBy": 1614
+        },
+        {
+          "name": "1.40-releases",
+          "lastCommitDate": "2019-08-21T15:15:53Z",
+          "aheadBy": 9,
+          "behindBy": 1369
+        },
+        {
+          "name": "1.41-releases",
+          "lastCommitDate": "2019-10-21T17:33:40Z",
+          "aheadBy": 6,
+          "behindBy": 1302
+        },
+        {
+          "name": "1.42-releases",
+          "lastCommitDate": "2019-12-13T19:07:42Z",
+          "aheadBy": 5,
+          "behindBy": 1252
+        },
+        {
+          "name": "1.53-releases",
+          "lastCommitDate": "2020-11-10T13:55:49Z",
+          "aheadBy": 3,
+          "behindBy": 598
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 25756,
+          "title": "Possible server error",
+          "state": "closed",
+          "createdAt": "2022-12-15T13:03:18Z",
+          "closedAt": "2022-12-15T16:05:33Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25755,
+          "title": "Thank you Atom Devs",
+          "state": "open",
+          "createdAt": "2022-12-15T04:27:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25754,
+          "title": "Thank you, Atom!",
+          "state": "open",
+          "createdAt": "2022-12-15T04:11:24Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25750,
+          "title": "HELP",
+          "state": "open",
+          "createdAt": "2022-12-11T23:06:48Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25748,
+          "title": "Uncaught Error: dlopen(~/Downloads/Atom.app/Contents/Resources/app.asar.unpacked/node_modules/fs-...",
+          "state": "open",
+          "createdAt": "2022-12-10T23:05:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25746,
+          "title": "Changes not displaying on Git panel",
+          "state": "closed",
+          "createdAt": "2022-12-08T23:55:48Z",
+          "closedAt": "2022-12-11T12:41:13Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25740,
+          "title": "script error message using xrdp remote session",
+          "state": "open",
+          "createdAt": "2022-12-07T14:47:11Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25737,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\atom\\app-1.63.1\\res...",
+          "state": "open",
+          "createdAt": "2022-12-05T15:37:52Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25735,
+          "title": "atom has two ddeprecations",
+          "state": "open",
+          "createdAt": "2022-12-03T13:30:58Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25734,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa8364.41...",
+          "state": "open",
+          "createdAt": "2022-12-03T10:08:08Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25733,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\atom\\app-1.63.1\\res...",
+          "state": "open",
+          "createdAt": "2022-12-03T03:05:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25730,
+          "title": "Uncaught Error: Module did not self-register: '/Applications/Atom.app/Contents/Resources/app.asar...",
+          "state": "open",
+          "createdAt": "2022-12-01T22:26:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25728,
+          "title": "Unable to install packages",
+          "state": "open",
+          "createdAt": "2022-12-01T13:38:22Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25727,
+          "title": "Uncaught Error: Module did not self-register: '~/Desktop/Atom.app/Contents/Resources/app.asar.unp...",
+          "state": "open",
+          "createdAt": "2022-12-01T03:37:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25726,
+          "title": "Uncaught TypeError: The \"path\" argument must be of type string. Received null",
+          "state": "open",
+          "createdAt": "2022-11-30T23:25:49Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25725,
+          "title": "Uncaught Error: dlopen(/private/var/folders/m3/mxwclzqs3mb658dqqfw8w9700000gn/T/wzQL.mO0XET/Atom....",
+          "state": "open",
+          "createdAt": "2022-11-30T04:48:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25723,
+          "title": "Totally broken",
+          "state": "open",
+          "createdAt": "2022-11-29T07:23:00Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 25722,
+          "title": "Uncaught Error: Module did not self-register: '/Applications/Atom.app/Contents/Resources/app.asar...",
+          "state": "open",
+          "createdAt": "2022-11-28T16:12:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25720,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\atom\\app-1.63.1\\res...",
+          "state": "open",
+          "createdAt": "2022-11-26T07:54:37Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25719,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\atom\\app-1.63.1\\res...",
+          "state": "open",
+          "createdAt": "2022-11-26T07:26:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25718,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\C:\\ProgramData\\User\\atom\\app...",
+          "state": "open",
+          "createdAt": "2022-11-25T20:57:44Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25715,
+          "title": "Why are Atom being ended? ",
+          "state": "open",
+          "createdAt": "2022-11-25T13:02:43Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25712,
+          "title": "PlatformIO IDE installation Freezing",
+          "state": "open",
+          "createdAt": "2022-11-23T19:42:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25710,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\atom\\app-1.63.0\\res...",
+          "state": "closed",
+          "createdAt": "2022-11-22T20:30:23Z",
+          "closedAt": "2022-11-22T20:44:28Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25708,
+          "title": "README.md references Atom forum but it's a broken link",
+          "state": "open",
+          "createdAt": "2022-11-22T05:33:52Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25705,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\AweZip\\Temp1\\A...",
+          "state": "open",
+          "createdAt": "2022-11-21T19:56:32Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25704,
+          "title": "Can't open anything in Atom 1.63",
+          "state": "open",
+          "createdAt": "2022-11-20T16:39:52Z",
+          "closedAt": null,
+          "comments": 26,
+          "labels": []
+        },
+        {
+          "number": 25701,
+          "title": "Unable to use atom on Fedora 35",
+          "state": "open",
+          "createdAt": "2022-11-18T20:02:32Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25700,
+          "title": "Uncaught Error: Module did not self-register: '/Applications/Atom.app/Contents/Resources/app.asar...",
+          "state": "open",
+          "createdAt": "2022-11-18T16:47:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25699,
+          "title": "atom",
+          "state": "closed",
+          "createdAt": "2022-11-17T12:48:41Z",
+          "closedAt": "2022-11-17T12:49:03Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25698,
+          "title": "Uncaught Error: dlopen(/private/var/folders/nf/153hctrn0lx5d5zkmjjv574c0000gn/T/wzQL.M5WwQp/Atom....",
+          "state": "open",
+          "createdAt": "2022-11-17T01:07:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25695,
+          "title": "Thank you for The Journey",
+          "state": "closed",
+          "createdAt": "2022-11-15T15:40:15Z",
+          "closedAt": "2022-11-15T15:41:35Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25692,
+          "title": "Atom crashes immediately upon opening.",
+          "state": "closed",
+          "createdAt": "2022-11-14T06:26:48Z",
+          "closedAt": "2022-11-14T06:30:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25683,
+          "title": "https://m.mediawiki.org/wiki/How_to_contribute/se#/notifications",
+          "state": "open",
+          "createdAt": "2022-11-10T12:54:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25682,
+          "title": "RIP Atom",
+          "state": "closed",
+          "createdAt": "2022-11-10T12:42:05Z",
+          "closedAt": "2022-11-10T12:42:17Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25681,
+          "title": "course page",
+          "state": "open",
+          "createdAt": "2022-11-09T21:43:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25680,
+          "title": "Where to ask questions and get support for Atom?",
+          "state": "open",
+          "createdAt": "2022-11-07T12:00:47Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25679,
+          "title": "Uncaught Error: dlopen(/private/var/folders/vb/y1shvgmn2wg2m8520yqrvlmw0000gn/T/AppTranslocation/...",
+          "state": "open",
+          "createdAt": "2022-11-06T05:54:48Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25674,
+          "title": "Uncaught Error: The specified module could not be found.",
+          "state": "open",
+          "createdAt": "2022-11-01T13:49:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25673,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa15112.3...",
+          "state": "open",
+          "createdAt": "2022-11-01T13:48:02Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25672,
+          "title": "Đá Gà Online Eubet",
+          "state": "open",
+          "createdAt": "2022-11-01T08:33:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25670,
+          "title": "Uncaught Error: dlopen(~/Movies/Python/Games/Atom.app/Contents/Resources/app.asar.unpacked/node_m...",
+          "state": "open",
+          "createdAt": "2022-10-31T18:34:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25669,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\C:\\ProgramData\\pratik.bo\\atom\\app-1...",
+          "state": "open",
+          "createdAt": "2022-10-31T03:23:47Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25668,
+          "title": "Uncaught Error: dlopen(/private/var/folders/nf/153hctrn0lx5d5zkmjjv574c0000gn/T/wzQL.DlDsI0/Atom....",
+          "state": "open",
+          "createdAt": "2022-10-28T07:52:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25664,
+          "title": "Atom API produces HTTP 500",
+          "state": "open",
+          "createdAt": "2022-10-18T20:33:19Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 25663,
+          "title": "Coin",
+          "state": "open",
+          "createdAt": "2022-10-17T19:57:10Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25660,
+          "title": "Uncaught Error: ENOENT: no such file or directory, stat '$ATOM_HOME/packages\\atom-ternjs\\README.md'",
+          "state": "open",
+          "createdAt": "2022-10-13T06:59:21Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25659,
+          "title": "Atom can't start in Ubuntu 22.04 ",
+          "state": "closed",
+          "createdAt": "2022-10-12T21:45:32Z",
+          "closedAt": "2022-10-13T15:44:36Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25655,
+          "title": "[discussion] What will happen to Atom's websites and related documentation?",
+          "state": "open",
+          "createdAt": "2022-10-11T13:48:50Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25653,
+          "title": "Uncaught Error: reference to non-existent subpattern",
+          "state": "open",
+          "createdAt": "2022-10-10T23:21:46Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25652,
+          "title": "Atom being discontinued - download stable source version",
+          "state": "open",
+          "createdAt": "2022-10-10T13:39:36Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25650,
+          "title": "1.60. System Faults/Crashes on Launch of Atom ",
+          "state": "closed",
+          "createdAt": "2022-10-09T22:25:21Z",
+          "closedAt": "2022-10-11T19:33:51Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25649,
+          "title": "plz anyone help ",
+          "state": "open",
+          "createdAt": "2022-10-09T17:03:14Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25648,
+          "title": "hi",
+          "state": "open",
+          "createdAt": "2022-10-09T17:02:47Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25647,
+          "title": "could not retrieve outdated packages, see the console for details",
+          "state": "open",
+          "createdAt": "2022-10-09T16:47:30Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25639,
+          "title": "I need help with python and atom",
+          "state": "open",
+          "createdAt": "2022-10-03T01:06:52Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 25636,
+          "title": "1",
+          "state": "open",
+          "createdAt": "2022-09-29T13:55:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25635,
+          "title": "Bring atom.io back online?",
+          "state": "open",
+          "createdAt": "2022-09-28T22:44:16Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25634,
+          "title": "Atom can't be connected with browser. Files and folders cannot be renamed",
+          "state": "open",
+          "createdAt": "2022-09-27T13:44:16Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25631,
+          "title": "Bug return cursor location with \"`\"",
+          "state": "open",
+          "createdAt": "2022-09-24T15:28:06Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25628,
+          "title": "Potential security issue",
+          "state": "open",
+          "createdAt": "2022-09-20T20:04:14Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25627,
+          "title": "in the C syntax, when using 'scanf', ",
+          "state": "open",
+          "createdAt": "2022-09-20T16:20:04Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25626,
+          "title": "Watch \"Access\" on YouTube",
+          "state": "open",
+          "createdAt": "2022-09-16T13:30:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25625,
+          "title": "Uncaught Error: dlopen(/private/var/folders/k0/_3c4k36n2qs3qf2zfsss3r200000gn/T/wzQL.7JpeVb/Atom....",
+          "state": "open",
+          "createdAt": "2022-09-15T13:24:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25624,
+          "title": "Could not connect to indexedDB",
+          "state": "open",
+          "createdAt": "2022-09-14T07:54:26Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 25621,
+          "title": "Is Atom a good candidate to be customized for my need?",
+          "state": "closed",
+          "createdAt": "2022-09-11T06:11:58Z",
+          "closedAt": "2022-09-15T00:55:36Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25620,
+          "title": "Uncaught Error: dlopen(~/Downloads/AP Computer Science A/Atom.app/Contents/Resources/app.asar.unp...",
+          "state": "closed",
+          "createdAt": "2022-09-10T23:09:18Z",
+          "closedAt": "2022-09-13T08:23:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25617,
+          "title": "Uncaught Error: dlopen(~/Documents/OneDrive - Roskilde Katedralskole/2t/Informatik/Atom.app/Conte...",
+          "state": "closed",
+          "createdAt": "2022-09-07T09:57:39Z",
+          "closedAt": "2022-09-13T08:23:25Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25616,
+          "title": "Uncaught Error: ENOENT: no such file or directory, lstat '~/projects_morepy/ex18/py'",
+          "state": "open",
+          "createdAt": "2022-09-05T23:08:00Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25615,
+          "title": "Bug : graphical issues",
+          "state": "open",
+          "createdAt": "2022-08-31T11:56:20Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25614,
+          "title": "I can't show anything on the screen while a package installation task fails",
+          "state": "open",
+          "createdAt": "2022-08-31T07:17:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25612,
+          "title": "build-cmake package with Geant4",
+          "state": "closed",
+          "createdAt": "2022-08-29T14:14:08Z",
+          "closedAt": "2022-08-31T07:01:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25611,
+          "title": ".",
+          "state": "closed",
+          "createdAt": "2022-08-28T16:18:13Z",
+          "closedAt": "2022-08-31T07:02:56Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25610,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa5600.27...",
+          "state": "closed",
+          "createdAt": "2022-08-28T04:50:02Z",
+          "closedAt": "2022-08-31T07:03:09Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25609,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa5600.27...",
+          "state": "closed",
+          "createdAt": "2022-08-28T04:48:02Z",
+          "closedAt": "2022-08-28T04:49:07Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25608,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa5600.27...",
+          "state": "closed",
+          "createdAt": "2022-08-27T06:34:14Z",
+          "closedAt": "2022-08-31T07:03:21Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25607,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa5600.27...",
+          "state": "closed",
+          "createdAt": "2022-08-27T06:11:54Z",
+          "closedAt": "2022-08-31T07:03:35Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25606,
+          "title": "Is alive ",
+          "state": "closed",
+          "createdAt": "2022-08-26T16:23:09Z",
+          "closedAt": "2022-08-31T07:03:44Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25604,
+          "title": "Atom.io opens developer tools? I know it's NOT supposed to look like this,",
+          "state": "closed",
+          "createdAt": "2022-08-25T23:33:36Z",
+          "closedAt": "2022-08-31T07:04:35Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25603,
+          "title": "Make Atom NOT the default text editor",
+          "state": "open",
+          "createdAt": "2022-08-25T19:42:28Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25602,
+          "title": "Website contact link is broken",
+          "state": "open",
+          "createdAt": "2022-08-25T19:41:37Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "triaged"
+          ]
+        },
+        {
+          "number": 25600,
+          "title": "Profiles",
+          "state": "open",
+          "createdAt": "2022-08-21T20:07:34Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25595,
+          "title": "Themes catalogue is pointless without pictures",
+          "state": "open",
+          "createdAt": "2022-08-16T01:27:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25594,
+          "title": "DO NOT USE ATOM...  ",
+          "state": "open",
+          "createdAt": "2022-08-09T22:25:04Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25593,
+          "title": "tunneling socket could not be established, statusCode=407",
+          "state": "open",
+          "createdAt": "2022-08-09T19:25:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25591,
+          "title": "Can't build Atom on Arch Linux",
+          "state": "open",
+          "createdAt": "2022-08-06T17:39:01Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25590,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\Rar$EXa4448.12...",
+          "state": "closed",
+          "createdAt": "2022-08-03T08:18:17Z",
+          "closedAt": "2022-08-10T23:30:15Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25589,
+          "title": "Question about Atom vs. Linux",
+          "state": "open",
+          "createdAt": "2022-07-31T16:27:54Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25588,
+          "title": "can't find a package",
+          "state": "open",
+          "createdAt": "2022-07-31T05:51:42Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25587,
+          "title": "..",
+          "state": "open",
+          "createdAt": "2022-07-30T19:56:41Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25586,
+          "title": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.51.0\\Todolis...",
+          "state": "open",
+          "createdAt": "2022-07-27T05:01:44Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25585,
+          "title": "[Enter steps to reproduce:]",
+          "state": "open",
+          "createdAt": "2022-07-26T07:04:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25581,
+          "title": "Uncaught Error: dlopen(/private/var/folders/4x/h84zxs090md186csjq49qxbc0000gn/T/wzQL.5BhTMd/Atom....",
+          "state": "open",
+          "createdAt": "2022-07-22T18:41:32Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25577,
+          "title": "Bug Report",
+          "state": "open",
+          "createdAt": "2022-07-21T08:08:44Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25573,
+          "title": "html in browser ",
+          "state": "open",
+          "createdAt": "2022-07-16T18:42:29Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25572,
+          "title": "Need a Help section",
+          "state": "open",
+          "createdAt": "2022-07-14T12:42:14Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 25571,
+          "title": "Strange code selection (3 mouse clicks)",
+          "state": "open",
+          "createdAt": "2022-07-13T17:40:30Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25569,
+          "title": "Uncaught Error: ENOENT: no such file or directory, stat '$ATOM_HOME/packages/autocomplete-python/...",
+          "state": "open",
+          "createdAt": "2022-07-11T15:36:49Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25568,
+          "title": "removed",
+          "state": "closed",
+          "createdAt": "2022-07-10T22:25:28Z",
+          "closedAt": "2022-07-10T22:25:53Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25566,
+          "title": "Upload a single file from PC to micropython board",
+          "state": "open",
+          "createdAt": "2022-07-09T14:48:22Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25565,
+          "title": "Can the community have a discord or slack?",
+          "state": "open",
+          "createdAt": "2022-07-09T10:20:30Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25564,
+          "title": "bedbugs in the mattress",
+          "state": "open",
+          "createdAt": "2022-07-08T23:21:25Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25563,
+          "title": "Thinking about the sunset of Atom",
+          "state": "open",
+          "createdAt": "2022-07-08T03:23:27Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25562,
+          "title": "bug rep",
+          "state": "open",
+          "createdAt": "2022-07-07T14:35:29Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25559,
+          "title": "[RETRACTED] [DISCORD COMMUNITY CONTINUATION]",
+          "state": "closed",
+          "createdAt": "2022-07-05T22:06:32Z",
+          "closedAt": "2022-07-10T19:59:24Z",
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 25558,
+          "title": "Port Atom packages to VSCode extensions before sunset?",
+          "state": "open",
+          "createdAt": "2022-07-05T20:26:36Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25557,
+          "title": "Alternative to Atom is VSCodium",
+          "state": "closed",
+          "createdAt": "2022-07-05T20:15:27Z",
+          "closedAt": "2022-07-05T20:19:48Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25553,
+          "title": "Uncaught Error: dlopen(~/Desktop/Atom.app/Contents/Resources/app.asar.unpacked/node_modules/keybo...",
+          "state": "closed",
+          "createdAt": "2022-07-02T03:15:58Z",
+          "closedAt": "2022-07-02T20:51:24Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25552,
+          "title": "Sun-setting alternative proposal.",
+          "state": "open",
+          "createdAt": "2022-06-30T16:49:20Z",
+          "closedAt": null,
+          "comments": 26,
+          "labels": []
+        },
+        {
+          "number": 25551,
+          "title": "Virüs Alert Plugin",
+          "state": "closed",
+          "createdAt": "2022-06-29T20:36:11Z",
+          "closedAt": "2022-06-29T20:36:31Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25550,
+          "title": "Viruses in plugins",
+          "state": "open",
+          "createdAt": "2022-06-29T20:35:37Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 25549,
+          "title": "Atom - Please Revive.",
+          "state": "closed",
+          "createdAt": "2022-06-29T19:31:36Z",
+          "closedAt": "2022-07-02T20:15:53Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25548,
+          "title": "Trouble shooting for installing atom-beautify package ",
+          "state": "open",
+          "createdAt": "2022-06-28T18:02:36Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25547,
+          "title": "unable to find packages",
+          "state": "open",
+          "createdAt": "2022-06-27T03:07:32Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 25546,
+          "title": "Look for bugs",
+          "state": "open",
+          "createdAt": "2022-06-26T14:22:52Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25545,
+          "title": "Please consider upgrading \"bookmarks\"",
+          "state": "open",
+          "createdAt": "2022-06-24T13:24:56Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25544,
+          "title": "Could not connect to indexedDB",
+          "state": "closed",
+          "createdAt": "2022-06-22T15:07:41Z",
+          "closedAt": "2022-06-22T17:27:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25542,
+          "title": "https://github.com/atom/atom",
+          "state": "closed",
+          "createdAt": "2022-06-20T11:05:28Z",
+          "closedAt": "2022-06-20T13:34:51Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25540,
+          "title": "Could not connect to indexedDB",
+          "state": "open",
+          "createdAt": "2022-06-16T11:28:08Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 25539,
+          "title": "Allow the community to continue maintaining Atom",
+          "state": "open",
+          "createdAt": "2022-06-15T21:26:40Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 25538,
+          "title": "Maintain atom after Microsoft abandons it",
+          "state": "closed",
+          "createdAt": "2022-06-15T20:25:19Z",
+          "closedAt": "2022-07-18T13:26:08Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25536,
+          "title": "help please",
+          "state": "closed",
+          "createdAt": "2022-06-14T17:05:34Z",
+          "closedAt": "2022-06-20T13:35:36Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 25535,
+          "title": "Anthonysidesapps",
+          "state": "closed",
+          "createdAt": "2022-06-14T04:12:36Z",
+          "closedAt": "2022-06-20T13:36:18Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25534,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\~\\AppData\\Local\\Temp\\360zip$Temp\\36...",
+          "state": "closed",
+          "createdAt": "2022-06-14T02:33:59Z",
+          "closedAt": "2022-06-20T13:36:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25528,
+          "title": "B",
+          "state": "closed",
+          "createdAt": "2022-06-13T18:29:14Z",
+          "closedAt": "2022-06-20T13:35:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25518,
+          "title": "Atom does not build (error raised in src/atom-1.61.0-beta0/script/lib/dump-symbols.js:33)",
+          "state": "open",
+          "createdAt": "2022-06-11T10:02:29Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 25517,
+          "title": "error in first line of atom intro",
+          "state": "closed",
+          "createdAt": "2022-06-11T04:42:56Z",
+          "closedAt": "2022-06-20T13:37:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25516,
+          "title": "I need people to help continue this project. I forked it but I don't have enough skills to continue it on my own.",
+          "state": "closed",
+          "createdAt": "2022-06-10T13:44:31Z",
+          "closedAt": "2022-06-13T03:59:56Z",
+          "comments": 12,
+          "labels": []
+        },
+        {
+          "number": 25515,
+          "title": "@atom-community started a fork at https://github.com/atom-community/atom/ a while ago. If anyone wants to continue development there we would be happy to keep it going.",
+          "state": "open",
+          "createdAt": "2022-06-10T07:47:34Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 25514,
+          "title": "HTMLDocument.registerElement is deprecated.",
+          "state": "open",
+          "createdAt": "2022-06-10T07:45:02Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25513,
+          "title": "bruh",
+          "state": "closed",
+          "createdAt": "2022-06-10T05:23:48Z",
+          "closedAt": "2022-06-29T15:01:26Z",
+          "comments": 9,
+          "labels": []
+        },
+        {
+          "number": 25512,
+          "title": "Thank you Atom",
+          "state": "open",
+          "createdAt": "2022-06-10T04:54:18Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25511,
+          "title": "Don't be sad, there is a next generation of Atom text editor - Zed",
+          "state": "open",
+          "createdAt": "2022-06-09T21:14:44Z",
+          "closedAt": null,
+          "comments": 41,
+          "labels": []
+        },
+        {
+          "number": 25510,
+          "title": "what about a new fork, folks",
+          "state": "open",
+          "createdAt": "2022-06-09T20:52:17Z",
+          "closedAt": null,
+          "comments": 24,
+          "labels": []
+        },
+        {
+          "number": 25509,
+          "title": "Can we sue github or ms for this?",
+          "state": "open",
+          "createdAt": "2022-06-09T15:03:55Z",
+          "closedAt": null,
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 25508,
+          "title": "alternatives to atom?",
+          "state": "open",
+          "createdAt": "2022-06-09T14:35:01Z",
+          "closedAt": null,
+          "comments": 46,
+          "labels": []
+        },
+        {
+          "number": 25507,
+          "title": "Atom is the Best. Shame on Microsoft the Community Stands Stronger, No Archiving Atom",
+          "state": "open",
+          "createdAt": "2022-06-09T13:30:27Z",
+          "closedAt": null,
+          "comments": 30,
+          "labels": []
+        },
+        {
+          "number": 25506,
+          "title": "Anyway thank you Atom",
+          "state": "open",
+          "createdAt": "2022-06-09T09:58:29Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25505,
+          "title": "Goodbye Atom. Hello VS Code.",
+          "state": "open",
+          "createdAt": "2022-06-09T06:43:47Z",
+          "closedAt": null,
+          "comments": 31,
+          "labels": []
+        },
+        {
+          "number": 25504,
+          "title": "Clarifying about atom.io hosted packages during/after the sunset ",
+          "state": "open",
+          "createdAt": "2022-06-08T22:17:37Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 25501,
+          "title": "Auto Update Noncompliance",
+          "state": "open",
+          "createdAt": "2022-06-06T04:03:41Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25496,
+          "title": "atom.io links broken",
+          "state": "open",
+          "createdAt": "2022-05-31T21:20:30Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25495,
+          "title": "atom lags on ubuntu22.04",
+          "state": "open",
+          "createdAt": "2022-05-31T14:20:39Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25493,
+          "title": "Issue with EOL package in CI dependencies.",
+          "state": "closed",
+          "createdAt": "2022-05-31T11:05:14Z",
+          "closedAt": "2022-06-02T18:01:59Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25489,
+          "title": "Atom running at background process but not showing up",
+          "state": "closed",
+          "createdAt": "2022-05-29T15:41:47Z",
+          "closedAt": "2022-05-30T10:21:21Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 25488,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\C:\\ProgramData\\ebra5\\atom\\app-1.60....",
+          "state": "open",
+          "createdAt": "2022-05-29T11:29:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25487,
+          "title": "Uncaught Error: The specified module could not be found./\\?\\C:\\ProgramData\\ebra5\\atom\\app-1.60....",
+          "state": "closed",
+          "createdAt": "2022-05-29T10:40:56Z",
+          "closedAt": "2022-05-29T11:26:27Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25486,
+          "title": "trying to compile from source on ubuntu arm64 and got an error",
+          "state": "open",
+          "createdAt": "2022-05-27T17:49:33Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 25485,
+          "title": "[SOLVED] copy/paste bug: carriage return inserted on paste + How can I turn off Auto-indent/Auto-reformat on paste?",
+          "state": "closed",
+          "createdAt": "2022-05-26T08:20:10Z",
+          "closedAt": "2022-05-30T12:36:21Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 25482,
+          "title": "db is notwoking",
+          "state": "closed",
+          "createdAt": "2022-05-25T04:24:39Z",
+          "closedAt": "2022-06-03T21:23:29Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 25481,
+          "title": "Electron v19.0.0 HTTP 403 ( dist-url https://atom.io/download/atom-shell ) UPDATE alt dist URL works: https://electronjs.org/headers",
+          "state": "open",
+          "createdAt": "2022-05-24T16:07:57Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 109,
+        "totalFetched": 151,
+        "medianDaysToFirstResponse": 1,
+        "openOverOneYearNoReply": 48
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Atom\n\n[![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)\n\n> Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)\n\nAtom is a hackable text editor for the 21st century, built on [Electron](https://github.com/electron/electron), and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.\n\n![Atom](https://user-images.githubusercontent.com/378023/49132477-f4b77680-f31f-11e8-8357-ac6491761c6c.png)\n\n![Atom Screenshot](https://user-images.githubusercontent.com/378023/49132478-f4b77680-f31f-11e8-9e10-e8454d8d9b7e.png)\n\nVisit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/atom/atom/discussions).\n\nFollow [@AtomEditor](https://twitter.com/atomeditor) on Twitter for important\nannouncements.\n\nThis project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).\nBy participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.\n\n## Documentation\n\nIf you want to read about using Atom or developing packages in Atom, the [Atom Flight Manual](https://flight-manual.atom.io) is free and available online. You can find the source to the manual in [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io).\n\nThe [API reference](https://atom.io/docs/api) for developing packages is also documented on Atom.io.\n\n## Installing\n\n### Prerequisites\n- [Git](https://git-scm.com)\n\n### macOS\n\nDownload the latest [Atom release](https://github.com/atom/atom/releases/latest).\n\nAtom will automatically update when a new release is available.\n\n### Windows\n\nDownload the latest [Atom installer](https://github.com/atom/atom/releases/latest). `AtomSetup.exe` is 32-bit. For 64-bit systems, download `AtomSetup-x64.exe`.\n\nAtom will automatically update when a new release is available.\n\nYou can also download `atom-windows.zip` (32-bit) or `atom-x64-windows.zip` (64-bit) from the [releases page](https://github.com/atom/atom/releases/latest).\nThe `.zip` version will not automatically update.\n\nUsing [Chocolatey](https://chocolatey.org)? Run `cinst Atom` to install the latest version of Atom.\n\n### Linux\n\nAtom is only available for 64-bit Linux systems.\n\nConfigure your distribution's package manager to install and update Atom by following the [Linux installation instructions](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux) in the Flight Manual.  You will also find instructions on how to install Atom's official Linux packages without using a package repository, though you will not get automatic updates after installing Atom this way.\n\n#### Archive extraction\n\nAn archive is available for people who don't want to install `atom` as root.\n\nThis version enables you to install multiple Atom versions in parallel. It has been built on Ubuntu 64-bit,\nbut should be compatible with other Linux distributions.\n\n1. Install dependencies (on Ubuntu):\n```sh\nsudo apt install git libasound2 libcurl4 libgbm1 libgcrypt20 libgtk-3-0 libnotify4 libnss3 libglib2.0-bin xdg-utils libx11-xcb1 libxcb-dri3-0 libxss1 libxtst6 libxkbfile1\n```\n2. Download `atom-amd64.tar.gz` from the [Atom releases page](https://github.com/atom/atom/releases/latest).\n3. Run `tar xf atom-amd64.tar.gz` in the directory where you want to extract the Atom folder.\n4. Launch Atom using the installed `atom` command from the newly extracted directory.\n\nThe Linux version does not currently automatically update so you will need to\nrepeat these steps to upgrade to future releases.\n\n## Building\n\n* [Linux](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-linux)\n* [macOS](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-mac)\n* [Windows](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-windows)\n\n## Discussion\n\n* Discuss Atom on [GitHub Discussions](https://github.com/atom/atom/discussions)\n\n## License\n\n[MIT](https://github.com/atom/atom/blob/master/LICENSE.md)\n\nWhen using the Atom or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 1282,
+      "flatlineMonth": "2022-11",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:11:32.001Z"
+  },
+  "autopsy": {
+    "epitaph": "Born a hackable dream for the 21st century, Atom was formally archived by its owner on December 15, 2022, its final breath a macOS menu fix while the sunsetting announcement scrolled silently behind it.",
+    "causes": [
+      {
+        "label": "Deliberate owner archival / sunsetting by GitHub",
+        "confidencePct": 99,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "commit",
+            "ref": "df229dd1a44f6672f820b0558a63cb3769a279a2"
+          },
+          {
+            "type": "issue",
+            "ref": "#25507"
+          },
+          {
+            "type": "issue",
+            "ref": "#25652"
+          }
+        ]
+      },
+      {
+        "label": "Organizational abandonment in favor of VS Code",
+        "confidencePct": 90,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#25505"
+          },
+          {
+            "type": "issue",
+            "ref": "#25539"
+          },
+          {
+            "type": "issue",
+            "ref": "#25538"
+          },
+          {
+            "type": "issue",
+            "ref": "#25552"
+          }
+        ]
+      },
+      {
+        "label": "Accelerating commit decay and infrastructure collapse",
+        "confidencePct": 82,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "3f66da9b6f3388f2f9e6ce381f1f1cec407d1698"
+          },
+          {
+            "type": "commit",
+            "ref": "4decada54e6512184cb1ae9f238c44264fe4ce41"
+          },
+          {
+            "type": "issue",
+            "ref": "#25481"
+          },
+          {
+            "type": "issue",
+            "ref": "#25664"
+          }
+        ]
+      },
+      {
+        "label": "Community fragmentation with no credible successor maintainer",
+        "confidencePct": 71,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#25516"
+          },
+          {
+            "type": "issue",
+            "ref": "#25515"
+          },
+          {
+            "type": "issue",
+            "ref": "#25510"
+          },
+          {
+            "type": "issue",
+            "ref": "#25559"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Transfer ownership to an active community organisation (e.g. atom-community) and un-archive the repository so pull requests can flow again.",
+        "effort": "a heroic quarter of legal and organisational negotiation"
+      },
+      {
+        "step": "Replace all dead atom.io infrastructure references — package registry, forum links flagged in issue #25708 and the README — with community-hosted equivalents.",
+        "effort": "a week"
+      },
+      {
+        "step": "Upgrade the pinned Electron version and audit native Node modules causing the cascade of 'module did not self-register' crashes flooding the issue tracker.",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Re-enable the disabled test suite (reversed by commit 3f66da9) and establish a green CI baseline on a modern runner.",
+        "effort": "two weeks"
+      },
+      {
+        "step": "Publish a community roadmap and governance document to stem the flood of 'why is Atom ending?' issues and redirect contributors productively.",
+        "effort": "an afternoon"
+      }
+    ],
+    "lastWordsGloss": "'Fix File → Open… menu on macOS' — a noble final act of tidying the silverware while the house was already sold."
+  }
+}

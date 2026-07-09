@@ -1,0 +1,96 @@
+{
+  "epitaph": "It shipped v3.4.0 into the quiet and then, like its own --quiet flag, said nothing more — 436 days of unanswered silence answering issue #88 for itself.",
+  "causes": [
+    {
+      "label": "Maintainer abandonment after final release",
+      "confidencePct": 90,
+      "evidence": [
+        {
+          "type": "commit",
+          "ref": "c6bbf72dff43166495e5c9eb8d48f849d0466ea6"
+        },
+        {
+          "type": "issue",
+          "ref": "#88"
+        },
+        {
+          "type": "readme",
+          "ref": "README"
+        }
+      ]
+    },
+    {
+      "label": "Accumulating unmerged feature and fix branches",
+      "confidencePct": 72,
+      "evidence": [
+        {
+          "type": "branch",
+          "ref": "feature/plugins"
+        },
+        {
+          "type": "branch",
+          "ref": "fix/windows-quoting"
+        },
+        {
+          "type": "issue",
+          "ref": "#76"
+        },
+        {
+          "type": "issue",
+          "ref": "#80"
+        }
+      ]
+    },
+    {
+      "label": "Known bugs left unresolved in source",
+      "confidencePct": 68,
+      "evidence": [
+        {
+          "type": "file",
+          "ref": "src/format.js"
+        },
+        {
+          "type": "file",
+          "ref": "src/win/quote.js"
+        },
+        {
+          "type": "issue",
+          "ref": "#84"
+        }
+      ]
+    },
+    {
+      "label": "Dependency CVE patched but project momentum died shortly after",
+      "confidencePct": 45,
+      "evidence": [
+        {
+          "type": "commit",
+          "ref": "e6bbea6c01ed7edcef89943e822edcb176380487"
+        }
+      ]
+    }
+  ],
+  "revival": [
+    {
+      "step": "Have Sam Vale or a new maintainer post a public statement on issue #88 declaring the project's status and either committing to maintenance or formally seeking a new owner.",
+      "effort": "an afternoon"
+    },
+    {
+      "step": "Merge or close the fix/windows-quoting branch — either land the two-commit fix for nested quoting (issue #80) or document it as a known limitation.",
+      "effort": "an afternoon"
+    },
+    {
+      "step": "Patch src/format.js so that the error path emits valid JSON, resolving issue #84 and the TODO that has been staring at contributors since before v3.4.0.",
+      "effort": "a day"
+    },
+    {
+      "step": "Triage the feature/plugins branch: it is 9 commits ahead and 74 behind master — either rebase and ship a plugin API as v3.5.0, or close issue #76 with an explanation.",
+      "effort": "a week"
+    },
+    {
+      "step": "Establish a lightweight governance document (MAINTAINERS.md, GitHub Discussions, or similar) and a release cadence so the next v3.x does not flatline in silence the way v3.4.0 did.",
+      "effort": "a heroic quarter"
+    }
+  ],
+  "lastWordsGloss": "'Release v3.4.0' — a triumphant curtain call from a tool named hush, which then, fittingly, hushed forever."
+}

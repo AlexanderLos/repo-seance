@@ -1,0 +1,1947 @@
+{
+  "dossier": {
+    "version": "v1",
+    "repo": {
+      "owner": "facebookarchive",
+      "name": "nuclide",
+      "fullName": "facebookarchive/nuclide",
+      "description": "An open IDE for web and native mobile development, built on top of Atom ",
+      "htmlUrl": "https://github.com/facebookarchive/nuclide",
+      "createdAt": "2015-03-02T05:25:27Z",
+      "pushedAt": "2018-12-12T18:00:31Z",
+      "archived": true,
+      "stars": 7720,
+      "forks": 676,
+      "defaultBranch": "master",
+      "license": "Other"
+    },
+    "commits": {
+      "totalCount": 15238,
+      "fetchedCount": 1000,
+      "capped": true,
+      "monthly": [
+        {
+          "month": "2018-08",
+          "count": 3
+        },
+        {
+          "month": "2018-09",
+          "count": 288
+        },
+        {
+          "month": "2018-10",
+          "count": 345
+        },
+        {
+          "month": "2018-11",
+          "count": 310
+        },
+        {
+          "month": "2018-12",
+          "count": 54
+        }
+      ],
+      "recent": [
+        {
+          "sha": "2a2a0a642d136768b7d2a6d35a652dc5fb77d70a",
+          "message": "Updating nuclide.io landing page text regarding Nuclide OSS depracation.",
+          "date": "2018-12-12T17:47:39Z",
+          "authorName": "ebluestein",
+          "authorLogin": "ebluestein"
+        },
+        {
+          "sha": "cc98910cc859aca731608d3599c150ca0d805467",
+          "message": "Removing Blog",
+          "date": "2018-12-11T22:33:01Z",
+          "authorName": "ebluestein",
+          "authorLogin": "ebluestein"
+        },
+        {
+          "sha": "e4e47046cff0f7ce37cecc4593da064b1e203217",
+          "message": "Remove `highlight-selected` from Nuclide, uninstall it, and migrate it to `fb-highlight-selected`",
+          "date": "2018-12-06T21:41:42Z",
+          "authorName": "Will Binns-Smith",
+          "authorLogin": null
+        },
+        {
+          "sha": "bbc543ad40ac8bb043c079dd1967fe1a96235c71",
+          "message": "Pass the missing key to the factory function for Default Map and DefaultWeakMap",
+          "date": "2018-12-06T21:41:41Z",
+          "authorName": "Will Binns-Smith",
+          "authorLogin": null
+        },
+        {
+          "sha": "38e4ab033e26b8e180bdd9b19eb7f1e6985a5df0",
+          "message": "Add missing `atom.flow` definitions",
+          "date": "2018-12-06T21:41:41Z",
+          "authorName": "Will Binns-Smith",
+          "authorLogin": null
+        },
+        {
+          "sha": "728dfc42906ecb7ba433328089691d95fb4c67ac",
+          "message": "pretty error message for cert not yet valid",
+          "date": "2018-12-06T21:37:03Z",
+          "authorName": "Sam Fu",
+          "authorLogin": null
+        },
+        {
+          "sha": "ee61cd9cb0106c2784ca4782d0d5401851aaa490",
+          "message": "Fix tunneling cleanup",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "d2c6be625e5c2fd51046fc40a57fcf4ba7f8eb31",
+          "message": "Tunnel iOS devices on devservers",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "a9fa23234412e4a7bf25733e3eba8b40f265b1b1",
+          "message": "Initial tunneling implementation",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "bb0c18b74173ca576c5cf9dd47c00514433d18cd",
+          "message": "Add listTargets and output parsing",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "e1319dc33598ffa40c067fc496c5bbd7fadb8f1c",
+          "message": "Move package to nuclide prefix",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "943012d8a17829ff6bcd53c689f7f55512e9c7ec",
+          "message": "Add gk for idb, multiple host support",
+          "date": "2018-12-06T19:36:10Z",
+          "authorName": "Stepan Hruda",
+          "authorLogin": "stepanhruda"
+        },
+        {
+          "sha": "d73c37c0b57936560bebd5657b4148480ec706f8",
+          "message": "Clarify that we don't support negative step in range()",
+          "date": "2018-12-06T16:40:42Z",
+          "authorName": "Jordan Eldredge",
+          "authorLogin": "captbaritone"
+        },
+        {
+          "sha": "24ef16057b4fd41acb516db1aae913dd166bcf35",
+          "message": "Remove `updatePatchList` atom TextEditor Patching",
+          "date": "2018-12-06T01:32:52Z",
+          "authorName": "Will Binns-Smith",
+          "authorLogin": null
+        },
+        {
+          "sha": "31b7106e2db0d4c3ef388409caca35bc11dec395",
+          "message": "Don't leak editors",
+          "date": "2018-12-05T23:56:45Z",
+          "authorName": "Jordan Eldredge",
+          "authorLogin": "captbaritone"
+        },
+        {
+          "sha": "7f40f82146b0b2af32b31e8e8cfc3f59ec2eb9e2",
+          "message": "Remove height from Unstyled Button",
+          "date": "2018-12-05T23:42:21Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "aeabe4809735aba9492fbe9814268a62bc252f39",
+          "message": "Fix \"react-dom/profiling\" redbox",
+          "date": "2018-12-05T21:41:24Z",
+          "authorName": "Matthew Dapena-Tretter",
+          "authorLogin": "matthewwithanm"
+        },
+        {
+          "sha": "0ae6ac0b05faf171ed52db1ea5ba5935beacf3d4",
+          "message": "Add showFullscreenSpinner",
+          "date": "2018-12-05T21:38:36Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "344808ecdca2244f15a79ab13666b305d109f97a",
+          "message": "Return ReportedOptimisticState from HgOperations",
+          "date": "2018-12-05T21:38:36Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "ef4ad7e97336b5418aeac763562587d6d69db211",
+          "message": "pull operation",
+          "date": "2018-12-05T21:38:36Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "f57739044a78316020f035e95d0d4d59bc085046",
+          "message": "Cursor is maintained after using js-imports",
+          "date": "2018-12-05T21:22:18Z",
+          "authorName": "Sophie Beland",
+          "authorLogin": "sbeland"
+        },
+        {
+          "sha": "4d1b89573ac3302949f0f10c48dcd444f845de44",
+          "message": "Soft wrap suggested changes",
+          "date": "2018-12-05T19:48:31Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "5aad1002b5cec76e5831feb25a39098f6aedff8c",
+          "message": "Bump nuclide version to 0.390.0",
+          "date": "2018-12-05T05:03:00Z",
+          "authorName": "Nuclide Team",
+          "authorLogin": null
+        },
+        {
+          "sha": "48b215528f855c84ccc01cbae83be89c1cae7e7a",
+          "message": "Bump nuclide version to 0.389.0",
+          "date": "2018-12-05T04:49:57Z",
+          "authorName": "Nuclide Team",
+          "authorLogin": null
+        },
+        {
+          "sha": "50a30da8393b3aa8e664f8bd3de1f677c3ad000a",
+          "message": "Bump nuclide version to 0.388.0",
+          "date": "2018-12-05T04:21:00Z",
+          "authorName": "Nuclide Team",
+          "authorLogin": null
+        },
+        {
+          "sha": "9929f3a2285d85778308b35b67fa10279db3567e",
+          "message": "Fix Diff View Hanging",
+          "date": "2018-12-05T04:01:11Z",
+          "authorName": "Shan Phylim",
+          "authorLogin": "shanpls"
+        },
+        {
+          "sha": "8c987a542305acaa8ad1d15dcfd3552a32ccce8e",
+          "message": "Hide expression names of simple expressions in console record view",
+          "date": "2018-12-05T02:28:46Z",
+          "authorName": "Eric Bluestein",
+          "authorLogin": "ebluestein"
+        },
+        {
+          "sha": "bbccd1ce6a09d3ac923a31e04183dd2d6970f8ee",
+          "message": "Add Log Message to the Breakpoints View",
+          "date": "2018-12-05T01:49:18Z",
+          "authorName": "António Afonso",
+          "authorLogin": "aadsm"
+        },
+        {
+          "sha": "2093c2e8be4db882b53a840306437f7284be4f3c",
+          "message": "Add config option for merge3",
+          "date": "2018-12-05T01:44:25Z",
+          "authorName": "Evan Krause",
+          "authorLogin": "evangrayk"
+        },
+        {
+          "sha": "1f436e95e588cc1ba7418f5a3dd4fecf62b2117a",
+          "message": "use 1 as quantifier in saved work modal",
+          "date": "2018-12-05T01:37:31Z",
+          "authorName": "Sam Fu",
+          "authorLogin": null
+        }
+      ],
+      "finalCommit": {
+        "sha": "2a2a0a642d136768b7d2a6d35a652dc5fb77d70a",
+        "message": "Updating nuclide.io landing page text regarding Nuclide OSS depracation.",
+        "date": "2018-12-12T17:47:39Z",
+        "authorName": "ebluestein",
+        "authorLogin": "ebluestein"
+      }
+    },
+    "branches": {
+      "items": [
+        {
+          "name": "fb-config",
+          "lastCommitDate": "2016-09-21T00:08:19Z",
+          "aheadBy": null,
+          "behindBy": null
+        },
+        {
+          "name": "master",
+          "lastCommitDate": "2018-12-12T17:47:39Z",
+          "aheadBy": 0,
+          "behindBy": 0
+        },
+        {
+          "name": "release-v0.193.0",
+          "lastCommitDate": "2016-12-22T03:26:48Z",
+          "aheadBy": 2,
+          "behindBy": 7506
+        },
+        {
+          "name": "release-v0.194.0",
+          "lastCommitDate": "2016-12-22T03:52:10Z",
+          "aheadBy": 4,
+          "behindBy": 7506
+        },
+        {
+          "name": "release-v0.194.1",
+          "lastCommitDate": "2016-12-22T04:51:25Z",
+          "aheadBy": 6,
+          "behindBy": 7506
+        },
+        {
+          "name": "release-v0.195.0",
+          "lastCommitDate": "2017-01-03T22:09:34Z",
+          "aheadBy": 0,
+          "behindBy": 7456
+        },
+        {
+          "name": "release-v0.196.0",
+          "lastCommitDate": "2017-01-09T19:54:36Z",
+          "aheadBy": 0,
+          "behindBy": 7411
+        },
+        {
+          "name": "release-v0.197.0",
+          "lastCommitDate": "2017-01-11T00:22:39Z",
+          "aheadBy": 7,
+          "behindBy": 7411
+        },
+        {
+          "name": "release-v0.198.0",
+          "lastCommitDate": "2017-01-17T22:24:34Z",
+          "aheadBy": 0,
+          "behindBy": 7318
+        },
+        {
+          "name": "release-v0.199.0",
+          "lastCommitDate": "2017-01-19T01:54:28Z",
+          "aheadBy": 2,
+          "behindBy": 7318
+        }
+      ],
+      "capped": true
+    },
+    "issues": {
+      "items": [
+        {
+          "number": 1660,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 3, Calling function FileSystemService/findN...",
+          "state": "open",
+          "createdAt": "2018-12-11T20:34:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1659,
+          "title": "fsevents@1.2.4 – Cannot find module se.node'",
+          "state": "open",
+          "createdAt": "2018-11-30T12:25:03Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1658,
+          "title": "No Typechecking in Fresh Install of Nuclide + Hack",
+          "state": "open",
+          "createdAt": "2018-11-29T18:48:20Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1657,
+          "title": "`atom .` doesn't work w/ v366 terminal",
+          "state": "open",
+          "createdAt": "2018-11-29T05:23:53Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1656,
+          "title": "Uncaught Error: Connection Closed",
+          "state": "open",
+          "createdAt": "2018-11-19T15:12:25Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1655,
+          "title": "Uncaught TypeError: Cannot read property 'bind' of undefined",
+          "state": "open",
+          "createdAt": "2018-11-15T02:31:18Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1654,
+          "title": "Spotty Remote Connection ",
+          "state": "open",
+          "createdAt": "2018-11-10T19:24:23Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1653,
+          "title": "Failed to load the nuclide-buck package",
+          "state": "closed",
+          "createdAt": "2018-11-09T22:52:56Z",
+          "closedAt": "2018-11-09T23:32:27Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1652,
+          "title": "nuclide-buck unable to find @accent-text-color",
+          "state": "closed",
+          "createdAt": "2018-11-05T19:09:58Z",
+          "closedAt": "2018-11-06T18:29:23Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1651,
+          "title": "Uncaught TypeError: Cannot read property 'children' of undefined",
+          "state": "open",
+          "createdAt": "2018-11-05T07:40:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1650,
+          "title": "CMake C project and compile_commands.json",
+          "state": "open",
+          "createdAt": "2018-11-01T18:21:59Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1649,
+          "title": "[Ubuntu] Flow was not found when attempting to start it in ",
+          "state": "open",
+          "createdAt": "2018-10-30T23:40:10Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1648,
+          "title": "Output from Eslint missing",
+          "state": "closed",
+          "createdAt": "2018-10-29T14:28:05Z",
+          "closedAt": "2018-10-30T02:05:49Z",
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 1647,
+          "title": "where do I disable this git coloring ?",
+          "state": "open",
+          "createdAt": "2018-10-27T18:45:43Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1646,
+          "title": "Is Nuclide-definition-preview supposed to be working with remote Nuclide server?",
+          "state": "open",
+          "createdAt": "2018-10-26T21:03:07Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1645,
+          "title": "I have try to install nuclide package. after that i got this issue",
+          "state": "closed",
+          "createdAt": "2018-10-25T14:57:12Z",
+          "closedAt": "2018-11-30T01:01:48Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1644,
+          "title": "Nuclide 0.360.0 update doesn't work ",
+          "state": "open",
+          "createdAt": "2018-10-24T03:26:10Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1643,
+          "title": "nuclide-js-imports-server/nuclide-js-imports-client doesn't work",
+          "state": "open",
+          "createdAt": "2018-10-23T14:50:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1642,
+          "title": "apm install nuclide@0.360.0 not working",
+          "state": "open",
+          "createdAt": "2018-10-22T22:04:52Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1641,
+          "title": "Fail to load nuclide package. Cannot find module 'fb-appsession-observer'",
+          "state": "closed",
+          "createdAt": "2018-10-20T15:00:38Z",
+          "closedAt": "2018-10-30T15:14:57Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1640,
+          "title": "Cannot find module '../../fb-appsession-observer'",
+          "state": "closed",
+          "createdAt": "2018-10-20T05:57:57Z",
+          "closedAt": "2018-11-29T22:27:21Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1639,
+          "title": "Cannot find module '../../fb-appsession-observer'",
+          "state": "closed",
+          "createdAt": "2018-10-20T05:51:33Z",
+          "closedAt": "2018-10-26T05:57:46Z",
+          "comments": 19,
+          "labels": []
+        },
+        {
+          "number": 1637,
+          "title": "install nuclide v0.357.0 always failed",
+          "state": "closed",
+          "createdAt": "2018-10-19T14:23:11Z",
+          "closedAt": "2018-10-24T17:12:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1636,
+          "title": "Failed to start nuclide-server, nuclide_server_manager.py: error: no such option: --big-dig",
+          "state": "open",
+          "createdAt": "2018-10-18T23:36:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1634,
+          "title": "Node debugger: breakpoints not working since updating to latest Nuclide version.",
+          "state": "closed",
+          "createdAt": "2018-10-16T04:24:12Z",
+          "closedAt": "2018-10-18T22:14:55Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1633,
+          "title": "Uncaught TypeError: this.input.forEach is not a function",
+          "state": "open",
+          "createdAt": "2018-10-15T21:47:09Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1632,
+          "title": "Getting error about no Git repo after creating a file in remote folder",
+          "state": "open",
+          "createdAt": "2018-10-14T21:11:26Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1631,
+          "title": "Remote GIT and SFTP",
+          "state": "closed",
+          "createdAt": "2018-10-12T10:10:58Z",
+          "closedAt": "2018-10-22T22:45:04Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1630,
+          "title": "Linting results are not shown with tree-sitter + flow scope",
+          "state": "open",
+          "createdAt": "2018-10-09T14:04:37Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1629,
+          "title": "Attach Debugger on Remote Server",
+          "state": "closed",
+          "createdAt": "2018-10-09T10:34:49Z",
+          "closedAt": "2018-10-10T21:04:32Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1628,
+          "title": "[OutlineView] better React HOC support",
+          "state": "open",
+          "createdAt": "2018-10-08T17:58:42Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1627,
+          "title": "git-diff is disabled, no diff gutters",
+          "state": "closed",
+          "createdAt": "2018-10-05T15:04:09Z",
+          "closedAt": "2018-11-05T14:36:38Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 1625,
+          "title": "React Inspector Starts on port 8097",
+          "state": "open",
+          "createdAt": "2018-10-03T20:21:50Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1624,
+          "title": "Cannot open symlink folders",
+          "state": "closed",
+          "createdAt": "2018-10-02T03:39:54Z",
+          "closedAt": "2018-10-05T23:03:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1623,
+          "title": "Uncaught ProcessExitError: \"ps\" failed with exit code 1ps -eo pid,ppid,pcpu,time,rss,vsz,command",
+          "state": "open",
+          "createdAt": "2018-10-01T14:28:11Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1622,
+          "title": "CMD+F keyboard functionality defaulting to Find in Project instead of Buffer",
+          "state": "closed",
+          "createdAt": "2018-09-27T16:06:35Z",
+          "closedAt": "2018-10-08T18:58:04Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1621,
+          "title": "\"No executable file specified\" at startup",
+          "state": "open",
+          "createdAt": "2018-09-25T15:43:43Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1620,
+          "title": "How can I change the node version?",
+          "state": "open",
+          "createdAt": "2018-09-24T03:10:36Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1619,
+          "title": "Autocomplete quality on the level of basic text editor",
+          "state": "open",
+          "createdAt": "2018-09-19T09:21:03Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1618,
+          "title": "[atom-ide-debugger-node] Error when restarting debugger",
+          "state": "closed",
+          "createdAt": "2018-09-15T01:46:36Z",
+          "closedAt": "2018-10-10T22:37:36Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1617,
+          "title": "Cannot drag an external file into the Atom file tree",
+          "state": "closed",
+          "createdAt": "2018-09-13T15:58:07Z",
+          "closedAt": "2018-11-30T18:40:10Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1616,
+          "title": "\"Nuclide->Working Sets->Find in active\" is not working.",
+          "state": "open",
+          "createdAt": "2018-09-13T09:50:31Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1615,
+          "title": "in latest atom beta, working set changes do not survive atom quit->start",
+          "state": "open",
+          "createdAt": "2018-09-12T14:46:42Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1614,
+          "title": "How can I instal atom-ide-ui?",
+          "state": "closed",
+          "createdAt": "2018-09-11T13:47:29Z",
+          "closedAt": "2018-09-11T15:18:03Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1613,
+          "title": "Version parity between client and server is overtly strict.",
+          "state": "closed",
+          "createdAt": "2018-09-10T00:18:52Z",
+          "closedAt": "2018-09-19T16:20:44Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1612,
+          "title": "Highlight in file tree does not highlight whole filename",
+          "state": "closed",
+          "createdAt": "2018-09-07T17:49:21Z",
+          "closedAt": "2018-11-29T21:54:58Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1611,
+          "title": "Autocomplete should respect lint rules.  ",
+          "state": "closed",
+          "createdAt": "2018-09-07T12:54:57Z",
+          "closedAt": "2018-09-20T18:01:03Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1610,
+          "title": "Uncaught Error: Cannot find module '../services/LinterAdapter'",
+          "state": "closed",
+          "createdAt": "2018-09-07T11:52:50Z",
+          "closedAt": "2018-09-19T18:42:51Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1609,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 2, Calling function FileSystemService/findN...",
+          "state": "open",
+          "createdAt": "2018-09-06T08:09:42Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1608,
+          "title": "Terminal coloring scheme no effect?",
+          "state": "closed",
+          "createdAt": "2018-09-05T02:18:15Z",
+          "closedAt": "2018-09-10T18:10:08Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 1607,
+          "title": "[Feature] Search in terminal",
+          "state": "open",
+          "createdAt": "2018-09-04T06:58:24Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": [
+            "help wanted"
+          ]
+        },
+        {
+          "number": 1605,
+          "title": "Time out after 10 seconds after update",
+          "state": "open",
+          "createdAt": "2018-08-31T06:38:58Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1604,
+          "title": "NuclideCertificatesGenerator - ERROR - openssl failed: error, no objects specified in config file",
+          "state": "open",
+          "createdAt": "2018-08-30T22:56:21Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1603,
+          "title": "Uncaught Error: Cannot find module './atlas/Types'",
+          "state": "closed",
+          "createdAt": "2018-08-30T13:23:05Z",
+          "closedAt": "2018-08-31T06:37:47Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1602,
+          "title": "diff-view does not work",
+          "state": "closed",
+          "createdAt": "2018-08-30T06:01:45Z",
+          "closedAt": "2018-08-31T21:34:14Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1601,
+          "title": "flow doesn't show warnings in diagnostics",
+          "state": "open",
+          "createdAt": "2018-08-27T15:16:19Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1600,
+          "title": "Buck and Clang to get Autocomplete feature of OBJ-C in Atom seems to not be working",
+          "state": "open",
+          "createdAt": "2018-08-24T09:48:43Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1599,
+          "title": "Wrong log file path in Wiki",
+          "state": "closed",
+          "createdAt": "2018-08-24T08:13:55Z",
+          "closedAt": "2018-08-30T20:19:28Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1598,
+          "title": "allow users to run flow check to update diagnostics",
+          "state": "closed",
+          "createdAt": "2018-08-23T15:29:04Z",
+          "closedAt": "2018-08-30T20:21:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1595,
+          "title": "Atom failing to apply fix in gutter",
+          "state": "closed",
+          "createdAt": "2018-08-20T23:46:37Z",
+          "closedAt": "2018-09-11T23:55:52Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1594,
+          "title": "Uncaught TypeError: Parameter \"url\" must be a string, not undefined",
+          "state": "closed",
+          "createdAt": "2018-08-17T02:31:42Z",
+          "closedAt": "2018-08-20T22:59:05Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1593,
+          "title": "Nuclide tree-view doesn't support copy/paste across different windows",
+          "state": "closed",
+          "createdAt": "2018-08-15T06:31:32Z",
+          "closedAt": "2018-11-29T21:50:29Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1592,
+          "title": "Failed to start debugger process: Cannot read property 'length' of undefined",
+          "state": "open",
+          "createdAt": "2018-08-12T21:01:11Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1591,
+          "title": "Saving file after fixing flow error still causes error in diagnostics linter",
+          "state": "closed",
+          "createdAt": "2018-08-12T18:51:07Z",
+          "closedAt": "2018-08-13T02:36:06Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1590,
+          "title": "Nuclide Devices Panel not finding emulator command",
+          "state": "open",
+          "createdAt": "2018-08-10T10:08:39Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1586,
+          "title": "Installing “nuclide@0.332.0” failed.",
+          "state": "closed",
+          "createdAt": "2018-08-07T01:16:42Z",
+          "closedAt": "2018-08-08T00:08:28Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1585,
+          "title": "How to make \"open files\" collapsed by default?",
+          "state": "open",
+          "createdAt": "2018-08-06T03:46:51Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1584,
+          "title": "Disabled Nuclide on Windows 10 - Nuclide Menu Item Still exists",
+          "state": "closed",
+          "createdAt": "2018-08-01T21:59:24Z",
+          "closedAt": "2018-08-01T23:46:40Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1583,
+          "title": "Index.js files hidden as if a part of VCS ignored",
+          "state": "closed",
+          "createdAt": "2018-07-31T17:45:38Z",
+          "closedAt": "2018-09-04T20:40:25Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1582,
+          "title": "MacBook Pro Touchbar virtual buttons blank",
+          "state": "closed",
+          "createdAt": "2018-07-31T02:38:56Z",
+          "closedAt": "2018-08-22T23:43:06Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1581,
+          "title": "Hyperclick breaks when using the tree sitter parser",
+          "state": "closed",
+          "createdAt": "2018-07-28T11:22:11Z",
+          "closedAt": "2018-07-28T12:39:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1580,
+          "title": "Nuclide Devices tab in Atom stuck showing that an Emulator is running",
+          "state": "closed",
+          "createdAt": "2018-07-25T16:40:50Z",
+          "closedAt": "2018-07-31T21:09:06Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1579,
+          "title": "FileTree will steal focus from text editor",
+          "state": "closed",
+          "createdAt": "2018-07-22T05:00:30Z",
+          "closedAt": "2018-11-30T00:40:53Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1578,
+          "title": "Failed to start debugger process: Transport unexpectedly closed",
+          "state": "closed",
+          "createdAt": "2018-07-19T08:42:37Z",
+          "closedAt": "2018-07-25T16:59:57Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1577,
+          "title": "code diagnostics reporting valid syntax as invalid, and expecting invalid syntax",
+          "state": "closed",
+          "createdAt": "2018-07-18T10:41:17Z",
+          "closedAt": "2018-08-03T18:54:42Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1576,
+          "title": "React Native Launch Debugger not working in last versions",
+          "state": "open",
+          "createdAt": "2018-07-13T10:53:04Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 1574,
+          "title": "Separate the node  debugger tools",
+          "state": "closed",
+          "createdAt": "2018-07-11T07:52:28Z",
+          "closedAt": "2018-07-11T07:56:01Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1573,
+          "title": "Search for commands is hardly usable",
+          "state": "closed",
+          "createdAt": "2018-07-10T16:50:12Z",
+          "closedAt": "2018-07-10T21:13:16Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1572,
+          "title": "TextBuffer.setTextInRange is deprecated.",
+          "state": "closed",
+          "createdAt": "2018-07-06T16:15:33Z",
+          "closedAt": "2018-08-13T22:40:09Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1570,
+          "title": "PHP Lint / Error Reporting",
+          "state": "open",
+          "createdAt": "2018-07-03T11:46:14Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1569,
+          "title": "Cannot find module './featureGroups.json'",
+          "state": "closed",
+          "createdAt": "2018-07-01T13:41:20Z",
+          "closedAt": "2018-07-01T13:44:50Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1568,
+          "title": "Error getting default shell on clicking \"New Terminal Button\"",
+          "state": "closed",
+          "createdAt": "2018-06-30T06:12:42Z",
+          "closedAt": "2018-07-11T17:24:27Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1567,
+          "title": "nuclide terminal enter a multi-line display question",
+          "state": "closed",
+          "createdAt": "2018-06-29T12:48:39Z",
+          "closedAt": "2018-09-11T23:13:24Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1566,
+          "title": "Uncaught UnknownError: Internal error opening backing store for indexedDB.open.",
+          "state": "open",
+          "createdAt": "2018-06-28T06:42:08Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1565,
+          "title": "[Question]: How to set python executable path in a remote project?",
+          "state": "open",
+          "createdAt": "2018-06-27T15:38:59Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1564,
+          "title": "Uncaught TypeError: Cannot read property 'params' of undefined",
+          "state": "closed",
+          "createdAt": "2018-06-27T15:23:35Z",
+          "closedAt": "2018-06-27T15:45:04Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1563,
+          "title": "Uncaught TypeError: Cannot read property 'beginFrame' of undefined",
+          "state": "closed",
+          "createdAt": "2018-06-23T16:37:09Z",
+          "closedAt": "2018-08-03T20:30:33Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1562,
+          "title": "React native debugger won't attach",
+          "state": "open",
+          "createdAt": "2018-06-22T19:05:37Z",
+          "closedAt": null,
+          "comments": 7,
+          "labels": []
+        },
+        {
+          "number": 1561,
+          "title": "macOS + User with relocated home directory throws dscl error",
+          "state": "closed",
+          "createdAt": "2018-06-22T11:42:14Z",
+          "closedAt": "2018-06-23T07:52:51Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1560,
+          "title": "Feature Request: Option for nuclide terminal colors to be derived from syntax theme",
+          "state": "open",
+          "createdAt": "2018-06-21T17:41:58Z",
+          "closedAt": null,
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1559,
+          "title": "Uncaught TypeError: p.getTabName is not a function",
+          "state": "open",
+          "createdAt": "2018-06-21T05:37:20Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1558,
+          "title": "Failed to start nuclide-server with custom `--port` set.",
+          "state": "open",
+          "createdAt": "2018-06-19T21:11:04Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1557,
+          "title": "New terminal windows only open in a new tab",
+          "state": "closed",
+          "createdAt": "2018-06-19T17:10:53Z",
+          "closedAt": "2018-08-31T17:18:34Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1556,
+          "title": "Diff View not working",
+          "state": "closed",
+          "createdAt": "2018-06-17T08:53:56Z",
+          "closedAt": "2018-08-06T16:38:58Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1555,
+          "title": "Failed to start nuclide-server zsh:1: command not found: --big-dig (0.315.0)",
+          "state": "closed",
+          "createdAt": "2018-06-16T09:18:44Z",
+          "closedAt": "2018-06-21T15:48:31Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 1554,
+          "title": "[nuclide-swift]: Can't set Swift compiler flags",
+          "state": "open",
+          "createdAt": "2018-06-14T14:31:24Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1553,
+          "title": "Uncaught TypeError: Cannot read property 'tunnelBehavior' of null",
+          "state": "open",
+          "createdAt": "2018-06-14T01:00:37Z",
+          "closedAt": null,
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1552,
+          "title": "[nuclide-swift] \"An error occurred when invoking SourceKitten\" (autocompletion)",
+          "state": "closed",
+          "createdAt": "2018-06-13T22:48:02Z",
+          "closedAt": "2018-09-21T22:21:01Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1551,
+          "title": "atom-ide-debugger-java Not Installing on Windows",
+          "state": "closed",
+          "createdAt": "2018-06-13T21:26:44Z",
+          "closedAt": "2018-08-23T21:55:45Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1550,
+          "title": "bash: nuclide-start-server: command not found",
+          "state": "closed",
+          "createdAt": "2018-06-12T01:47:18Z",
+          "closedAt": "2018-06-14T03:21:35Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1549,
+          "title": "Attaching a debugger to a node server port: 8080",
+          "state": "closed",
+          "createdAt": "2018-06-11T13:38:30Z",
+          "closedAt": "2018-06-13T09:22:18Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1548,
+          "title": "nuclide not instlling (Installing “nuclide@0.311.0” failed)",
+          "state": "closed",
+          "createdAt": "2018-06-08T15:48:04Z",
+          "closedAt": "2018-06-08T17:55:58Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1547,
+          "title": "Cannot install v.0.311.0",
+          "state": "closed",
+          "createdAt": "2018-06-07T09:24:58Z",
+          "closedAt": "2018-06-14T16:55:30Z",
+          "comments": 11,
+          "labels": []
+        },
+        {
+          "number": 1546,
+          "title": "Cannot install NUCLIDE package in ATOM ide.",
+          "state": "closed",
+          "createdAt": "2018-06-06T08:15:31Z",
+          "closedAt": "2018-06-26T07:37:43Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1545,
+          "title": "error on node-gyp rebuild",
+          "state": "closed",
+          "createdAt": "2018-06-02T08:37:09Z",
+          "closedAt": "2018-06-04T06:38:41Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1543,
+          "title": "Server Error on nuclide-start-server in version 0.307.0",
+          "state": "closed",
+          "createdAt": "2018-05-31T12:09:51Z",
+          "closedAt": "2018-06-18T18:33:20Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1542,
+          "title": "Cannot upgrade to latest version",
+          "state": "closed",
+          "createdAt": "2018-05-30T21:00:21Z",
+          "closedAt": "2018-05-30T23:27:59Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1541,
+          "title": "Kaboom! on latest update",
+          "state": "open",
+          "createdAt": "2018-05-30T14:54:28Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1540,
+          "title": "Can't scroll issues in diagnostics. ",
+          "state": "closed",
+          "createdAt": "2018-05-28T10:32:16Z",
+          "closedAt": "2018-06-19T00:55:54Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1539,
+          "title": "atom tree Cannot select the previous file.",
+          "state": "closed",
+          "createdAt": "2018-05-23T06:33:33Z",
+          "closedAt": "2018-05-23T06:34:11Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1538,
+          "title": "file-tree: Case-Renaming a folder deletes it",
+          "state": "open",
+          "createdAt": "2018-05-22T11:03:09Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1537,
+          "title": "Atom remote project folder with source control",
+          "state": "open",
+          "createdAt": "2018-05-21T15:06:20Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1536,
+          "title": "Uncaught TypeError: Path must be a string. Received undefined",
+          "state": "closed",
+          "createdAt": "2018-05-21T10:07:09Z",
+          "closedAt": "2018-05-29T16:46:31Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1535,
+          "title": "Lots of duplicate hints",
+          "state": "open",
+          "createdAt": "2018-05-16T20:07:40Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1534,
+          "title": "support for pylint besides flake8?",
+          "state": "open",
+          "createdAt": "2018-05-15T22:10:50Z",
+          "closedAt": null,
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1533,
+          "title": "Language server 'jsimports' has crashed 5 times in the last 3 minutes",
+          "state": "open",
+          "createdAt": "2018-05-14T13:21:04Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1532,
+          "title": "No scrolling in directory tree",
+          "state": "closed",
+          "createdAt": "2018-05-13T17:28:10Z",
+          "closedAt": "2018-11-30T00:28:02Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1531,
+          "title": "Not able to run debugger for c++ (lldb)",
+          "state": "closed",
+          "createdAt": "2018-05-12T16:10:18Z",
+          "closedAt": "2018-08-23T22:18:40Z",
+          "comments": 14,
+          "labels": []
+        },
+        {
+          "number": 1530,
+          "title": "Uncaught Error: Cannot find module './track'",
+          "state": "closed",
+          "createdAt": "2018-05-11T15:10:49Z",
+          "closedAt": "2018-05-14T18:33:20Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1528,
+          "title": "Uncaught TypeError: repo.getProjectDirectory is not a function",
+          "state": "open",
+          "createdAt": "2018-05-10T16:21:39Z",
+          "closedAt": null,
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1527,
+          "title": "UnhandledPromiseRejectionWarning cannot find module pty-v0.1.4-node-v57-linux-x64/pty.node",
+          "state": "closed",
+          "createdAt": "2018-05-10T00:32:06Z",
+          "closedAt": "2018-05-11T17:17:40Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1519,
+          "title": "Unexpected behavior with cmd-click",
+          "state": "open",
+          "createdAt": "2018-05-09T15:50:25Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1518,
+          "title": "Command \"ocaml-language-server\" could not be found",
+          "state": "closed",
+          "createdAt": "2018-05-08T01:21:37Z",
+          "closedAt": "2018-05-14T20:27:18Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1517,
+          "title": "nuclide-server dying with uncaughtException: Unexpected token p in JSON at position 0 SyntaxError: Unexpected token p in JSON at position 0",
+          "state": "closed",
+          "createdAt": "2018-05-07T13:37:27Z",
+          "closedAt": "2018-05-31T19:37:45Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1516,
+          "title": "C++ Wrong diagnostics clang",
+          "state": "closed",
+          "createdAt": "2018-05-05T14:30:42Z",
+          "closedAt": "2018-09-17T19:35:43Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1515,
+          "title": "Renaming directory by changing caps deletes directory",
+          "state": "closed",
+          "createdAt": "2018-05-04T20:30:37Z",
+          "closedAt": "2018-05-09T19:38:05Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1514,
+          "title": "Flow autocomplete not working with generic types in callback.",
+          "state": "open",
+          "createdAt": "2018-05-04T18:23:28Z",
+          "closedAt": null,
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1513,
+          "title": "Remote development with Python and Conda; Unable to resolve imports",
+          "state": "closed",
+          "createdAt": "2018-05-03T03:17:15Z",
+          "closedAt": "2018-05-03T05:37:33Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1512,
+          "title": "Uncaught TypeError: (_collection || _load_collection(...)).DefaultMap is not a constructor",
+          "state": "closed",
+          "createdAt": "2018-05-01T05:15:03Z",
+          "closedAt": "2018-05-03T20:55:09Z",
+          "comments": 10,
+          "labels": []
+        },
+        {
+          "number": 1511,
+          "title": "Nuclide is not load in atom",
+          "state": "closed",
+          "createdAt": "2018-04-29T11:21:16Z",
+          "closedAt": "2018-04-30T22:33:11Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1509,
+          "title": "Cannot Debug react native app using Atom and Nuclide",
+          "state": "closed",
+          "createdAt": "2018-04-26T09:53:19Z",
+          "closedAt": "2018-04-30T19:46:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1508,
+          "title": "Nuclide stopped working after latest update",
+          "state": "closed",
+          "createdAt": "2018-04-26T09:02:38Z",
+          "closedAt": "2018-05-02T00:54:42Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1506,
+          "title": "Font not displaying correctly when using powerline fonts and zsh themes",
+          "state": "closed",
+          "createdAt": "2018-04-24T07:35:44Z",
+          "closedAt": "2018-04-25T18:53:34Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1505,
+          "title": "UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 6): Error: This socket is closed",
+          "state": "closed",
+          "createdAt": "2018-04-23T17:54:25Z",
+          "closedAt": "2018-08-23T22:27:46Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1504,
+          "title": "Treeview div is half hidden.",
+          "state": "closed",
+          "createdAt": "2018-04-22T21:03:28Z",
+          "closedAt": "2018-04-24T20:40:20Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1503,
+          "title": "nuclide-tree-view : cannot select file one above currently selected file",
+          "state": "closed",
+          "createdAt": "2018-04-22T09:30:15Z",
+          "closedAt": "2018-08-24T18:00:39Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1502,
+          "title": "Troubles writing an IDE debugger plugin",
+          "state": "open",
+          "createdAt": "2018-04-21T20:29:25Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1500,
+          "title": "Tree view scrolling and overflow fitting breaks on Linux",
+          "state": "closed",
+          "createdAt": "2018-04-13T06:43:34Z",
+          "closedAt": "2018-04-19T21:19:21Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1498,
+          "title": "Uncaught Error: Path operation invoked on Atom URI atom://debug-sources/28871040-3337-4583-8948-5374f4b38c6a/2144/index.js",
+          "state": "closed",
+          "createdAt": "2018-04-10T09:57:06Z",
+          "closedAt": "2018-05-31T19:59:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1497,
+          "title": "Unable to authenticate with the server when attempting to to add a remote folder",
+          "state": "open",
+          "createdAt": "2018-04-09T17:15:37Z",
+          "closedAt": null,
+          "comments": 8,
+          "labels": []
+        },
+        {
+          "number": 1496,
+          "title": "Uncaught Error: Cannot find module './ChangedFilesList'",
+          "state": "closed",
+          "createdAt": "2018-04-06T14:33:14Z",
+          "closedAt": "2018-04-09T18:07:25Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1494,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 129, Calling function FileSystemService/fin...",
+          "state": "closed",
+          "createdAt": "2018-04-05T04:04:37Z",
+          "closedAt": "2018-04-09T21:25:57Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1493,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 126, Calling function ArcanistService/isArc...",
+          "state": "closed",
+          "createdAt": "2018-04-05T04:04:22Z",
+          "closedAt": "2018-04-09T21:26:13Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1491,
+          "title": "fs.watch may provide null filenames",
+          "state": "closed",
+          "createdAt": "2018-03-31T19:07:42Z",
+          "closedAt": "2018-04-03T00:32:33Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1490,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 60, Calling function ArcanistService/isArcS...",
+          "state": "closed",
+          "createdAt": "2018-03-27T16:32:36Z",
+          "closedAt": "2018-03-27T20:16:11Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1488,
+          "title": "SSH problems using either Pageant or private key with passphrase",
+          "state": "open",
+          "createdAt": "2018-03-26T06:16:01Z",
+          "closedAt": null,
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1485,
+          "title": "Uncaught Error: Got unexpected null or undefined",
+          "state": "closed",
+          "createdAt": "2018-03-22T12:54:00Z",
+          "closedAt": "2018-04-12T21:14:05Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1484,
+          "title": "Uncaught Error: Cannot make an authenticated request without being logged in",
+          "state": "closed",
+          "createdAt": "2018-03-22T02:28:18Z",
+          "closedAt": "2018-03-22T18:42:41Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1482,
+          "title": "Uncaught RpcTimeoutError: Timeout after 60000 for id: 8910, Calling function FileSystemService/re...",
+          "state": "closed",
+          "createdAt": "2018-03-21T16:09:30Z",
+          "closedAt": "2018-03-21T17:29:14Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1481,
+          "title": "SSL Failed to generate certs.",
+          "state": "closed",
+          "createdAt": "2018-03-15T15:50:14Z",
+          "closedAt": "2018-08-17T18:46:22Z",
+          "comments": 6,
+          "labels": []
+        },
+        {
+          "number": 1478,
+          "title": "Can't find flake8 unless I launch atom from the command line",
+          "state": "closed",
+          "createdAt": "2018-03-07T18:41:23Z",
+          "closedAt": "2018-10-06T09:14:21Z",
+          "comments": 0,
+          "labels": []
+        },
+        {
+          "number": 1475,
+          "title": "Support Linters like ESlint on Remote Projects",
+          "state": "closed",
+          "createdAt": "2018-03-02T01:20:51Z",
+          "closedAt": "2018-03-02T01:31:12Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1474,
+          "title": "Wrong libclang.dylib file used",
+          "state": "closed",
+          "createdAt": "2018-02-28T20:40:58Z",
+          "closedAt": "2018-04-30T17:22:45Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1472,
+          "title": "Section of unselectable text on website",
+          "state": "closed",
+          "createdAt": "2018-02-26T00:57:30Z",
+          "closedAt": "2018-02-27T22:58:41Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1471,
+          "title": "Windows - Omnisearch Just Spinning on Non-Project Directory",
+          "state": "open",
+          "createdAt": "2018-02-23T23:11:22Z",
+          "closedAt": null,
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1470,
+          "title": "\"Add remote project folder\" dialog doesn't save deleted value.",
+          "state": "closed",
+          "createdAt": "2018-02-22T13:24:53Z",
+          "closedAt": "2018-02-23T19:29:56Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1469,
+          "title": "Disable JS Auto-imports messages",
+          "state": "closed",
+          "createdAt": "2018-02-20T11:35:32Z",
+          "closedAt": "2018-02-21T23:23:44Z",
+          "comments": 4,
+          "labels": []
+        },
+        {
+          "number": 1468,
+          "title": "Unable to remap Hyperclick to a keyboard shortcut",
+          "state": "closed",
+          "createdAt": "2018-02-18T21:54:43Z",
+          "closedAt": "2018-03-03T02:08:56Z",
+          "comments": 5,
+          "labels": []
+        },
+        {
+          "number": 1467,
+          "title": "Cannot find Nuclide React Native: Start Packager",
+          "state": "closed",
+          "createdAt": "2018-02-16T12:54:36Z",
+          "closedAt": "2018-02-16T15:55:44Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1466,
+          "title": "Wrong files indentation on file-tree",
+          "state": "closed",
+          "createdAt": "2018-02-15T13:51:22Z",
+          "closedAt": "2018-02-15T17:57:27Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1465,
+          "title": "Show debugger makes nothing",
+          "state": "closed",
+          "createdAt": "2018-02-15T08:22:28Z",
+          "closedAt": "2018-02-15T17:53:47Z",
+          "comments": 1,
+          "labels": []
+        },
+        {
+          "number": 1464,
+          "title": "Getting twice results when Ctrl+Shift+F finder with same project local and remote setup",
+          "state": "closed",
+          "createdAt": "2018-02-15T07:03:18Z",
+          "closedAt": "2018-04-27T23:21:47Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1463,
+          "title": "Autocomplete is very slow in .jsx files",
+          "state": "closed",
+          "createdAt": "2018-02-15T01:11:31Z",
+          "closedAt": "2018-04-03T18:09:34Z",
+          "comments": 2,
+          "labels": []
+        },
+        {
+          "number": 1462,
+          "title": "[nuclide-terminal] custom shell support",
+          "state": "closed",
+          "createdAt": "2018-02-14T19:33:13Z",
+          "closedAt": "2018-02-14T23:15:03Z",
+          "comments": 3,
+          "labels": []
+        },
+        {
+          "number": 1461,
+          "title": "Debugger is gone",
+          "state": "closed",
+          "createdAt": "2018-02-14T13:45:57Z",
+          "closedAt": "2018-02-15T20:08:33Z",
+          "comments": 2,
+          "labels": []
+        }
+      ],
+      "stats": {
+        "openCount": 59,
+        "totalFetched": 165,
+        "medianDaysToFirstResponse": 1.6,
+        "openOverOneYearNoReply": 26
+      },
+      "capped": true
+    },
+    "readme": {
+      "excerpt": "# Nuclide\n\n[![Circle Status](https://circleci.com/gh/facebook/nuclide/tree/master.svg?style=shield&circle-token=a805ec51c07ae99799ce548795383dd1f1e4dc76)](https://circleci.com/gh/facebook/nuclide)\n\n[Nuclide](http://nuclide.io/) is a collection of features for [Atom](https://atom.io/) to provide IDE-like functionality for a variety of programming languages and technologies.\n\nThe [Nuclide license](https://github.com/facebook/nuclide/blob/master/LICENSE) has certain limitations around distribution and should not be considered an [open source license](https://opensource.org/licenses/alphabetical). However, this does not affect your ability to [fork the project and make contributions](https://github.com/facebook/nuclide/blob/master/CONTRIBUTING.md).\n\n---\n\n## Documentation\n\nThe [full documentation](http://nuclide.io/docs) for Nuclide provides information for:\n\n- [Client Installation](http://nuclide.io/docs/editor/setup) ([Mac](http://nuclide.io/docs/editor/setup/#mac) | [Linux](http://nuclide.io/docs/editor/setup/#linux) | [Windows is not supported](http://nuclide.io/docs/editor/setup/#windows))\n- [Server Installation](http://nuclide.io/docs/editor/setup/#installing-nuclide-server)\n- [Getting Started Feature Walkthrough](http://nuclide.io/docs/quick-start/getting-started/)\n- [Building from Source](http://nuclide.io/docs/advanced-topics/building-from-source/)\n",
+      "truncated": false
+    },
+    "todos": {
+      "items": [],
+      "degraded": false
+    },
+    "death": {
+      "status": "dead",
+      "daysSincePush": 2765,
+      "flatlineMonth": "2018-12",
+      "reason": "Repository was archived by its owner."
+    },
+    "fetchedAt": "2026-07-09T03:15:02.036Z"
+  },
+  "autopsy": {
+    "epitaph": "Built atop Atom's shoulders to illuminate a thousand codebases, Nuclide was quietly interred in December 2018 when Facebook archived it, its final breath a typo-laden update to a landing page announcing its own deprecation.",
+    "causes": [
+      {
+        "label": "Deliberate abandonment by Facebook — archived by owner",
+        "confidencePct": 98,
+        "evidence": [
+          {
+            "type": "commit",
+            "ref": "2a2a0a642d136768b7d2a6d35a652dc5fb77d70a"
+          },
+          {
+            "type": "commit",
+            "ref": "cc98910cc859aca731608d3599c150ca0d805467"
+          },
+          {
+            "type": "readme",
+            "ref": "README"
+          }
+        ]
+      },
+      {
+        "label": "Atom platform dependency made standalone survival impossible",
+        "confidencePct": 87,
+        "evidence": [
+          {
+            "type": "readme",
+            "ref": "README"
+          },
+          {
+            "type": "issue",
+            "ref": "#1659"
+          },
+          {
+            "type": "issue",
+            "ref": "#1657"
+          }
+        ]
+      },
+      {
+        "label": "Chronic unresolved bug accumulation and zero maintainer response",
+        "confidencePct": 82,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#1660"
+          },
+          {
+            "type": "issue",
+            "ref": "#1656"
+          },
+          {
+            "type": "issue",
+            "ref": "#1636"
+          },
+          {
+            "type": "issue",
+            "ref": "#1533"
+          }
+        ]
+      },
+      {
+        "label": "Facebook-internal module leakage rotting the OSS build",
+        "confidencePct": 75,
+        "evidence": [
+          {
+            "type": "issue",
+            "ref": "#1641"
+          },
+          {
+            "type": "issue",
+            "ref": "#1640"
+          },
+          {
+            "type": "issue",
+            "ref": "#1639"
+          }
+        ]
+      }
+    ],
+    "revival": [
+      {
+        "step": "Fork the repository under a neutral org, strip all fb-internal module references (e.g. fb-appsession-observer, fb-highlight-selected) and replace with open stubs or remove entirely",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Migrate from the dead Atom editor platform to a VS Code extension host or a standalone Electron shell, preserving the remote-development and Flow integration features",
+        "effort": "a heroic quarter"
+      },
+      {
+        "step": "Triage and close the 59 open issues, writing a clear deprecation/migration notice for each category of bug so the community understands what is and isn't being fixed",
+        "effort": "a week"
+      },
+      {
+        "step": "Establish a CI pipeline (the CircleCI badge in the README already existed) and wire it to the forked repo so pull requests can be validated automatically",
+        "effort": "a week"
+      },
+      {
+        "step": "Publish the revived package under a new name to avoid confusion with the archived Facebook release, and write a migration guide from the old nuclide.io documentation",
+        "effort": "an afternoon"
+      }
+    ],
+    "lastWordsGloss": "The final commit corrected the world that Nuclide was dying — misspelling 'deprecation' as 'depracation' in the process, because even the eulogy needed a bug fix."
+  }
+}
