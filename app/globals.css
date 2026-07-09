@@ -38,3 +38,117 @@ body {
   color: var(--foreground);
   font-family: var(--font-serif), Georgia, "Times New Roman", serif;
 }
+
+/*
+ * The séance palette — a single, deliberate dark world (SPEC §6, DESIGN-NOTES).
+ * Structural colors (backgrounds, borders, the gold accent, the danger red) are
+ * transcribed verbatim from the mock. Text colors that the mock set below the
+ * 4.5:1 body-contrast floor are BRIGHTENED here (DESIGN-NOTES §11.4 offenders:
+ * #4a4336 #5d5545 #5d6b55 #6b6250 #7a6f58) so the mood survives but the copy is
+ * legible. Exposed as Tailwind v4 `--color-sc-*` tokens → `text-sc-*`, `bg-sc-*`,
+ * `border-sc-*`, `fill-sc-*` utilities with full hover/responsive/motion variants.
+ */
+@theme {
+  /* backgrounds (verbatim) */
+  --color-sc-bg: #0a0908;
+  --color-sc-panel: #12100a;
+  --color-sc-input: #0e0c08;
+  --color-sc-commit: #0c0a07;
+  --color-sc-btn: #1c160c;
+  --color-sc-btn-hi: #241b0e;
+  --color-sc-user: #17130b;
+  --color-sc-ghost: #10130d;
+  --color-sc-green-btn: #161c12;
+  --color-sc-green-btn-hi: #1b2416;
+
+  /* borders & hairlines (verbatim) */
+  --color-sc-hair: #241d11;
+  --color-sc-border: #2c2416;
+  --color-sc-border-hi: #4a3c20;
+  --color-sc-row: #1c170e;
+  --color-sc-green-border: #2f3d2a;
+  --color-sc-green-border-hi: #3a4a34;
+
+  /* bright text (verbatim — already above the contrast floor) */
+  --color-sc-ink: #e7ddc4;
+  --color-sc-head: #f0e8d2;
+  --color-sc-body: #cfc5a9;
+  --color-sc-body2: #b6ab8d;
+  --color-sc-epitaph: #a89c7e;
+  --color-sc-dim: #8d8268;
+
+  /* dim text — BRIGHTENED to clear 4.5:1 on the near-black grounds */
+  --color-sc-muted: #9a8f74; /* was #6b6250 */
+  --color-sc-faint: #90856a; /* was #5d5545 */
+  --color-sc-quote: #9a8d70; /* was #7a6f58 */
+
+  /* accent (gold) & danger (red) */
+  --color-sc-accent: #c9973f;
+  --color-sc-accent-hi: #e0b366;
+  --color-sc-danger: #a13029; /* DECEASED stamp text (large, decorative) */
+  --color-sc-danger-line: #7a2620; /* dashed markers / stamp border (decorative) */
+  --color-sc-danger-text: #cd5f52; /* BRIGHTENED red for small labels */
+
+  /* revival "hope" greens */
+  --color-sc-green-head: #8fae8a;
+  --color-sc-green-text: #b9c4ae;
+  --color-sc-green-dim: #86a07d; /* was #5d6b55 */
+  --color-sc-green-btn-text: #a9c49e;
+  --color-sc-green-btn-text-hi: #c4dbb8;
+
+  /* the two mock keyframes, exposed as animate-* utilities */
+  --animate-flicker: flicker 7s infinite;
+  --animate-drift: drift 4s ease-in-out infinite;
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.82;
+  }
+  52% {
+    opacity: 0.95;
+  }
+  60% {
+    opacity: 0.78;
+  }
+  70% {
+    opacity: 1;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+/* The candle-lit selection, from the mock. */
+::selection {
+  background: #3a2f1a;
+  color: #e7ddc4;
+}
+
+/* Keyboard focus must always be visible (SPEC §6 a11y floor). */
+:focus-visible {
+  outline: 2px solid var(--color-sc-accent);
+  outline-offset: 2px;
+}
+
+/* Honor reduced-motion globally, on top of per-utility motion-reduce variants. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
