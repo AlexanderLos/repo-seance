@@ -4,6 +4,7 @@ import {
   formatYear,
   formatAge,
   formatDays,
+  formatLastPulse,
   formatCount,
   formatMonthLabel,
   caseNumber,
@@ -51,6 +52,13 @@ describe("count and day helpers", () => {
   it("pluralizes days", () => {
     expect(formatDays(1)).toBe("1 day");
     expect(formatDays(570)).toBe("570 days");
+  });
+
+  it("humanizes the last pulse: today at zero, `n days ago` from one", () => {
+    expect(formatLastPulse(0)).toBe("today");
+    expect(formatLastPulse(1)).toBe("1 day ago");
+    expect(formatLastPulse(19)).toBe("19 days ago");
+    expect(formatLastPulse(1282)).toBe("1,282 days ago");
   });
 
   it("groups thousands", () => {

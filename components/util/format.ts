@@ -71,6 +71,11 @@ export function formatDays(n: number): string {
   return `${n.toLocaleString("en-US")} day${n === 1 ? "" : "s"}`;
 }
 
+/** Relative last-pulse label: `today` for 0, else `n days ago` (`1 day ago`). */
+export function formatLastPulse(n: number): string {
+  return n === 0 ? "today" : `${formatDays(n)} ago`;
+}
+
 /** `1204` → `1,204`. Thousands-grouped integer for vitals like stars/forks. */
 export function formatCount(n: number): string {
   return Math.trunc(n).toLocaleString("en-US");

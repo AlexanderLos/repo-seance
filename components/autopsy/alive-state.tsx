@@ -5,7 +5,7 @@
  */
 import Link from "next/link";
 import type { Dossier } from "@/lib/dossier/types";
-import { formatDate, formatDays, formatCount } from "../util/format";
+import { formatDate, formatLastPulse, formatCount } from "../util/format";
 
 /** A steady, full-amplitude pulse — no flatline. */
 function LivePulse() {
@@ -67,7 +67,7 @@ export function AliveState({ dossier }: { dossier: Dossier }) {
             <dt className="text-[10px] uppercase tracking-[.18em] text-sc-faint">
               Last pulse
             </dt>
-            <dd className="mt-1 text-sc-body">{formatDays(death.daysSincePush)} ago</dd>
+            <dd className="mt-1 text-sc-body">{formatLastPulse(death.daysSincePush)}</dd>
           </div>
           <div>
             <dt className="text-[10px] uppercase tracking-[.18em] text-sc-faint">
