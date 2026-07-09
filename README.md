@@ -5,7 +5,7 @@
 [![CI](https://github.com/AlexanderLos/repo-seance/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexanderLos/repo-seance/actions/workflows/ci.yml)
 [![evals passing](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAlexanderLos%2Frepo-seance%2Fmain%2Fevals%2Fresults.json&query=%24.passed&label=evals%20passing&color=brightgreen&cacheSeconds=3600)](https://github.com/AlexanderLos/repo-seance/blob/main/evals/results.json)
 
-Both badges are live. The CI badge is GitHub Actions; the eval badge is read straight from [`evals/results.json`](evals/results.json) — the pass count is never typed into this file, it is computed by the suite and rendered dynamically.
+Both badges go live once this repository is pushed to GitHub. The CI badge is GitHub Actions; the eval badge is read straight from [`evals/results.json`](evals/results.json) — the pass count is never typed into this file, it is computed by the suite and rendered dynamically.
 
 ---
 
