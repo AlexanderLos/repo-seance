@@ -1,0 +1,839 @@
+{
+  "version": "v1",
+  "repo": {
+    "owner": "mortis",
+    "name": "framework",
+    "fullName": "mortis/framework",
+    "description": "A once-ubiquitous application framework, now archived.",
+    "htmlUrl": "https://github.com/mortis/framework",
+    "createdAt": "2015-01-07T00:00:00.000Z",
+    "pushedAt": "2024-03-22T00:00:00.000Z",
+    "archived": true,
+    "stars": 48213,
+    "forks": 6172,
+    "defaultBranch": "main",
+    "license": "MIT"
+  },
+  "commits": {
+    "totalCount": 27418,
+    "fetchedCount": 30,
+    "capped": true,
+    "monthly": [
+      {
+        "month": "2023-09",
+        "count": 41
+      },
+      {
+        "month": "2023-10",
+        "count": 33
+      },
+      {
+        "month": "2023-11",
+        "count": 18
+      },
+      {
+        "month": "2023-12",
+        "count": 12
+      },
+      {
+        "month": "2024-01",
+        "count": 5
+      },
+      {
+        "month": "2024-02",
+        "count": 3
+      },
+      {
+        "month": "2024-03",
+        "count": 1
+      }
+    ],
+    "recent": [
+      {
+        "sha": "b08c5823559a508326b9281cd3ab682868052ac4",
+        "message": "Merge pull request #204 from contrib/final-cleanup",
+        "date": "2024-03-22T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": null
+      },
+      {
+        "sha": "8e7bd6cd7208da882590aa78a464607f0244cd92",
+        "message": "Fix flaky integration test on CI",
+        "date": "2024-03-13T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev1"
+      },
+      {
+        "sha": "eac123b1e497859bacdcd5b3ab2106d0b5fefbcb",
+        "message": "Bump dependencies to patch CVE-2023-1234",
+        "date": "2024-03-04T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev2"
+      },
+      {
+        "sha": "7ab9aa3541fab816f18b35db488dbe46dc352b35",
+        "message": "docs: update the migration guide",
+        "date": "2024-02-24T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev3"
+      },
+      {
+        "sha": "3c4df07fd9d67a432b70e6b0402d99480af7bbea",
+        "message": "Revert \"experiment: new scheduler\"",
+        "date": "2024-02-15T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": null
+      },
+      {
+        "sha": "389218fbcad8fad6e8dcb39884053627917ea57e",
+        "message": "chore: drop Node 14 from the test matrix",
+        "date": "2024-02-06T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev5"
+      },
+      {
+        "sha": "c4667dadbb87a6cb713f9a1c3eba1fcd68fbe04a",
+        "message": "Fix null deref in the config loader",
+        "date": "2024-01-28T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev6"
+      },
+      {
+        "sha": "c03710baca5343e671fda244c1d412f544d40b14",
+        "message": "Add a deprecation notice to the README",
+        "date": "2024-01-19T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev7"
+      },
+      {
+        "sha": "655d19cc5482acda9614d7036b30f5e97d0a44b3",
+        "message": "Merge branch 'hotfix/windows-paths'",
+        "date": "2024-01-10T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": null
+      },
+      {
+        "sha": "3fee2ef52f8dc4506f2a292f468343ff77038327",
+        "message": "test: cover the retry backoff path",
+        "date": "2024-01-01T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev9"
+      },
+      {
+        "sha": "69cba31bb38ab15ba45eb05e61cae7319077ed5b",
+        "message": "refactor: extract the token bucket",
+        "date": "2023-12-23T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev10"
+      },
+      {
+        "sha": "7188282703f9a5b20e5d194fd14a8ea66efb0fef",
+        "message": "Fix typo in the CONTRIBUTING guide",
+        "date": "2023-12-14T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev11"
+      },
+      {
+        "sha": "2e96dd0fe366996015f75d6791e1dc0e093989d6",
+        "message": "Pin the lockfile after the audit",
+        "date": "2023-12-05T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": null
+      },
+      {
+        "sha": "c3431110234650f331ecad510fef897610908b65",
+        "message": "Handle empty responses from the upstream API",
+        "date": "2023-11-26T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev13"
+      },
+      {
+        "sha": "caa3506bf609460ac74d3732815ce6139750d645",
+        "message": "chore: regenerate the API snapshots",
+        "date": "2023-11-17T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev14"
+      },
+      {
+        "sha": "030491c5e72961f0b0e7a4ca582736c6f4c02073",
+        "message": "Fix the race in the worker pool shutdown",
+        "date": "2023-11-08T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev15"
+      },
+      {
+        "sha": "84e35d1623c8946fc6e1d230786e3be9cfd6490b",
+        "message": "docs: add an architecture diagram",
+        "date": "2023-10-30T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": null
+      },
+      {
+        "sha": "bab2d09c4192e32f22a742da3f29aaca630751a4",
+        "message": "Merge pull request #188 from dependabot/bump-lodash",
+        "date": "2023-10-21T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev17"
+      },
+      {
+        "sha": "6c3184174d306e89c62251268e67d89363f58367",
+        "message": "Guard against undefined in the parser",
+        "date": "2023-10-12T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev18"
+      },
+      {
+        "sha": "f8c686caa02ceaf5d762a51a8154f81039576cb2",
+        "message": "Add TODO for the unfinished cache layer",
+        "date": "2023-10-03T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev19"
+      },
+      {
+        "sha": "f597e8b9495581963e8468ac50e887a2c6bf0b8e",
+        "message": "Fix the off-by-one in pagination",
+        "date": "2023-09-24T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": null
+      },
+      {
+        "sha": "a3102676a49585d09d2d12ea43fe6575f892aa4c",
+        "message": "chore: silence the deprecation warnings",
+        "date": "2023-09-15T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev21"
+      },
+      {
+        "sha": "253928ddabd1139f551805f213d143c2d69ed8fa",
+        "message": "Wire up the new metrics endpoint",
+        "date": "2023-09-06T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev22"
+      },
+      {
+        "sha": "5abca5de3183f3ed2f79acfce4be1119b19af121",
+        "message": "Fix broken link in the docs",
+        "date": "2023-08-28T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev23"
+      },
+      {
+        "sha": "3aef91b908a3c0c3c807cd966dc1e49eff89475b",
+        "message": "test: add a regression for #142",
+        "date": "2023-08-19T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": null
+      },
+      {
+        "sha": "9c655964ecef2e2c2fe94005f60800379b053139",
+        "message": "Update copyright year",
+        "date": "2023-08-10T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": "dev25"
+      },
+      {
+        "sha": "8cae35a5ab18e484bfbba69aab03832a381b32ba",
+        "message": "Fix the memory leak in the event emitter",
+        "date": "2023-08-01T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev26"
+      },
+      {
+        "sha": "768fe09886ba3e2962116f1ffc4fcbc5a44fe0c9",
+        "message": "chore: bump the minor version",
+        "date": "2023-07-23T00:00:00.000Z",
+        "authorName": "Dana Keeper",
+        "authorLogin": "dev27"
+      },
+      {
+        "sha": "4ec7057c68b60e948742035b95133f57c44d3730",
+        "message": "Add a changelog entry",
+        "date": "2023-07-14T00:00:00.000Z",
+        "authorName": "Ravi Patel",
+        "authorLogin": null
+      },
+      {
+        "sha": "d6509a4b1b503143ea9e2d711c86c8bf937d2376",
+        "message": "Initial pass at the plugin system",
+        "date": "2023-07-05T00:00:00.000Z",
+        "authorName": "Mona Ito",
+        "authorLogin": "dev29"
+      }
+    ],
+    "finalCommit": {
+      "sha": "016fc9ba0bb479b136aa5b4237f05a1babde026e",
+      "message": "Merge pull request #204 from contrib/final-cleanup",
+      "date": "2024-03-22T00:00:00.000Z",
+      "authorName": "Dana Keeper",
+      "authorLogin": null
+    }
+  },
+  "branches": {
+    "items": [
+      {
+        "name": "main",
+        "lastCommitDate": "2024-03-22T00:00:00.000Z",
+        "aheadBy": 0,
+        "behindBy": 0
+      },
+      {
+        "name": "develop",
+        "lastCommitDate": "2024-01-18T00:00:00.000Z",
+        "aheadBy": 4,
+        "behindBy": 61
+      },
+      {
+        "name": "feature/plugin-system",
+        "lastCommitDate": "2023-10-02T00:00:00.000Z",
+        "aheadBy": 12,
+        "behindBy": 340
+      },
+      {
+        "name": "release/2.x",
+        "lastCommitDate": "2023-04-15T00:00:00.000Z",
+        "aheadBy": 0,
+        "behindBy": 512
+      },
+      {
+        "name": "experiment/new-scheduler",
+        "lastCommitDate": "2023-01-25T00:00:00.000Z",
+        "aheadBy": 7,
+        "behindBy": 690
+      },
+      {
+        "name": "docs/rewrite",
+        "lastCommitDate": "2022-12-26T00:00:00.000Z",
+        "aheadBy": 2,
+        "behindBy": 710
+      },
+      {
+        "name": "hotfix/windows-paths",
+        "lastCommitDate": "2022-12-11T00:00:00.000Z",
+        "aheadBy": 1,
+        "behindBy": 720
+      },
+      {
+        "name": "chore/dep-bumps",
+        "lastCommitDate": "2022-11-06T00:00:00.000Z",
+        "aheadBy": 3,
+        "behindBy": 760
+      }
+    ],
+    "capped": false
+  },
+  "issues": {
+    "items": [
+      {
+        "number": 200,
+        "title": "App fails to start on Apple Silicon",
+        "state": "open",
+        "createdAt": "2024-01-20T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 201,
+        "title": "Memory usage grows without bound over long sessions",
+        "state": "open",
+        "createdAt": "2024-01-15T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug",
+          "stale"
+        ]
+      },
+      {
+        "number": 202,
+        "title": "Plugin API breaks on the 2.x upgrade",
+        "state": "open",
+        "createdAt": "2024-01-10T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 203,
+        "title": "Cannot open files with unicode paths",
+        "state": "open",
+        "createdAt": "2024-01-05T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug",
+          "stale"
+        ]
+      },
+      {
+        "number": 204,
+        "title": "Dark theme has unreadable contrast",
+        "state": "open",
+        "createdAt": "2023-12-31T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 205,
+        "title": "Search index corrupts on large repos",
+        "state": "open",
+        "createdAt": "2023-12-26T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug",
+          "stale"
+        ]
+      },
+      {
+        "number": 206,
+        "title": "Autosave silently drops edits",
+        "state": "open",
+        "createdAt": "2023-12-21T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 207,
+        "title": "Windows line endings mangled on save",
+        "state": "open",
+        "createdAt": "2023-12-16T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": [
+          "bug",
+          "stale"
+        ]
+      },
+      {
+        "number": 300,
+        "title": "Feature request: pluggable themes",
+        "state": "open",
+        "createdAt": "2025-02-23T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 2,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 301,
+        "title": "Feature request: pluggable linters",
+        "state": "open",
+        "createdAt": "2025-02-16T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 3,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 302,
+        "title": "Feature request: pluggable formatters",
+        "state": "open",
+        "createdAt": "2025-02-09T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 4,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 303,
+        "title": "Feature request: pluggable keymaps",
+        "state": "open",
+        "createdAt": "2025-02-02T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 5,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 304,
+        "title": "Feature request: pluggable snippets",
+        "state": "open",
+        "createdAt": "2025-01-26T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 6,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 305,
+        "title": "Feature request: pluggable panels",
+        "state": "open",
+        "createdAt": "2025-01-19T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 7,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 100,
+        "title": "Crash when saving under load (#100)",
+        "state": "closed",
+        "createdAt": "2023-10-12T00:00:00.000Z",
+        "closedAt": "2023-12-01T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 101,
+        "title": "Crash when opening under load (#101)",
+        "state": "closed",
+        "createdAt": "2023-10-08T00:00:00.000Z",
+        "closedAt": "2023-11-28T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 102,
+        "title": "Crash when closing under load (#102)",
+        "state": "closed",
+        "createdAt": "2023-10-04T00:00:00.000Z",
+        "closedAt": "2023-11-25T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 103,
+        "title": "Crash when resizing under load (#103)",
+        "state": "closed",
+        "createdAt": "2023-09-30T00:00:00.000Z",
+        "closedAt": "2023-11-22T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 104,
+        "title": "Crash when printing under load (#104)",
+        "state": "closed",
+        "createdAt": "2023-09-26T00:00:00.000Z",
+        "closedAt": "2023-11-19T00:00:00.000Z",
+        "comments": 5,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 105,
+        "title": "Crash when saving under load (#105)",
+        "state": "closed",
+        "createdAt": "2023-09-22T00:00:00.000Z",
+        "closedAt": "2023-11-16T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 106,
+        "title": "Crash when opening under load (#106)",
+        "state": "closed",
+        "createdAt": "2023-09-18T00:00:00.000Z",
+        "closedAt": "2023-11-13T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 107,
+        "title": "Crash when closing under load (#107)",
+        "state": "closed",
+        "createdAt": "2023-09-14T00:00:00.000Z",
+        "closedAt": "2023-11-10T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 108,
+        "title": "Crash when resizing under load (#108)",
+        "state": "closed",
+        "createdAt": "2023-09-10T00:00:00.000Z",
+        "closedAt": "2023-11-07T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 109,
+        "title": "Crash when printing under load (#109)",
+        "state": "closed",
+        "createdAt": "2023-09-06T00:00:00.000Z",
+        "closedAt": "2023-11-04T00:00:00.000Z",
+        "comments": 5,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 110,
+        "title": "Crash when saving under load (#110)",
+        "state": "closed",
+        "createdAt": "2023-09-02T00:00:00.000Z",
+        "closedAt": "2023-11-01T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 111,
+        "title": "Crash when opening under load (#111)",
+        "state": "closed",
+        "createdAt": "2023-08-29T00:00:00.000Z",
+        "closedAt": "2023-10-29T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 112,
+        "title": "Crash when closing under load (#112)",
+        "state": "closed",
+        "createdAt": "2023-08-25T00:00:00.000Z",
+        "closedAt": "2023-10-26T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 113,
+        "title": "Crash when resizing under load (#113)",
+        "state": "closed",
+        "createdAt": "2023-08-21T00:00:00.000Z",
+        "closedAt": "2023-10-23T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 114,
+        "title": "Crash when printing under load (#114)",
+        "state": "closed",
+        "createdAt": "2023-08-17T00:00:00.000Z",
+        "closedAt": "2023-10-20T00:00:00.000Z",
+        "comments": 5,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 115,
+        "title": "Crash when saving under load (#115)",
+        "state": "closed",
+        "createdAt": "2023-08-13T00:00:00.000Z",
+        "closedAt": "2023-10-17T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 116,
+        "title": "Crash when opening under load (#116)",
+        "state": "closed",
+        "createdAt": "2023-08-09T00:00:00.000Z",
+        "closedAt": "2023-10-14T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 117,
+        "title": "Crash when closing under load (#117)",
+        "state": "closed",
+        "createdAt": "2023-08-05T00:00:00.000Z",
+        "closedAt": "2023-10-11T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 118,
+        "title": "Crash when resizing under load (#118)",
+        "state": "closed",
+        "createdAt": "2023-08-01T00:00:00.000Z",
+        "closedAt": "2023-10-08T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 119,
+        "title": "Crash when printing under load (#119)",
+        "state": "closed",
+        "createdAt": "2023-07-28T00:00:00.000Z",
+        "closedAt": "2023-10-05T00:00:00.000Z",
+        "comments": 5,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 120,
+        "title": "Crash when saving under load (#120)",
+        "state": "closed",
+        "createdAt": "2023-07-24T00:00:00.000Z",
+        "closedAt": "2023-10-02T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 121,
+        "title": "Crash when opening under load (#121)",
+        "state": "closed",
+        "createdAt": "2023-07-20T00:00:00.000Z",
+        "closedAt": "2023-09-29T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 122,
+        "title": "Crash when closing under load (#122)",
+        "state": "closed",
+        "createdAt": "2023-07-16T00:00:00.000Z",
+        "closedAt": "2023-09-26T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 123,
+        "title": "Crash when resizing under load (#123)",
+        "state": "closed",
+        "createdAt": "2023-07-12T00:00:00.000Z",
+        "closedAt": "2023-09-23T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 124,
+        "title": "Crash when printing under load (#124)",
+        "state": "closed",
+        "createdAt": "2023-07-08T00:00:00.000Z",
+        "closedAt": "2023-09-20T00:00:00.000Z",
+        "comments": 5,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      },
+      {
+        "number": 125,
+        "title": "Crash when saving under load (#125)",
+        "state": "closed",
+        "createdAt": "2023-07-04T00:00:00.000Z",
+        "closedAt": "2023-09-17T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 126,
+        "title": "Crash when opening under load (#126)",
+        "state": "closed",
+        "createdAt": "2023-06-30T00:00:00.000Z",
+        "closedAt": "2023-09-14T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 127,
+        "title": "Crash when closing under load (#127)",
+        "state": "closed",
+        "createdAt": "2023-06-26T00:00:00.000Z",
+        "closedAt": "2023-09-11T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug",
+          "resolved"
+        ]
+      }
+    ],
+    "stats": {
+      "openCount": 14,
+      "totalFetched": 42,
+      "medianDaysToFirstResponse": 4,
+      "openOverOneYearNoReply": 8
+    },
+    "capped": false
+  },
+  "readme": {
+    "excerpt": "# mortis/framework\n\nThe hackable application framework for the last decade. This project is now **archived** and no longer maintained.\n\n## Status\n\nDevelopment has ceased. The plugin system in `feature/plugin-system` was never finished, and the 2.x release stalled.\n\n## Migrating away\n\nSee the migration guide for moving to a maintained alternative.",
+    "truncated": true
+  },
+  "todos": {
+    "items": [
+      {
+        "path": "src/core/scheduler.ts",
+        "snippet": "// TODO: replace the stopgap scheduler before 2.0"
+      },
+      {
+        "path": "src/plugins/index.ts",
+        "snippet": "// FIXME: the plugin API is unfinished and undocumented"
+      },
+      {
+        "path": "src/cache/store.ts",
+        "snippet": "// TODO: the cache layer was never wired up"
+      }
+    ],
+    "degraded": false
+  },
+  "death": {
+    "status": "dead",
+    "daysSincePush": 838,
+    "flatlineMonth": "2024-03",
+    "reason": "Repository was archived by its owner."
+  },
+  "fetchedAt": "2026-07-08T00:00:00.000Z"
+}

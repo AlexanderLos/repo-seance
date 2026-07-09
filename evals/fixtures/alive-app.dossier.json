@@ -1,0 +1,214 @@
+{
+  "version": "v1",
+  "repo": {
+    "owner": "living",
+    "name": "app",
+    "fullName": "living/app",
+    "description": "An application that still breathes.",
+    "htmlUrl": "https://github.com/living/app",
+    "createdAt": "2024-01-20T00:00:00.000Z",
+    "pushedAt": "2026-06-19T00:00:00.000Z",
+    "archived": false,
+    "stars": 8420,
+    "forks": 512,
+    "defaultBranch": "main",
+    "license": "MIT"
+  },
+  "commits": {
+    "totalCount": 3110,
+    "fetchedCount": 10,
+    "capped": true,
+    "monthly": [
+      {
+        "month": "2026-05",
+        "count": 52
+      },
+      {
+        "month": "2026-06",
+        "count": 61
+      },
+      {
+        "month": "2026-07",
+        "count": 18
+      }
+    ],
+    "recent": [
+      {
+        "sha": "4ebde34b0a3856880c4f546ebe93895f530d5bec",
+        "message": "Ship the new onboarding flow",
+        "date": "2026-06-19T00:00:00.000Z",
+        "authorName": "Ada L",
+        "authorLogin": "adal"
+      },
+      {
+        "sha": "1ba4c1d238472e2d0516adf647643ed40b33b09d",
+        "message": "Fix a flaky e2e test",
+        "date": "2026-06-18T00:00:00.000Z",
+        "authorName": "Ben Y",
+        "authorLogin": "beny"
+      },
+      {
+        "sha": "a24752e6acb797413ef48ab707c984a616008361",
+        "message": "Add dark mode toggle",
+        "date": "2026-06-16T00:00:00.000Z",
+        "authorName": "Ada L",
+        "authorLogin": "adal"
+      },
+      {
+        "sha": "da437420a827ac3b4624ba9a8c0c18e2f0b0d3a5",
+        "message": "Refactor the router",
+        "date": "2026-06-14T00:00:00.000Z",
+        "authorName": "Cleo M",
+        "authorLogin": null
+      },
+      {
+        "sha": "3b1c238c024cb8531fe777033c9e789f7c385ba5",
+        "message": "chore: bump next to the latest",
+        "date": "2026-06-11T00:00:00.000Z",
+        "authorName": "dependabot",
+        "authorLogin": "dependabot"
+      },
+      {
+        "sha": "6f80297f3d47d7ab26328abb9ae19d581bc1dfdb",
+        "message": "Improve LCP on the landing page",
+        "date": "2026-06-08T00:00:00.000Z",
+        "authorName": "Ben Y",
+        "authorLogin": "beny"
+      },
+      {
+        "sha": "52d93ffd7667479132a72707978d3db70d3aaa74",
+        "message": "Add rate limiting to the API",
+        "date": "2026-06-05T00:00:00.000Z",
+        "authorName": "Ada L",
+        "authorLogin": "adal"
+      },
+      {
+        "sha": "2560da88abe141c2635661c9e7d58446cfd28380",
+        "message": "test: cover the checkout path",
+        "date": "2026-06-02T00:00:00.000Z",
+        "authorName": "Cleo M",
+        "authorLogin": null
+      },
+      {
+        "sha": "d183b8c0b9000c65595a10aaf599418875c877b9",
+        "message": "Wire up analytics",
+        "date": "2026-05-29T00:00:00.000Z",
+        "authorName": "Ben Y",
+        "authorLogin": "beny"
+      },
+      {
+        "sha": "97e73e4c253327d5f54358d8d68477b823c6effc",
+        "message": "Redesign the settings page",
+        "date": "2026-05-25T00:00:00.000Z",
+        "authorName": "Ada L",
+        "authorLogin": "adal"
+      }
+    ],
+    "finalCommit": {
+      "sha": "063479f78d47b9f402699d2187f54fe95395e1e9",
+      "message": "Ship the new onboarding flow",
+      "date": "2026-06-19T00:00:00.000Z",
+      "authorName": "Ada L",
+      "authorLogin": "adal"
+    }
+  },
+  "branches": {
+    "items": [
+      {
+        "name": "main",
+        "lastCommitDate": "2026-06-19T00:00:00.000Z",
+        "aheadBy": 0,
+        "behindBy": 0
+      },
+      {
+        "name": "feature/teams",
+        "lastCommitDate": "2026-06-12T00:00:00.000Z",
+        "aheadBy": 14,
+        "behindBy": 3
+      },
+      {
+        "name": "fix/checkout-race",
+        "lastCommitDate": "2026-06-07T00:00:00.000Z",
+        "aheadBy": 2,
+        "behindBy": 1
+      }
+    ],
+    "capped": false
+  },
+  "issues": {
+    "items": [
+      {
+        "number": 210,
+        "title": "Add SSO for enterprise",
+        "state": "open",
+        "createdAt": "2026-05-29T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 6,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 205,
+        "title": "Checkout occasionally double-charges",
+        "state": "open",
+        "createdAt": "2026-06-13T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 9,
+        "labels": [
+          "bug",
+          "priority"
+        ]
+      },
+      {
+        "number": 198,
+        "title": "Dark mode flicker on first paint",
+        "state": "closed",
+        "createdAt": "2026-06-08T00:00:00.000Z",
+        "closedAt": "2026-06-16T00:00:00.000Z",
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 190,
+        "title": "Improve landing-page performance",
+        "state": "closed",
+        "createdAt": "2026-05-09T00:00:00.000Z",
+        "closedAt": "2026-06-08T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "performance"
+        ]
+      }
+    ],
+    "stats": {
+      "openCount": 2,
+      "totalFetched": 4,
+      "medianDaysToFirstResponse": 1,
+      "openOverOneYearNoReply": 0
+    },
+    "capped": false
+  },
+  "readme": {
+    "excerpt": "# living/app\n\nA modern web application under active development.\n\n## Status\n\nShipping weekly. See the roadmap for what's next.",
+    "truncated": false
+  },
+  "todos": {
+    "items": [
+      {
+        "path": "app/checkout/route.ts",
+        "snippet": "// TODO: add idempotency keys to prevent double-charge"
+      }
+    ],
+    "degraded": false
+  },
+  "death": {
+    "status": "alive",
+    "daysSincePush": 19,
+    "flatlineMonth": null,
+    "reason": "Last commit 19 days ago. This one still breathes."
+  },
+  "fetchedAt": "2026-07-08T00:00:00.000Z"
+}

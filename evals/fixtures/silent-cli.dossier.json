@@ -1,0 +1,253 @@
+{
+  "version": "v1",
+  "repo": {
+    "owner": "hush",
+    "name": "cli",
+    "fullName": "hush/cli",
+    "description": "A command-line tool that quietly stopped shipping releases.",
+    "htmlUrl": "https://github.com/hush/cli",
+    "createdAt": "2019-05-26T00:00:00.000Z",
+    "pushedAt": "2025-04-28T00:00:00.000Z",
+    "archived": false,
+    "stars": 3097,
+    "forks": 288,
+    "defaultBranch": "master",
+    "license": "Apache-2.0"
+  },
+  "commits": {
+    "totalCount": 1842,
+    "fetchedCount": 10,
+    "capped": true,
+    "monthly": [
+      {
+        "month": "2025-01",
+        "count": 14
+      },
+      {
+        "month": "2025-02",
+        "count": 9
+      },
+      {
+        "month": "2025-03",
+        "count": 4
+      },
+      {
+        "month": "2025-04",
+        "count": 2
+      }
+    ],
+    "recent": [
+      {
+        "sha": "5e3201525bad836f4378f755ed4bc5a42a46e7a5",
+        "message": "Release v3.4.0",
+        "date": "2025-04-28T00:00:00.000Z",
+        "authorName": "Sam Vale",
+        "authorLogin": "svale"
+      },
+      {
+        "sha": "43b11fe55a014686e75d7b56964ae3f5c9fdb0ff",
+        "message": "Fix argument parsing for --json flag",
+        "date": "2025-04-16T00:00:00.000Z",
+        "authorName": "Sam Vale",
+        "authorLogin": "svale"
+      },
+      {
+        "sha": "d3738c5dcf6112562d36b763b07d871057d48ff1",
+        "message": "docs: document the config precedence",
+        "date": "2025-04-04T00:00:00.000Z",
+        "authorName": "Lee Onwe",
+        "authorLogin": null
+      },
+      {
+        "sha": "3ee4758971248b1aef2dfd07c984105bfe284712",
+        "message": "Handle SIGINT during long operations",
+        "date": "2025-03-23T00:00:00.000Z",
+        "authorName": "Sam Vale",
+        "authorLogin": "svale"
+      },
+      {
+        "sha": "391556c2bef57d36f5b23346e007fcbc1e62e92b",
+        "message": "Add shell completion for zsh",
+        "date": "2025-03-06T00:00:00.000Z",
+        "authorName": "Priya N",
+        "authorLogin": "priyan"
+      },
+      {
+        "sha": "91cf236cd588b4e893b436858057432ab559dd31",
+        "message": "Fix crash on empty stdin",
+        "date": "2025-02-18T00:00:00.000Z",
+        "authorName": "Sam Vale",
+        "authorLogin": "svale"
+      },
+      {
+        "sha": "e6bbea6c01ed7edcef89943e822edcb176380487",
+        "message": "chore: bump minimist for CVE fix",
+        "date": "2025-02-03T00:00:00.000Z",
+        "authorName": "dependabot",
+        "authorLogin": "dependabot"
+      },
+      {
+        "sha": "db0bd039edb1f30ef937b70de9baf8189efc8196",
+        "message": "test: cover the retry logic",
+        "date": "2025-01-14T00:00:00.000Z",
+        "authorName": "Lee Onwe",
+        "authorLogin": null
+      },
+      {
+        "sha": "67fb99df02c515b03111600164289f204d2fddbe",
+        "message": "Add --quiet flag",
+        "date": "2024-12-24T00:00:00.000Z",
+        "authorName": "Priya N",
+        "authorLogin": "priyan"
+      },
+      {
+        "sha": "4ab388d66a71d7991ef883a2585f5e08e714bfd4",
+        "message": "Initial rewrite of the output formatter",
+        "date": "2024-11-27T00:00:00.000Z",
+        "authorName": "Sam Vale",
+        "authorLogin": "svale"
+      }
+    ],
+    "finalCommit": {
+      "sha": "c6bbf72dff43166495e5c9eb8d48f849d0466ea6",
+      "message": "Release v3.4.0",
+      "date": "2025-04-28T00:00:00.000Z",
+      "authorName": "Sam Vale",
+      "authorLogin": "svale"
+    }
+  },
+  "branches": {
+    "items": [
+      {
+        "name": "master",
+        "lastCommitDate": "2025-04-28T00:00:00.000Z",
+        "aheadBy": 0,
+        "behindBy": 0
+      },
+      {
+        "name": "feature/plugins",
+        "lastCommitDate": "2024-11-05T00:00:00.000Z",
+        "aheadBy": 9,
+        "behindBy": 74
+      },
+      {
+        "name": "fix/windows-quoting",
+        "lastCommitDate": "2024-08-17T00:00:00.000Z",
+        "aheadBy": 2,
+        "behindBy": 132
+      }
+    ],
+    "capped": false
+  },
+  "issues": {
+    "items": [
+      {
+        "number": 88,
+        "title": "No release since v3.4 — is this dead?",
+        "state": "open",
+        "createdAt": "2025-05-24T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 0,
+        "labels": []
+      },
+      {
+        "number": 84,
+        "title": "--json output is not valid JSON on errors",
+        "state": "open",
+        "createdAt": "2025-03-25T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 3,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 80,
+        "title": "Windows quoting breaks nested commands",
+        "state": "open",
+        "createdAt": "2025-02-23T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 1,
+        "labels": [
+          "bug",
+          "windows"
+        ]
+      },
+      {
+        "number": 76,
+        "title": "Add a plugin system",
+        "state": "open",
+        "createdAt": "2024-10-06T00:00:00.000Z",
+        "closedAt": null,
+        "comments": 5,
+        "labels": [
+          "enhancement"
+        ]
+      },
+      {
+        "number": 60,
+        "title": "Slow startup on large configs",
+        "state": "closed",
+        "createdAt": "2024-08-07T00:00:00.000Z",
+        "closedAt": "2024-10-26T00:00:00.000Z",
+        "comments": 4,
+        "labels": [
+          "performance"
+        ]
+      },
+      {
+        "number": 55,
+        "title": "Crash on empty stdin",
+        "state": "closed",
+        "createdAt": "2024-07-18T00:00:00.000Z",
+        "closedAt": "2025-02-18T00:00:00.000Z",
+        "comments": 2,
+        "labels": [
+          "bug"
+        ]
+      },
+      {
+        "number": 40,
+        "title": "Document config precedence",
+        "state": "closed",
+        "createdAt": "2024-01-20T00:00:00.000Z",
+        "closedAt": "2025-04-04T00:00:00.000Z",
+        "comments": 1,
+        "labels": [
+          "docs"
+        ]
+      }
+    ],
+    "stats": {
+      "openCount": 4,
+      "totalFetched": 7,
+      "medianDaysToFirstResponse": 6,
+      "openOverOneYearNoReply": 1
+    },
+    "capped": false
+  },
+  "readme": {
+    "excerpt": "# hush/cli\n\nA small, fast command-line tool.\n\n## Install\n\n    npm i -g @hush/cli\n\n## Status\n\nThe last release was v3.4.0. Issue #88 asks whether the project is still maintained; there has been no answer.",
+    "truncated": false
+  },
+  "todos": {
+    "items": [
+      {
+        "path": "src/format.js",
+        "snippet": "// TODO: the error path still emits non-JSON"
+      },
+      {
+        "path": "src/win/quote.js",
+        "snippet": "// FIXME: nested command quoting is broken on Windows"
+      }
+    ],
+    "degraded": false
+  },
+  "death": {
+    "status": "dead",
+    "daysSincePush": 436,
+    "flatlineMonth": "2025-04",
+    "reason": "No commit pushed in 436 days — over a year of silence."
+  },
+  "fetchedAt": "2026-07-08T00:00:00.000Z"
+}

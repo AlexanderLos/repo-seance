@@ -1,0 +1,87 @@
+import { describe, it, expect } from "vitest";
+import {
+  extractIntegers,
+  textContainsInteger,
+  nearestNumberToKeyword,
+  hasContradictingNumber,
+  checkNumericFidelity,
+} from "../evals/numeric";
+
+describe("extractIntegers", () => {
+  it("reads plain and thousands-separated integers", () => {
+    expect(extractIntegers("You died with 48,213 stars.")).toEqual([48213]);
+    expect(extractIntegers("48213 commits and 1,234,567 lines")).toEqual([48213, 1234567]);
+  });
+
+  it("ignores decimals, versions, and alphanumeric tokens", () => {
+    expect(extractIntegers("v3.4.0 released")).toEqual([]);
+    expect(extractIntegers("3.5 issues per week")).toEqual([]);
+    expect(extractIntegers("a 12px margin")).toEqual([]);
+  });
+
+  it("allows a trailing sentence period", () => {
+    expect(extractIntegers("You had 838 days.")).toEqual([838]);
+  });
+});
+
+describe("textContainsInteger", () => {
+  it("matches with and without thousands separators", () => {
+    expect(textContainsInteger("48,213 stars", 48213)).toBe(true);
+    expect(textContainsInteger("48213 stars", 48213)).toBe(true);
+  });
+
+  it("does not match a numeric prefix of a longer number", () => {
+    expect(textContainsInteger("482130 stars", 48213)).toBe(false);
+    expect(textContainsInteger("4821 stars", 48213)).toBe(false);
+  });
+});
+
+describe("nearestNumberToKeyword", () => {
+  it("picks the integer adjacent to the keyword, not a distant one", () => {
+    expect(nearestNumberToKeyword("You died with 48,213 stars back in 2024", "star")).toBe(48213);
+  });
+
+  it("returns null when no integer sits near the keyword", () => {
+    expect(nearestNumberToKeyword("a long story about your stars and their fate", "star")).toBeNull();
+    expect(nearestNumberToKeyword("no keyword present, only 42 here", "star")).toBeNull();
+  });
+});
+
+describe("hasContradictingNumber", () => {
+  it("flags a wrong number sitting next to the keyword", () => {
+    expect(hasContradictingNumber("You had 500 stars", "star", 48213)).toBe(true);
+  });
+
+  it("does not flag when the adjacent number is the expected one", () => {
+    expect(hasContradictingNumber("You died with 48,213 stars", "star", 48213)).toBe(false);
+  });
+
+  it("does not flag when no number is adjacent to the keyword", () => {
+    expect(hasContradictingNumber("your stars faded quietly", "star", 48213)).toBe(false);
+  });
+});
+
+describe("checkNumericFidelity", () => {
+  it("passes on an exact, adjacent match", () => {
+    const r = checkNumericFidelity("You died with 48,213 stars.", "star", 48213);
+    expect(r.pass).toBe(true);
+    expect(r.contradiction).toBe(false);
+  });
+
+  it("fails when the exact value is absent", () => {
+    const r = checkNumericFidelity("You had roughly five hundred stars.", "star", 48213);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toContain("not found");
+  });
+
+  it("fails on a contradicting adjacent number even if the value appears elsewhere", () => {
+    const r = checkNumericFidelity("The number 48213 exists, yet you had 500 stars.", "star", 48213);
+    expect(r.pass).toBe(false);
+    expect(r.contradiction).toBe(true);
+  });
+
+  it("counts a single-digit count exactly", () => {
+    const r = checkNumericFidelity("3 issues remain open, unanswered.", "open", 3);
+    expect(r.pass).toBe(true);
+  });
+});
