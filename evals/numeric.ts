@@ -5,8 +5,11 @@
  * number next to the metric keyword.
  *
  * "Exact for counts": the expected value must appear verbatim (modulo `,`
- * thousands grouping), and the integer nearest the metric keyword must equal it.
- * These functions are unit-tested in tests/evals-numeric.test.ts.
+ * thousands grouping). Adjacency is judged over the whole keyword *window*, not
+ * the single nearest token: if any integer beside the keyword equals the
+ * expected count the claim is faithful, and a contradiction is flagged only when
+ * the expected value is ABSENT from that window while a different integer sits
+ * beside the keyword. These functions are unit-tested in tests/evals-numeric.test.ts.
  */
 
 /**
@@ -73,42 +76,86 @@ function spanDistance(a: [number, number], b: [number, number]): number {
   return 0;
 }
 
+/** One integer token near a keyword: its value, gap to the keyword, and span start. */
+interface NearbyToken {
+  value: number;
+  distance: number;
+  start: number;
+}
+
+/**
+ * Every standalone integer token within `window` chars of any `keyword`
+ * occurrence, left to right, each tagged with its gap to the nearest keyword
+ * span. This is the adjacency "window" the matcher reasons over; all guards from
+ * {@link extractIntegerTokens} (word boundaries, `12px` rejection, thousands
+ * separators) carry through unchanged.
+ */
+function tokensNearKeyword(
+  text: string,
+  keyword: string,
+  window: number,
+): NearbyToken[] {
+  const spans = keywordSpans(text, keyword);
+  if (spans.length === 0) return [];
+
+  const near: NearbyToken[] = [];
+  for (const token of extractIntegerTokens(text)) {
+    let minDist = Number.POSITIVE_INFINITY;
+    for (const span of spans) {
+      minDist = Math.min(minDist, spanDistance([token.start, token.end], span));
+    }
+    if (minDist <= window) {
+      near.push({ value: token.value, distance: minDist, start: token.start });
+    }
+  }
+  return near;
+}
+
 /**
  * The integer token closest to any occurrence of `keyword`, within `window`
  * characters, or null when no integer sits that near the keyword. Ties break to
- * the earliest token.
+ * the earliest token. Used for the human-readable contradiction reason.
  */
 export function nearestNumberToKeyword(
   text: string,
   keyword: string,
   window = 40,
 ): number | null {
-  const spans = keywordSpans(text, keyword);
-  if (spans.length === 0) return null;
-
-  let best: { value: number; distance: number; start: number } | null = null;
-  for (const token of extractIntegerTokens(text)) {
-    let minDist = Number.POSITIVE_INFINITY;
-    for (const span of spans) {
-      minDist = Math.min(minDist, spanDistance([token.start, token.end], span));
-    }
-    if (minDist > window) continue;
+  let best: NearbyToken | null = null;
+  for (const token of tokensNearKeyword(text, keyword, window)) {
     if (
       best === null ||
-      minDist < best.distance ||
-      (minDist === best.distance && token.start < best.start)
+      token.distance < best.distance ||
+      (token.distance === best.distance && token.start < best.start)
     ) {
-      best = { value: token.value, distance: minDist, start: token.start };
+      best = token;
     }
   }
   return best === null ? null : best.value;
 }
 
 /**
- * True when a number sits next to the metric keyword that CONTRADICTS the
- * expected value — i.e. the integer nearest the keyword is present but differs.
- * A keyword with no adjacent integer is not a contradiction (the exact value may
- * appear elsewhere in the sentence).
+ * The values of every standalone integer within `window` chars of the metric
+ * keyword, left to right. The contradiction rule reasons over this whole set,
+ * not just the single nearest token.
+ */
+export function integersNearKeyword(
+  text: string,
+  keyword: string,
+  window = 40,
+): number[] {
+  return tokensNearKeyword(text, keyword, window).map((t) => t.value);
+}
+
+/**
+ * True when the keyword's window CONTRADICTS the expected count. Per the matcher
+ * ruling, adjacency is judged over the whole window rather than the single
+ * nearest token: if ANY integer beside the keyword equals `expected`, the claim
+ * is faithful (no contradiction). A contradiction is flagged ONLY when
+ * `expected` is absent from the window AND a different integer sits within it.
+ * A keyword with no adjacent integer is never a contradiction — the exact value
+ * may appear elsewhere, and a missing count is judged by the presence check in
+ * {@link checkNumericFidelity}.
  */
 export function hasContradictingNumber(
   text: string,
@@ -116,8 +163,10 @@ export function hasContradictingNumber(
   expected: number,
   window = 40,
 ): boolean {
-  const nearest = nearestNumberToKeyword(text, keyword, window);
-  return nearest !== null && nearest !== expected;
+  const near = integersNearKeyword(text, keyword, window);
+  if (near.length === 0) return false;
+  if (near.includes(expected)) return false;
+  return true;
 }
 
 /** Outcome of a numeric-fidelity check, with a human-readable reason on failure. */
