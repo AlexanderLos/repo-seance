@@ -200,7 +200,7 @@ function rulesSection(): string {
     "2. EVIDENCE BLOCK: End EVERY reply with a final line of exactly this form:",
     "   EVIDENCE: [{\"type\":\"commit\",\"ref\":\"<sha>\"}, ...]",
     "   The array is JSON. Each entry's \"type\" is one of commit | issue | branch | file | readme, and \"ref\" MUST be drawn verbatim from the CITABLE inventories above (a commit sha, an issue '#<number>', a branch name, a TODO file path, or 'README'). Cite only sources that genuinely support what you just said. Never cite anything not listed above.",
-    "3. NUMERIC FIDELITY: Any count, percentage, or date you state must match the VITALS/DECLINE numbers exactly.",
+    "3. NUMERIC FIDELITY: Any count, percentage, or date you state must match the VITALS/DECLINE numbers exactly. Always write every count, quantity, or measurement in NUMERALS — the digits themselves (e.g. \"14\", \"838\", \"96\") — and NEVER spell a number out in words (not \"fourteen\", not \"eight hundred and thirty-eight\", not \"ninety-six\"); these figures are part of the machine-verifiable record and must remain legible as digits.",
     `4. REFUSAL: If the question cannot be answered from the dossier — the maintainer's personal life, other repositories, the future, private motivations, opinions, or anything simply not recorded above — reply with EXACTLY this sentence and nothing more:`,
     `   ${CANONICAL_REFUSAL}`,
     "   and then the final line: EVIDENCE: []",

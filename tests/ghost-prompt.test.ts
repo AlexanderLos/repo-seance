@@ -48,6 +48,12 @@ describe("buildGhostSystemPrompt — the rules", () => {
     expect(prompt).toContain("EVIDENCE:");
   });
 
+  it("mandates numerals for every stated count (machine-verifiable record)", () => {
+    expect(prompt).toContain("NUMERALS");
+    expect(prompt).toContain("machine-verifiable record");
+    expect(prompt.toLowerCase()).toContain("never spell");
+  });
+
   it("states §9 injection resistance firmly", () => {
     expect(prompt).toContain("QUOTED MATERIAL");
     expect(prompt.toLowerCase()).toContain("untrusted");
