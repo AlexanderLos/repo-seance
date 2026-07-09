@@ -13,6 +13,7 @@ import { AutopsySchema, type Autopsy } from "./schema";
 import { buildAutopsyPrompt } from "./prompt";
 import { getAnthropic } from "../anthropic/client";
 import { validateEvidence } from "../evidence/validate";
+import { getPrecached } from "../graveyard/precached";
 import { getCache } from "../cache";
 import { autopsyKey, TTL_24H } from "../cache/keys";
 
@@ -138,9 +139,12 @@ async function synthesizeValidated(dossier: Dossier): Promise<Autopsy> {
 }
 
 /**
- * Cache-aware autopsy (SPEC §3/§4). Reads `autopsy:{owner}/{repo}:v1`; on a miss
- * it synthesizes, validates evidence in code, caches the validated result for
- * 24h, and returns it. Never synthesizes for a living repository.
+ * Cache-aware autopsy (SPEC §3/§4/§6). Reads `autopsy:{owner}/{repo}:v1`; on a
+ * miss it consults the committed Graveyard snapshot before ever paying an LLM
+ * call, so a curated demo click is instant and free (SPEC §6 "pre-cached
+ * autopsies so demo clicks are instant"). Only a non-Graveyard repo falls
+ * through to live synthesis. In all three cases the validated result is cached
+ * for 24h. Never synthesizes for a living repository.
  */
 export async function getOrCreateAutopsy(dossier: Dossier): Promise<Autopsy> {
   // Defence in depth (SPEC §3): the UI must never request an autopsy for a living
@@ -160,6 +164,22 @@ export async function getOrCreateAutopsy(dossier: Dossier): Promise<Autopsy> {
 
   const cached = await cache.get<Autopsy>(key);
   if (cached !== null) return cached;
+
+  // A curated Graveyard repo ships a committed {dossier, autopsy} snapshot. On a
+  // cold cache, serve that instead of re-synthesizing (SPEC §6/§3): re-validate
+  // its evidence in code (the §4 hard rule as defence in depth), write it through
+  // the cache, and return it — no LLM call. Non-Graveyard repos get null here and
+  // fall through to synthesis unchanged.
+  const precached = await getPrecached(dossier.repo.owner, dossier.repo.name);
+  if (precached !== null) {
+    const { causes } = validateEvidence(
+      precached.dossier,
+      precached.autopsy.causes,
+    );
+    const fromSnapshot: Autopsy = { ...precached.autopsy, causes };
+    await cache.set(key, fromSnapshot, TTL_24H);
+    return fromSnapshot;
+  }
 
   const validated = await synthesizeValidated(dossier);
   await cache.set(key, validated, TTL_24H);

@@ -33,10 +33,16 @@ export function RevivalPlan({
             <span className="flex-shrink-0 font-mono text-[11px] text-sc-green-dim">
               {NUMERALS[i] ?? `${i + 1}.`}
             </span>
-            <span className="flex-1 text-[12.5px] leading-[1.5] text-sc-green-text">
+            <span className="min-w-0 flex-1 text-[12.5px] leading-[1.5] text-sc-green-text">
               {step.step}
             </span>
-            <span className="flex-shrink-0 font-mono text-[10px] text-sc-green-dim">
+            {/* Effort tags come from synthesis and can be a full clause ("a heroic
+                quarter of legal and organisational negotiation"), not just "~2d".
+                A short tag sizes to its content and hugs the right exactly as the
+                mock does (DESIGN-NOTES §5.4b); a long one is capped and wraps to
+                multiple lines so it never forces the row wider than the viewport
+                (SPEC §6) nor starves the step text of width. */}
+            <span className="max-w-[42%] shrink-0 text-right font-mono text-[10px] leading-[1.5] text-sc-green-dim [overflow-wrap:anywhere]">
               {step.effort}
             </span>
           </li>

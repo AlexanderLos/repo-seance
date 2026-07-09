@@ -1,18 +1,21 @@
 "use client";
 
 /**
- * The interrogation container (SPEC §6). It owns positioning and chrome only —
- * the séance itself is teammate D's `<Interrogation>` (components/chat), mounted
- * once inside. Desktop: the fixed 396px right rail. Mobile: a trigger that opens
- * a full-height sheet (Escape / backdrop / close button dismiss it), so the chat
- * lands last in the single-column case file per the responsive order.
+ * Interrogation placement (SPEC §6). A thin positioning wrapper around the frozen
+ * `<Interrogation>` (components/chat), which owns ALL of the séance chrome — its
+ * single header + subtitle, the mobile launcher, and the one full-height sheet.
+ * This wrapper deliberately adds no header, border, or sheet of its own, so the
+ * report shows exactly ONE "Interrogation" heading and one control layer (it used
+ * to nest a second header/sheet around the chat, forcing two taps to the input).
+ *
+ * Desktop (lg): the wrapper is the fixed 396px right-rail grid cell; the chat's
+ * own bordered <section> fills it. Mobile: an in-flow "Speak with the ghost"
+ * trigger ends the single-column case file and reveals the chat's launcher, which
+ * opens the sheet — no duplicated header, no nested second sheet.
  */
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Interrogation } from "@/components/chat/interrogation";
 import { cn } from "../util/cn";
-
-const SUBTITLE =
-  "Every answer cites its evidence. No séance theatrics without receipts.";
 
 export function InterrogationPanel({
   owner,
@@ -21,80 +24,36 @@ export function InterrogationPanel({
   owner: string;
   repo: string;
 }) {
-  const [open, setOpen] = useState(false);
-  const closeRef = useRef<HTMLButtonElement>(null);
-
-  useEffect(() => {
-    if (!open) return;
-    closeRef.current?.focus();
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
-    };
-    document.addEventListener("keydown", onKey);
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    return () => {
-      document.removeEventListener("keydown", onKey);
-      document.body.style.overflow = prevOverflow;
-    };
-  }, [open]);
+  // Mobile only: the case file ends with a single in-flow trigger rather than a
+  // floating launcher until the visitor asks for the ghost. Tapping it reveals
+  // the chat's own launcher/sheet. On desktop the rail is always shown via `md:`,
+  // so this state is irrelevant there.
+  const [revealed, setRevealed] = useState(false);
 
   return (
     <>
-      {/* Mobile trigger — sits at the end of the single-column case file. */}
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        className="flex w-full items-center justify-center gap-2 border border-sc-border bg-sc-btn py-3.5 font-mono text-[11px] uppercase tracking-[.18em] text-sc-accent transition-colors hover:bg-sc-btn-hi hover:text-sc-accent-hi md:hidden"
-      >
-        Speak with the ghost <span aria-hidden="true">☽</span>
-      </button>
-
-      {/* Backdrop — mobile only, while the sheet is open. */}
-      {open ? (
-        <div
-          className="fixed inset-0 z-40 bg-sc-bg/70 md:hidden"
-          aria-hidden="true"
-          onClick={() => setOpen(false)}
-        />
+      {!revealed ? (
+        <button
+          type="button"
+          onClick={() => setRevealed(true)}
+          className="flex w-full items-center justify-center gap-2 border border-sc-border bg-sc-btn py-3.5 font-mono text-[11px] uppercase tracking-[.18em] text-sc-accent transition-colors hover:bg-sc-btn-hi hover:text-sc-accent-hi md:hidden"
+        >
+          Speak with the ghost <span aria-hidden="true">☽</span>
+        </button>
       ) : null}
 
-      {/* The panel: mobile sheet when open, static right rail on desktop. */}
-      <aside
-        role={open ? "dialog" : undefined}
-        aria-modal={open ? true : undefined}
-        aria-label="Interrogation"
+      {/* Layout-only shell: hidden on mobile until revealed; the 396px rail cell
+          on desktop. The chat's <section> carries the border, background, and the
+          single header, so nothing is duplicated here. */}
+      <div
         className={cn(
-          open ? "fixed inset-0 z-50 flex" : "hidden",
-          "flex-col border-sc-border bg-sc-panel",
-          "md:static md:z-auto md:flex md:h-full md:self-stretch md:border",
-          "min-h-0",
+          revealed ? "flex" : "hidden",
+          "min-h-0 flex-col",
+          "md:flex md:h-full md:self-stretch",
         )}
       >
-        <div className="flex items-start justify-between gap-3 border-b border-sc-hair px-5 py-4">
-          <div>
-            <h2 className="font-mono text-[11px] uppercase tracking-[.26em] text-sc-dim">
-              Interrogation
-            </h2>
-            <p className="mt-1.5 text-[11px] text-sc-faint">{SUBTITLE}</p>
-          </div>
-          <button
-            ref={closeRef}
-            type="button"
-            onClick={() => setOpen(false)}
-            aria-label="Close interrogation"
-            className="flex-shrink-0 border border-sc-border px-2.5 py-1 font-mono text-sm text-sc-muted transition-colors hover:border-sc-border-hi hover:text-sc-body md:hidden"
-          >
-            ✕
-          </button>
-        </div>
-
-        <div className="flex min-h-0 flex-1 flex-col">
-          <Interrogation owner={owner} repo={repo} />
-        </div>
-      </aside>
+        <Interrogation owner={owner} repo={repo} />
+      </div>
     </>
   );
 }

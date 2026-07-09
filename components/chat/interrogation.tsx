@@ -166,6 +166,24 @@ export function Interrogation({ owner, repo }: InterrogationProps) {
     if (el) el.scrollTop = el.scrollHeight;
   }, [messages]);
 
+  // While the mobile sheet is open, trap the page: Escape closes it and the body
+  // no longer scrolls behind it. This is the single control layer, so the chat
+  // owns this a11y rather than a wrapping panel. (No-op on desktop, where the
+  // rail is always inline and `open` stays false.)
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", onKey);
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKey);
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [open]);
+
   const patchMessage = useCallback(
     (id: number, patch: Partial<UiMessage>) => {
       setMessages((prev) =>

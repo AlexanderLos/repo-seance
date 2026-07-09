@@ -7,6 +7,9 @@ import {
   afterEach,
   afterAll,
 } from "vitest";
+import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import type Anthropic from "@anthropic-ai/sdk";
 import { APIError } from "@anthropic-ai/sdk";
 import type { Autopsy } from "../lib/autopsy/schema";
@@ -131,7 +134,14 @@ function promptOf(callIndex: number): string {
 const savedEnv = {
   url: process.env.UPSTASH_REDIS_REST_URL,
   token: process.env.UPSTASH_REDIS_REST_TOKEN,
+  graveyard: process.env.GRAVEYARD_DIR,
 };
+
+// An empty snapshot directory so the Graveyard precache short-circuit MISSES by
+// default: the synthesis suites below must exercise the LLM path, not the real
+// committed `data/graveyard/atom__atom.json`. The one precache-hit test points
+// GRAVEYARD_DIR at its own populated temp dir.
+const EMPTY_GRAVEYARD = mkdtempSync(join(tmpdir(), "rs-graveyard-empty-"));
 
 // Suppress the validateEvidence console.warn noise, restored per test so the
 // hoisted parse/getAnthropic mocks keep their implementations intact.
@@ -141,6 +151,8 @@ beforeEach(() => {
   // Force the in-memory cache; tests never touch a live Redis (nor a live LLM).
   delete process.env.UPSTASH_REDIS_REST_URL;
   delete process.env.UPSTASH_REDIS_REST_TOKEN;
+  // Default every test to a precache MISS so the synthesis path runs as before.
+  process.env.GRAVEYARD_DIR = EMPTY_GRAVEYARD;
   resetCache();
   parseMock.mockReset();
   getAnthropicMock.mockClear();
@@ -155,6 +167,9 @@ afterAll(() => {
   if (savedEnv.url !== undefined) process.env.UPSTASH_REDIS_REST_URL = savedEnv.url;
   if (savedEnv.token !== undefined)
     process.env.UPSTASH_REDIS_REST_TOKEN = savedEnv.token;
+  if (savedEnv.graveyard === undefined) delete process.env.GRAVEYARD_DIR;
+  else process.env.GRAVEYARD_DIR = savedEnv.graveyard;
+  rmSync(EMPTY_GRAVEYARD, { recursive: true, force: true });
 });
 
 describe("synthesizeAutopsy — happy path", () => {
@@ -270,6 +285,45 @@ describe("getOrCreateAutopsy — cache", () => {
 
     expect(result).toEqual(VALID_AUTOPSY);
     expect(parseMock).not.toHaveBeenCalled();
+  });
+});
+
+describe("getOrCreateAutopsy — Graveyard precache (SPEC §6/§3)", () => {
+  it("serves a committed snapshot on a cold cache with zero LLM calls", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "rs-graveyard-hit-"));
+    try {
+      // A self-consistent snapshot for atom/atom (makeDossier is atom/atom);
+      // every ref in VALID_AUTOPSY resolves against that Dossier.
+      const snapshot = { dossier: makeDossier(), autopsy: VALID_AUTOPSY };
+      writeFileSync(join(dir, "atom__atom.json"), JSON.stringify(snapshot));
+      process.env.GRAVEYARD_DIR = dir;
+
+      const result = await getOrCreateAutopsy(makeDossier());
+
+      // The snapshot autopsy comes back verbatim, and neither the parse mock nor
+      // the client factory was ever touched — a demo click costs no LLM call.
+      expect(result).toEqual(VALID_AUTOPSY);
+      expect(parseMock).not.toHaveBeenCalled();
+      expect(getAnthropicMock).not.toHaveBeenCalled();
+
+      // Write-through: the second visit is served from the cache, still no LLM.
+      const second = await getOrCreateAutopsy(makeDossier());
+      expect(second).toEqual(VALID_AUTOPSY);
+      expect(parseMock).not.toHaveBeenCalled();
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
+  });
+
+  it("falls through to synthesis unchanged when no snapshot exists", async () => {
+    // GRAVEYARD_DIR is the empty dir (beforeEach): a precache miss for atom/atom.
+    parseMock.mockResolvedValueOnce(ok(VALID_AUTOPSY));
+
+    const result = await getOrCreateAutopsy(makeDossier());
+
+    expect(result).toEqual(VALID_AUTOPSY);
+    expect(parseMock).toHaveBeenCalledTimes(1);
+    expect(getAnthropicMock).toHaveBeenCalledTimes(1);
   });
 });
 
