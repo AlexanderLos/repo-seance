@@ -1,0 +1,67 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# A newer push to the same branch or PR supersedes an in-flight run.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+# Least privilege: this pipeline only ever reads the repository.
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: verify
+    runs-on: ubuntu-latest
+    # Every gate below is blocking: no step is permitted to fail silently (SPEC §8).
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # pnpm must be installed before setup-node so that `cache: pnpm` can
+      # locate the pnpm store to cache/restore it.
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Unit tests
+        run: pnpm test
+
+      # Fixture-based eval suite — deterministic, no live API keys in CI (SPEC §7).
+      - name: Evals
+        run: pnpm evals
+
+      # Fail the build if trust statistics are hardcoded in the UI (SPEC §7 / §10.8).
+      - name: Check for hardcoded stats
+        run: pnpm check:stats
+
+      # The app must build with no secrets present (SPEC §2 / §7).
+      - name: Build
+        run: pnpm build
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+
+      # Prove no secret name or token value reached the client bundle (SPEC §9).
+      - name: Check bundle for secrets
+        run: pnpm check:secrets

@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Repo Séance eval results",
+  "description": "Artifact emitted by `pnpm evals` (evals/run.ts) and consumed by the site footer at build time. See evals/README.md and SPEC §7.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "total",
+    "passed",
+    "evidenceCitationRate",
+    "hallucinationCount",
+    "generatedAt"
+  ],
+  "properties": {
+    "total": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Total number of eval cases executed. SPEC §7 requires at least 32."
+    },
+    "passed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of cases that passed. Never greater than `total`."
+    },
+    "evidenceCitationRate": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Fraction (0–1) of rendered evidence refs that resolve to a fixture Dossier entry. The footer formats this as a percentage."
+    },
+    "hallucinationCount": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Count of unsupported or invented claims detected across all cases. Must be 0 for a healthy footer."
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp of when the suite produced this artifact."
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Recorded Dossier JSON snapshots (≥4 fixture repos) live here, committed so
+# evals are deterministic and free — no live API in CI. See ../README.md.
